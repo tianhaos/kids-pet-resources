@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "updated": "2026-11-14",
+  "note": "古诗视频片源表。只登记官方平台的页面地址，App 里只做「外跳打开」，不下载、不缓存、不代理视频流。改完这份文件推到 kids-pet-resources 仓库，App 同步后立即生效，不用发新版。",
+  "provider_note": "collection = 官方节目/专题页；items = 单首诗对应的精确某集（没有就让用户按诗名搜索）。",
+  "collection": {
+    "provider": "央视网",
+    "name": "《千秋诗颂》官方节目页",
+    "subtitle": "总台 AI 国风诗词动画 · 统编教材篇目",
+    "url": "https://tv.cctv.com/2024/02/26/VIDAUw4U4rxtLHnKuKP9dFZV240226.shtml",
+    "official": true
+  },
+  "search": {
+    "provider": "央视网",
+    "url": "https://search.cctv.com/search.php?type=web&qtext={q}",
+    "query_prefix": "千秋诗颂"
+  },
+  "fallback": {
+    "provider": "央视频",
+    "url": "https://www.yangshipin.cn/search?keyword={q}",
+    "query_prefix": "千秋诗颂"
+  },
+  "items": {}
+}
