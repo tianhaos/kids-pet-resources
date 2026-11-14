@@ -1,0 +1,6813 @@
+{
+ "version": 1,
+ "voices": {
+  "sweet": {
+   "label": "甜美姐姐",
+   "desc": "温柔甜美，讲故事最拿手"
+  },
+  "lively": {
+   "label": "活泼哥哥",
+   "desc": "精神满满，陪你玩最带劲"
+  }
+ },
+ "items": {
+  "你好呀，以后一起长大吧！": {
+   "lively": "lively/lf8a5127cc2a2.mp3",
+   "sweet": "sweet/se00ace9fd082.mp3"
+  },
+  "太好啦，我有家了！": {
+   "lively": "lively/l72920a217f20.mp3",
+   "sweet": "sweet/s105557a8b332.mp3"
+  },
+  "哇，终于见到你啦！": {
+   "sweet": "sweet/s7a6a83d4d783.mp3",
+   "lively": "lively/lccaddc847ded.mp3"
+  },
+  "从今天起，我就是你的小伙伴咯～": {
+   "sweet": "sweet/s9aa501e2e38f.mp3",
+   "lively": "lively/l0a7fa8afeb14.mp3"
+  },
+  "嘿嘿，我可以住在这里吗？": {
+   "sweet": "sweet/sb91e8415adb0.mp3",
+   "lively": "lively/ld4ad720d5091.mp3"
+  },
+  "握个手吧，很高兴认识你！": {
+   "sweet": "sweet/s4a8ded5c4ea7.mp3",
+   "lively": "lively/l3b3830498d58.mp3"
+  },
+  "哇哦，这里好暖和呀！": {
+   "sweet": "sweet/sd2bd730c9c5c.mp3",
+   "lively": "lively/l05f5791bf7ac.mp3"
+  },
+  "你好你好，我等你好久啦！": {
+   "sweet": "sweet/s8009ebe61677.mp3",
+   "lively": "lively/l4fd8b202f7ea.mp3"
+  },
+  "以后每天都要一起玩哦！": {
+   "sweet": "sweet/s3514e896f008.mp3",
+   "lively": "lively/l7614480e74f8.mp3"
+  },
+  "呀，你就是我的小主人吗？": {
+   "sweet": "sweet/sb713faef0fb5.mp3",
+   "lively": "lively/lf2645d100e05.mp3"
+  },
+  "好好吃，谢谢你！": {
+   "sweet": "sweet/sdd281ff51838.mp3",
+   "lively": "lively/l3ac6d720c3dd.mp3"
+  },
+  "吃饱啦，又有力气啦！": {
+   "lively": "lively/l6e64db1b7e4d.mp3",
+   "sweet": "sweet/s86a2cdd7f0ea.mp3"
+  },
+  "啊呜！这一口最香！": {
+   "sweet": "sweet/sd5bf7c713f17.mp3",
+   "lively": "lively/l7403eb48179d.mp3"
+  },
+  "唔～肚子圆滚滚的啦～": {
+   "lively": "lively/lcf44f34a81de.mp3",
+   "sweet": "sweet/se802c5f2059c.mp3"
+  },
+  "哇，是我最喜欢的！": {
+   "lively": "lively/l32826b7d2685.mp3",
+   "sweet": "sweet/sbcd1434f8b94.mp3"
+  },
+  "yum yum，真好吃！": {
+   "sweet": "sweet/s7b42ac54814e.mp3",
+   "lively": "lively/lc8776895ea86.mp3"
+  },
+  "谢谢你，我吃饱饱啦！": {
+   "sweet": "sweet/s6c61639f5e94.mp3",
+   "lively": "lively/l2878738297dc.mp3"
+  },
+  "再来一口好不好嘛～": {
+   "lively": "lively/l2b4c49397ab3.mp3",
+   "sweet": "sweet/s372825e1ad87.mp3"
+  },
+  "咔嚓咔嚓，好吃！": {
+   "sweet": "sweet/s0663419a789f.mp3",
+   "lively": "lively/led0aa4708a7d.mp3"
+  },
+  "吃饱了，我们一起去玩吧！": {
+   "sweet": "sweet/s069ccee0f5c2.mp3",
+   "lively": "lively/lf409a274a93e.mp3"
+  },
+  "再玩一次嘛！": {
+   "sweet": "sweet/s51ea487c6659.mp3",
+   "lively": "lively/l10f8a73eda1e.mp3"
+  },
+  "哈哈，好开心！": {
+   "lively": "lively/ld4f38f456cba.mp3",
+   "sweet": "sweet/sfbe896430b2c.mp3"
+  },
+  "耶！我最喜欢玩啦！": {
+   "sweet": "sweet/s24e62ad0c756.mp3",
+   "lively": "lively/l1ed758357e9f.mp3"
+  },
+  "来追我呀，来追我呀～": {
+   "sweet": "sweet/s5e8663484b04.mp3",
+   "lively": "lively/l0501ac2e3325.mp3"
+  },
+  "哇哈哈哈，太好玩了！": {
+   "sweet": "sweet/sd53f4a49a5da.mp3",
+   "lively": "lively/l97b6d63e1d00.mp3"
+  },
+  "呼呼，跑得我喘气啦～": {
+   "lively": "lively/l6d7c0a7c8c4c.mp3",
+   "sweet": "sweet/s3f4d0957d290.mp3"
+  },
+  "再来一次，一次就好！": {
+   "sweet": "sweet/s36bbee5882e4.mp3",
+   "lively": "lively/l89b015461ee0.mp3"
+  },
+  "你跑得好快呀！": {
+   "sweet": "sweet/s9e69713d88b2.mp3",
+   "lively": "lively/le8b30d6515ab.mp3"
+  },
+  "蹦蹦跳跳，真带劲！": {
+   "sweet": "sweet/sc7689ff5b879.mp3",
+   "lively": "lively/lce5840d0efe9.mp3"
+  },
+  "嘿嘿，我还没玩够呢～": {
+   "sweet": "sweet/s1ab30829f392.mp3",
+   "lively": "lively/l6d2adeeb52b7.mp3"
+  },
+  "我可爱吗？": {
+   "sweet": "sweet/sea14f372f8f7.mp3",
+   "lively": "lively/lf804528b3faf.mp3"
+  },
+  "看我看我～": {
+   "lively": "lively/l345f1e279fd5.mp3",
+   "sweet": "sweet/sf79d7efda766.mp3"
+  },
+  "嘿嘿，被你发现啦！": {
+   "sweet": "sweet/s5f8bc9a01c87.mp3",
+   "lively": "lively/l02d25bfb4d06.mp3"
+  },
+  "眨眨眼，送给你一颗小心心～": {
+   "sweet": "sweet/s9b8358e13653.mp3",
+   "lively": "lively/l72fddcf6fe3f.mp3"
+  },
+  "这样是不是超乖？": {
+   "lively": "lively/le5a3287d4c0d.mp3",
+   "sweet": "sweet/s35269972b7b6.mp3"
+  },
+  "喵呜～装个可爱给你看！": {
+   "sweet": "sweet/s847c0d28d2a7.mp3",
+   "lively": "lively/le86ce1d35d2a.mp3"
+  },
+  "我乖不乖呀？": {
+   "sweet": "sweet/s73f167dec468.mp3",
+   "lively": "lively/lb5fbfd3d3ee6.mp3"
+  },
+  "啾！接住我的爱心！": {
+   "sweet": "sweet/s78b9f364dac4.mp3",
+   "lively": "lively/l9251aa98018b.mp3"
+  },
+  "脸红红啦，别看啦～": {
+   "sweet": "sweet/sda5c4d0677e4.mp3",
+   "lively": "lively/l76fcbbc46371.mp3"
+  },
+  "我最喜欢你啦！": {
+   "sweet": "sweet/se00558964cf0.mp3",
+   "lively": "lively/l0360aaa599ef.mp3"
+  },
+  "我变强啦！": {
+   "sweet": "sweet/s5824becdd2a0.mp3",
+   "lively": "lively/l6ff8dccf4035.mp3"
+  },
+  "又长大一点点！": {
+   "sweet": "sweet/s27ee61ad7f7c.mp3",
+   "lively": "lively/l76a7e66bbbe8.mp3"
+  },
+  "哇！亮闪闪的，升级咯！": {
+   "sweet": "sweet/sf320d8d408ad.mp3",
+   "lively": "lively/l70d2f941a6a8.mp3"
+  },
+  "叮咚～我又长高啦！": {
+   "sweet": "sweet/s957fc1dcbbab.mp3",
+   "lively": "lively/lf60cdfa14743.mp3"
+  },
+  "看我，是不是更神气了？": {
+   "sweet": "sweet/s02e8f1b5b7a3.mp3",
+   "lively": "lively/lcb83209d9f2a.mp3"
+  },
+  "谢谢你陪我长大！": {
+   "sweet": "sweet/s487fc776e62b.mp3",
+   "lively": "lively/ld4a9f5edb748.mp3"
+  },
+  "耶！我们好厉害呀！": {
+   "sweet": "sweet/s0afeade6a335.mp3",
+   "lively": "lively/l94bbbf478650.mp3"
+  },
+  "噔噔～新本领解锁！": {
+   "sweet": "sweet/sd7ba5c0dca3c.mp3",
+   "lively": "lively/l5eeebf569633.mp3"
+  },
+  "我又变强了一点点哦～": {
+   "sweet": "sweet/sb399d67d299e.mp3",
+   "lively": "lively/lb3265133d5c1.mp3"
+  },
+  "一起庆祝一下吧！": {
+   "sweet": "sweet/sb58610388616.mp3",
+   "lively": "lively/leeec4a982f06.mp3"
+  },
+  "今天想玩什么呢？": {
+   "sweet": "sweet/s29dd2bf8b625.mp3",
+   "lively": "lively/l092f02056416.mp3"
+  },
+  "陪我一会儿吧～": {
+   "sweet": "sweet/sd326eb416808.mp3",
+   "lively": "lively/lae9699a3bd30.mp3"
+  },
+  "我在等你哦！": {
+   "sweet": "sweet/s07c277973bd3.mp3",
+   "lively": "lively/l111b246cc0f3.mp3"
+  },
+  "要不要听我说个小秘密？": {
+   "lively": "lively/l444b8f2f4804.mp3",
+   "sweet": "sweet/s3175b0167a3c.mp3"
+  },
+  "窗外的云好像棉花糖呀～": {
+   "sweet": "sweet/s8edcac25799f.mp3",
+   "lively": "lively/ld105eb179879.mp3"
+  },
+  "嗯…我在发呆呢，嘿嘿。": {
+   "lively": "lively/l77a7347e30b6.mp3",
+   "sweet": "sweet/sedd9cc05fea3.mp3"
+  },
+  "你有想我吗？": {
+   "lively": "lively/laa8726b0267d.mp3",
+   "sweet": "sweet/s2143f3f5287f.mp3"
+  },
+  "我们一起数数好不好？": {
+   "sweet": "sweet/s48b806f84b88.mp3",
+   "lively": "lively/lc2537024e77e.mp3"
+  },
+  "今天也要开开心心呀！": {
+   "sweet": "sweet/s1849c3e6ac1f.mp3",
+   "lively": "lively/l7faf55604c7f.mp3"
+  },
+  "嘘～你听，什么声音？": {
+   "sweet": "sweet/se902e2a3ca13.mp3",
+   "lively": "lively/lb073d6d7cd61.mp3"
+  },
+  "嗨！你来啦！": {
+   "sweet": "sweet/s52e7db51c9d1.mp3",
+   "lively": "lively/lf50f3f13a30d.mp3"
+  },
+  "早上好呀，小太阳！": {
+   "sweet": "sweet/s2da76d24cbce.mp3",
+   "lively": "lively/l1018c628391b.mp3"
+  },
+  "哇，见到你真开心！": {
+   "sweet": "sweet/s7be16824383b.mp3",
+   "lively": "lively/lea2dd127acfd.mp3"
+  },
+  "欢迎回来～我等了好久！": {
+   "sweet": "sweet/s4aad2d08319f.mp3",
+   "lively": "lively/l95eb06650b5d.mp3"
+  },
+  "嘿，今天穿得真好看！": {
+   "sweet": "sweet/sc5ad42e192dd.mp3",
+   "lively": "lively/l4acad8b98cf6.mp3"
+  },
+  "扑通扑通，我来迎接你啦！": {
+   "lively": "lively/l2cf6d75d46e3.mp3",
+   "sweet": "sweet/s85b2acbc17c7.mp3"
+  },
+  "你好呀，抱一个！": {
+   "sweet": "sweet/sa1149dc76628.mp3",
+   "lively": "lively/labe7eec13619.mp3"
+  },
+  "啊，你终于来啦！": {
+   "sweet": "sweet/s7196433051be.mp3",
+   "lively": "lively/l1c95b021f6ae.mp3"
+  },
+  "今天我们一起做什么呢？": {
+   "lively": "lively/l3a48330b8a12.mp3",
+   "sweet": "sweet/s0261bca28e25.mp3"
+  },
+  "看见你，我就开心～": {
+   "sweet": "sweet/s7321dace90d1.mp3",
+   "lively": "lively/lb5d639a8a196.mp3"
+  },
+  "哒哒哒，看我跳舞！": {
+   "sweet": "sweet/s3add2d5e1ea9.mp3",
+   "lively": "lively/lf983bbe735a6.mp3"
+  },
+  "扭一扭，转个圈圈～": {
+   "sweet": "sweet/s1ec58b8283ec.mp3",
+   "lively": "lively/lbb99708b2348.mp3"
+  },
+  "啦啦啦，一起跳吧！": {
+   "sweet": "sweet/s022f249dc1d2.mp3",
+   "lively": "lively/lc26bf5b2fdb1.mp3"
+  },
+  "左脚，右脚，转圈圈！": {
+   "sweet": "sweet/s9539f6bd031e.mp3",
+   "lively": "lively/lcbf1938b9c7f.mp3"
+  },
+  "嘿嘿，我跳得好看吗？": {
+   "lively": "lively/l4334bb9f365b.mp3",
+   "sweet": "sweet/s0686dd8dbbee.mp3"
+  },
+  "音乐响起来喽～": {
+   "sweet": "sweet/s0d42dad69e71.mp3",
+   "lively": "lively/l813a6cf1925b.mp3"
+  },
+  "蹦恰恰，蹦恰恰！": {
+   "lively": "lively/le2c11e0a168e.mp3",
+   "sweet": "sweet/s8c9ab1cfc01d.mp3"
+  },
+  "要不要跟我一起扭一扭？": {
+   "lively": "lively/l55cf4f395aa2.mp3",
+   "sweet": "sweet/s4297a02c4a2a.mp3"
+  },
+  "哇，我转得头都晕啦～": {
+   "sweet": "sweet/s9efe3956b23c.mp3",
+   "lively": "lively/l0b8b5467ad03.mp3"
+  },
+  "再来一支舞吧！": {
+   "sweet": "sweet/s5f186217d80b.mp3",
+   "lively": "lively/l28544b20e8d5.mp3"
+  },
+  "击掌！耶！": {
+   "lively": "lively/l9cd96458ba7f.mp3",
+   "sweet": "sweet/s27ddb4546600.mp3"
+  },
+  "啪！我们配合得真好！": {
+   "sweet": "sweet/s79958b79d046.mp3",
+   "lively": "lively/la908b3321bd9.mp3"
+  },
+  "give me five！": {
+   "lively": "lively/l0ff385a8baf8.mp3",
+   "sweet": "sweet/s8cdf6c53c95d.mp3"
+  },
+  "高高举起手来～啪！": {
+   "sweet": "sweet/s7089e2d13cf5.mp3",
+   "lively": "lively/la4c637e15eee.mp3"
+  },
+  "哇，你的手好暖呀！": {
+   "sweet": "sweet/s2deea87b9100.mp3",
+   "lively": "lively/l85a8ecee9d29.mp3"
+  },
+  "击个掌，加加油！": {
+   "sweet": "sweet/se005c7266e2e.mp3",
+   "lively": "lively/ld52f9fbea93c.mp3"
+  },
+  "啪！我们是最棒的搭档！": {
+   "lively": "lively/lc1eadc5004ae.mp3",
+   "sweet": "sweet/sdb3bd50ad522.mp3"
+  },
+  "再来一次，预备～啪！": {
+   "sweet": "sweet/s609ff547e04e.mp3",
+   "lively": "lively/l78d08de6a6c9.mp3"
+  },
+  "击掌成功，好开心！": {
+   "sweet": "sweet/sffcfadb842f0.mp3",
+   "lively": "lively/l7ff1d4deaa01.mp3"
+  },
+  "嗯！说好啦，一起努力！": {
+   "sweet": "sweet/s2e45ad3ae789.mp3",
+   "lively": "lively/la855addb7b55.mp3"
+  },
+  "呼…有点困啦～": {
+   "lively": "lively/l4772c158c03f.mp3",
+   "sweet": "sweet/s929f786d97b8.mp3"
+  },
+  "打个哈欠，啊～": {
+   "sweet": "sweet/s8c3df3dd9632.mp3",
+   "lively": "lively/ld449ccdb82a9.mp3"
+  },
+  "眼睛有点睁不开了…": {
+   "sweet": "sweet/s9a63f4c2633f.mp3",
+   "lively": "lively/l31e4974d2b92.mp3"
+  },
+  "要不要一起歇一会儿？": {
+   "sweet": "sweet/s827f4fa5068f.mp3",
+   "lively": "lively/ld9f70ac92c36.mp3"
+  },
+  "呼噜呼噜…嘿嘿，骗你的！": {
+   "sweet": "sweet/sf25979ee8eac.mp3",
+   "lively": "lively/l628437875b0a.mp3"
+  },
+  "我眯一小会儿哦～": {
+   "lively": "lively/l946fcafcb60b.mp3",
+   "sweet": "sweet/s8adb774f20fb.mp3"
+  },
+  "晚安，做个甜甜的梦～": {
+   "sweet": "sweet/s452c4a44960f.mp3",
+   "lively": "lively/l18cdf2f7bc79.mp3"
+  },
+  "伸个懒腰，好舒服呀～": {
+   "sweet": "sweet/sa3c6f5cae15a.mp3",
+   "lively": "lively/lfa813ac0df1d.mp3"
+  },
+  "星星出来啦，该休息咯。": {
+   "sweet": "sweet/s7fef5feb5755.mp3",
+   "lively": "lively/le523cc787180.mp3"
+  },
+  "睡饱了才有力气玩呀！": {
+   "sweet": "sweet/s492c0cb2f546.mp3",
+   "lively": "lively/l59898d7ab9ee.mp3"
+  },
+  "喵～以后请多关照！": {
+   "lively": "lively/l0033a482a1f4.mp3",
+   "sweet": "sweet/se360744e8272.mp3"
+  },
+  "喵呜，这个最好吃！": {
+   "sweet": "sweet/s1bc0b76cf060.mp3",
+   "lively": "lively/lad44fa4d5076.mp3"
+  },
+  "追小球我最厉害！": {
+   "lively": "lively/lfc3c5a56b6dd.mp3",
+   "sweet": "sweet/s2acd36f45487.mp3"
+  },
+  "喵～摸摸我嘛": {
+   "lively": "lively/l3a45b9d26596.mp3",
+   "sweet": "sweet/s5c4d2fff4969.mp3"
+  },
+  "我长成大猫啦！": {
+   "lively": "lively/l21a3998869d1.mp3",
+   "sweet": "sweet/sdb1045d24d4f.mp3"
+  },
+  "晒太阳好舒服～": {
+   "lively": "lively/l121ce55ee32b.mp3",
+   "sweet": "sweet/sc897aecb0903.mp3"
+  },
+  "汪！我们一起去跑步吧！": {
+   "lively": "lively/lbc0321b97b47.mp3",
+   "sweet": "sweet/s385278332072.mp3"
+  },
+  "汪汪！吃饱才跑得动！": {
+   "lively": "lively/l00b21ef140dc.mp3",
+   "sweet": "sweet/sc9a243f8fb4d.mp3"
+  },
+  "捡球！捡球！再来一次！": {
+   "sweet": "sweet/scd22c64bd052.mp3",
+   "lively": "lively/la61438c08fbe.mp3"
+  },
+  "尾巴摇得停不下来～": {
+   "lively": "lively/l6d9f2fd561d4.mp3",
+   "sweet": "sweet/s374ae40aa953.mp3"
+  },
+  "汪！我跑得更快啦！": {
+   "sweet": "sweet/sdb908910137d.mp3",
+   "lively": "lively/le8d839e732f4.mp3"
+  },
+  "要不要出去遛一圈？": {
+   "sweet": "sweet/s694ff0591b2c.mp3",
+   "lively": "lively/l720c745d6ab9.mp3"
+  },
+  "嗨…我有点害羞～": {
+   "sweet": "sweet/s212e1280c12f.mp3",
+   "lively": "lively/l20b952db19c2.mp3"
+  },
+  "胡萝卜！谢谢你！": {
+   "sweet": "sweet/s7ebadd53829b.mp3",
+   "lively": "lively/l29b7dfa98f58.mp3"
+  },
+  "我跳得最高哦！": {
+   "lively": "lively/l87d56f0bb9f7.mp3",
+   "sweet": "sweet/s3900b0f9cc64.mp3"
+  },
+  "耳朵竖起来好看吗？": {
+   "sweet": "sweet/s22d223dd83ce.mp3",
+   "lively": "lively/lc22a15bb361d.mp3"
+  },
+  "我长大了一点点～": {
+   "sweet": "sweet/sd827b6ed00b4.mp3",
+   "lively": "lively/lce400bd7a651.mp3"
+  },
+  "安安静静地待着也很好": {
+   "sweet": "sweet/sc352f275e57e.mp3",
+   "lively": "lively/l33669d69bd15.mp3"
+  },
+  "吼！我是小霸王，以后保护你！": {
+   "lively": "lively/l000e2deec984.mp3",
+   "sweet": "sweet/sbb1aa51cfee4.mp3"
+  },
+  "啊呜！吃饱才有力气！": {
+   "lively": "lively/l370c3b554c96.mp3",
+   "sweet": "sweet/se785f3a72ba0.mp3"
+  },
+  "看我的大尾巴甩起来！": {
+   "sweet": "sweet/s7128154aad03.mp3",
+   "lively": "lively/l60e9decd5e24.mp3"
+  },
+  "我…其实很温柔的！": {
+   "lively": "lively/l7a8923e28ae4.mp3",
+   "sweet": "sweet/sc348ef428cdc.mp3"
+  },
+  "吼！我又变强啦！": {
+   "sweet": "sweet/sef3e3aec8718.mp3",
+   "lively": "lively/l1653b67e8082.mp3"
+  },
+  "想不想去闯关？": {
+   "sweet": "sweet/s59f7c5940868.mp3",
+   "lively": "lively/lc60cec877a9d.mp3"
+  },
+  "我有三只角，数数最在行！": {
+   "sweet": "sweet/s67c1febd8b94.mp3",
+   "lively": "lively/l280adc606948.mp3"
+  },
+  "吃饱了，角也更亮啦！": {
+   "sweet": "sweet/s7389a93ed47b.mp3",
+   "lively": "lively/l0898e92fa417.mp3"
+  },
+  "来比一比谁数得快！": {
+   "lively": "lively/ldb7d852c56ac.mp3",
+   "sweet": "sweet/s8b90f057bd0a.mp3"
+  },
+  "三只角，一、二、三！": {
+   "lively": "lively/l102704f229a3.mp3",
+   "sweet": "sweet/sf5bbd02b4145.mp3"
+  },
+  "角又长长一点点！": {
+   "lively": "lively/le067f28996f8.mp3",
+   "sweet": "sweet/sa67ce418b1ea.mp3"
+  },
+  "今天要数点什么好呢？": {
+   "sweet": "sweet/s7e0e44a1edeb.mp3",
+   "lively": "lively/l76c5488a0b1d.mp3"
+  },
+  "我的盔甲，什么都不怕！": {
+   "lively": "lively/l12bc73856549.mp3",
+   "sweet": "sweet/s7f023b76886e.mp3"
+  },
+  "吃饱了，盔甲更结实！": {
+   "lively": "lively/ldfa4e45b7b5c.mp3",
+   "sweet": "sweet/s580c53153b1b.mp3"
+  },
+  "尾锤甩一甩，咚！": {
+   "sweet": "sweet/s6d5c451d530a.mp3",
+   "lively": "lively/l9b98d4532060.mp3"
+  },
+  "盔甲下面其实是软软的哦": {
+   "sweet": "sweet/s74a38104a4cc.mp3",
+   "lively": "lively/l2c0cfa374aaa.mp3"
+  },
+  "盔甲又亮了一层！": {
+   "lively": "lively/l751aab7db0d0.mp3",
+   "sweet": "sweet/s2cb8e7cb7967.mp3"
+  },
+  "难题也撞不倒我": {
+   "sweet": "sweet/sfd56f12c6c12.mp3",
+   "lively": "lively/l1339c8933065.mp3"
+  },
+  "我脖子长，看得最远～": {
+   "sweet": "sweet/saf34e1cac7d1.mp3",
+   "lively": "lively/lebc75bb550f7.mp3"
+  },
+  "吃完这口，长高高！": {
+   "lively": "lively/lc5db1dc99ea2.mp3",
+   "sweet": "sweet/sd16e4fde43c1.mp3"
+  },
+  "低头低头，我们一起玩～": {
+   "lively": "lively/l563f2ccf346d.mp3",
+   "sweet": "sweet/s59ea8f23d24c.mp3"
+  },
+  "脖子弯个爱心给你": {
+   "sweet": "sweet/s5d96ed8d4b76.mp3",
+   "lively": "lively/lb5a7e995271f.mp3"
+  },
+  "我又看得更远啦！": {
+   "lively": "lively/l41f95a3b041c.mp3",
+   "sweet": "sweet/s700b31dceb42.mp3"
+  },
+  "远远地看见你啦": {
+   "sweet": "sweet/sd650b75164b1.mp3",
+   "lively": "lively/la93074748997.mp3"
+  },
+  "我飞给你看！": {
+   "sweet": "sweet/s3cc8c31fa328.mp3",
+   "lively": "lively/lbc455d18ecb8.mp3"
+  },
+  "吃饱才飞得高！": {
+   "sweet": "sweet/s81ecec149911.mp3",
+   "lively": "lively/lda05fd0235e8.mp3"
+  },
+  "来追我呀，飞一圈～": {
+   "sweet": "sweet/s92f62f25afa2.mp3",
+   "lively": "lively/l134fa170d4ea.mp3"
+  },
+  "翅膀收起来，乖不乖？": {
+   "sweet": "sweet/s39e001e258a5.mp3",
+   "lively": "lively/lf2ae03984e62.mp3"
+  },
+  "翅膀更有力气啦！": {
+   "lively": "lively/le1cf6d35d45c.mp3",
+   "sweet": "sweet/s792f0c3a795b.mp3"
+  },
+  "今天的风很适合飞": {
+   "sweet": "sweet/s4f3899ca5b6e.mp3",
+   "lively": "lively/l124c6e37f3e2.mp3"
+  },
+  "真棒！": {
+   "sweet": "sweet/sb08347ad9709.mp3",
+   "lively": "lively/lafc3232e6149.mp3"
+  },
+  "答对啦！": {
+   "sweet": "sweet/s4ac98d58fec1.mp3",
+   "lively": "lively/l5e06dc66d55c.mp3"
+  },
+  "好厉害！": {
+   "sweet": "sweet/s5c6b4105b65b.mp3",
+   "lively": "lively/l04b5f47c333c.mp3"
+  },
+  "就是这样！": {
+   "sweet": "sweet/sc3be416a1095.mp3",
+   "lively": "lively/l1d822d9030d4.mp3"
+  },
+  "别急，慢慢想～": {
+   "sweet": "sweet/s05de89e7a4d2.mp3",
+   "lively": "lively/l6176b6fef55b.mp3"
+  },
+  "我陪着你呢！": {
+   "lively": "lively/l096bbae39951.mp3",
+   "sweet": "sweet/se9d1c2487524.mp3"
+  },
+  "答错也没关系，我们再看看。": {
+   "sweet": "sweet/s210fb6681aff.mp3",
+   "lively": "lively/l79ee45fe8d3d.mp3"
+  },
+  "要不要先听一听？": {
+   "sweet": "sweet/se4c7a53772ef.mp3",
+   "lively": "lively/l2a0d9721a4f6.mp3"
+  },
+  "你比昨天厉害多啦！": {
+   "sweet": "sweet/se4ed7cb5670c.mp3",
+   "lively": "lively/l8871f5f1e5b3.mp3"
+  },
+  "累了就伸个懒腰～": {
+   "sweet": "sweet/sd617bf8aedde.mp3",
+   "lively": "lively/l636f33a77c96.mp3"
+  },
+  "读得真准！": {
+   "sweet": "sweet/sec8f09ce0b19.mp3",
+   "lively": "lively/lfa7a8f8777b7.mp3"
+  },
+  "很棒！": {
+   "sweet": "sweet/s716d1e8b2b7f.mp3",
+   "lively": "lively/l62e88170ff88.mp3"
+  },
+  "再试一次！": {
+   "sweet": "sweet/s17bc7efb9feb.mp3",
+   "lively": "lively/lb96940589067.mp3"
+  },
+  "读完啦，真棒！": {
+   "sweet": "sweet/s458d714c066e.mp3",
+   "lively": "lively/l51b041993976.mp3"
+  },
+  "跟读模式开啦": {
+   "lively": "lively/l0617eddb5802.mp3",
+   "sweet": "sweet/s8060a2f05fd4.mp3"
+  },
+  "你读得真棒！": {
+   "sweet": "sweet/s9c80f90af09c.mp3",
+   "lively": "lively/l17eb04d65130.mp3"
+  },
+  "答对啦，你学会啦！": {
+   "sweet": "sweet/s70e9b11a7cdc.mp3",
+   "lively": "lively/l1271e7d02325.mp3"
+  },
+  "我是小问号，你想知道什么？": {
+   "lively": "lively/lee6d00a0d149.mp3",
+   "sweet": "sweet/sc314c3589fc6.mp3"
+  },
+  "现在你来试一试。背好了，就点下面的按钮。": {
+   "sweet": "sweet/s516cbf3d736f.mp3",
+   "lively": "lively/ld9c4813f80d7.mp3"
+  },
+  "哇，宝宝你来啦，我们一起玩吧！": {
+   "sweet": "sweet/sa30edf1736dd.mp3",
+   "lively": "lively/l469405563554.mp3"
+  },
+  "点一点我，我有好多话想跟你说～": {
+   "lively": "lively/l2041b53e58c8.mp3",
+   "sweet": "sweet/s59112f24f9c9.mp3"
+  },
+  "哇哦，做得太棒啦，给自己鼓鼓掌！": {
+   "sweet": "sweet/s2bef62cd9d31.mp3",
+   "lively": "lively/l95dfc4162b23.mp3"
+  },
+  "没关系，我们再试一次，你可以的！": {
+   "lively": "lively/lab416c8fa7ff.mp3",
+   "sweet": "sweet/sddd611aba06f.mp3"
+  },
+  "嘘，仔细听，故事要开始咯～": {
+   "lively": "lively/l48ad77279dc1.mp3",
+   "sweet": "sweet/s3ea41afd2d48.mp3"
+  },
+  "看这里，画里藏着一个小秘密哦！": {
+   "sweet": "sweet/s294ba6280441.mp3",
+   "lively": "lively/l8358c6e33ba9.mp3"
+  },
+  "哇，你发现啦，眼睛真尖！": {
+   "sweet": "sweet/s9614d7f6aeb4.mp3",
+   "lively": "lively/l355e38db9fdf.mp3"
+  },
+  "宝宝今天好认真呀，我好喜欢！": {
+   "sweet": "sweet/s79883c645c3d.mp3",
+   "lively": "lively/lf52a7fa9cd0a.mp3"
+  },
+  "翻一页，看看接下来会发生什么？": {
+   "sweet": "sweet/sf5ed013bc71f.mp3",
+   "lively": "lively/lc45d7e9c74cc.mp3"
+  },
+  "我们一起读一遍，好不好呀？": {
+   "lively": "lively/l7c6a2f86dee2.mp3",
+   "sweet": "sweet/s29a884a1c6a9.mp3"
+  },
+  "太厉害啦，这一页你全记住了！": {
+   "sweet": "sweet/s18a96ea56eba.mp3",
+   "lively": "lively/l13cda75db46a.mp3"
+  },
+  "慢慢来，不着急，我陪着你。": {
+   "sweet": "sweet/s83b833e5cce4.mp3",
+   "lively": "lively/l70259f811d05.mp3"
+  },
+  "叮咚，答对啦，星星送给你！": {
+   "sweet": "sweet/sbdfab2fd1d5e.mp3",
+   "lively": "lively/l0e6c6e527cba.mp3"
+  },
+  "想一想，答案就藏在图画里～": {
+   "sweet": "sweet/s3fb68e2da325.mp3",
+   "lively": "lively/l7b9c4bfff4ce.mp3"
+  },
+  "好啦，休息一下，伸个大懒腰！": {
+   "lively": "lively/lefe080dd5732.mp3",
+   "sweet": "sweet/s292a02548a32.mp3"
+  },
+  "哇，读完一整本啦，你是故事小达人！": {
+   "sweet": "sweet/s7f6c1b331325.mp3",
+   "lively": "lively/l1a7fd061ba7b.mp3"
+  },
+  "我们换成一页一页翻着看。": {
+   "sweet": "sweet/sd5ab731ee45c.mp3",
+   "lively": "lively/le0fd0b70b69b.mp3"
+  },
+  "我们把书拉长，往下滑着看。": {
+   "sweet": "sweet/s9c2a80224da0.mp3",
+   "lively": "lively/l26dd6a87950d.mp3"
+  },
+  "我先停一下，你慢慢看。": {
+   "lively": "lively/l6e600fdc50b2.mp3",
+   "sweet": "sweet/s1e96c1e852d0.mp3"
+  },
+  "已经讲完啦，还想再听一遍吗？": {
+   "sweet": "sweet/sc95d02d85c0c.mp3",
+   "lively": "lively/lf09166fb3ab5.mp3"
+  },
+  "小兔子找月亮": {
+   "lively": "lively/le4d9633fc1ce.mp3",
+   "sweet": "sweet/s669baf3bb3b5.mp3"
+  },
+  "宝宝，我们一起看《小兔子找月亮》，边看边听我讲哦。": {
+   "lively": "lively/l10ed17560072.mp3",
+   "sweet": "sweet/s9574cbddf517.mp3"
+  },
+  "天黑啦，小兔子抬起头，看见天上有一轮圆圆的月亮。哇，好亮呀！": {
+   "lively": "lively/l0c54f9f6df3c.mp3",
+   "sweet": "sweet/s60388c81647e.mp3"
+  },
+  "「我想摸摸月亮。」小兔子踮起脚，伸长了手，可是够不着。": {
+   "lively": "lively/l7f177775b848.mp3",
+   "sweet": "sweet/sc8fa6245779e.mp3"
+  },
+  "它跑到小河边。咦，水里也有一个月亮，一晃一晃的！": {
+   "sweet": "sweet/sc6ca97408628.mp3",
+   "lively": "lively/lc3add8bf7280.mp3"
+  },
+  "小兔子轻轻碰了一下水面，月亮碎成了一片片银光，嘻嘻，真好玩。": {
+   "sweet": "sweet/sbd2f1b72f398.mp3",
+   "lively": "lively/l61281b6a257d.mp3"
+  },
+  "抬头一看，真正的月亮还好好地挂在天上，正对着它笑呢。": {
+   "lively": "lively/leae689c759fd.mp3",
+   "sweet": "sweet/s0c64b86e2052.mp3"
+  },
+  "小兔子回家啦。原来月亮一直陪着它，晚安，月亮，晚安，小兔子。": {
+   "lively": "lively/l3ca8548556f3.mp3",
+   "sweet": "sweet/s8e8812ff6c56.mp3"
+  },
+  "月亮最后在哪里呀？抬头找一找～": {
+   "sweet": "sweet/sa358a38651e4.mp3",
+   "lively": "lively/lb031b1be25be.mp3"
+  },
+  "小鸭子的雨天": {
+   "lively": "lively/l4bdb77a024a6.mp3",
+   "sweet": "sweet/s774dc5094ed3.mp3"
+  },
+  "宝宝，我们一起看《小鸭子的雨天》，边看边听我讲哦。": {
+   "lively": "lively/l1a3ba8a491a7.mp3",
+   "sweet": "sweet/scdfb4c263055.mp3"
+  },
+  "滴答，滴答，下雨啦！小鸭子连忙跑到门口，把小脚丫伸出去。": {
+   "sweet": "sweet/se90a5ea456d5.mp3",
+   "lively": "lively/l35f58655dcbe.mp3"
+  },
+  "雨点落在扁扁的嘴巴上，凉凉的，痒痒的，小鸭子嘎嘎地笑起来。": {
+   "lively": "lively/l90c0291593d0.mp3",
+   "sweet": "sweet/sd7eac5d03556.mp3"
+  },
+  "地上出现了一个大水洼，像一面亮晶晶的小镜子。": {
+   "sweet": "sweet/sa8a1777d4c55.mp3",
+   "lively": "lively/l60f199bf07f6.mp3"
+  },
+  "扑通！小鸭子跳进去，脚掌一划，水花飞得高高的。": {
+   "lively": "lively/l46721cff75e7.mp3",
+   "sweet": "sweet/sace6798e3856.mp3"
+  },
+  "小青蛙也撑着荷叶伞来了，两个好朋友一起踩水，啪嗒啪嗒。": {
+   "lively": "lively/le73ac961dc82.mp3",
+   "sweet": "sweet/se57f8aecdfc0.mp3"
+  },
+  "雨停啦，太阳出来，天上挂起一道彩虹。小鸭子说：明天还下雨吧！": {
+   "sweet": "sweet/sbf767e12d836.mp3",
+   "lively": "lively/l86482fc5c3c7.mp3"
+  },
+  "下雨的时候，小鸭子为什么这么开心呀？": {
+   "sweet": "sweet/s4732714c17c2.mp3",
+   "lively": "lively/lf145beea6577.mp3"
+  },
+  "小熊种花": {
+   "sweet": "sweet/s78464d150406.mp3",
+   "lively": "lively/lcaf3fca54f15.mp3"
+  },
+  "宝宝，我们一起看《小熊种花》，边看边听我讲哦。": {
+   "lively": "lively/ldef4731ef3fd.mp3",
+   "sweet": "sweet/sb5d477889a4d.mp3"
+  },
+  "小熊在泥土里埋下一颗小小的种子，轻轻盖上土，拍了拍。": {
+   "lively": "lively/leec0f4191f01.mp3",
+   "sweet": "sweet/sfa04013d1b99.mp3"
+  },
+  "「喝点水吧。」小熊拎来小水壶，沙沙沙，细雨一样洒下去。": {
+   "sweet": "sweet/s317ca812e4cb.mp3",
+   "lively": "lively/lb5ad6e1069c5.mp3"
+  },
+  "第一天，什么也没有。第二天，还是什么也没有。小熊有点着急啦。": {
+   "sweet": "sweet/sf7778702e4fd.mp3",
+   "lively": "lively/lf286d80515c0.mp3"
+  },
+  "「别急呀。」太阳公公暖暖地照着，「它在土里悄悄长呢。」": {
+   "lively": "lively/l9357c6692cf6.mp3",
+   "sweet": "sweet/sdbf81545dbea.mp3"
+  },
+  "有一天早上，泥土里冒出两片圆圆的小叶子，绿绿的，嫩嫩的！": {
+   "lively": "lively/lbcc5f0a7665d.mp3",
+   "sweet": "sweet/s2c41ce6d83a0.mp3"
+  },
+  "又过了好些天，哗——开出了一朵金黄色的大花，比小熊的脸还大！": {
+   "sweet": "sweet/s01d020a5ce8b.mp3",
+   "lively": "lively/l32484a81db62.mp3"
+  },
+  "种子先长出了什么呀？是叶子，还是花？": {
+   "sweet": "sweet/s653b368c5371.mp3",
+   "lively": "lively/l0d4400eea2fb.mp3"
+  },
+  "小猫咪的彩色气球": {
+   "sweet": "sweet/s428531878303.mp3",
+   "lively": "lively/l4b21aa59f73b.mp3"
+  },
+  "宝宝，我们一起看《小猫咪的彩色气球》，边看边听我讲哦。": {
+   "lively": "lively/le092588e6c61.mp3",
+   "sweet": "sweet/s65c248da7e0f.mp3"
+  },
+  "小猫咪手里抓着一把气球，红的、黄的、蓝的，风一吹就摇摇摆摆。": {
+   "sweet": "sweet/seeba325b3855.mp3",
+   "lively": "lively/lcdea19ae0e9d.mp3"
+  },
+  "我们来数一数：一个，两个，三个，四个，五个！一共五个气球。": {
+   "lively": "lively/lc24ceff10ca1.mp3",
+   "sweet": "sweet/s5fd8d592cce0.mp3"
+  },
+  "呼——一阵风吹来，黄色气球飞走了，越飞越高，变成一个小点点。": {
+   "lively": "lively/l3a0cff9fc5b6.mp3",
+   "sweet": "sweet/s807dc34e5648.mp3"
+  },
+  "小猫咪有点想哭。这时候，小鸟衔着气球回来啦，轻轻放在它爪子里。": {
+   "sweet": "sweet/s053d5dd0dc2e.mp3",
+   "lively": "lively/lf4c6baf7a7f9.mp3"
+  },
+  "「谢谢你！」小猫咪把蓝色气球送给小鸟，两个人都笑了。": {
+   "sweet": "sweet/sa12387110af7.mp3",
+   "lively": "lively/lbc188e7e72b3.mp3"
+  },
+  "五个气球在天上飘呀飘，像五朵会飞的彩色小花。": {
+   "sweet": "sweet/sd46ed6a19997.mp3",
+   "lively": "lively/lf9ad40e24df0.mp3"
+  },
+  "小猫咪一开始有几个气球？伸出手指头数一数～": {
+   "sweet": "sweet/sfd81d763a339.mp3",
+   "lively": "lively/l44edebfea7f6.mp3"
+  },
+  "小松鼠的松果仓库": {
+   "sweet": "sweet/s45a64f482ae3.mp3",
+   "lively": "lively/lafe3434ce546.mp3"
+  },
+  "宝宝，我们一起看《小松鼠的松果仓库》，边看边听我讲哦。": {
+   "sweet": "sweet/s2963f310f702.mp3",
+   "lively": "lively/l410bc47bce3c.mp3"
+  },
+  "秋天来啦，树叶变成金黄色，一片一片打着旋儿落下来。": {
+   "sweet": "sweet/sb752d57fbe54.mp3",
+   "lively": "lively/lc4ec88cec636.mp3"
+  },
+  "小松鼠忙坏了，捡起一颗松果，塞进树洞里，又跑出去捡。": {
+   "sweet": "sweet/sc3dc2bf44fce.mp3",
+   "lively": "lively/l6305573c13c3.mp3"
+  },
+  "一颗，两颗，三颗……哎呀，数着数着就数乱啦，尾巴都翘起来了。": {
+   "sweet": "sweet/sf044f7802a65.mp3",
+   "lively": "lively/l265a94c600d1.mp3"
+  },
+  "它想了个好办法：把松果排成一小排一小排，每排五颗，就好数多啦。": {
+   "lively": "lively/l540b0c91e3fa.mp3",
+   "sweet": "sweet/s9291b553352b.mp3"
+  },
+  "冬天到了，雪盖住了大树。小松鼠躲在暖暖的树洞里，抱着松果。": {
+   "sweet": "sweet/sa19392ffb255.mp3",
+   "lively": "lively/l173eb221c814.mp3"
+  },
+  "「够吃一整个冬天啦！」它满足地打了个哈欠，慢慢闭上了眼睛。": {
+   "sweet": "sweet/s553a47640acf.mp3",
+   "lively": "lively/l4b0c06ea0af5.mp3"
+  },
+  "小松鼠把松果藏在哪里啦？": {
+   "sweet": "sweet/s51dd9ad184e8.mp3",
+   "lively": "lively/l3145bdc80f47.mp3"
+  },
+  "小企鹅的第一场雪": {
+   "sweet": "sweet/s874bf06d6265.mp3",
+   "lively": "lively/l14a6af2581b9.mp3"
+  },
+  "宝宝，我们一起看《小企鹅的第一场雪》，边看边听我讲哦。": {
+   "lively": "lively/l719196d75a51.mp3",
+   "sweet": "sweet/s35517569e0c0.mp3"
+  },
+  "小企鹅推开家门，哇——外面白茫茫的一片，它从没见过这么多的雪。": {
+   "sweet": "sweet/s71559fbe279e.mp3",
+   "lively": "lively/ledbc3b89b5e9.mp3"
+  },
+  "一片雪花落在鼻尖上，凉凉的，一眨眼就不见了，好神奇呀！": {
+   "lively": "lively/lafe924280071.mp3",
+   "sweet": "sweet/sbb1591f2ffa6.mp3"
+  },
+  "它伸出小翅膀接住一片：六个角，细细的，像一朵小小的花。": {
+   "lively": "lively/lcd4798698ca0.mp3",
+   "sweet": "sweet/se3e1df456006.mp3"
+  },
+  "扑通！小企鹅趴在雪上滑了一跤，肚子印出一个圆圆的坑，哈哈哈。": {
+   "sweet": "sweet/s5b3636eb1d6c.mp3",
+   "lively": "lively/la28112b8a51b.mp3"
+  },
+  "它滚了一个大雪球，又滚了一个，叠起来，装上眼睛和胡萝卜鼻子。": {
+   "sweet": "sweet/sb5a4af6cec4d.mp3",
+   "lively": "lively/lfa13e97f61e2.mp3"
+  },
+  "「你好呀，新朋友！」小企鹅和雪人并排站着，一起看雪慢慢地下。": {
+   "lively": "lively/le67e30956477.mp3",
+   "sweet": "sweet/s562ecc6d3761.mp3"
+  },
+  "雪花有几个角呀？猜猜看～": {
+   "sweet": "sweet/s9f962df2cf19.mp3",
+   "lively": "lively/lb96cef2656ba.mp3"
+  },
+  "小鹿快跑": {
+   "sweet": "sweet/s70b56f022012.mp3",
+   "lively": "lively/l7bb119690f70.mp3"
+  },
+  "宝宝，我们一起看《小鹿快跑》，边看边听我讲哦。": {
+   "sweet": "sweet/s31a1a273e286.mp3",
+   "lively": "lively/le613c59bc17b.mp3"
+  },
+  "小鹿和小兔子一起跑，跑得真快呀。": {
+   "sweet": "sweet/sea5866ae6f40.mp3",
+   "lively": "lively/l66e447b5755f.mp3"
+  },
+  "小鹿一个人在草地上跑呀跑。": {
+   "sweet": "sweet/se3ca089a36d8.mp3",
+   "lively": "lively/l87f582c41128.mp3"
+  },
+  "小兔子追上来，和小鹿并排跑。": {
+   "sweet": "sweet/sb084a94e81b4.mp3",
+   "lively": "lively/l18a8a2f40e07.mp3"
+  },
+  "大象也来了，大家一起跑起来。": {
+   "sweet": "sweet/s6c8f5bd73782.mp3",
+   "lively": "lively/l82ec72701803.mp3"
+  },
+  "小鹿一纵身，跳过了小溪。": {
+   "sweet": "sweet/s5a2a80429e6a.mp3",
+   "lively": "lively/lf8ebf33aef0e.mp3"
+  },
+  "小鹿跑得太快，一下冲过了墙。": {
+   "sweet": "sweet/s3a87d7355d16.mp3",
+   "lively": "lively/l91dd973fa207.mp3"
+  },
+  "哎呀，小鹿摔倒了。": {
+   "lively": "lively/l4c5c3cbf9f46.mp3",
+   "sweet": "sweet/sde547a7ba9a3.mp3"
+  },
+  "小鹿坐在地上，伤心地哭了。": {
+   "sweet": "sweet/s98190c2e8481.mp3",
+   "lively": "lively/l507759b324c7.mp3"
+  },
+  "小猴子走过来，轻轻揉揉它的腿。": {
+   "lively": "lively/l2e563e80b37f.mp3",
+   "sweet": "sweet/sb6b9f9b3e8f1.mp3"
+  },
+  "大熊把小鹿抱了起来。": {
+   "sweet": "sweet/sc016c7a1e807.mp3",
+   "lively": "lively/l4a33167e7de5.mp3"
+  },
+  "妈妈来了，把小鹿搂在怀里。": {
+   "sweet": "sweet/s2660603ddab8.mp3",
+   "lively": "lively/lf2307418c4eb.mp3"
+  },
+  "小鹿笑了，妈妈也笑了。": {
+   "sweet": "sweet/sa7677609d108.mp3",
+   "lively": "lively/l878b9ed933b3.mp3"
+  },
+  "小鹿摔倒的时候，是谁来帮它的呀？": {
+   "sweet": "sweet/s54f47b20450c.mp3",
+   "lively": "lively/l1fd1fbe4b5ee.mp3"
+  },
+  "胖国王和瘦狗": {
+   "sweet": "sweet/s89cd09b44b6f.mp3",
+   "lively": "lively/lc08390aefb4a.mp3"
+  },
+  "宝宝，我们一起看《胖国王和瘦狗》，边看边听我讲哦。": {
+   "lively": "lively/l49f0ebce7e92.mp3",
+   "sweet": "sweet/sc4135e2d24c4.mp3"
+  },
+  "国王抓住了一只小狗。": {
+   "lively": "lively/l4179f02370db.mp3",
+   "sweet": "sweet/sb7445a6c370f.mp3"
+  },
+  "国王吃得胖胖的，走两步就喘。": {
+   "sweet": "sweet/s99a1eaa445a7.mp3",
+   "lively": "lively/lc3e997e4b834.mp3"
+  },
+  "国王带着瘦瘦的小狗去散步。": {
+   "sweet": "sweet/s9edc5545612d.mp3",
+   "lively": "lively/l823c1fd811d5.mp3"
+  },
+  "小狗看见小鸟，追着跑了出去。": {
+   "sweet": "sweet/s888b1505008c.mp3",
+   "lively": "lively/lc92771d332ff.mp3"
+  },
+  "国王在后面追小狗，跑得满头汗。": {
+   "lively": "lively/ld47624ab13c1.mp3",
+   "sweet": "sweet/s218ea86251b0.mp3"
+  },
+  "国王追得好累，只好慢慢走。": {
+   "sweet": "sweet/sb273c7db7f2b.mp3",
+   "lively": "lively/le337388c73d5.mp3"
+  },
+  "国王终于又追上了小狗。": {
+   "lively": "lively/l1eae8b3bcbcb.mp3",
+   "sweet": "sweet/sa4898672c661.mp3"
+  },
+  "后来国王变瘦了，小狗也长壮了。": {
+   "lively": "lively/l5762755f0ece.mp3",
+   "sweet": "sweet/s8cab171d82ec.mp3"
+  },
+  "国王为什么会变瘦呢？": {
+   "sweet": "sweet/s6ec565463b5a.mp3",
+   "lively": "lively/l941d37a6ec73.mp3"
+  },
+  "等一等，等一等": {
+   "sweet": "sweet/s434a15f1afb2.mp3",
+   "lively": "lively/laa864631c463.mp3"
+  },
+  "宝宝，我们一起看《等一等，等一等》，边看边听我讲哦。": {
+   "lively": "lively/l15f243bbf315.mp3",
+   "sweet": "sweet/s0087b46f62cc.mp3"
+  },
+  "小男孩趴在圆窗户里，往外看。": {
+   "lively": "lively/l57bbb8caf43e.mp3",
+   "sweet": "sweet/s033a2178e35a.mp3"
+  },
+  "奶奶端来了甜甜的小点心。": {
+   "lively": "lively/l07f13797d39f.mp3",
+   "sweet": "sweet/s4e4225e8095a.mp3"
+  },
+  "小朋友手拉手，一起玩得真开心。": {
+   "sweet": "sweet/s970e869dbc4a.mp3",
+   "lively": "lively/la839c6f09556.mp3"
+  },
+  "男孩站在新衬衫和小帽子旁边。": {
+   "sweet": "sweet/sb77a71aaa0d6.mp3",
+   "lively": "lively/l243afe658938.mp3"
+  },
+  "爸爸拿着礼物盒，笑眯眯地看着他。": {
+   "lively": "lively/l3b5054e47286.mp3",
+   "sweet": "sweet/sb6702698a8a5.mp3"
+  },
+  "晚上，男孩躺在床上等呀等。": {
+   "lively": "lively/l53ced08c2377.mp3",
+   "sweet": "sweet/s506ba0b144b3.mp3"
+  },
+  "奶奶又端来点心啦，这次他吃得香。": {
+   "sweet": "sweet/s9c5c77583ac8.mp3",
+   "lively": "lively/l2c5acaacf6e3.mp3"
+  },
+  "全家人围着生日蛋糕，一起唱歌。": {
+   "lively": "lively/lb4ea74c58ea3.mp3",
+   "sweet": "sweet/saf809e63d10d.mp3"
+  },
+  "小男孩过生日的时候，家里都有谁呀？": {
+   "lively": "lively/labdf07bf6daf.mp3",
+   "sweet": "sweet/s400034ee3ed7.mp3"
+  },
+  "咏鹅": {
+   "sweet": "sweet/s7f64cf6fc758.mp3",
+   "lively": "lively/l529e1fc64357.mp3"
+  },
+  "咏鹅，唐代，骆宾王": {
+   "lively": "lively/l6946c8056a75.mp3",
+   "sweet": "sweet/s6e8099857b30.mp3"
+  },
+  "鹅，鹅，鹅": {
+   "sweet": "sweet/s4bc043613738.mp3"
+  },
+  "曲项向天歌": {
+   "sweet": "sweet/s86775d432640.mp3"
+  },
+  "白毛浮绿水": {
+   "sweet": "sweet/sc131cd12efb9.mp3"
+  },
+  "红掌拨清波": {
+   "sweet": "sweet/se0d7bae136d1.mp3"
+  },
+  "宝宝，这首诗说的是：白鹅弯着脖子对天唱歌，红脚掌在水里划出一道道波纹。是不是很有画面感呀？": {
+   "sweet": "sweet/sebb3b3482e50.mp3",
+   "lively": "lively/l408ad8a37d34.mp3"
+  },
+  "我们来背《咏鹅》。先听我读一遍吧。": {
+   "lively": "lively/l98520cb119e8.mp3",
+   "sweet": "sweet/s16c73f356d77.mp3"
+  },
+  "《咏鹅》读完啦，宝宝真棒！": {
+   "lively": "lively/l5ee7930fa2c8.mp3",
+   "sweet": "sweet/sc754e135ebf5.mp3"
+  },
+  "静夜思": {
+   "sweet": "sweet/sfd44228a32b4.mp3",
+   "lively": "lively/lc0aed321ac19.mp3"
+  },
+  "静夜思，唐代，李白": {
+   "sweet": "sweet/s4a673975c321.mp3",
+   "lively": "lively/l1647e5a56e64.mp3"
+  },
+  "床前明月光": {
+   "sweet": "sweet/s2deacc508e5f.mp3"
+  },
+  "疑是地上霜": {
+   "sweet": "sweet/s9a602d750159.mp3"
+  },
+  "举头望明月": {
+   "sweet": "sweet/s1925cdca3d28.mp3"
+  },
+  "低头思故乡": {
+   "sweet": "sweet/sc53d4f9bc4bd.mp3"
+  },
+  "宝宝，这首诗说的是：看见窗前的月光，就想起了远方的家。是不是很有画面感呀？": {
+   "lively": "lively/l58c8b1f1ba3f.mp3",
+   "sweet": "sweet/s7cd72d0ae6fb.mp3"
+  },
+  "我们来背《静夜思》。先听我读一遍吧。": {
+   "sweet": "sweet/s3a5cce73d3d5.mp3",
+   "lively": "lively/lcc6c4b46032b.mp3"
+  },
+  "《静夜思》读完啦，宝宝真棒！": {
+   "lively": "lively/la8e3d8cce118.mp3",
+   "sweet": "sweet/sd1aa5a40b673.mp3"
+  },
+  "春晓": {
+   "lively": "lively/l44a060d0ca52.mp3",
+   "sweet": "sweet/sa9c07a1fe952.mp3"
+  },
+  "春晓，唐代，孟浩然": {
+   "sweet": "sweet/sd6a61a4345fe.mp3",
+   "lively": "lively/l0bf5edc34c90.mp3"
+  },
+  "春眠不觉晓": {
+   "sweet": "sweet/s75cb1c423f3b.mp3"
+  },
+  "处处闻啼鸟": {
+   "sweet": "sweet/sd48897b1fa74.mp3"
+  },
+  "夜来风雨声": {
+   "sweet": "sweet/s80ddc00bce82.mp3"
+  },
+  "花落知多少": {
+   "sweet": "sweet/sdddac3705a0c.mp3"
+  },
+  "宝宝，这首诗说的是：春天睡得香，醒来听见鸟叫，不知道夜里落了多少花。是不是很有画面感呀？": {
+   "sweet": "sweet/s153934fb74be.mp3",
+   "lively": "lively/lb6add8236271.mp3"
+  },
+  "我们来背《春晓》。先听我读一遍吧。": {
+   "sweet": "sweet/s781467637a20.mp3",
+   "lively": "lively/lbb5151eb2b56.mp3"
+  },
+  "《春晓》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s759fd51aa0e6.mp3",
+   "lively": "lively/l53e0dee09472.mp3"
+  },
+  "悯农": {
+   "lively": "lively/lf45a94017175.mp3",
+   "sweet": "sweet/s057c9f5deb55.mp3"
+  },
+  "悯农，唐代，李绅": {
+   "sweet": "sweet/s072cfb74af72.mp3",
+   "lively": "lively/labcd7580863b.mp3"
+  },
+  "锄禾日当午": {
+   "sweet": "sweet/s1720313ad91f.mp3"
+  },
+  "汗滴禾下土": {
+   "sweet": "sweet/scd870ab4bed0.mp3"
+  },
+  "谁知盘中餐": {
+   "sweet": "sweet/s530ad9b96ace.mp3"
+  },
+  "粒粒皆辛苦": {
+   "sweet": "sweet/sfb762ac03148.mp3"
+  },
+  "宝宝，这首诗说的是：每粒米都是农民伯伯流汗种出来的，要好好吃饭。是不是很有画面感呀？": {
+   "sweet": "sweet/s8cc077f7d65d.mp3",
+   "lively": "lively/l91fc8318873f.mp3"
+  },
+  "我们来背《悯农》。先听我读一遍吧。": {
+   "sweet": "sweet/s3cb158fd00e6.mp3",
+   "lively": "lively/l5789152de20d.mp3"
+  },
+  "《悯农》读完啦，宝宝真棒！": {
+   "lively": "lively/l590d44f944a8.mp3",
+   "sweet": "sweet/s997a7ef6b4b0.mp3"
+  },
+  "登鹳雀楼": {
+   "sweet": "sweet/s93f36f5bcc87.mp3",
+   "lively": "lively/ld1bb03532d1b.mp3"
+  },
+  "登鹳雀楼，唐代，王之涣": {
+   "sweet": "sweet/s35607d18d823.mp3",
+   "lively": "lively/lc5eff5dc4f70.mp3"
+  },
+  "白日依山尽": {
+   "sweet": "sweet/s67aa9ec8ad34.mp3"
+  },
+  "黄河入海流": {
+   "sweet": "sweet/sa845beebca6f.mp3"
+  },
+  "欲穷千里目": {
+   "sweet": "sweet/s5b3a382e0fb3.mp3"
+  },
+  "更上一层楼": {
+   "sweet": "sweet/sdf795e2892b1.mp3"
+  },
+  "宝宝，这首诗说的是：想看得更远，就要再往上爬一层楼。是不是很有画面感呀？": {
+   "lively": "lively/l3ab03f60b65a.mp3",
+   "sweet": "sweet/saf8a6caf1b8e.mp3"
+  },
+  "我们来背《登鹳雀楼》。先听我读一遍吧。": {
+   "lively": "lively/l66b7c884884a.mp3",
+   "sweet": "sweet/s06edf33e267b.mp3"
+  },
+  "《登鹳雀楼》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s2585705d1f49.mp3",
+   "lively": "lively/lbfa17aea57bf.mp3"
+  },
+  "画": {
+   "sweet": "sweet/sf8abb2f92676.mp3",
+   "lively": "lively/l90beaa293197.mp3"
+  },
+  "画，唐代，王维": {
+   "sweet": "sweet/s86fea72f841e.mp3",
+   "lively": "lively/l15dfc18f8871.mp3"
+  },
+  "远看山有色": {
+   "sweet": "sweet/s0b7c543cb559.mp3"
+  },
+  "近听水无声": {
+   "sweet": "sweet/s9914e14685c5.mp3"
+  },
+  "春去花还在": {
+   "sweet": "sweet/s173c601c23e0.mp3"
+  },
+  "人来鸟不惊": {
+   "sweet": "sweet/sf975391a7df6.mp3"
+  },
+  "宝宝，这首诗说的是：这是一幅画：花不会谢，鸟也不会被吓跑。是不是很有画面感呀？": {
+   "sweet": "sweet/s917bbd05a4c7.mp3",
+   "lively": "lively/lc93c7f4cb76d.mp3"
+  },
+  "我们来背《画》。先听我读一遍吧。": {
+   "lively": "lively/l00720d0cdd2d.mp3",
+   "sweet": "sweet/sb9d013a6cb93.mp3"
+  },
+  "《画》读完啦，宝宝真棒！": {
+   "lively": "lively/l2afd20f0beb7.mp3",
+   "sweet": "sweet/s9ce93bcf4289.mp3"
+  },
+  "小池": {
+   "lively": "lively/la28dff420061.mp3",
+   "sweet": "sweet/s290af703561b.mp3"
+  },
+  "小池，宋代，杨万里": {
+   "sweet": "sweet/sc68f7866726f.mp3",
+   "lively": "lively/l211526c4eb4c.mp3"
+  },
+  "泉眼无声惜细流": {
+   "sweet": "sweet/sedbe95b520da.mp3"
+  },
+  "树阴照水爱晴柔": {
+   "sweet": "sweet/s534c718cf49e.mp3"
+  },
+  "小荷才露尖尖角": {
+   "sweet": "sweet/s25c46541f1cb.mp3"
+  },
+  "早有蜻蜓立上头": {
+   "sweet": "sweet/s3eea7d868295.mp3"
+  },
+  "宝宝，这首诗说的是：小荷叶刚冒出尖尖角，蜻蜓就落上去了。是不是很有画面感呀？": {
+   "lively": "lively/l224ffcd90bbc.mp3",
+   "sweet": "sweet/s7c993bb4351b.mp3"
+  },
+  "我们来背《小池》。先听我读一遍吧。": {
+   "lively": "lively/lc76316f4314b.mp3",
+   "sweet": "sweet/sb639a06dde0b.mp3"
+  },
+  "《小池》读完啦，宝宝真棒！": {
+   "sweet": "sweet/sefa4c68d177e.mp3",
+   "lively": "lively/l1bf899ace9ca.mp3"
+  },
+  "池上": {
+   "sweet": "sweet/s5ed25a77ab55.mp3",
+   "lively": "lively/laeafe26a747e.mp3"
+  },
+  "池上，唐代，白居易": {
+   "lively": "lively/le7b5e229d3f2.mp3",
+   "sweet": "sweet/s5dda45b02ca7.mp3"
+  },
+  "小娃撑小艇": {
+   "sweet": "sweet/sd1424f3fac7b.mp3"
+  },
+  "偷采白莲回": {
+   "sweet": "sweet/s1dc222fa3f6f.mp3"
+  },
+  "不解藏踪迹": {
+   "sweet": "sweet/s977c73d050db.mp3"
+  },
+  "浮萍一道开": {
+   "sweet": "sweet/sd8f58a6346a9.mp3"
+  },
+  "宝宝，这首诗说的是：小孩偷采莲蓬，浮萍上留下一条小船划过的印子。是不是很有画面感呀？": {
+   "lively": "lively/laf638645e587.mp3",
+   "sweet": "sweet/s7b7225662772.mp3"
+  },
+  "我们来背《池上》。先听我读一遍吧。": {
+   "lively": "lively/laa25aeb6ad44.mp3",
+   "sweet": "sweet/s3a5af2e71eb2.mp3"
+  },
+  "《池上》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s10e9cb81bed8.mp3",
+   "lively": "lively/l51b692ebdb5d.mp3"
+  },
+  "江雪": {
+   "lively": "lively/l6e7e621b1478.mp3",
+   "sweet": "sweet/s7cc0073106d1.mp3"
+  },
+  "江雪，唐代，柳宗元": {
+   "sweet": "sweet/s8a1c887d69ea.mp3",
+   "lively": "lively/l17ac3c8376d2.mp3"
+  },
+  "千山鸟飞绝": {
+   "sweet": "sweet/s79f34cca4819.mp3"
+  },
+  "万径人踪灭": {
+   "sweet": "sweet/s99cdf8dcd977.mp3"
+  },
+  "孤舟蓑笠翁": {
+   "sweet": "sweet/sd9f5e50f614e.mp3"
+  },
+  "独钓寒江雪": {
+   "sweet": "sweet/s49c8600cb28a.mp3"
+  },
+  "宝宝，这首诗说的是：大雪里没有鸟也没有人，只有一位老翁独自钓鱼。是不是很有画面感呀？": {
+   "lively": "lively/ldf1eb5ca2fb6.mp3",
+   "sweet": "sweet/s18b463cebf46.mp3"
+  },
+  "我们来背《江雪》。先听我读一遍吧。": {
+   "lively": "lively/l7ce4067cdfb5.mp3",
+   "sweet": "sweet/sc368a63aa46c.mp3"
+  },
+  "《江雪》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s6f95a2db95f0.mp3",
+   "lively": "lively/l01e1eb308f15.mp3"
+  },
+  "相思": {
+   "sweet": "sweet/s4429cc889e0c.mp3",
+   "lively": "lively/l63df03fb2358.mp3"
+  },
+  "相思，唐代，王维": {
+   "sweet": "sweet/s93669cf5d5cc.mp3",
+   "lively": "lively/le86d7fd4080d.mp3"
+  },
+  "红豆生南国": {
+   "sweet": "sweet/s5768fcc0ad1c.mp3"
+  },
+  "春来发几枝": {
+   "sweet": "sweet/s1399f88acba9.mp3"
+  },
+  "愿君多采撷": {
+   "sweet": "sweet/s50de1b5ee1e4.mp3"
+  },
+  "此物最相思": {
+   "sweet": "sweet/s2bb0cd952a5b.mp3"
+  },
+  "宝宝，这首诗说的是：红豆长在南方，看到它就想起了想念的人。是不是很有画面感呀？": {
+   "lively": "lively/l0540ddce5443.mp3",
+   "sweet": "sweet/s7b72db7d444b.mp3"
+  },
+  "我们来背《相思》。先听我读一遍吧。": {
+   "lively": "lively/le247add1935d.mp3",
+   "sweet": "sweet/s1c0770bd0cc4.mp3"
+  },
+  "《相思》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s214be29c73eb.mp3",
+   "lively": "lively/lac85b82cf7b7.mp3"
+  },
+  "咏柳": {
+   "lively": "lively/le61aee01c2e0.mp3",
+   "sweet": "sweet/s456c7b739e4e.mp3"
+  },
+  "咏柳，唐代，贺知章": {
+   "lively": "lively/ld3a9b4375c93.mp3",
+   "sweet": "sweet/sf7e07fee6fdf.mp3"
+  },
+  "碧玉妆成一树高": {
+   "sweet": "sweet/s1fda76d5d5e5.mp3"
+  },
+  "万条垂下绿丝绦": {
+   "sweet": "sweet/scf68036ec212.mp3"
+  },
+  "不知细叶谁裁出": {
+   "sweet": "sweet/s03673afbfb2e.mp3"
+  },
+  "二月春风似剪刀": {
+   "sweet": "sweet/s625a3e75f67d.mp3"
+  },
+  "宝宝，这首诗说的是：春天的风像一把剪刀，把柳叶剪得细细的。是不是很有画面感呀？": {
+   "sweet": "sweet/s03e37fcb0dcf.mp3",
+   "lively": "lively/l0ea68c27db12.mp3"
+  },
+  "我们来背《咏柳》。先听我读一遍吧。": {
+   "sweet": "sweet/s1ae65be5ce3b.mp3",
+   "lively": "lively/lcaaf0e8b713a.mp3"
+  },
+  "《咏柳》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s75d116f348f0.mp3",
+   "lively": "lively/ld7aa569aedd8.mp3"
+  },
+  "村居": {
+   "sweet": "sweet/s73fbb8f5569f.mp3",
+   "lively": "lively/l7467233041d5.mp3"
+  },
+  "村居，清代，高鼎": {
+   "sweet": "sweet/s4b2d913abb3c.mp3",
+   "lively": "lively/l1eaaddc91b83.mp3"
+  },
+  "草长莺飞二月天": {
+   "sweet": "sweet/s1ca026ad745f.mp3"
+  },
+  "拂堤杨柳醉春烟": {
+   "sweet": "sweet/s5a0808055af9.mp3"
+  },
+  "儿童散学归来早": {
+   "sweet": "sweet/s76de0a9fcf75.mp3"
+  },
+  "忙趁东风放纸鸢": {
+   "sweet": "sweet/s69db6bf9b574.mp3"
+  },
+  "宝宝，这首诗说的是：二月草长莺飞，孩子们放学早早回家放风筝。是不是很有画面感呀？": {
+   "sweet": "sweet/s50766c3d5107.mp3",
+   "lively": "lively/l9f634d8671ce.mp3"
+  },
+  "我们来背《村居》。先听我读一遍吧。": {
+   "sweet": "sweet/sb20f139e85f7.mp3",
+   "lively": "lively/l8aa33ad9acc1.mp3"
+  },
+  "《村居》读完啦，宝宝真棒！": {
+   "lively": "lively/l5e7bb5faa52a.mp3",
+   "sweet": "sweet/s00fdd633a491.mp3"
+  },
+  "所见": {
+   "sweet": "sweet/s217d786d1f27.mp3",
+   "lively": "lively/l8b5ebd0d9b3b.mp3"
+  },
+  "所见，清代，袁枚": {
+   "sweet": "sweet/s3222d9099614.mp3",
+   "lively": "lively/l359f36690022.mp3"
+  },
+  "牧童骑黄牛": {
+   "sweet": "sweet/s4e2a2e40f19d.mp3"
+  },
+  "歌声振林樾": {
+   "sweet": "sweet/s598ce63a7c90.mp3"
+  },
+  "意欲捕鸣蝉": {
+   "sweet": "sweet/sd687e3641c55.mp3"
+  },
+  "忽然闭口立": {
+   "sweet": "sweet/s28006fb37714.mp3"
+  },
+  "宝宝，这首诗说的是：牧童骑着牛唱歌，想捉蝉就忽然不出声了。是不是很有画面感呀？": {
+   "lively": "lively/l02f6163285c7.mp3",
+   "sweet": "sweet/se2fb24c766e2.mp3"
+  },
+  "我们来背《所见》。先听我读一遍吧。": {
+   "sweet": "sweet/s6022aeeb2bd8.mp3",
+   "lively": "lively/l24e3d656f3d2.mp3"
+  },
+  "《所见》读完啦，宝宝真棒！": {
+   "lively": "lively/laed375ddd378.mp3",
+   "sweet": "sweet/s8152ee9602e8.mp3"
+  },
+  "寻隐者不遇": {
+   "sweet": "sweet/sde71636e8820.mp3",
+   "lively": "lively/l9f59308d97a2.mp3"
+  },
+  "寻隐者不遇，唐代，贾岛": {
+   "sweet": "sweet/s3e884626f942.mp3",
+   "lively": "lively/l707b8bef538c.mp3"
+  },
+  "松下问童子": {
+   "sweet": "sweet/s20d308aedcc8.mp3"
+  },
+  "言师采药去": {
+   "sweet": "sweet/sa9dd5229092b.mp3"
+  },
+  "只在此山中": {
+   "sweet": "sweet/sf78859f20f7f.mp3"
+  },
+  "云深不知处": {
+   "sweet": "sweet/s869434867da5.mp3"
+  },
+  "宝宝，这首诗说的是：去山里找隐士，童子说师父采药去了，不知道在哪。是不是很有画面感呀？": {
+   "lively": "lively/l5ffec9d2a26a.mp3",
+   "sweet": "sweet/s15d4ac648dee.mp3"
+  },
+  "我们来背《寻隐者不遇》。先听我读一遍吧。": {
+   "lively": "lively/l4176f133d83c.mp3",
+   "sweet": "sweet/s2a210dc5ccdd.mp3"
+  },
+  "《寻隐者不遇》读完啦，宝宝真棒！": {
+   "sweet": "sweet/sc3910dbf243d.mp3",
+   "lively": "lively/lb8f7676212e1.mp3"
+  },
+  "风": {
+   "sweet": "sweet/s37f2a5f51a80.mp3",
+   "lively": "lively/le4734ed97a60.mp3"
+  },
+  "风，唐代，李峤": {
+   "sweet": "sweet/s83469f0ab939.mp3",
+   "lively": "lively/laa8845a10cc2.mp3"
+  },
+  "解落三秋叶": {
+   "sweet": "sweet/s47714d2c526b.mp3"
+  },
+  "能开二月花": {
+   "sweet": "sweet/sb2cd6a01d02f.mp3"
+  },
+  "过江千尺浪": {
+   "sweet": "sweet/s1d065a384886.mp3"
+  },
+  "入竹万竿斜": {
+   "sweet": "sweet/s705c748ce75b.mp3"
+  },
+  "宝宝，这首诗说的是：风看不见，却能吹落叶子、吹开鲜花、掀起大浪。是不是很有画面感呀？": {
+   "lively": "lively/l464162c314d2.mp3",
+   "sweet": "sweet/s21a4a6a53254.mp3"
+  },
+  "我们来背《风》。先听我读一遍吧。": {
+   "lively": "lively/lc5ce84f4abe8.mp3",
+   "sweet": "sweet/sb8620fc4331a.mp3"
+  },
+  "《风》读完啦，宝宝真棒！": {
+   "sweet": "sweet/scfb19f15c6f7.mp3",
+   "lively": "lively/l44f25467dd32.mp3"
+  },
+  "梅花": {
+   "sweet": "sweet/s515749dfba6e.mp3",
+   "lively": "lively/l91e11d4b750f.mp3"
+  },
+  "梅花，宋代，王安石": {
+   "sweet": "sweet/s1a6eb85fa627.mp3",
+   "lively": "lively/l397b0f76498e.mp3"
+  },
+  "墙角数枝梅": {
+   "sweet": "sweet/s37cd39d7050d.mp3"
+  },
+  "凌寒独自开": {
+   "sweet": "sweet/s775cec0535ad.mp3"
+  },
+  "遥知不是雪": {
+   "sweet": "sweet/s4b22305781d7.mp3"
+  },
+  "为有暗香来": {
+   "sweet": "sweet/s188bbf026158.mp3"
+  },
+  "宝宝，这首诗说的是：墙角的梅花冒着寒冷开，远远闻得到香味。是不是很有画面感呀？": {
+   "lively": "lively/lcadabed34d1f.mp3",
+   "sweet": "sweet/s01ae55a5a964.mp3"
+  },
+  "我们来背《梅花》。先听我读一遍吧。": {
+   "lively": "lively/ldfa09ef71d9b.mp3",
+   "sweet": "sweet/s07c28eba862b.mp3"
+  },
+  "《梅花》读完啦，宝宝真棒！": {
+   "lively": "lively/lae695c78f295.mp3",
+   "sweet": "sweet/sd15ca017f195.mp3"
+  },
+  "古朗月行": {
+   "sweet": "sweet/s62feac195948.mp3",
+   "lively": "lively/l6ff657ada040.mp3"
+  },
+  "古朗月行，唐代，李白": {
+   "sweet": "sweet/sc42eb147034c.mp3",
+   "lively": "lively/l1669be080197.mp3"
+  },
+  "小时不识月": {
+   "sweet": "sweet/s4d7b8d84b5c3.mp3"
+  },
+  "呼作白玉盘": {
+   "sweet": "sweet/s1a68d9ed5144.mp3"
+  },
+  "又疑瑶台镜": {
+   "sweet": "sweet/s730eca1f8183.mp3"
+  },
+  "飞在青云端": {
+   "sweet": "sweet/sc72239557d45.mp3"
+  },
+  "宝宝，这首诗说的是：小时候把月亮叫白玉盘，又猜是神仙的镜子。是不是很有画面感呀？": {
+   "sweet": "sweet/s210ed245cb7c.mp3",
+   "lively": "lively/lcba260a92699.mp3"
+  },
+  "我们来背《古朗月行》。先听我读一遍吧。": {
+   "sweet": "sweet/sd9457213557c.mp3",
+   "lively": "lively/lf9b818a6e272.mp3"
+  },
+  "《古朗月行》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s6f6beecc7d47.mp3",
+   "lively": "lively/le211863d805e.mp3"
+  },
+  "望庐山瀑布": {
+   "lively": "lively/lb36833b94a1d.mp3",
+   "sweet": "sweet/sb4985f10cd27.mp3"
+  },
+  "望庐山瀑布，唐代，李白": {
+   "sweet": "sweet/s4b65f648318a.mp3",
+   "lively": "lively/l8f030671c434.mp3"
+  },
+  "日照香炉生紫烟": {
+   "sweet": "sweet/s49238526102a.mp3"
+  },
+  "遥看瀑布挂前川": {
+   "sweet": "sweet/s4b839608016b.mp3"
+  },
+  "飞流直下三千尺": {
+   "sweet": "sweet/s400e66c7e8f4.mp3"
+  },
+  "疑是银河落九天": {
+   "sweet": "sweet/s0cfaea21b32b.mp3"
+  },
+  "宝宝，这首诗说的是：瀑布从高高的山上直落下来，像银河从天上掉下来。是不是很有画面感呀？": {
+   "sweet": "sweet/s533bdbb49012.mp3",
+   "lively": "lively/l1ea3ef7c9e5f.mp3"
+  },
+  "我们来背《望庐山瀑布》。先听我读一遍吧。": {
+   "lively": "lively/la4c0790f5fb2.mp3",
+   "sweet": "sweet/s5b3763058b04.mp3"
+  },
+  "《望庐山瀑布》读完啦，宝宝真棒！": {
+   "lively": "lively/l3a1af0e1f2ea.mp3",
+   "sweet": "sweet/s7b6f80e64786.mp3"
+  },
+  "赠汪伦": {
+   "lively": "lively/lc0ee8ade9df7.mp3",
+   "sweet": "sweet/s990d18520f18.mp3"
+  },
+  "赠汪伦，唐代，李白": {
+   "sweet": "sweet/sede76279e24c.mp3",
+   "lively": "lively/l306a16a5e32a.mp3"
+  },
+  "李白乘舟将欲行": {
+   "sweet": "sweet/s6012a80dfef8.mp3"
+  },
+  "忽闻岸上踏歌声": {
+   "sweet": "sweet/s2def03394ffa.mp3"
+  },
+  "桃花潭水深千尺": {
+   "sweet": "sweet/sc89db31839a0.mp3"
+  },
+  "不及汪伦送我情": {
+   "sweet": "sweet/sff2f536bf0f6.mp3"
+  },
+  "宝宝，这首诗说的是：朋友踏着歌声来送行，桃花潭的水再深也比不上这份情。是不是很有画面感呀？": {
+   "sweet": "sweet/s0ae318b7df7e.mp3",
+   "lively": "lively/lc778adc3f920.mp3"
+  },
+  "我们来背《赠汪伦》。先听我读一遍吧。": {
+   "lively": "lively/l2ded827afbf8.mp3",
+   "sweet": "sweet/se0330959d7f9.mp3"
+  },
+  "《赠汪伦》读完啦，宝宝真棒！": {
+   "lively": "lively/l140526084388.mp3",
+   "sweet": "sweet/sece138e9e4c3.mp3"
+  },
+  "早发白帝城": {
+   "sweet": "sweet/s165da3161da7.mp3",
+   "lively": "lively/l4fa58633506b.mp3"
+  },
+  "早发白帝城，唐代，李白": {
+   "lively": "lively/lafbca546b197.mp3",
+   "sweet": "sweet/s824647421fb7.mp3"
+  },
+  "朝辞白帝彩云间": {
+   "sweet": "sweet/s5ef226adf5b0.mp3"
+  },
+  "千里江陵一日还": {
+   "sweet": "sweet/s6ba4b9364143.mp3"
+  },
+  "两岸猿声啼不住": {
+   "sweet": "sweet/sdcbfb0c56a5f.mp3"
+  },
+  "轻舟已过万重山": {
+   "sweet": "sweet/sef28b96c6eb9.mp3"
+  },
+  "宝宝，这首诗说的是：坐船顺流而下，一天就走了很远，猿声还在两岸响。是不是很有画面感呀？": {
+   "sweet": "sweet/s0cea6d60fe78.mp3",
+   "lively": "lively/ldc82c2a950ec.mp3"
+  },
+  "我们来背《早发白帝城》。先听我读一遍吧。": {
+   "sweet": "sweet/s78421fb2db33.mp3",
+   "lively": "lively/lb679cd5d0f13.mp3"
+  },
+  "《早发白帝城》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s2717fa3eaee8.mp3",
+   "lively": "lively/l43e70b0cfec5.mp3"
+  },
+  "望天门山": {
+   "lively": "lively/lb8df6fcccca0.mp3",
+   "sweet": "sweet/s15d1e401acea.mp3"
+  },
+  "望天门山，唐代，李白": {
+   "lively": "lively/lbce362aa5633.mp3",
+   "sweet": "sweet/s8de47fd45b4d.mp3"
+  },
+  "天门中断楚江开": {
+   "sweet": "sweet/s707201c195a6.mp3"
+  },
+  "碧水东流至此回": {
+   "sweet": "sweet/s76ebd79b3559.mp3"
+  },
+  "两岸青山相对出": {
+   "sweet": "sweet/s7c1f230eb584.mp3"
+  },
+  "孤帆一片日边来": {
+   "sweet": "sweet/sf7607a62c2ae.mp3"
+  },
+  "宝宝，这首诗说的是：江水把山劈成两半，一片白帆从太阳那边驶来。是不是很有画面感呀？": {
+   "sweet": "sweet/scf07e97c781e.mp3",
+   "lively": "lively/l6e0d92fd080e.mp3"
+  },
+  "我们来背《望天门山》。先听我读一遍吧。": {
+   "sweet": "sweet/sc9b714f20b3a.mp3",
+   "lively": "lively/lad53927a9142.mp3"
+  },
+  "《望天门山》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s3f973bba9d50.mp3",
+   "lively": "lively/l90a8f8b7aba0.mp3"
+  },
+  "绝句": {
+   "lively": "lively/l820ad6c21589.mp3",
+   "sweet": "sweet/sf1a1f0c54d04.mp3"
+  },
+  "绝句，唐代，杜甫": {
+   "sweet": "sweet/sf922dd7147a8.mp3",
+   "lively": "lively/l2d4417597197.mp3"
+  },
+  "两个黄鹂鸣翠柳": {
+   "sweet": "sweet/s7fb60e4975e1.mp3"
+  },
+  "一行白鹭上青天": {
+   "sweet": "sweet/sedc1554abe57.mp3"
+  },
+  "窗含西岭千秋雪": {
+   "sweet": "sweet/s7efffc9d1d76.mp3"
+  },
+  "门泊东吴万里船": {
+   "sweet": "sweet/saacd28f9dc74.mp3"
+  },
+  "宝宝，这首诗说的是：黄鹂在柳树上叫，白鹭飞上蓝天，窗外还能看见远山的雪。是不是很有画面感呀？": {
+   "sweet": "sweet/s978c7f1248ad.mp3",
+   "lively": "lively/l68ffefbf57bf.mp3"
+  },
+  "我们来背《绝句》。先听我读一遍吧。": {
+   "lively": "lively/l9eb61916b2ae.mp3",
+   "sweet": "sweet/s4ef3d39e9053.mp3"
+  },
+  "《绝句》读完啦，宝宝真棒！": {
+   "sweet": "sweet/sbb288b2a1ba6.mp3",
+   "lively": "lively/l37445813a8d8.mp3"
+  },
+  "山行": {
+   "sweet": "sweet/sd9eeadf6970f.mp3",
+   "lively": "lively/l77ce4b7b309c.mp3"
+  },
+  "山行，唐代，杜牧": {
+   "lively": "lively/l327673c41ca2.mp3",
+   "sweet": "sweet/s01d0e6f23b17.mp3"
+  },
+  "远上寒山石径斜": {
+   "sweet": "sweet/s9798b19de875.mp3"
+  },
+  "白云生处有人家": {
+   "sweet": "sweet/sc58c4a79ede1.mp3"
+  },
+  "停车坐爱枫林晚": {
+   "sweet": "sweet/s657fbd19fc68.mp3"
+  },
+  "霜叶红于二月花": {
+   "sweet": "sweet/s92cd3a229077.mp3"
+  },
+  "宝宝，这首诗说的是：秋天的枫叶比二月的花还要红。是不是很有画面感呀？": {
+   "sweet": "sweet/s08b9320c281b.mp3",
+   "lively": "lively/l704faf7cb97d.mp3"
+  },
+  "我们来背《山行》。先听我读一遍吧。": {
+   "lively": "lively/lf3b9f46041e7.mp3",
+   "sweet": "sweet/s173fb8318043.mp3"
+  },
+  "《山行》读完啦，宝宝真棒！": {
+   "sweet": "sweet/sb21186a93b1d.mp3",
+   "lively": "lively/lae0ad0a50bb9.mp3"
+  },
+  "清明": {
+   "lively": "lively/l6c6fdcf67a66.mp3",
+   "sweet": "sweet/s2f8e4e02efed.mp3"
+  },
+  "清明，唐代，杜牧": {
+   "sweet": "sweet/sb1a63b5b2cf9.mp3",
+   "lively": "lively/l6fc5a88a0bd1.mp3"
+  },
+  "清明时节雨纷纷": {
+   "sweet": "sweet/sf9840ac10e03.mp3"
+  },
+  "路上行人欲断魂": {
+   "sweet": "sweet/seb375b1b4005.mp3"
+  },
+  "借问酒家何处有": {
+   "sweet": "sweet/sdc474e2d72e2.mp3"
+  },
+  "牧童遥指杏花村": {
+   "sweet": "sweet/s83347d625714.mp3"
+  },
+  "宝宝，这首诗说的是：清明下雨，行人问哪里有酒家，牧童指了指杏花村。是不是很有画面感呀？": {
+   "lively": "lively/la222acb30990.mp3",
+   "sweet": "sweet/sd26d4460ccb2.mp3"
+  },
+  "我们来背《清明》。先听我读一遍吧。": {
+   "sweet": "sweet/s70292165e87b.mp3",
+   "lively": "lively/l841993a27eb1.mp3"
+  },
+  "《清明》读完啦，宝宝真棒！": {
+   "sweet": "sweet/sc05bd35411b4.mp3",
+   "lively": "lively/le23bbf57ccad.mp3"
+  },
+  "九月九日忆山东兄弟": {
+   "lively": "lively/l6b0dd6b741c6.mp3",
+   "sweet": "sweet/sd9cd69e888c5.mp3"
+  },
+  "九月九日忆山东兄弟，唐代，王维": {
+   "sweet": "sweet/s2f5d17482f1f.mp3",
+   "lively": "lively/l65d544209963.mp3"
+  },
+  "独在异乡为异客": {
+   "sweet": "sweet/s3a2d08a40b6d.mp3"
+  },
+  "每逢佳节倍思亲": {
+   "sweet": "sweet/s031e1b78267a.mp3"
+  },
+  "遥知兄弟登高处": {
+   "sweet": "sweet/s4ef3ad8c1201.mp3"
+  },
+  "遍插茱萸少一人": {
+   "sweet": "sweet/sdbf975d04403.mp3"
+  },
+  "宝宝，这首诗说的是：重阳节一个人在外地，特别想念家里的兄弟。是不是很有画面感呀？": {
+   "lively": "lively/l113c6eba3816.mp3",
+   "sweet": "sweet/s627e01d6b7ee.mp3"
+  },
+  "我们来背《九月九日忆山东兄弟》。先听我读一遍吧。": {
+   "lively": "lively/l7c9ff76f8666.mp3",
+   "sweet": "sweet/sdc7f47588ab1.mp3"
+  },
+  "《九月九日忆山东兄弟》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s4d5df366e9eb.mp3",
+   "lively": "lively/le21620e84b27.mp3"
+  },
+  "回乡偶书": {
+   "sweet": "sweet/s5328dc0c0db0.mp3",
+   "lively": "lively/lc11acf27bbcf.mp3"
+  },
+  "回乡偶书，唐代，贺知章": {
+   "lively": "lively/l57b5e6358785.mp3",
+   "sweet": "sweet/s24c29a425d92.mp3"
+  },
+  "少小离家老大回": {
+   "sweet": "sweet/s8c9d26c1f479.mp3"
+  },
+  "乡音无改鬓毛衰": {
+   "sweet": "sweet/s4669bc5ae10c.mp3"
+  },
+  "儿童相见不相识": {
+   "sweet": "sweet/s2426f72e2d18.mp3"
+  },
+  "笑问客从何处来": {
+   "sweet": "sweet/s343c4be5c9b6.mp3"
+  },
+  "宝宝，这首诗说的是：老了才回家，小孩都不认识他，还问他是哪里来的客人。是不是很有画面感呀？": {
+   "lively": "lively/l57781db472d8.mp3",
+   "sweet": "sweet/sc881352e0a54.mp3"
+  },
+  "我们来背《回乡偶书》。先听我读一遍吧。": {
+   "sweet": "sweet/sbcdbd36e14a4.mp3",
+   "lively": "lively/l6a65717dbfa6.mp3"
+  },
+  "《回乡偶书》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s12b97d4983fb.mp3",
+   "lively": "lively/ld06a408057d4.mp3"
+  },
+  "草": {
+   "sweet": "sweet/s9953641f6340.mp3",
+   "lively": "lively/l42c9c1917620.mp3"
+  },
+  "草，唐代，白居易": {
+   "sweet": "sweet/sd50d5a6ac60b.mp3",
+   "lively": "lively/lea9a78107b6a.mp3"
+  },
+  "离离原上草": {
+   "sweet": "sweet/sae877bfcae5a.mp3"
+  },
+  "一岁一枯荣": {
+   "sweet": "sweet/s318a9f64d420.mp3"
+  },
+  "野火烧不尽": {
+   "sweet": "sweet/sdbfcadcffef2.mp3"
+  },
+  "春风吹又生": {
+   "sweet": "sweet/sf54c1109fb4d.mp3"
+  },
+  "宝宝，这首诗说的是：野草被火烧过，春风一吹又长出来，很顽强。是不是很有画面感呀？": {
+   "sweet": "sweet/s60f00cb35088.mp3",
+   "lively": "lively/lf97e33a9b9da.mp3"
+  },
+  "我们来背《草》。先听我读一遍吧。": {
+   "sweet": "sweet/s827f89cf9f82.mp3",
+   "lively": "lively/l2671a588bc2e.mp3"
+  },
+  "《草》读完啦，宝宝真棒！": {
+   "lively": "lively/l37dfd59be611.mp3",
+   "sweet": "sweet/s8cf1899cce5a.mp3"
+  },
+  "江南": {
+   "sweet": "sweet/sd93a291e500d.mp3",
+   "lively": "lively/lae65e375ec09.mp3"
+  },
+  "江南，汉代，佚名": {
+   "lively": "lively/l5cc564b580d1.mp3",
+   "sweet": "sweet/sc92823dca902.mp3"
+  },
+  "江南可采莲": {
+   "sweet": "sweet/sc672a28e22ee.mp3"
+  },
+  "莲叶何田田": {
+   "sweet": "sweet/s534f7d526515.mp3"
+  },
+  "鱼戏莲叶间": {
+   "sweet": "sweet/s1dacc0e3e7f3.mp3"
+  },
+  "鱼戏莲叶东": {
+   "sweet": "sweet/s994f447e929b.mp3"
+  },
+  "宝宝，这首诗说的是：江南可以采莲，鱼儿在莲叶中间游来游去。是不是很有画面感呀？": {
+   "lively": "lively/lb7749643dbcc.mp3",
+   "sweet": "sweet/s93328a885fec.mp3"
+  },
+  "我们来背《江南》。先听我读一遍吧。": {
+   "sweet": "sweet/sb593f4e4c3b7.mp3",
+   "lively": "lively/lfa4743e4b87e.mp3"
+  },
+  "《江南》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s46aa1a7f7885.mp3",
+   "lively": "lively/l02a49095fb7e.mp3"
+  },
+  "敕勒歌": {
+   "sweet": "sweet/s6653a9a585fe.mp3",
+   "lively": "lively/lf702c13ef897.mp3"
+  },
+  "敕勒歌，南北朝代，佚名": {
+   "sweet": "sweet/se8461fdb0bab.mp3",
+   "lively": "lively/l35d2b7691a72.mp3"
+  },
+  "敕勒川，阴山下": {
+   "sweet": "sweet/s1742fd02b41c.mp3"
+  },
+  "天似穹庐，笼盖四野": {
+   "sweet": "sweet/s704d9a3e10ec.mp3"
+  },
+  "天苍苍，野茫茫": {
+   "sweet": "sweet/se4d5ed925888.mp3"
+  },
+  "风吹草低见牛羊": {
+   "sweet": "sweet/s66a358f55d97.mp3"
+  },
+  "宝宝，这首诗说的是：草原天很宽，草很低，风一吹就看见牛羊。是不是很有画面感呀？": {
+   "sweet": "sweet/sb0c10c4bbb99.mp3",
+   "lively": "lively/l51dd0148990f.mp3"
+  },
+  "我们来背《敕勒歌》。先听我读一遍吧。": {
+   "lively": "lively/l1c5c1e093ef9.mp3",
+   "sweet": "sweet/s19e3e5232fa9.mp3"
+  },
+  "《敕勒歌》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s1c2b221a638e.mp3",
+   "lively": "lively/l859f8b106e5c.mp3"
+  },
+  "游子吟": {
+   "sweet": "sweet/sfd63c3e47a0f.mp3",
+   "lively": "lively/l586f7025be07.mp3"
+  },
+  "游子吟，唐代，孟郊": {
+   "lively": "lively/ld21d50a04126.mp3",
+   "sweet": "sweet/s8034de800d7a.mp3"
+  },
+  "慈母手中线": {
+   "sweet": "sweet/s55a9b021c998.mp3"
+  },
+  "游子身上衣": {
+   "sweet": "sweet/sd37469c65496.mp3"
+  },
+  "临行密密缝": {
+   "sweet": "sweet/s29a8ab86739a.mp3"
+  },
+  "意恐迟迟归": {
+   "sweet": "sweet/s2ecebce66f82.mp3"
+  },
+  "谁言寸草心": {
+   "sweet": "sweet/se2f840ea6edf.mp3"
+  },
+  "报得三春晖": {
+   "sweet": "sweet/s6bdc69cea32e.mp3"
+  },
+  "宝宝，这首诗说的是：妈妈一针一线缝衣服，孩子的心意报答不完妈妈的恩情。是不是很有画面感呀？": {
+   "sweet": "sweet/sa8a267cde4b9.mp3",
+   "lively": "lively/l965183b378ae.mp3"
+  },
+  "我们来背《游子吟》。先听我读一遍吧。": {
+   "sweet": "sweet/s1ee63767125f.mp3",
+   "lively": "lively/l98f44c3713d7.mp3"
+  },
+  "《游子吟》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s8da034a2fa10.mp3",
+   "lively": "lively/lc982fe59a093.mp3"
+  },
+  "元日": {
+   "sweet": "sweet/s6a69ffcdcd83.mp3",
+   "lively": "lively/l33840fec5dc9.mp3"
+  },
+  "元日，宋代，王安石": {
+   "sweet": "sweet/se5daa6e42b53.mp3",
+   "lively": "lively/l72126f61fc93.mp3"
+  },
+  "爆竹声中一岁除": {
+   "sweet": "sweet/s786d5557e05c.mp3"
+  },
+  "春风送暖入屠苏": {
+   "sweet": "sweet/sd64cf74691fa.mp3"
+  },
+  "千门万户曈曈日": {
+   "sweet": "sweet/s1b7240f249df.mp3"
+  },
+  "总把新桃换旧符": {
+   "sweet": "sweet/s0dde429126bc.mp3"
+  },
+  "宝宝，这首诗说的是：过年了，鞭炮响、换新桃符，到处都是新气象。是不是很有画面感呀？": {
+   "lively": "lively/l5e957c2689b0.mp3",
+   "sweet": "sweet/s55e9ef1f4a42.mp3"
+  },
+  "我们来背《元日》。先听我读一遍吧。": {
+   "lively": "lively/lc4aed1f81f57.mp3",
+   "sweet": "sweet/s966d62a790cb.mp3"
+  },
+  "《元日》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s00c434fdfffe.mp3",
+   "lively": "lively/l2bbf7b480fe6.mp3"
+  },
+  "春日": {
+   "sweet": "sweet/s4dde8d2e81db.mp3",
+   "lively": "lively/lfee6863c9539.mp3"
+  },
+  "春日，宋代，朱熹": {
+   "lively": "lively/ld07197251c2e.mp3",
+   "sweet": "sweet/s875ae92f65e8.mp3"
+  },
+  "胜日寻芳泗水滨": {
+   "sweet": "sweet/s2497301adafb.mp3"
+  },
+  "无边光景一时新": {
+   "sweet": "sweet/s94eafe94cd8f.mp3"
+  },
+  "等闲识得东风面": {
+   "sweet": "sweet/sc642ebfe9af1.mp3"
+  },
+  "万紫千红总是春": {
+   "sweet": "sweet/s25777a344102.mp3"
+  },
+  "宝宝，这首诗说的是：春天一到，什么都是新的，万紫千红都是春天。是不是很有画面感呀？": {
+   "sweet": "sweet/s936d640c57ff.mp3",
+   "lively": "lively/l519740b5ce9a.mp3"
+  },
+  "我们来背《春日》。先听我读一遍吧。": {
+   "sweet": "sweet/s270ddd80f2fc.mp3",
+   "lively": "lively/l4b3c3f2a954f.mp3"
+  },
+  "《春日》读完啦，宝宝真棒！": {
+   "lively": "lively/l9c01ee15c0a8.mp3",
+   "sweet": "sweet/s894d8725da5c.mp3"
+  },
+  "晓出净慈寺送林子方": {
+   "sweet": "sweet/sb87e304f1d17.mp3",
+   "lively": "lively/l16d3757fea03.mp3"
+  },
+  "晓出净慈寺送林子方，宋代，杨万里": {
+   "sweet": "sweet/s3b5c4ef3bde4.mp3",
+   "lively": "lively/lfbce95c67db7.mp3"
+  },
+  "毕竟西湖六月中": {
+   "sweet": "sweet/s7bc45c442d45.mp3"
+  },
+  "风光不与四时同": {
+   "sweet": "sweet/s00fa31c0572a.mp3"
+  },
+  "接天莲叶无穷碧": {
+   "sweet": "sweet/s74db7b76518d.mp3"
+  },
+  "映日荷花别样红": {
+   "sweet": "sweet/s74ae5231fcf9.mp3"
+  },
+  "宝宝，这首诗说的是：六月的西湖，荷叶一直绿到天边，荷花特别红。是不是很有画面感呀？": {
+   "lively": "lively/l2e5bb44c7452.mp3",
+   "sweet": "sweet/s9755b3b97018.mp3"
+  },
+  "我们来背《晓出净慈寺送林子方》。先听我读一遍吧。": {
+   "lively": "lively/ld170d967e00b.mp3",
+   "sweet": "sweet/sd3683b453f26.mp3"
+  },
+  "《晓出净慈寺送林子方》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s1f6d601f5e40.mp3",
+   "lively": "lively/lad764e52592b.mp3"
+  },
+  "题西林壁": {
+   "lively": "lively/l18873b68f40b.mp3",
+   "sweet": "sweet/s24bfa3067df9.mp3"
+  },
+  "题西林壁，宋代，苏轼": {
+   "lively": "lively/l49c851c37257.mp3",
+   "sweet": "sweet/s6869bed097f3.mp3"
+  },
+  "横看成岭侧成峰": {
+   "sweet": "sweet/scba0f20b8abb.mp3"
+  },
+  "远近高低各不同": {
+   "sweet": "sweet/s5d8a17b93ba8.mp3"
+  },
+  "不识庐山真面目": {
+   "sweet": "sweet/s8947ac78e23a.mp3"
+  },
+  "只缘身在此山中": {
+   "sweet": "sweet/sff3259a20dc1.mp3"
+  },
+  "宝宝，这首诗说的是：站在山里看不出山的样子，要跳出来才能看清。是不是很有画面感呀？": {
+   "lively": "lively/l0047d6bfc681.mp3",
+   "sweet": "sweet/s165aa0655aa5.mp3"
+  },
+  "我们来背《题西林壁》。先听我读一遍吧。": {
+   "sweet": "sweet/sda5f1b54e36a.mp3",
+   "lively": "lively/lf166d7ed0fcf.mp3"
+  },
+  "《题西林壁》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s2b50276e1b9c.mp3",
+   "lively": "lively/lf24e286ff02e.mp3"
+  },
+  "饮湖上初晴后雨": {
+   "sweet": "sweet/s07c6887946eb.mp3",
+   "lively": "lively/l031b41941a8d.mp3"
+  },
+  "饮湖上初晴后雨，宋代，苏轼": {
+   "sweet": "sweet/s37219a9ffb8c.mp3",
+   "lively": "lively/laa8cb8e33c0e.mp3"
+  },
+  "水光潋滟晴方好": {
+   "sweet": "sweet/sc1b1aae66a81.mp3"
+  },
+  "山色空蒙雨亦奇": {
+   "sweet": "sweet/sfa96bc8bd7a8.mp3"
+  },
+  "欲把西湖比西子": {
+   "sweet": "sweet/sae0479f9c6d6.mp3"
+  },
+  "淡妆浓抹总相宜": {
+   "sweet": "sweet/sd7c088547446.mp3"
+  },
+  "宝宝，这首诗说的是：西湖晴天好看，下雨也好看，怎么打扮都美。是不是很有画面感呀？": {
+   "sweet": "sweet/s4a3564b11814.mp3",
+   "lively": "lively/l0fa4685b763e.mp3"
+  },
+  "我们来背《饮湖上初晴后雨》。先听我读一遍吧。": {
+   "sweet": "sweet/s1241cd8c119a.mp3",
+   "lively": "lively/lf5d4ffa5e41d.mp3"
+  },
+  "《饮湖上初晴后雨》读完啦，宝宝真棒！": {
+   "sweet": "sweet/sf6334a57fa1c.mp3",
+   "lively": "lively/lc8dd42b80f9f.mp3"
+  },
+  "竹石": {
+   "sweet": "sweet/sb0bd67ba0402.mp3",
+   "lively": "lively/l0e66f4a2f955.mp3"
+  },
+  "竹石，清代，郑燮": {
+   "sweet": "sweet/s1a0235f1e42f.mp3",
+   "lively": "lively/ld7c24a385a1c.mp3"
+  },
+  "咬定青山不放松": {
+   "sweet": "sweet/se6309a955411.mp3"
+  },
+  "立根原在破岩中": {
+   "sweet": "sweet/sfb18c28e9e45.mp3"
+  },
+  "千磨万击还坚劲": {
+   "sweet": "sweet/s70d780435f92.mp3"
+  },
+  "任尔东西南北风": {
+   "sweet": "sweet/s49f534f8b19c.mp3"
+  },
+  "宝宝，这首诗说的是：竹子长在石头缝里也不倒，风吹雨打都不怕。是不是很有画面感呀？": {
+   "lively": "lively/l2b3959e523c1.mp3",
+   "sweet": "sweet/s4f1570962691.mp3"
+  },
+  "我们来背《竹石》。先听我读一遍吧。": {
+   "sweet": "sweet/sf1971ecba957.mp3",
+   "lively": "lively/ldd4466f6a15c.mp3"
+  },
+  "《竹石》读完啦，宝宝真棒！": {
+   "lively": "lively/l78ab41e06c7b.mp3",
+   "sweet": "sweet/sc306692f9167.mp3"
+  },
+  "石灰吟": {
+   "sweet": "sweet/sd016f63e9b51.mp3",
+   "lively": "lively/l950a2628792e.mp3"
+  },
+  "石灰吟，明代，于谦": {
+   "lively": "lively/l752486e1d784.mp3",
+   "sweet": "sweet/sa1845ab4bddd.mp3"
+  },
+  "千锤万凿出深山": {
+   "sweet": "sweet/s4ef5887871b0.mp3"
+  },
+  "烈火焚烧若等闲": {
+   "sweet": "sweet/s2b38b2164be1.mp3"
+  },
+  "粉骨碎身浑不怕": {
+   "sweet": "sweet/s52562c9bec83.mp3"
+  },
+  "要留清白在人间": {
+   "sweet": "sweet/sedcb70b208ec.mp3"
+  },
+  "宝宝，这首诗说的是：石灰被烧被砸都不怕，只要留下清白。是不是很有画面感呀？": {
+   "lively": "lively/l0d1cc3625bdd.mp3",
+   "sweet": "sweet/s59b0cfd8d943.mp3"
+  },
+  "我们来背《石灰吟》。先听我读一遍吧。": {
+   "lively": "lively/l6887ac381894.mp3",
+   "sweet": "sweet/sb36cd3b46ab7.mp3"
+  },
+  "《石灰吟》读完啦，宝宝真棒！": {
+   "lively": "lively/la7192c4f93e2.mp3",
+   "sweet": "sweet/s5342f12c9b5e.mp3"
+  },
+  "舟夜书所见": {
+   "sweet": "sweet/s655bdb6b4fb4.mp3",
+   "lively": "lively/l92666d9a3b37.mp3"
+  },
+  "舟夜书所见，清代，查慎行": {
+   "lively": "lively/ld9ec02120050.mp3",
+   "sweet": "sweet/s8e9af68e53dd.mp3"
+  },
+  "月黑见渔灯": {
+   "sweet": "sweet/sb1b9aa1ed928.mp3"
+  },
+  "孤光一点萤": {
+   "sweet": "sweet/sed73f1be7451.mp3"
+  },
+  "微微风簇浪": {
+   "sweet": "sweet/s4eacf6d87e03.mp3"
+  },
+  "散作满河星": {
+   "sweet": "sweet/s430687035cfd.mp3"
+  },
+  "宝宝，这首诗说的是：夜里渔灯像萤火虫，风一吹，河面散成满天星星。是不是很有画面感呀？": {
+   "lively": "lively/l50dbc7c33eab.mp3",
+   "sweet": "sweet/s36fc6b9c3a3b.mp3"
+  },
+  "我们来背《舟夜书所见》。先听我读一遍吧。": {
+   "sweet": "sweet/sac74272b4769.mp3",
+   "lively": "lively/l450a2ace33e9.mp3"
+  },
+  "《舟夜书所见》读完啦，宝宝真棒！": {
+   "sweet": "sweet/s0ca9be082598.mp3",
+   "lively": "lively/lb952e3412149.mp3"
+  },
+  "你好呀！我是小问号，天上地下的事我都能陪你聊。你想问点什么？": {
+   "lively": "lively/le66ffe384e76.mp3",
+   "sweet": "sweet/scaa00db2c0aa.mp3"
+  },
+  "不客气！还想知道什么，接着问我吧。": {
+   "sweet": "sweet/se1533d5b6617.mp3",
+   "lively": "lively/l98c5ad0e89e2.mp3"
+  },
+  "这个问题我还没学会耶。你换一个问问我，或者去问问爸爸妈妈、老师。": {
+   "sweet": "sweet/s6435d8ca09c4.mp3",
+   "lively": "lively/l8d2e5c61516c.mp3"
+  },
+  "我们重新开始吧。你想知道什么？": {
+   "sweet": "sweet/s4b501082c123.mp3",
+   "lively": "lively/l285b4e8743d8.mp3"
+  },
+  "我在听，你慢慢说～": {
+   "sweet": "sweet/sbb3cbcaee731.mp3",
+   "lively": "lively/l241ad70c3633.mp3"
+  },
+  "没听清，再说一遍好吗？": {
+   "sweet": "sweet/s6169f3588c44.mp3",
+   "lively": "lively/l9aaa9bc50676.mp3"
+  },
+  "手机不支持说话提问，用打字或点问题也可以哦。": {
+   "lively": "lively/la1c6a649fc37.mp3",
+   "sweet": "sweet/s1bfd11872dce.mp3"
+  },
+  "我来想想，等一下下～": {
+   "lively": "lively/ld0f54ea193aa.mp3",
+   "sweet": "sweet/s3bcce58519e9.mp3"
+  },
+  "这个问题有点难，我还没学会，我们换一个吧。": {
+   "lively": "lively/ldc64977ea30e.mp3",
+   "sweet": "sweet/seb373b3105b3.mp3"
+  },
+  "听一听，哪个字和上面的一样？": {
+   "sweet": "sweet/s1fea6368a554.mp3",
+   "lively": "lively/l8f59b22366e3.mp3"
+  },
+  "人": {
+   "sweet": "sweet/sb9c67e51d00f.mp3",
+   "lively": "lively/ld85d418b1adb.mp3"
+  },
+  "入": {
+   "sweet": "sweet/s4cc4cb71ff1d.mp3",
+   "lively": "lively/l2612fc47f4a7.mp3"
+  },
+  "八": {
+   "lively": "lively/l6f38241949de.mp3",
+   "sweet": "sweet/s1ca8d5f0dfe9.mp3"
+  },
+  "人，大人的人": {
+   "sweet": "sweet/s523f24d52df1.mp3",
+   "lively": "lively/lc75ed59ae2d7.mp3"
+  },
+  "入，进来的入": {
+   "sweet": "sweet/s7e32e40a354c.mp3",
+   "lively": "lively/lce2a777689fe.mp3"
+  },
+  "八，八个的八": {
+   "lively": "lively/lb855ff79b733.mp3",
+   "sweet": "sweet/sfa2b42c686e8.mp3"
+  },
+  "一撇一捺就是「人」": {
+   "sweet": "sweet/s503f412fdd37.mp3",
+   "lively": "lively/le830389d2241.mp3"
+  },
+  "再想想，正确答案是人，大人的人。一撇一捺就是「人」": {
+   "sweet": "sweet/s4c145229098d.mp3",
+   "lively": "lively/ld0ee051732e4.mp3"
+  },
+  "日": {
+   "sweet": "sweet/s439ee878e6b7.mp3",
+   "lively": "lively/ld07ffc745a2a.mp3"
+  },
+  "口": {
+   "lively": "lively/l74ca6582d732.mp3",
+   "sweet": "sweet/sc3cf5572c976.mp3"
+  },
+  "回": {
+   "sweet": "sweet/s5d14711556e8.mp3",
+   "lively": "lively/la4e51ec7294a.mp3"
+  },
+  "日，太阳的日": {
+   "lively": "lively/l42932415b690.mp3",
+   "sweet": "sweet/s4ac6de7ad36e.mp3"
+  },
+  "口，开口的口": {
+   "sweet": "sweet/sf5912b151ca8.mp3",
+   "lively": "lively/ld116cb01b1d2.mp3"
+  },
+  "回，回来的回": {
+   "sweet": "sweet/sedd38781cda7.mp3",
+   "lively": "lively/lb0f65c2e15a4.mp3"
+  },
+  "四四方方一张口": {
+   "sweet": "sweet/sc323a04ba637.mp3",
+   "lively": "lively/l5943e552e1ca.mp3"
+  },
+  "再想想，正确答案是口，开口的口。四四方方一张口": {
+   "lively": "lively/l78626ee64bf9.mp3",
+   "sweet": "sweet/s2530baea8052.mp3"
+  },
+  "二": {
+   "sweet": "sweet/s920e56bcb839.mp3",
+   "lively": "lively/l79f000f5fad0.mp3"
+  },
+  "一": {
+   "lively": "lively/l5cc704b114bb.mp3",
+   "sweet": "sweet/s5c0a96333503.mp3"
+  },
+  "十": {
+   "sweet": "sweet/secf1e597bc0a.mp3",
+   "lively": "lively/l77e84c234163.mp3"
+  },
+  "二，一二的二": {
+   "sweet": "sweet/s36e5c6d05443.mp3",
+   "lively": "lively/l56ff9064d14a.mp3"
+  },
+  "一，一二的一": {
+   "lively": "lively/l049f93051586.mp3",
+   "sweet": "sweet/sd322f1058032.mp3"
+  },
+  "十，十个的十": {
+   "lively": "lively/l18d1a2bc8885.mp3",
+   "sweet": "sweet/s607fcb88007a.mp3"
+  },
+  "一横就是「一」": {
+   "sweet": "sweet/s49ddfb17d645.mp3",
+   "lively": "lively/laeb8e239cfb5.mp3"
+  },
+  "再想想，正确答案是一，一二的一。一横就是「一」": {
+   "sweet": "sweet/s5d93edf82923.mp3",
+   "lively": "lively/l400d3cfa9f31.mp3"
+  },
+  "目": {
+   "sweet": "sweet/s8c554500f4a4.mp3",
+   "lively": "lively/lc26ecce45c6d.mp3"
+  },
+  "白": {
+   "sweet": "sweet/scc72bb990d4f.mp3",
+   "lively": "lively/lb49f7c3102df.mp3"
+  },
+  "目，眼睛的目": {
+   "lively": "lively/lb0a466d1ea8c.mp3",
+   "sweet": "sweet/sae390b041954.mp3"
+  },
+  "白，白色的白": {
+   "lively": "lively/lf0d7ce1e0093.mp3",
+   "sweet": "sweet/s25f4bce7356e.mp3"
+  },
+  "中间一横是「日」": {
+   "lively": "lively/l330565d2525e.mp3",
+   "sweet": "sweet/s8ae494d5a105.mp3"
+  },
+  "再想想，正确答案是日，太阳的日。中间一横是「日」": {
+   "sweet": "sweet/s8b51c62a06f8.mp3",
+   "lively": "lively/l2b8726ecf952.mp3"
+  },
+  "出": {
+   "sweet": "sweet/sadb424dd147f.mp3",
+   "lively": "lively/lfefc0cb9a7c7.mp3"
+  },
+  "山": {
+   "lively": "lively/l497a2677924f.mp3",
+   "sweet": "sweet/s63482fa11bb9.mp3"
+  },
+  "川": {
+   "lively": "lively/lb7a2044d62be.mp3",
+   "sweet": "sweet/sc1c28dcf0805.mp3"
+  },
+  "出，出去的出": {
+   "lively": "lively/l82279e87044e.mp3",
+   "sweet": "sweet/sa4cc5fd32187.mp3"
+  },
+  "山，高山的山": {
+   "sweet": "sweet/s19e97ad69a59.mp3",
+   "lively": "lively/lfe529070434c.mp3"
+  },
+  "川，山川的川": {
+   "lively": "lively/lfcff8093dd51.mp3",
+   "sweet": "sweet/s4ae80a2e90cf.mp3"
+  },
+  "三个尖尖像山峰": {
+   "sweet": "sweet/s8d04d4cba9d5.mp3",
+   "lively": "lively/la0ac88b2e3a6.mp3"
+  },
+  "再想想，正确答案是山，高山的山。三个尖尖像山峰": {
+   "sweet": "sweet/sa19453701aa0.mp3",
+   "lively": "lively/l543eb7749573.mp3"
+  },
+  "太": {
+   "lively": "lively/la1954ff495c5.mp3",
+   "sweet": "sweet/seba6b1a86808.mp3"
+  },
+  "大": {
+   "lively": "lively/l60f42ab84872.mp3",
+   "sweet": "sweet/s09258d9541fd.mp3"
+  },
+  "犬": {
+   "sweet": "sweet/sa191fb6d20da.mp3",
+   "lively": "lively/l6ff2e4dc3589.mp3"
+  },
+  "太，太阳的太": {
+   "lively": "lively/l3eefa6363f1b.mp3",
+   "sweet": "sweet/sdde646993642.mp3"
+  },
+  "大，大小的大": {
+   "lively": "lively/l4874203e866a.mp3",
+   "sweet": "sweet/s14ab2d267d71.mp3"
+  },
+  "犬，小狗的犬": {
+   "sweet": "sweet/s03cd886bb68e.mp3",
+   "lively": "lively/la162c36fa556.mp3"
+  },
+  "张开手臂就是「大」": {
+   "lively": "lively/l049f9ddd53d9.mp3",
+   "sweet": "sweet/sfe9c07d95f40.mp3"
+  },
+  "再想想，正确答案是大，大小的大。张开手臂就是「大」": {
+   "sweet": "sweet/s15339fed7f7b.mp3",
+   "lively": "lively/l0af7aa9b161d.mp3"
+  },
+  "禾": {
+   "sweet": "sweet/s0abc54a7c678.mp3",
+   "lively": "lively/l90607919518b.mp3"
+  },
+  "本": {
+   "sweet": "sweet/see144758be34.mp3",
+   "lively": "lively/l0cc47ef67baf.mp3"
+  },
+  "木": {
+   "lively": "lively/l87150c4db0bf.mp3",
+   "sweet": "sweet/s32ea0a247dab.mp3"
+  },
+  "禾，禾苗的禾": {
+   "lively": "lively/l7bcbf7f3d5fb.mp3",
+   "sweet": "sweet/s0901efd78c35.mp3"
+  },
+  "本，本子的本": {
+   "lively": "lively/l919a1ac0505f.mp3",
+   "sweet": "sweet/s85c20997ebd4.mp3"
+  },
+  "木，木头的木": {
+   "lively": "lively/l14fe1f7c26b1.mp3",
+   "sweet": "sweet/s235b5f70ab05.mp3"
+  },
+  "「木」就是一棵树": {
+   "sweet": "sweet/s7db200f828e0.mp3",
+   "lively": "lively/ld3ea09157393.mp3"
+  },
+  "再想想，正确答案是木，木头的木。「木」就是一棵树": {
+   "lively": "lively/l6e33d30317f7.mp3",
+   "sweet": "sweet/s6ebdb535b0be.mp3"
+  },
+  "下": {
+   "sweet": "sweet/sb16427a0690f.mp3",
+   "lively": "lively/lfb31234fdac0.mp3"
+  },
+  "上": {
+   "sweet": "sweet/sdd78d30141aa.mp3",
+   "lively": "lively/l91694557979f.mp3"
+  },
+  "土": {
+   "sweet": "sweet/s560cf4e06f2e.mp3",
+   "lively": "lively/lb242084d8a4d.mp3"
+  },
+  "下，下面的下": {
+   "sweet": "sweet/sce76e811468f.mp3",
+   "lively": "lively/l6fbed7fd8f3c.mp3"
+  },
+  "上，上面的上": {
+   "sweet": "sweet/s5d2669aaa0a5.mp3",
+   "lively": "lively/l363b990430fc.mp3"
+  },
+  "土，泥土的土": {
+   "sweet": "sweet/s3043b03cf9e4.mp3",
+   "lively": "lively/l808e44bd0da9.mp3"
+  },
+  "往上指就是「上」": {
+   "sweet": "sweet/sc67166da19a1.mp3",
+   "lively": "lively/ld130a98ffb3f.mp3"
+  },
+  "再想想，正确答案是上，上面的上。往上指就是「上」": {
+   "sweet": "sweet/s15ea398f0620.mp3",
+   "lively": "lively/ld5db25dfb84a.mp3"
+  },
+  "「日」指的是什么？": {
+   "sweet": "sweet/sfaafd12f1cb5.mp3",
+   "lively": "lively/lfe885868701a.mp3"
+  },
+  "月亮": {
+   "lively": "lively/l7cdb33ea9341.mp3",
+   "sweet": "sweet/sf53e6372dcb4.mp3"
+  },
+  "太阳": {
+   "lively": "lively/l036232b21b4a.mp3",
+   "sweet": "sweet/sce4853ea524d.mp3"
+  },
+  "星星": {
+   "lively": "lively/ld4bb4eb6c0f7.mp3",
+   "sweet": "sweet/sb9cb1674dee2.mp3"
+  },
+  "太阳也叫「日」": {
+   "sweet": "sweet/sffeb71532ba7.mp3",
+   "lively": "lively/l210da10dd259.mp3"
+  },
+  "再想想，正确答案是太阳。太阳也叫「日」": {
+   "sweet": "sweet/se899f08ae629.mp3",
+   "lively": "lively/lcad018648d66.mp3"
+  },
+  "「月」指的是什么？": {
+   "sweet": "sweet/s09e0d5a08027.mp3",
+   "lively": "lively/lbf0ad1de0f99.mp3"
+  },
+  "晚上挂在天上的是月亮": {
+   "sweet": "sweet/sb0be9995e5d2.mp3",
+   "lively": "lively/l3f4f2d1511d0.mp3"
+  },
+  "再想想，正确答案是月亮。晚上挂在天上的是月亮": {
+   "sweet": "sweet/se91ffcd9be34.mp3",
+   "lively": "lively/l45d59e5455c9.mp3"
+  },
+  "哪个字是「水」？": {
+   "lively": "lively/lb2095c724f21.mp3",
+   "sweet": "sweet/s05d6c52e3f17.mp3"
+  },
+  "冰": {
+   "lively": "lively/ldce6c3862a74.mp3",
+   "sweet": "sweet/s3863d4a3b2f7.mp3"
+  },
+  "水": {
+   "lively": "lively/l2c7e11598410.mp3",
+   "sweet": "sweet/s2c939f79d09b.mp3"
+  },
+  "永": {
+   "sweet": "sweet/s9204503af209.mp3",
+   "lively": "lively/ldcb1feb1c615.mp3"
+  },
+  "「水」像流动的小河": {
+   "sweet": "sweet/se0a040be8565.mp3",
+   "lively": "lively/lc97ed207c75e.mp3"
+  },
+  "再想想，正确答案是水。「水」像流动的小河": {
+   "sweet": "sweet/sdd1f9d6d916d.mp3",
+   "lively": "lively/l6fbbdea92a13.mp3"
+  },
+  "「火」常让人想到什么颜色？": {
+   "sweet": "sweet/s439470f4e20b.mp3",
+   "lively": "lively/l477c834db9d4.mp3"
+  },
+  "蓝": {
+   "sweet": "sweet/s35eacc24b5bb.mp3",
+   "lively": "lively/lbaeb145070f1.mp3"
+  },
+  "绿": {
+   "sweet": "sweet/s67d5df9cec4e.mp3",
+   "lively": "lively/ld78825b17beb.mp3"
+  },
+  "红": {
+   "sweet": "sweet/sb64481a6f936.mp3",
+   "lively": "lively/l9a6a0ee793c8.mp3"
+  },
+  "火苗是红红的": {
+   "sweet": "sweet/s92e5a90d54bb.mp3",
+   "lively": "lively/l5b83c666ed73.mp3"
+  },
+  "再想想，正确答案是红。火苗是红红的": {
+   "lively": "lively/l9348bd213254.mp3",
+   "sweet": "sweet/s6ca34805a171.mp3"
+  },
+  "「山」是什么样子的？": {
+   "sweet": "sweet/s1cffbafba0c8.mp3",
+   "lively": "lively/l725c380fb2be.mp3"
+  },
+  "高高低低": {
+   "sweet": "sweet/s510439892f65.mp3",
+   "lively": "lively/lb7aed3df34af.mp3"
+  },
+  "平平的": {
+   "lively": "lively/lb311f9af1a88.mp3",
+   "sweet": "sweet/sa2b9ba24360e.mp3"
+  },
+  "圆圆的": {
+   "sweet": "sweet/s7c327ad734d5.mp3",
+   "lively": "lively/l00f7e863b358.mp3"
+  },
+  "山有高有低": {
+   "sweet": "sweet/sa5e2dd136671.mp3",
+   "lively": "lively/l4c36f13a8f7c.mp3"
+  },
+  "再想想，正确答案是高高低低。山有高有低": {
+   "lively": "lively/laa25c078be00.mp3",
+   "sweet": "sweet/s40b1c481a364.mp3"
+  },
+  "「田」里可以种什么？": {
+   "sweet": "sweet/sa383f8101f15.mp3",
+   "lively": "lively/l8800084ff074.mp3"
+  },
+  "小鱼": {
+   "lively": "lively/l74cf1f3f95d0.mp3",
+   "sweet": "sweet/saafb700e6fbd.mp3"
+  },
+  "庄稼": {
+   "lively": "lively/l8e20b967bffc.mp3",
+   "sweet": "sweet/sea2e12992f4f.mp3"
+  },
+  "田里种稻子、种菜": {
+   "sweet": "sweet/sc8b93b54a5b5.mp3",
+   "lively": "lively/lbe075cc09277.mp3"
+  },
+  "再想想，正确答案是庄稼。田里种稻子、种菜": {
+   "lively": "lively/l85df2ea831ae.mp3",
+   "sweet": "sweet/sf31d35386646.mp3"
+  },
+  "「云」在什么地方？": {
+   "sweet": "sweet/s71dc03d65040.mp3",
+   "lively": "lively/l24b9c11e0043.mp3"
+  },
+  "天上": {
+   "sweet": "sweet/s08c3f762f2e7.mp3",
+   "lively": "lively/le43eb34e0940.mp3"
+  },
+  "地下": {
+   "lively": "lively/lac130136857b.mp3",
+   "sweet": "sweet/s55e1e4a271a8.mp3"
+  },
+  "水里": {
+   "sweet": "sweet/s16deab041148.mp3",
+   "lively": "lively/l2c78a7f65bb1.mp3"
+  },
+  "云飘在天上": {
+   "lively": "lively/l400d1ea1dcdb.mp3",
+   "sweet": "sweet/sb087f0f63cad.mp3"
+  },
+  "再想想，正确答案是天上。云飘在天上": {
+   "lively": "lively/l0ba4f405c2ac.mp3",
+   "sweet": "sweet/sc6092a8cfabf.mp3"
+  },
+  "「鱼」生活在哪里？": {
+   "lively": "lively/l4558da45546e.mp3",
+   "sweet": "sweet/s36ec1aa1a250.mp3"
+  },
+  "树上": {
+   "lively": "lively/l96ea6f316282.mp3",
+   "sweet": "sweet/s2727c90f9082.mp3"
+  },
+  "鱼用鳃在水里呼吸": {
+   "sweet": "sweet/sc5613d7be43f.mp3",
+   "lively": "lively/la91970a7df22.mp3"
+  },
+  "再想想，正确答案是水里。鱼用鳃在水里呼吸": {
+   "sweet": "sweet/scafaf3680072.mp3",
+   "lively": "lively/l57d683eef590.mp3"
+  },
+  "「白」和哪个字能组成词语？": {
+   "lively": "lively/l78e16c3f2141.mp3",
+   "sweet": "sweet/s613754d91ca6.mp3"
+  },
+  "云": {
+   "sweet": "sweet/s0b71d85cec76.mp3",
+   "lively": "lively/l1f9e4f31ba1b.mp3"
+  },
+  "火": {
+   "sweet": "sweet/sd624f0291fbd.mp3",
+   "lively": "lively/lae6762592968.mp3"
+  },
+  "白云": {
+   "sweet": "sweet/s67c6f4b350be.mp3",
+   "lively": "lively/l2e0eb5f60930.mp3"
+  },
+  "再想想，正确答案是云。白云": {
+   "sweet": "sweet/s83ed30139667.mp3",
+   "lively": "lively/l8143e0782d06.mp3"
+  },
+  "「小」和哪个字能组成词语？": {
+   "sweet": "sweet/s4335c539fa05.mp3",
+   "lively": "lively/l791b4ca0f657.mp3"
+  },
+  "鸟": {
+   "sweet": "sweet/s4fb2aeaa5af4.mp3",
+   "lively": "lively/l5347dafdbdca.mp3"
+  },
+  "小鸟": {
+   "sweet": "sweet/s2f26edf559f7.mp3",
+   "lively": "lively/l28cb0cd7e863.mp3"
+  },
+  "再想想，正确答案是鸟。小鸟": {
+   "lively": "lively/l2694d9b9d6ff.mp3",
+   "sweet": "sweet/s67cc153bf47b.mp3"
+  },
+  "「太」和哪个字能组成词语？": {
+   "sweet": "sweet/sd70d39c4535b.mp3",
+   "lively": "lively/l7a778e9d3725.mp3"
+  },
+  "月": {
+   "sweet": "sweet/s58af0b6c64fc.mp3",
+   "lively": "lively/l7667696c760b.mp3"
+  },
+  "阳": {
+   "sweet": "sweet/s4cc8643da9c1.mp3",
+   "lively": "lively/lfbb9b3c209dc.mp3"
+  },
+  "再想想，正确答案是阳。太阳": {
+   "sweet": "sweet/s2b74bbe9677e.mp3",
+   "lively": "lively/l58a16b3c99ae.mp3"
+  },
+  "「月」和哪个字能组成词语？": {
+   "lively": "lively/l74b93e643c50.mp3",
+   "sweet": "sweet/saba18cd41d1e.mp3"
+  },
+  "亮": {
+   "sweet": "sweet/s6bef9efe01a9.mp3",
+   "lively": "lively/l6fa17e397fc9.mp3"
+  },
+  "再想想，正确答案是亮。月亮": {
+   "sweet": "sweet/scf7a54149c40.mp3",
+   "lively": "lively/le958868b4b77.mp3"
+  },
+  "「花」和哪个字能组成词语？": {
+   "lively": "lively/l30acbb42e0da.mp3",
+   "sweet": "sweet/sb051d8a5c092.mp3"
+  },
+  "朵": {
+   "sweet": "sweet/s7bf505410951.mp3",
+   "lively": "lively/lab94207b6176.mp3"
+  },
+  "花朵": {
+   "lively": "lively/l30161bf9f0bf.mp3",
+   "sweet": "sweet/sc1baef2ff241.mp3"
+  },
+  "再想想，正确答案是朵。花朵": {
+   "lively": "lively/l431d19dffae7.mp3",
+   "sweet": "sweet/s1e551d6100af.mp3"
+  },
+  "「读」和哪个字能组成词语？": {
+   "lively": "lively/le394357a2aa8.mp3",
+   "sweet": "sweet/s4dd59d1d73eb.mp3"
+  },
+  "饭": {
+   "sweet": "sweet/s19d2afc0a3c1.mp3",
+   "lively": "lively/l30741bbdaa35.mp3"
+  },
+  "书": {
+   "sweet": "sweet/sfb5ff93e4875.mp3",
+   "lively": "lively/lba9cced677a8.mp3"
+  },
+  "车": {
+   "lively": "lively/lef982425235d.mp3",
+   "sweet": "sweet/s4fe23bb238f8.mp3"
+  },
+  "读书": {
+   "lively": "lively/l5fc06a7b2a1f.mp3",
+   "sweet": "sweet/scf17d33472e7.mp3"
+  },
+  "再想想，正确答案是书。读书": {
+   "sweet": "sweet/s5d004563ae54.mp3",
+   "lively": "lively/lfe27b8d53252.mp3"
+  },
+  "「老」和哪个字能组成一种动物？": {
+   "sweet": "sweet/sa7fd5c0880c4.mp3",
+   "lively": "lively/lc10a63fea2fb.mp3"
+  },
+  "虎": {
+   "sweet": "sweet/sbc1a507e3a81.mp3",
+   "lively": "lively/ld40218b3468e.mp3"
+  },
+  "鱼": {
+   "lively": "lively/l1093b9284955.mp3",
+   "sweet": "sweet/s5003c83c1790.mp3"
+  },
+  "老虎": {
+   "lively": "lively/l632bdd47abe0.mp3",
+   "sweet": "sweet/se99b82348b5f.mp3"
+  },
+  "再想想，正确答案是虎。老虎": {
+   "sweet": "sweet/s9e2429811f98.mp3",
+   "lively": "lively/lec2168c5d186.mp3"
+  },
+  "「火」和哪个字能组成会跑的东西？": {
+   "lively": "lively/le4db57d93b39.mp3",
+   "sweet": "sweet/s6e2a0c589f30.mp3"
+  },
+  "田": {
+   "sweet": "sweet/s299db70db87a.mp3",
+   "lively": "lively/l08e0c4ad697d.mp3"
+  },
+  "火车": {
+   "sweet": "sweet/se20c56a7a663.mp3",
+   "lively": "lively/l00d4ae87e13c.mp3"
+  },
+  "再想想，正确答案是车。火车": {
+   "sweet": "sweet/sb677c506cd56.mp3",
+   "lively": "lively/lfe624aa0e340.mp3"
+  },
+  "「大」的反义词是？": {
+   "lively": "lively/lefdae3582d6f.mp3",
+   "sweet": "sweet/s6e9edb3f36e2.mp3"
+  },
+  "小": {
+   "sweet": "sweet/s4bf1d41db378.mp3",
+   "lively": "lively/l95aeb10c74d8.mp3"
+  },
+  "多": {
+   "sweet": "sweet/s12cd9ebc6f05.mp3",
+   "lively": "lively/l740c6bd79c13.mp3"
+  },
+  "大和小": {
+   "lively": "lively/la15f09518e9a.mp3",
+   "sweet": "sweet/s2cbb21a9da17.mp3"
+  },
+  "再想想，正确答案是小。大和小": {
+   "sweet": "sweet/s8e5f62e4b44d.mp3",
+   "lively": "lively/le2699ceee7ba.mp3"
+  },
+  "「上」的反义词是？": {
+   "sweet": "sweet/s40e12866611c.mp3",
+   "lively": "lively/l2191f2fff888.mp3"
+  },
+  "左": {
+   "lively": "lively/l1074d2d7376c.mp3",
+   "sweet": "sweet/s030908782f26.mp3"
+  },
+  "高": {
+   "sweet": "sweet/s35ffcee792e4.mp3",
+   "lively": "lively/l4fd7eca007de.mp3"
+  },
+  "上和下": {
+   "sweet": "sweet/s7213d667ecff.mp3",
+   "lively": "lively/l6eefaa31583e.mp3"
+  },
+  "再想想，正确答案是下。上和下": {
+   "lively": "lively/lf0c1d38eba77.mp3",
+   "sweet": "sweet/secd3e1001648.mp3"
+  },
+  "「多」的反义词是？": {
+   "lively": "lively/l992bc9075341.mp3",
+   "sweet": "sweet/sfe63c730848f.mp3"
+  },
+  "长": {
+   "sweet": "sweet/s6c367c5f13b2.mp3",
+   "lively": "lively/l165263d0b4b6.mp3"
+  },
+  "少": {
+   "lively": "lively/ldbeb96365c02.mp3",
+   "sweet": "sweet/s6ccc7f74adcc.mp3"
+  },
+  "多和少": {
+   "sweet": "sweet/se74ae28d35c1.mp3",
+   "lively": "lively/l418c38d39582.mp3"
+  },
+  "再想想，正确答案是少。多和少": {
+   "lively": "lively/l06266e37c833.mp3",
+   "sweet": "sweet/s2064eab71349.mp3"
+  },
+  "「白天」的反义词是？": {
+   "lively": "lively/lb0b6e44a2712.mp3",
+   "sweet": "sweet/s4a5365f7a4ff.mp3"
+  },
+  "早上": {
+   "lively": "lively/l4922c88db651.mp3",
+   "sweet": "sweet/s70e57d98871a.mp3"
+  },
+  "晚上": {
+   "sweet": "sweet/s0d79b70c785e.mp3",
+   "lively": "lively/l0096dc86ced3.mp3"
+  },
+  "中午": {
+   "lively": "lively/l0901ea5260bf.mp3",
+   "sweet": "sweet/s93a253225304.mp3"
+  },
+  "白天和晚上": {
+   "sweet": "sweet/s0ff2da988328.mp3",
+   "lively": "lively/l743ae1fa70fd.mp3"
+  },
+  "再想想，正确答案是晚上。白天和晚上": {
+   "sweet": "sweet/s4846b21f8823.mp3",
+   "lively": "lively/lac5f69103c98.mp3"
+  },
+  "「来」的反义词是？": {
+   "lively": "lively/l49410d6c13cb.mp3",
+   "sweet": "sweet/sc903150fa6d5.mp3"
+  },
+  "走": {
+   "sweet": "sweet/sf6e604953f20.mp3",
+   "lively": "lively/l853a8135b159.mp3"
+  },
+  "去": {
+   "lively": "lively/l831efc006ac4.mp3",
+   "sweet": "sweet/s77505e631a21.mp3"
+  },
+  "跑": {
+   "sweet": "sweet/s6b9fb4e93d3c.mp3",
+   "lively": "lively/led2053b8000d.mp3"
+  },
+  "来和去": {
+   "lively": "lively/l92273b0a8810.mp3",
+   "sweet": "sweet/s9b9ddcdf4f9b.mp3"
+  },
+  "再想想，正确答案是去。来和去": {
+   "lively": "lively/lfbf8a8d43cdc.mp3",
+   "sweet": "sweet/s48e5b8e02458.mp3"
+  },
+  "「高」的反义词是？": {
+   "lively": "lively/l632ba0caba6f.mp3",
+   "sweet": "sweet/s030b586a1316.mp3"
+  },
+  "矮": {
+   "lively": "lively/lfc65df3c8e81.mp3",
+   "sweet": "sweet/sff6bdf832d56.mp3"
+  },
+  "胖": {
+   "lively": "lively/lff450174d786.mp3",
+   "sweet": "sweet/sb82709d38385.mp3"
+  },
+  "快": {
+   "sweet": "sweet/s9e8fe53fad6c.mp3",
+   "lively": "lively/l14481e5f2350.mp3"
+  },
+  "高和矮": {
+   "sweet": "sweet/s33d0b1bf3a2b.mp3",
+   "lively": "lively/l5b08b2778627.mp3"
+  },
+  "再想想，正确答案是矮。高和矮": {
+   "sweet": "sweet/s7d40cda7e07f.mp3",
+   "lively": "lively/l77bdbeb4ba97.mp3"
+  },
+  "「冷」的反义词是？": {
+   "sweet": "sweet/s57dc2c511de9.mp3",
+   "lively": "lively/lcd344af0d432.mp3"
+  },
+  "凉": {
+   "sweet": "sweet/sf73c7118c49b.mp3",
+   "lively": "lively/lba30e775c237.mp3"
+  },
+  "热": {
+   "sweet": "sweet/s9f366850a438.mp3",
+   "lively": "lively/l86dc0fa7fc15.mp3"
+  },
+  "冷和热": {
+   "sweet": "sweet/s556eb07ffdc1.mp3",
+   "lively": "lively/lea475c1b833b.mp3"
+  },
+  "再想想，正确答案是热。冷和热": {
+   "sweet": "sweet/s1bbe366a7cc9.mp3",
+   "lively": "lively/l304d301a69c6.mp3"
+  },
+  "「笑」的反义词是？": {
+   "lively": "lively/l5e79405c548c.mp3",
+   "sweet": "sweet/s291a62f7565c.mp3"
+  },
+  "闹": {
+   "sweet": "sweet/s9f7698c2ee12.mp3",
+   "lively": "lively/ld6d01bd1d27e.mp3"
+  },
+  "哭": {
+   "sweet": "sweet/sd4211244d6f7.mp3",
+   "lively": "lively/l5797b13caeec.mp3"
+  },
+  "叫": {
+   "sweet": "sweet/s3197a44be499.mp3",
+   "lively": "lively/l5c0f9f8cd8b4.mp3"
+  },
+  "笑和哭": {
+   "lively": "lively/l371fbdd0c53d.mp3",
+   "sweet": "sweet/sb92331e44f72.mp3"
+  },
+  "再想想，正确答案是哭。笑和哭": {
+   "sweet": "sweet/sba0d8cbcd976.mp3",
+   "lively": "lively/le48203db61a5.mp3"
+  },
+  "小鸟在天上___。": {
+   "sweet": "sweet/se302c58fe3e3.mp3",
+   "lively": "lively/l4d46716e8987.mp3"
+  },
+  "飞": {
+   "lively": "lively/l20018c7e5a94.mp3",
+   "sweet": "sweet/s92fec849a932.mp3"
+  },
+  "游": {
+   "sweet": "sweet/s0e35bc1fdb7d.mp3",
+   "lively": "lively/l54566e007793.mp3"
+  },
+  "小鸟会飞": {
+   "lively": "lively/l6b721699bdb1.mp3",
+   "sweet": "sweet/s99a6b92ee89b.mp3"
+  },
+  "再想想，正确答案是飞。小鸟会飞": {
+   "sweet": "sweet/s102dd75b81a7.mp3",
+   "lively": "lively/l39eb0f93002c.mp3"
+  },
+  "小鱼在水里___。": {
+   "sweet": "sweet/sfaacbcc2b4e1.mp3",
+   "lively": "lively/l9738f6e36110.mp3"
+  },
+  "小鱼会游": {
+   "sweet": "sweet/s2feec0ab16a5.mp3",
+   "lively": "lively/la832e8ac4567.mp3"
+  },
+  "再想想，正确答案是游。小鱼会游": {
+   "sweet": "sweet/sb7760b428db4.mp3",
+   "lively": "lively/l362c440f3da5.mp3"
+  },
+  "我用手___字。": {
+   "lively": "lively/l412b60ea4fc7.mp3",
+   "sweet": "sweet/seb762be6344f.mp3"
+  },
+  "吃": {
+   "sweet": "sweet/s398e46483ae8.mp3",
+   "lively": "lively/l0137cbb8f824.mp3"
+  },
+  "写": {
+   "lively": "lively/l01c64ef134cd.mp3",
+   "sweet": "sweet/sef73879f3458.mp3"
+  },
+  "听": {
+   "lively": "lively/le8e21c76a16a.mp3",
+   "sweet": "sweet/s9ef90d3974ce.mp3"
+  },
+  "用手写字": {
+   "sweet": "sweet/s3c3f518aa71f.mp3",
+   "lively": "lively/l243017a84c56.mp3"
+  },
+  "再想想，正确答案是写。用手写字": {
+   "sweet": "sweet/se02311e8b855.mp3",
+   "lively": "lively/l30d997c7946a.mp3"
+  },
+  "太阳从东边___起。": {
+   "lively": "lively/la2a8c03cbd19.mp3",
+   "sweet": "sweet/sea63e31d03c5.mp3"
+  },
+  "落": {
+   "sweet": "sweet/s580a39340034.mp3",
+   "lively": "lively/l403b9a2173ff.mp3"
+  },
+  "升": {
+   "lively": "lively/ld75e9eccc1c5.mp3",
+   "sweet": "sweet/sc3a8047c262c.mp3"
+  },
+  "太阳升起": {
+   "lively": "lively/l7d4bfde449ae.mp3",
+   "sweet": "sweet/s94f687afa152.mp3"
+  },
+  "再想想，正确答案是升。太阳升起": {
+   "lively": "lively/l5a65eebc15ec.mp3",
+   "sweet": "sweet/s66ee08363d9e.mp3"
+  },
+  "春天来了，花儿___了。": {
+   "lively": "lively/l77f7c19f556c.mp3",
+   "sweet": "sweet/s5c16ffe944fb.mp3"
+  },
+  "关": {
+   "sweet": "sweet/s734a7f800795.mp3",
+   "lively": "lively/l5a0f5ce2f292.mp3"
+  },
+  "开": {
+   "sweet": "sweet/sba61059acbcc.mp3",
+   "lively": "lively/ld372e5482d14.mp3"
+  },
+  "睡": {
+   "sweet": "sweet/sc0a73eed9cb6.mp3",
+   "lively": "lively/l2ff6901f05a1.mp3"
+  },
+  "花儿开了": {
+   "sweet": "sweet/s07a39b6a9ef8.mp3",
+   "lively": "lively/le960ef3f0713.mp3"
+  },
+  "再想想，正确答案是开。花儿开了": {
+   "lively": "lively/l0446cc3f21a1.mp3",
+   "sweet": "sweet/s42b1924d1640.mp3"
+  },
+  "哥哥比我___一岁。": {
+   "lively": "lively/l92e027b72263.mp3",
+   "sweet": "sweet/s8c5853280d24.mp3"
+  },
+  "哥哥年纪更大": {
+   "sweet": "sweet/s57921e70f799.mp3",
+   "lively": "lively/lda83dbf06372.mp3"
+  },
+  "再想想，正确答案是大。哥哥年纪更大": {
+   "lively": "lively/l6a1dad649973.mp3",
+   "sweet": "sweet/sf2f4869d9a98.mp3"
+  },
+  "晚上要___觉了。": {
+   "sweet": "sweet/s61e6e9554bb2.mp3",
+   "lively": "lively/l2d962ab1c029.mp3"
+  },
+  "睡觉": {
+   "sweet": "sweet/s19d163fdd0c9.mp3",
+   "lively": "lively/lf117a902d090.mp3"
+  },
+  "再想想，正确答案是睡。睡觉": {
+   "sweet": "sweet/s256b74aa5d42.mp3",
+   "lively": "lively/lefc4955f3c9d.mp3"
+  },
+  "读书时要___心。": {
+   "lively": "lively/l3dd6ba36bc08.mp3",
+   "sweet": "sweet/s054ff8d1a095.mp3"
+  },
+  "分": {
+   "sweet": "sweet/sb0b89466864c.mp3",
+   "lively": "lively/lb27e13c4c796.mp3"
+  },
+  "专": {
+   "sweet": "sweet/s11cd78fef5d4.mp3",
+   "lively": "lively/lf006e1a4e17c.mp3"
+  },
+  "专心": {
+   "sweet": "sweet/sa7803ba07ab3.mp3",
+   "lively": "lively/l783a163ea708.mp3"
+  },
+  "再想想，正确答案是专。专心": {
+   "lively": "lively/l0133e2f7bf9b.mp3",
+   "sweet": "sweet/s69f8b94c5b44.mp3"
+  },
+  "听一听，哪个是啊？啊，张大嘴巴，啊。": {
+   "sweet": "sweet/s5f92b61dc014.mp3",
+   "lively": "lively/l097b24778abc.mp3"
+  },
+  "a": {
+   "sweet": "sweet/s875c2040f991.mp3",
+   "lively": "lively/lc8dbd9c5cf93.mp3"
+  },
+  "o": {
+   "lively": "lively/l8e319c2a51de.mp3",
+   "sweet": "sweet/sc46545c939ae.mp3"
+  },
+  "e": {
+   "lively": "lively/l017918e069ca.mp3",
+   "sweet": "sweet/sb25bf8b855f6.mp3"
+  },
+  "啊": {
+   "lively": "lively/lfc649c4bfd48.mp3",
+   "sweet": "sweet/sdb4c8ac91acf.mp3"
+  },
+  "喔": {
+   "lively": "lively/lafec96e54f53.mp3",
+   "sweet": "sweet/sfca4ceab8dcd.mp3"
+  },
+  "鹅": {
+   "sweet": "sweet/s8cc9b1cf4c8b.mp3",
+   "lively": "lively/lf9407a84fe56.mp3"
+  },
+  "张大嘴巴 a a a": {
+   "sweet": "sweet/sa65d5e752fdc.mp3",
+   "lively": "lively/lcd0b6b1cbdfb.mp3"
+  },
+  "再想想，正确答案是啊。张大嘴巴 a a a": {
+   "lively": "lively/lb4fd88acdb25.mp3",
+   "sweet": "sweet/s7c31a9699a2a.mp3"
+  },
+  "听一听，哪个是喔？喔，公鸡喔喔叫。": {
+   "sweet": "sweet/sb5755dd1c56b.mp3",
+   "lively": "lively/l8a968bf9563c.mp3"
+  },
+  "圆圆嘴巴 o o o": {
+   "sweet": "sweet/sec16df999f81.mp3",
+   "lively": "lively/l5b9e7fa92727.mp3"
+  },
+  "再想想，正确答案是喔。圆圆嘴巴 o o o": {
+   "lively": "lively/la94c93625f4a.mp3",
+   "sweet": "sweet/s1b739c545276.mp3"
+  },
+  "听一听，哪个是鹅？鹅，大白鹅的鹅。": {
+   "sweet": "sweet/sa628055481d0.mp3",
+   "lively": "lively/l5883b70c16ed.mp3"
+  },
+  "扁扁嘴巴 e e e": {
+   "sweet": "sweet/sbded54a48728.mp3",
+   "lively": "lively/lbc00f683414a.mp3"
+  },
+  "再想想，正确答案是鹅。扁扁嘴巴 e e e": {
+   "lively": "lively/lf9a4cd9a29ef.mp3",
+   "sweet": "sweet/s30992e89e220.mp3"
+  },
+  "嘴巴张得最大的是哪个？": {
+   "lively": "lively/l561126cc0d42.mp3",
+   "sweet": "sweet/s677aec0f6f26.mp3"
+  },
+  "公鸡喔喔叫，是哪个？": {
+   "lively": "lively/le4d2ececf1aa.mp3",
+   "sweet": "sweet/s4e26ecaee61c.mp3"
+  },
+  "u": {
+   "sweet": "sweet/sfe7a859d4d90.mp3",
+   "lively": "lively/l12708336051b.mp3"
+  },
+  "乌": {
+   "sweet": "sweet/sb0d4c1c93fb7.mp3",
+   "lively": "lively/l24ea19dea476.mp3"
+  },
+  "大白鹅的鹅，是哪个？": {
+   "sweet": "sweet/s7b7c3aa836d9.mp3",
+   "lively": "lively/lf386dcd65686.mp3"
+  },
+  "阿姨的阿，是哪个？": {
+   "sweet": "sweet/sb24c5cf8d715.mp3",
+   "lively": "lively/l6122fd4590f4.mp3"
+  },
+  "a 是第一个单韵母": {
+   "lively": "lively/l5cdc7defcb46.mp3",
+   "sweet": "sweet/s2679386ab06c.mp3"
+  },
+  "再想想，正确答案是啊。a 是第一个单韵母": {
+   "sweet": "sweet/s7f44986db84a.mp3",
+   "lively": "lively/l75afa2460b9d.mp3"
+  },
+  "圆圆嘴巴，是哪个？": {
+   "sweet": "sweet/s4d1b7c4e04ac.mp3",
+   "lively": "lively/lf2533e899bd3.mp3"
+  },
+  "扁扁嘴巴，是哪个？": {
+   "sweet": "sweet/sfe921bb4f217.mp3",
+   "lively": "lively/lfc63b8a0cdf1.mp3"
+  },
+  "张大嘴巴，啊啊啊，是哪个？": {
+   "sweet": "sweet/s9249855fa4d7.mp3",
+   "lively": "lively/lf9e640b5730a.mp3"
+  },
+  "i": {
+   "sweet": "sweet/sf0a1ea7172bb.mp3",
+   "lively": "lively/lb9581303a46a.mp3"
+  },
+  "衣": {
+   "sweet": "sweet/sb3275d039cc6.mp3",
+   "lively": "lively/l3d57bfb5f3e2.mp3"
+  },
+  "照着口诀做口型就记住啦": {
+   "sweet": "sweet/s6368a1244706.mp3",
+   "lively": "lively/l73c8ecfb200e.mp3"
+  },
+  "再想想，正确答案是啊。照着口诀做口型就记住啦": {
+   "sweet": "sweet/sbb3122474f57.mp3",
+   "lively": "lively/l5b89d090a47a.mp3"
+  },
+  "听一听，哪个是啊？啊，阿姨的阿。": {
+   "sweet": "sweet/s75299c6a77c2.mp3",
+   "lively": "lively/lda361cc806bb.mp3"
+  },
+  "听不准就点喇叭再听一遍": {
+   "sweet": "sweet/s921f66e4d408.mp3",
+   "lively": "lively/ld4fed2a193a9.mp3"
+  },
+  "再想想，正确答案是啊。听不准就点喇叭再听一遍": {
+   "sweet": "sweet/s61a0954661ca.mp3",
+   "lively": "lively/lff5dba2288b1.mp3"
+  },
+  "哪个嘴巴要拢成圆圈？": {
+   "sweet": "sweet/s53661f10ba56.mp3",
+   "lively": "lively/l212643eb7983.mp3"
+  },
+  "嘴唇拢成小圆圈就是 o": {
+   "lively": "lively/l0899a6b30ab2.mp3",
+   "sweet": "sweet/s346d8d795fb7.mp3"
+  },
+  "再想想，正确答案是喔。嘴唇拢成小圆圈就是 o": {
+   "lively": "lively/lf5679d2e6883.mp3",
+   "sweet": "sweet/s14dffd0dea6a.mp3"
+  },
+  "衣服的衣，是哪个？": {
+   "sweet": "sweet/s72b146398748.mp3",
+   "lively": "lively/l4f67e543f143.mp3"
+  },
+  "牙齿对齐 i i i": {
+   "sweet": "sweet/se4dbd658b760.mp3",
+   "lively": "lively/l2be3ea22e394.mp3"
+  },
+  "再想想，正确答案是衣。牙齿对齐 i i i": {
+   "sweet": "sweet/sa57216711b61.mp3",
+   "lively": "lively/lb221d587ac6c.mp3"
+  },
+  "乌鸦的乌，是哪个？": {
+   "lively": "lively/l98411db3c03b.mp3",
+   "sweet": "sweet/s7982d0fcc067.mp3"
+  },
+  "嘴巴突出 u u u": {
+   "sweet": "sweet/sd4b641a8720d.mp3",
+   "lively": "lively/l971b4e86ca08.mp3"
+  },
+  "再想想，正确答案是乌。嘴巴突出 u u u": {
+   "sweet": "sweet/s0ea3277fb5b7.mp3",
+   "lively": "lively/l6a40c24568a1.mp3"
+  },
+  "小鱼吐泡，鱼鱼鱼，是哪个？": {
+   "sweet": "sweet/sf1e930c97a03.mp3",
+   "lively": "lively/l10a9703709f1.mp3"
+  },
+  "两点就是小鱼吐的两个泡泡": {
+   "sweet": "sweet/s4a5227e82525.mp3",
+   "lively": "lively/lc7df7afffbba.mp3"
+  },
+  "再想想，正确答案是鱼。两点就是小鱼吐的两个泡泡": {
+   "sweet": "sweet/sac6a71f06c33.mp3",
+   "lively": "lively/l7cc26554b990.mp3"
+  },
+  "哪个字母头上有两点？": {
+   "sweet": "sweet/s3c1d78fb4398.mp3",
+   "lively": "lively/lf859dbbf7189.mp3"
+  },
+  "ü 的两点千万别丢": {
+   "sweet": "sweet/s83c8f4551bb5.mp3",
+   "lively": "lively/l753907b562db.mp3"
+  },
+  "再想想，正确答案是鱼。ü 的两点千万别丢": {
+   "sweet": "sweet/s4236d31b56f3.mp3",
+   "lively": "lively/l3882b8c4b57e.mp3"
+  },
+  "牙齿对齐，是哪个？": {
+   "sweet": "sweet/se83e0ad2f25c.mp3",
+   "lively": "lively/lcea1ef6be7da.mp3"
+  },
+  "嘴巴撅起来留个小孔，是哪个？": {
+   "sweet": "sweet/se197efc16f89.mp3",
+   "lively": "lively/l3105325d0439.mp3"
+  },
+  "哪个是鱼的韵母？": {
+   "sweet": "sweet/s10843d46a82e.mp3",
+   "lively": "lively/l0d0fd9bb6f68.mp3"
+  },
+  "小鱼吐泡 ü ü ü": {
+   "sweet": "sweet/sb311a13f35d0.mp3",
+   "lively": "lively/leea1583dafce.mp3"
+  },
+  "再想想，正确答案是鱼。小鱼吐泡 ü ü ü": {
+   "lively": "lively/le90e6c2a3245.mp3",
+   "sweet": "sweet/sa3ad17df0543.mp3"
+  },
+  "听一听，哪个是衣？衣，衣服的衣。": {
+   "sweet": "sweet/s68cb0412c23a.mp3",
+   "lively": "lively/ldbdc7f244e78.mp3"
+  },
+  "圆圆嘴巴的是哪个？": {
+   "sweet": "sweet/s862ba3472bed.mp3",
+   "lively": "lively/l101096e1986a.mp3"
+  },
+  "扁扁嘴巴的是哪个？": {
+   "sweet": "sweet/s874504810fd7.mp3",
+   "lively": "lively/l08f15bbaf970.mp3"
+  },
+  "嘴巴突出的是哪个？": {
+   "sweet": "sweet/s9a7c133488be.mp3",
+   "lively": "lively/ld66926d8d1d6.mp3"
+  },
+  "张大嘴巴的是哪个？": {
+   "sweet": "sweet/s5923e72be676.mp3",
+   "lively": "lively/l3babed196af6.mp3"
+  },
+  "一声平又平，是哪个？": {
+   "sweet": "sweet/s4ed905746da1.mp3",
+   "lively": "lively/l4b368e9e5cd7.mp3"
+  },
+  "ā": {
+   "sweet": "sweet/s593b78ef6d6a.mp3",
+   "lively": "lively/l2b75bef36f1b.mp3"
+  },
+  "á": {
+   "sweet": "sweet/sc08b0b4c9918.mp3",
+   "lively": "lively/lb70a8bb7c3a3.mp3"
+  },
+  "ǎ": {
+   "sweet": "sweet/s459a81007cce.mp3",
+   "lively": "lively/l5b437cad94a3.mp3"
+  },
+  "妈": {
+   "sweet": "sweet/s014ce28bab6a.mp3",
+   "lively": "lively/lb123da6f2c00.mp3"
+  },
+  "麻": {
+   "sweet": "sweet/s6d109447aec1.mp3",
+   "lively": "lively/l7b22494d58d3.mp3"
+  },
+  "马": {
+   "sweet": "sweet/s317eaa3a1b0c.mp3",
+   "lively": "lively/l3d88397e4f5c.mp3"
+  },
+  "一声像小车走平路": {
+   "sweet": "sweet/s1d63dd98fec2.mp3",
+   "lively": "lively/lb88543ea8de5.mp3"
+  },
+  "再想想，正确答案是妈。一声像小车走平路": {
+   "lively": "lively/l28e1af129733.mp3",
+   "sweet": "sweet/s983fd9ef35de.mp3"
+  },
+  "二声往上扬，是哪个？": {
+   "lively": "lively/lf3c479b547fd.mp3",
+   "sweet": "sweet/s54a569bdd0eb.mp3"
+  },
+  "à": {
+   "lively": "lively/l2ca4e1453e5e.mp3",
+   "sweet": "sweet/s1c83d303ab50.mp3"
+  },
+  "骂": {
+   "lively": "lively/lfd47e3dbfb62.mp3",
+   "sweet": "sweet/sda25b77f073e.mp3"
+  },
+  "二声像爬山，声音往上问": {
+   "sweet": "sweet/sb3eb49efb6af.mp3",
+   "lively": "lively/l9b56c965a298.mp3"
+  },
+  "再想想，正确答案是麻。二声像爬山，声音往上问": {
+   "sweet": "sweet/s72955e8d6aa5.mp3",
+   "lively": "lively/laf7fd3145808.mp3"
+  },
+  "三声拐个弯，是哪个？": {
+   "sweet": "sweet/s1c748fb0be0f.mp3",
+   "lively": "lively/l00a91bce2afb.mp3"
+  },
+  "三声先下去再上来": {
+   "sweet": "sweet/saa9ca52ee94a.mp3",
+   "lively": "lively/ld41eba6696bc.mp3"
+  },
+  "再想想，正确答案是马。三声先下去再上来": {
+   "sweet": "sweet/s3708f0d63593.mp3",
+   "lively": "lively/lf7048832fe86.mp3"
+  },
+  "四声往下降，是哪个？": {
+   "sweet": "sweet/s4fcad709823c.mp3",
+   "lively": "lively/l4b014ee5d762.mp3"
+  },
+  "四声像坐滑梯溜下来": {
+   "lively": "lively/la629068ef0e5.mp3",
+   "sweet": "sweet/s8ddfbada8d30.mp3"
+  },
+  "再想想，正确答案是骂。四声像坐滑梯溜下来": {
+   "sweet": "sweet/sb6fca58d762a.mp3",
+   "lively": "lively/lb8fa13300458.mp3"
+  },
+  "妈妈的妈，是哪个？": {
+   "sweet": "sweet/sf593b4838228.mp3",
+   "lively": "lively/lf75458b8968c.mp3"
+  },
+  "mā": {
+   "sweet": "sweet/s2ce483b32436.mp3",
+   "lively": "lively/l8a91397bb288.mp3"
+  },
+  "má": {
+   "sweet": "sweet/sfe598a151ae6.mp3",
+   "lively": "lively/l4db045124574.mp3"
+  },
+  "mǎ": {
+   "sweet": "sweet/s36fdb91095b9.mp3",
+   "lively": "lively/l0cf94092f41f.mp3"
+  },
+  "妈是第一声，平平的": {
+   "sweet": "sweet/s917551e33dc2.mp3",
+   "lively": "lively/l1baba06c6c33.mp3"
+  },
+  "再想想，正确答案是妈。妈是第一声，平平的": {
+   "lively": "lively/l19f624c4e116.mp3",
+   "sweet": "sweet/s384582765ff6.mp3"
+  },
+  "小马的马，是哪个？": {
+   "sweet": "sweet/saca8457e1f67.mp3",
+   "lively": "lively/ld1ab6c2f60ba.mp3"
+  },
+  "mà": {
+   "lively": "lively/l5c875811c032.mp3",
+   "sweet": "sweet/sb8535f474e20.mp3"
+  },
+  "马是第三声，要拐个弯": {
+   "sweet": "sweet/sfed8b5aacc6a.mp3",
+   "lively": "lively/la8f43ffb42b8.mp3"
+  },
+  "再想想，正确答案是马。马是第三声，要拐个弯": {
+   "sweet": "sweet/s1c0c2166b16f.mp3",
+   "lively": "lively/lf3de2534c67b.mp3"
+  },
+  "爸爸的爸，开头是哪个？": {
+   "sweet": "sweet/sd8cede629021.mp3",
+   "lively": "lively/l08e516527363.mp3"
+  },
+  "b": {
+   "sweet": "sweet/s2f8f29b4cfa1.mp3",
+   "lively": "lively/lfc722be08340.mp3"
+  },
+  "p": {
+   "sweet": "sweet/s44a430c335de.mp3",
+   "lively": "lively/la458c14ef7be.mp3"
+  },
+  "m": {
+   "sweet": "sweet/sdc6ccb9f2a9d.mp3",
+   "lively": "lively/l32d20e32dcf4.mp3"
+  },
+  "波": {
+   "sweet": "sweet/s885535f75333.mp3",
+   "lively": "lively/l617c8d6bda66.mp3"
+  },
+  "泼": {
+   "sweet": "sweet/s943146e91f45.mp3",
+   "lively": "lively/l26cc2ebfd175.mp3"
+  },
+  "摸": {
+   "lively": "lively/l24685ff2bcf6.mp3",
+   "sweet": "sweet/s8b3499a585f0.mp3"
+  },
+  "右下半圆 b b b": {
+   "sweet": "sweet/s01274da2b8bb.mp3",
+   "lively": "lively/l3851030e9147.mp3"
+  },
+  "再想想，正确答案是波。右下半圆 b b b": {
+   "lively": "lively/ld3e6b0a6d2e8.mp3",
+   "sweet": "sweet/s3c7c90d52d51.mp3"
+  },
+  "婆婆的婆，开头是哪个？": {
+   "sweet": "sweet/sb60926c8d74b.mp3",
+   "lively": "lively/l523b9e0158b6.mp3"
+  },
+  "f": {
+   "lively": "lively/l3b9a589ba8eb.mp3",
+   "sweet": "sweet/s62b4258a00d2.mp3"
+  },
+  "佛": {
+   "lively": "lively/l73346ca8127f.mp3",
+   "sweet": "sweet/s776638a5c1c3.mp3"
+  },
+  "右上半圆 p p p，要送气": {
+   "sweet": "sweet/sd96f75869dcd.mp3",
+   "lively": "lively/l1de9c18bebdb.mp3"
+  },
+  "再想想，正确答案是泼。右上半圆 p p p，要送气": {
+   "sweet": "sweet/s49f231809477.mp3",
+   "lively": "lively/l9735be19b894.mp3"
+  },
+  "两个门洞，是哪个？": {
+   "sweet": "sweet/s30ab215db261.mp3",
+   "lively": "lively/l90dbdcbd6b7e.mp3"
+  },
+  "n": {
+   "sweet": "sweet/s8688e43e1823.mp3",
+   "lively": "lively/la3d32969e50c.mp3"
+  },
+  "讷": {
+   "sweet": "sweet/s72c4ba339b74.mp3",
+   "lively": "lively/lac25d04a4a1c.mp3"
+  },
+  "两个门洞 m m m": {
+   "sweet": "sweet/scca79f36ec50.mp3",
+   "lively": "lively/l54c3eecb3633.mp3"
+  },
+  "再想想，正确答案是摸。两个门洞 m m m": {
+   "lively": "lively/lee14166722e4.mp3",
+   "sweet": "sweet/s2f89be55ad0c.mp3"
+  },
+  "一根拐杖，是哪个？": {
+   "sweet": "sweet/s65e8ef4fd84d.mp3",
+   "lively": "lively/lc90ec5e673aa.mp3"
+  },
+  "一根拐杖 f f f": {
+   "sweet": "sweet/sbb85703ba57c.mp3",
+   "lively": "lively/l16254aa0890e.mp3"
+  },
+  "再想想，正确答案是佛。一根拐杖 f f f": {
+   "sweet": "sweet/scae7f6cf4f8f.mp3",
+   "lively": "lively/l75c1f3b24487.mp3"
+  },
+  "右下半圆，是哪个？": {
+   "sweet": "sweet/s51e5ebdc145d.mp3",
+   "lively": "lively/l98ee4f2e9d99.mp3"
+  },
+  "d": {
+   "sweet": "sweet/scc02814aecbb.mp3",
+   "lively": "lively/lef1396a579c4.mp3"
+  },
+  "得": {
+   "sweet": "sweet/s1db5857fd50e.mp3",
+   "lively": "lively/l2eef944088d7.mp3"
+  },
+  "b 的半圆在右下": {
+   "sweet": "sweet/s18d1ab1feb14.mp3",
+   "lively": "lively/l654238a2fe95.mp3"
+  },
+  "再想想，正确答案是波。b 的半圆在右下": {
+   "sweet": "sweet/s3a5613450e98.mp3",
+   "lively": "lively/l657f8e54d604.mp3"
+  },
+  "右上半圆，是哪个？": {
+   "sweet": "sweet/s65c108169d3e.mp3",
+   "lively": "lively/l183c39d71696.mp3"
+  },
+  "p 的半圆在右上": {
+   "sweet": "sweet/sb38fd7540395.mp3",
+   "lively": "lively/l9e3568caf4a9.mp3"
+  },
+  "再想想，正确答案是泼。p 的半圆在右上": {
+   "lively": "lively/l37d1f51e0879.mp3",
+   "sweet": "sweet/sa2949c3e1a36.mp3"
+  },
+  "左下半圆，是哪个？": {
+   "sweet": "sweet/s13d0a57d0e70.mp3",
+   "lively": "lively/l80c73532e4f6.mp3"
+  },
+  "t": {
+   "lively": "lively/l9b5d0447d26d.mp3",
+   "sweet": "sweet/s952df425d937.mp3"
+  },
+  "特": {
+   "sweet": "sweet/sa8c4900846df.mp3",
+   "lively": "lively/lf3f3f1789f04.mp3"
+  },
+  "左下半圆 d d d": {
+   "sweet": "sweet/s60ef5b83d554.mp3",
+   "lively": "lively/lecd04df9c960.mp3"
+  },
+  "再想想，正确答案是得。左下半圆 d d d": {
+   "sweet": "sweet/sb0d819a821c0.mp3",
+   "lively": "lively/le47ce1e0551e.mp3"
+  },
+  "伞柄朝下，是哪个？": {
+   "lively": "lively/l08f3838b2a7d.mp3",
+   "sweet": "sweet/s8255fd9933e1.mp3"
+  },
+  "l": {
+   "lively": "lively/l33fba6f70e72.mp3",
+   "sweet": "sweet/sd5d84f4512d2.mp3"
+  },
+  "勒": {
+   "sweet": "sweet/sd186b58237de.mp3",
+   "lively": "lively/l9ed7fd97e8b0.mp3"
+  },
+  "伞柄朝下 t t t": {
+   "lively": "lively/l04a4feef9104.mp3",
+   "sweet": "sweet/sdea9097f87e8.mp3"
+  },
+  "再想想，正确答案是特。伞柄朝下 t t t": {
+   "sweet": "sweet/s4ec05639bfbf.mp3",
+   "lively": "lively/la0e7b4c4e6d8.mp3"
+  },
+  "一个门洞，是哪个？": {
+   "lively": "lively/l3e675868436b.mp3",
+   "sweet": "sweet/s521bca1886ef.mp3"
+  },
+  "一个门洞 n n n": {
+   "lively": "lively/l83d599ff0cb1.mp3",
+   "sweet": "sweet/s52ca230565b4.mp3"
+  },
+  "再想想，正确答案是讷。一个门洞 n n n": {
+   "sweet": "sweet/s9be80810be63.mp3",
+   "lively": "lively/l9ead5b4dafa0.mp3"
+  },
+  "一根小棍，是哪个？": {
+   "sweet": "sweet/sa17fb561e428.mp3",
+   "lively": "lively/l603bf748b516.mp3"
+  },
+  "一根小棍 l l l": {
+   "sweet": "sweet/s7656c4624a9e.mp3",
+   "lively": "lively/l27ef3b366f63.mp3"
+  },
+  "再想想，正确答案是勒。一根小棍 l l l": {
+   "sweet": "sweet/see46dd361808.mp3",
+   "lively": "lively/l37c280993e06.mp3"
+  },
+  "大小的大，开头是哪个？": {
+   "sweet": "sweet/s9527d44da47f.mp3",
+   "lively": "lively/l3b96dbfedcaa.mp3"
+  },
+  "d 不送气，纸片不会动": {
+   "sweet": "sweet/s4152e5bbb347.mp3",
+   "lively": "lively/lbf3b8b80e07d.mp3"
+  },
+  "再想想，正确答案是得。d 不送气，纸片不会动": {
+   "lively": "lively/l58a7f2883734.mp3",
+   "sweet": "sweet/s2f6018280786.mp3"
+  },
+  "小牛的牛，开头是哪个？": {
+   "sweet": "sweet/s71fccb30745c.mp3",
+   "lively": "lively/ld1dc65574db7.mp3"
+  },
+  "n 是鼻音，摸摸鼻子会震": {
+   "sweet": "sweet/s5db17f6f801b.mp3",
+   "lively": "lively/l0af24ac58592.mp3"
+  },
+  "再想想，正确答案是讷。n 是鼻音，摸摸鼻子会震": {
+   "sweet": "sweet/s68582fcc111c.mp3",
+   "lively": "lively/l473190d94c9b.mp3"
+  },
+  "波、啊，八。八个的八。": {
+   "sweet": "sweet/s38b5275abfaa.mp3",
+   "lively": "lively/lf69534396b9b.mp3"
+  },
+  "bā": {
+   "sweet": "sweet/s075850d94d34.mp3",
+   "lively": "lively/leed6676fad5e.mp3"
+  },
+  "pā": {
+   "sweet": "sweet/s580d81096a63.mp3",
+   "lively": "lively/l86a1457a736c.mp3"
+  },
+  "趴": {
+   "lively": "lively/lb22556b2ea88.mp3",
+   "sweet": "sweet/sc41d7bea32da.mp3"
+  },
+  "前音轻短后音重，两音相连猛一碰": {
+   "sweet": "sweet/s162169c572ad.mp3",
+   "lively": "lively/lc713543485a9.mp3"
+  },
+  "再想想，正确答案是八。前音轻短后音重，两音相连猛一碰": {
+   "sweet": "sweet/seeb0c7ce82a1.mp3",
+   "lively": "lively/lf6e789609ab0.mp3"
+  },
+  "摸、啊，妈。妈妈的妈。": {
+   "lively": "lively/ldcbe8a2c82c3.mp3",
+   "sweet": "sweet/s9887fc2b2d5a.mp3"
+  },
+  "pá": {
+   "sweet": "sweet/sa04730cbf063.mp3",
+   "lively": "lively/le58fa5a472b4.mp3"
+  },
+  "爬": {
+   "sweet": "sweet/s040d3d0b4d20.mp3",
+   "lively": "lively/l6df67fae970d.mp3"
+  },
+  "摸、啊，妈": {
+   "sweet": "sweet/s341c5e24105b.mp3",
+   "lively": "lively/lc8809a38a03e.mp3"
+  },
+  "再想想，正确答案是妈。摸、啊，妈": {
+   "sweet": "sweet/s069a1809c47c.mp3",
+   "lively": "lively/lc6767120777f.mp3"
+  },
+  "得、啊，大。大象真大。": {
+   "sweet": "sweet/s6f7b6b2204f3.mp3",
+   "lively": "lively/la52c2e7dcc6f.mp3"
+  },
+  "dà": {
+   "lively": "lively/l0a5e4d7fc787.mp3",
+   "sweet": "sweet/s3f274dd2ecf1.mp3"
+  },
+  "tà": {
+   "lively": "lively/l373dc85656f6.mp3",
+   "sweet": "sweet/sdaa3ee80299a.mp3"
+  },
+  "nà": {
+   "sweet": "sweet/s52226d8eb9fb.mp3",
+   "lively": "lively/l2e362f6846fc.mp3"
+  },
+  "踏": {
+   "lively": "lively/l4293d309e91b.mp3",
+   "sweet": "sweet/s10a6909e0a07.mp3"
+  },
+  "那": {
+   "lively": "lively/l0af7245691cf.mp3",
+   "sweet": "sweet/s12cd8ffa4673.mp3"
+  },
+  "得、啊，大": {
+   "sweet": "sweet/s1e6433b3d2b3.mp3",
+   "lively": "lively/l7f004b08d8fd.mp3"
+  },
+  "再想想，正确答案是大。得、啊，大": {
+   "sweet": "sweet/s7559bdab97a0.mp3",
+   "lively": "lively/l4d787e64583f.mp3"
+  },
+  "特、乌，兔。小白兔的兔。": {
+   "sweet": "sweet/s395df9c55ce1.mp3",
+   "lively": "lively/l21eafea64cf0.mp3"
+  },
+  "tù": {
+   "sweet": "sweet/sc3504558649d.mp3",
+   "lively": "lively/l138b62b6b8c4.mp3"
+  },
+  "dù": {
+   "lively": "lively/l6f3da4b21a43.mp3",
+   "sweet": "sweet/s3d53d3495422.mp3"
+  },
+  "nù": {
+   "sweet": "sweet/sb1e669e7ec7f.mp3",
+   "lively": "lively/lf5b631505e5a.mp3"
+  },
+  "兔": {
+   "sweet": "sweet/sd808cc0583dd.mp3",
+   "lively": "lively/lc85ddf6023b8.mp3"
+  },
+  "肚": {
+   "lively": "lively/ld66ce17d6475.mp3",
+   "sweet": "sweet/s7bc408a93022.mp3"
+  },
+  "怒": {
+   "lively": "lively/l828056fc4acc.mp3",
+   "sweet": "sweet/se19f6e792fd4.mp3"
+  },
+  "特、乌，兔": {
+   "lively": "lively/l10966d595718.mp3",
+   "sweet": "sweet/s23538d96c3ab.mp3"
+  },
+  "再想想，正确答案是兔。特、乌，兔": {
+   "lively": "lively/l7cba8de8e538.mp3",
+   "sweet": "sweet/sc39511c34db9.mp3"
+  },
+  "勒、衣，梨。甜甜的梨。": {
+   "sweet": "sweet/s81a068c83241.mp3",
+   "lively": "lively/l1f896d52b6c7.mp3"
+  },
+  "lí": {
+   "sweet": "sweet/s1a807a03c98a.mp3",
+   "lively": "lively/l547d5f52ef27.mp3"
+  },
+  "ní": {
+   "sweet": "sweet/s4def6c60e018.mp3",
+   "lively": "lively/l9ab1378bee0e.mp3"
+  },
+  "tí": {
+   "lively": "lively/l1ae7d50fa3a8.mp3",
+   "sweet": "sweet/s885545faadc2.mp3"
+  },
+  "梨": {
+   "lively": "lively/le690a20b4460.mp3",
+   "sweet": "sweet/s5b47a2588f47.mp3"
+  },
+  "泥": {
+   "sweet": "sweet/s380f3b91a346.mp3",
+   "lively": "lively/ld1b6c7a05e14.mp3"
+  },
+  "提": {
+   "sweet": "sweet/s25b659bb2be1.mp3",
+   "lively": "lively/l0076aecb2bc2.mp3"
+  },
+  "勒、衣，梨": {
+   "sweet": "sweet/s8339d2070b30.mp3",
+   "lively": "lively/l896fa98fef80.mp3"
+  },
+  "再想想，正确答案是梨。勒、衣，梨": {
+   "sweet": "sweet/s1e108463fee3.mp3",
+   "lively": "lively/l1a3d14ebe561.mp3"
+  },
+  "讷、衣，你。你好的你。": {
+   "lively": "lively/lbea6be3e7c4e.mp3",
+   "sweet": "sweet/s35d6a25c8521.mp3"
+  },
+  "nǐ": {
+   "sweet": "sweet/s3776957545ef.mp3",
+   "lively": "lively/l543b73893ece.mp3"
+  },
+  "lǐ": {
+   "sweet": "sweet/s3621055d31b1.mp3",
+   "lively": "lively/l8e312fd2a17a.mp3"
+  },
+  "dǐ": {
+   "sweet": "sweet/s9a6c4c6a66e0.mp3",
+   "lively": "lively/l229440e56ec2.mp3"
+  },
+  "你": {
+   "sweet": "sweet/s3dd9ef9a1fe3.mp3",
+   "lively": "lively/l65cdfe636616.mp3"
+  },
+  "里": {
+   "lively": "lively/l22966a571220.mp3",
+   "sweet": "sweet/s82f21ebbdd8e.mp3"
+  },
+  "底": {
+   "sweet": "sweet/s5dbded81d559.mp3",
+   "lively": "lively/l6d447706bf41.mp3"
+  },
+  "讷、衣，你": {
+   "sweet": "sweet/sc13ea72fe249.mp3",
+   "lively": "lively/led8448ff5ec7.mp3"
+  },
+  "再想想，正确答案是你。讷、衣，你": {
+   "sweet": "sweet/s5d0dfd93a628.mp3",
+   "lively": "lively/lbf94677fa039.mp3"
+  },
+  "知道的知，整体认读，知。": {
+   "lively": "lively/l66a3bcb65b46.mp3",
+   "sweet": "sweet/s74e37bd95c4f.mp3"
+  },
+  "zhi": {
+   "sweet": "sweet/s867c90a9b5b4.mp3",
+   "lively": "lively/lcf15aeb2677f.mp3"
+  },
+  "zi": {
+   "lively": "lively/l9db8cb1f39c0.mp3",
+   "sweet": "sweet/s2514e92faf21.mp3"
+  },
+  "chi": {
+   "sweet": "sweet/sffaad14b4353.mp3",
+   "lively": "lively/lc8fb6f755025.mp3"
+  },
+  "知": {
+   "sweet": "sweet/sc8728bd677c3.mp3",
+   "lively": "lively/l4b69e876c6ee.mp3"
+  },
+  "字": {
+   "sweet": "sweet/sbe441c5e5bc2.mp3",
+   "lively": "lively/ld3396bfe96fd.mp3"
+  },
+  "整体认读不用拼": {
+   "sweet": "sweet/s9ca3cc58ed8b.mp3",
+   "lively": "lively/l200bd9996c4b.mp3"
+  },
+  "再想想，正确答案是知。整体认读不用拼": {
+   "lively": "lively/lbc29459238b2.mp3",
+   "sweet": "sweet/s618594a09c1c.mp3"
+  },
+  "吃饭的吃，整体认读，吃。": {
+   "lively": "lively/l3ecea11bb171.mp3",
+   "sweet": "sweet/s9a9fff249957.mp3"
+  },
+  "shi": {
+   "lively": "lively/l4b6404c0a964.mp3",
+   "sweet": "sweet/sc3d0f76cba3f.mp3"
+  },
+  "狮": {
+   "lively": "lively/la9ece37ab768.mp3",
+   "sweet": "sweet/s8ce63b4eeb57.mp3"
+  },
+  "吃饭的吃": {
+   "sweet": "sweet/s64e23c58af22.mp3",
+   "lively": "lively/l9cebf1dc2342.mp3"
+  },
+  "再想想，正确答案是吃。吃饭的吃": {
+   "sweet": "sweet/s09dd71b7535e.mp3",
+   "lively": "lively/l2c56265ff216.mp3"
+  },
+  "狮子的狮，整体认读，狮。": {
+   "sweet": "sweet/se482ee275709.mp3",
+   "lively": "lively/lb8e972395c27.mp3"
+  },
+  "si": {
+   "sweet": "sweet/sa69c169a59eb.mp3",
+   "lively": "lively/le578713a0fe7.mp3"
+  },
+  "四": {
+   "sweet": "sweet/s4f87f02d92ec.mp3",
+   "lively": "lively/l1dd7814ae105.mp3"
+  },
+  "狮子的狮": {
+   "sweet": "sweet/s86b43684a408.mp3",
+   "lively": "lively/l7f1833d2c429.mp3"
+  },
+  "再想想，正确答案是狮。狮子的狮": {
+   "sweet": "sweet/s3b9d1da02349.mp3",
+   "lively": "lively/l6d6a04cb77c4.mp3"
+  },
+  "一二三的一，整体认读，一。": {
+   "sweet": "sweet/sb41099c00511.mp3",
+   "lively": "lively/lec1911b492c0.mp3"
+  },
+  "yi": {
+   "sweet": "sweet/se1fc5648e184.mp3",
+   "lively": "lively/l54ab8d6337b2.mp3"
+  },
+  "wu": {
+   "lively": "lively/l9d85ee70dbfd.mp3",
+   "sweet": "sweet/sc945ace01a4d.mp3"
+  },
+  "yu": {
+   "sweet": "sweet/s1a8aeb8403f7.mp3",
+   "lively": "lively/l2f32c37f329c.mp3"
+  },
+  "五": {
+   "sweet": "sweet/s395ab8de661b.mp3",
+   "lively": "lively/lc004ee0aa2a2.mp3"
+  },
+  "一二三的一": {
+   "sweet": "sweet/s5d2f57c1cbf0.mp3",
+   "lively": "lively/l753aa1a7f112.mp3"
+  },
+  "再想想，正确答案是一。一二三的一": {
+   "lively": "lively/l438e8a03bff2.mp3",
+   "sweet": "sweet/sb003785369d3.mp3"
+  },
+  "五个手指，五。整体认读，五。": {
+   "lively": "lively/l953381405056.mp3",
+   "sweet": "sweet/s725fa9a86dea.mp3"
+  },
+  "五个手指的五": {
+   "lively": "lively/l6b8ed0927875.mp3",
+   "sweet": "sweet/s3d52db1a6e41.mp3"
+  },
+  "再想想，正确答案是五。五个手指的五": {
+   "lively": "lively/l064233bb543e.mp3",
+   "sweet": "sweet/s15896b8b0028.mp3"
+  },
+  "小鱼的鱼，整体认读，鱼。": {
+   "sweet": "sweet/sa6351ed07fac.mp3",
+   "lively": "lively/l721eaafcfeca.mp3"
+  },
+  "ü 遇上 y，两点要摘掉": {
+   "lively": "lively/leaf14f64c0c3.mp3",
+   "sweet": "sweet/s2128377eb5ff.mp3"
+  },
+  "再想想，正确答案是鱼。ü 遇上 y，两点要摘掉": {
+   "sweet": "sweet/sc5551f493dd4.mp3",
+   "lively": "lively/l4cd443201ec5.mp3"
+  },
+  "妈，妈妈的妈。": {
+   "lively": "lively/lc673c140c44c.mp3",
+   "sweet": "sweet/s8de8659de4e6.mp3"
+  },
+  "第一声，妈妈的妈": {
+   "sweet": "sweet/s2b2644d14fd3.mp3",
+   "lively": "lively/lccffea350869.mp3"
+  },
+  "再想想，正确答案是妈。第一声，妈妈的妈": {
+   "sweet": "sweet/sf2117b3c676d.mp3",
+   "lively": "lively/l7d4a2fcd1bf5.mp3"
+  },
+  "马，小马的马。": {
+   "lively": "lively/l816687f3ae3b.mp3",
+   "sweet": "sweet/sb5efb930b55e.mp3"
+  },
+  "第三声，拐个弯": {
+   "lively": "lively/l2038438682c7.mp3",
+   "sweet": "sweet/s733a519ea939.mp3"
+  },
+  "再想想，正确答案是马。第三声，拐个弯": {
+   "lively": "lively/l20245db42ea6.mp3",
+   "sweet": "sweet/s0c5e20fcb901.mp3"
+  },
+  "八，八个气球，八。": {
+   "lively": "lively/l322b38ab00b0.mp3",
+   "sweet": "sweet/s8c62fa18d756.mp3"
+  },
+  "爸": {
+   "sweet": "sweet/s2df4e9a3b386.mp3",
+   "lively": "lively/l2db909e36a71.mp3"
+  },
+  "把": {
+   "sweet": "sweet/s457aa03961f2.mp3",
+   "lively": "lively/l264d484d5c31.mp3"
+  },
+  "八个的八": {
+   "lively": "lively/ldd91455925f4.mp3",
+   "sweet": "sweet/sb9c42d64f32e.mp3"
+  },
+  "再想想，正确答案是八。八个的八": {
+   "lively": "lively/lb345fd614cd0.mp3",
+   "sweet": "sweet/sdfb29e8cb2b7.mp3"
+  },
+  "兔，小白兔，兔。": {
+   "lively": "lively/l74a6ceaa21ec.mp3",
+   "sweet": "sweet/s4008fa35e08a.mp3"
+  },
+  "小白兔的兔": {
+   "lively": "lively/la893c474a5bb.mp3",
+   "sweet": "sweet/sd78c0bf7ca13.mp3"
+  },
+  "再想想，正确答案是兔。小白兔的兔": {
+   "lively": "lively/l3e6590ec73ad.mp3",
+   "sweet": "sweet/sbc6c778cd683.mp3"
+  },
+  "小鱼的鱼，拼音是哪个？": {
+   "sweet": "sweet/s61f8accb8b70.mp3",
+   "lively": "lively/l969efa4d8d0a.mp3"
+  },
+  "ü 遇上 y 要去掉两点": {
+   "sweet": "sweet/s78ce1b508841.mp3",
+   "lively": "lively/la569706b83e0.mp3"
+  },
+  "再想想，正确答案是鱼。ü 遇上 y 要去掉两点": {
+   "sweet": "sweet/s4d00854f9a99.mp3",
+   "lively": "lively/l809a67ac049b.mp3"
+  },
+  "下面哪个是单韵母？": {
+   "sweet": "sweet/sb588d93d2df4.mp3",
+   "lively": "lively/ld949b5e72ade.mp3"
+  },
+  "a o e i u ü 都是单韵母，b m 是声母": {
+   "lively": "lively/la5b1cfc5d980.mp3",
+   "sweet": "sweet/s1d9e97bd8677.mp3"
+  },
+  "再想想，正确答案是啊。a o e i u ü 都是单韵母，b m 是声母": {
+   "sweet": "sweet/s3bf20adf99bf.mp3",
+   "lively": "lively/l8c9f3dfe9d26.mp3"
+  },
+  "一共有几个圆点？": {
+   "sweet": "sweet/s845dc721551a.mp3",
+   "lively": "lively/l7a1606539a1b.mp3"
+  },
+  "2": {
+   "sweet": "sweet/s57347653f188.mp3",
+   "lively": "lively/ld9da0885a55b.mp3"
+  },
+  "3": {
+   "lively": "lively/l76a2b8073520.mp3",
+   "sweet": "sweet/sb4fc82599f6d.mp3"
+  },
+  "4": {
+   "sweet": "sweet/sa97dde405907.mp3",
+   "lively": "lively/lbb6027e3cd11.mp3"
+  },
+  "一个一个数：1、2、3": {
+   "lively": "lively/l318c3a022f49.mp3",
+   "sweet": "sweet/sbcb264621938.mp3"
+  },
+  "再想想，正确答案是3。一个一个数：1、2、3": {
+   "sweet": "sweet/s75a91a8fd21b.mp3",
+   "lively": "lively/l95bbc6651a42.mp3"
+  },
+  "5": {
+   "sweet": "sweet/scc9ddc128832.mp3",
+   "lively": "lively/l402940b74917.mp3"
+  },
+  "6": {
+   "sweet": "sweet/s99f26598a368.mp3",
+   "lively": "lively/le1701d9d93da.mp3"
+  },
+  "一共 5 个": {
+   "sweet": "sweet/sbd0f0ad383e6.mp3",
+   "lively": "lively/l01dcd15bf7d1.mp3"
+  },
+  "再想想，正确答案是5。一共 5 个": {
+   "sweet": "sweet/sff4414e78c97.mp3",
+   "lively": "lively/lec04910cc251.mp3"
+  },
+  "1": {
+   "sweet": "sweet/s271bebcbf5d3.mp3",
+   "lively": "lively/lff5b99818f2f.mp3"
+  },
+  "一共 2 个": {
+   "lively": "lively/le1260bdc181c.mp3",
+   "sweet": "sweet/s716fcf1fc549.mp3"
+  },
+  "再想想，正确答案是2。一共 2 个": {
+   "sweet": "sweet/s707d9dbe33be.mp3",
+   "lively": "lively/l0e037d68480f.mp3"
+  },
+  "7": {
+   "lively": "lively/la432283d6155.mp3",
+   "sweet": "sweet/sb7b1c8052589.mp3"
+  },
+  "8": {
+   "sweet": "sweet/sf19a96c922dd.mp3",
+   "lively": "lively/l93f10d834a2d.mp3"
+  },
+  "一共 7 个": {
+   "lively": "lively/l6510bc97734f.mp3",
+   "sweet": "sweet/sc66fa9b94400.mp3"
+  },
+  "再想想，正确答案是7。一共 7 个": {
+   "sweet": "sweet/s9c57404d6d0c.mp3",
+   "lively": "lively/ld6d01ff9f24c.mp3"
+  },
+  "0": {
+   "sweet": "sweet/sd16b9ccc087e.mp3",
+   "lively": "lively/le77896867ba1.mp3"
+  },
+  "只有 1 个": {
+   "lively": "lively/l51c3b5ccdcea.mp3",
+   "sweet": "sweet/s9f57a516845d.mp3"
+  },
+  "再想想，正确答案是1。只有 1 个": {
+   "lively": "lively/le6b093868cc7.mp3",
+   "sweet": "sweet/s81b5002babaf.mp3"
+  },
+  "9": {
+   "sweet": "sweet/s6449f72ffb9a.mp3",
+   "lively": "lively/l8bcf1bef4289.mp3"
+  },
+  "一共 8 个": {
+   "lively": "lively/l44da5fe4168b.mp3",
+   "sweet": "sweet/s85654406e2b3.mp3"
+  },
+  "再想想，正确答案是8。一共 8 个": {
+   "lively": "lively/l910b8053a4a4.mp3",
+   "sweet": "sweet/s9257eb619070.mp3"
+  },
+  "一共 4 个": {
+   "lively": "lively/l637f51687a80.mp3",
+   "sweet": "sweet/s09e1883a6f43.mp3"
+  },
+  "再想想，正确答案是4。一共 4 个": {
+   "lively": "lively/l2b4f532468fe.mp3",
+   "sweet": "sweet/s89845f56b940.mp3"
+  },
+  "一共 6 个": {
+   "lively": "lively/lb3568226c6e6.mp3",
+   "sweet": "sweet/saf05d3f335d1.mp3"
+  },
+  "再想想，正确答案是6。一共 6 个": {
+   "lively": "lively/l5cc7cdbe8b45.mp3",
+   "sweet": "sweet/s60ed310ac17f.mp3"
+  },
+  "下面哪个数最大？": {
+   "sweet": "sweet/s924b8f833e00.mp3",
+   "lively": "lively/l46567d68cccd.mp3"
+  },
+  "12": {
+   "lively": "lively/l517064bb29de.mp3",
+   "sweet": "sweet/sb451ca31ad7b.mp3"
+  },
+  "12 最大": {
+   "sweet": "sweet/s939ed0ea16ec.mp3",
+   "lively": "lively/l210420112b9d.mp3"
+  },
+  "再想想，正确答案是12。12 最大": {
+   "lively": "lively/l11e0ed4403ed.mp3",
+   "sweet": "sweet/sfed6c94af9e0.mp3"
+  },
+  "下面哪个数最小？": {
+   "lively": "lively/ld1f8894e77b7.mp3",
+   "sweet": "sweet/s796cd9fc630c.mp3"
+  },
+  "15": {
+   "sweet": "sweet/sb5f4fcec7b11.mp3",
+   "lively": "lively/lba611bfc3e3e.mp3"
+  },
+  "11": {
+   "lively": "lively/l60d2dd6a612c.mp3",
+   "sweet": "sweet/sc524b4561354.mp3"
+  },
+  "3 最小": {
+   "sweet": "sweet/s759ceab4d8da.mp3",
+   "lively": "lively/lf6061cf00f45.mp3"
+  },
+  "再想想，正确答案是3。3 最小": {
+   "sweet": "sweet/sd3fec17200c0.mp3",
+   "lively": "lively/la8ae4b628f57.mp3"
+  },
+  "8 和 13，哪个大？": {
+   "sweet": "sweet/s4c1bbf5b4107.mp3",
+   "lively": "lively/l889d60dfc325.mp3"
+  },
+  "13": {
+   "sweet": "sweet/s718159c75a5f.mp3",
+   "lively": "lively/l0a961495965c.mp3"
+  },
+  "一样大": {
+   "sweet": "sweet/s92f86327240d.mp3",
+   "lively": "lively/ld9dc4a9bc05d.mp3"
+  },
+  "13 比 8 大": {
+   "sweet": "sweet/s65cbdea1c9ca.mp3",
+   "lively": "lively/l3c264498d7a7.mp3"
+  },
+  "再想想，正确答案是13。13 比 8 大": {
+   "lively": "lively/l0cc56513a1a3.mp3",
+   "sweet": "sweet/s1fc62236a00b.mp3"
+  },
+  "比 10 大的数是？": {
+   "lively": "lively/l4801a4b9e4d2.mp3",
+   "sweet": "sweet/s70f8606b5ee6.mp3"
+  },
+  "10": {
+   "lively": "lively/l07220ed1548d.mp3",
+   "sweet": "sweet/s646389371947.mp3"
+  },
+  "14": {
+   "sweet": "sweet/sab86f137fcb5.mp3",
+   "lively": "lively/la89857d71ecf.mp3"
+  },
+  "14 比 10 大": {
+   "lively": "lively/l6d56a181eb62.mp3",
+   "sweet": "sweet/sa8704a04aec6.mp3"
+  },
+  "再想想，正确答案是14。14 比 10 大": {
+   "lively": "lively/l6075ff592b09.mp3",
+   "sweet": "sweet/s2fe92efa714c.mp3"
+  },
+  "比 6 小的数是？": {
+   "lively": "lively/le6fc78b88178.mp3",
+   "sweet": "sweet/s2cb12600abbd.mp3"
+  },
+  "4 比 6 小": {
+   "sweet": "sweet/sadfb3f996a71.mp3",
+   "lively": "lively/l9b5e39ebf3b5.mp3"
+  },
+  "再想想，正确答案是4。4 比 6 小": {
+   "sweet": "sweet/s860c48a61a8a.mp3",
+   "lively": "lively/l927191e3afcc.mp3"
+  },
+  "16 里面有几个十？": {
+   "sweet": "sweet/s45817d6ae6a0.mp3",
+   "lively": "lively/l9594fea45701.mp3"
+  },
+  "16": {
+   "sweet": "sweet/sf09c3c9758a9.mp3",
+   "lively": "lively/l3acd29b03757.mp3"
+  },
+  "十位是 1，个位是 6": {
+   "sweet": "sweet/s9dc7eea9b97d.mp3",
+   "lively": "lively/l4567027c7fb5.mp3"
+  },
+  "再想想，正确答案是1。十位是 1，个位是 6": {
+   "lively": "lively/l2162339f5009.mp3",
+   "sweet": "sweet/saf60e648eb53.mp3"
+  },
+  "把 9、3、5 从小到大排，正确的是？": {
+   "lively": "lively/ldbf5bd2de3c9.mp3",
+   "sweet": "sweet/s398e9297b124.mp3"
+  },
+  "3 5 9": {
+   "sweet": "sweet/s90eb7eeab890.mp3",
+   "lively": "lively/l6215ecb1ca13.mp3"
+  },
+  "9 5 3": {
+   "lively": "lively/l09285674c520.mp3",
+   "sweet": "sweet/sa59bff82e75d.mp3"
+  },
+  "5 3 9": {
+   "sweet": "sweet/scae590e7488a.mp3",
+   "lively": "lively/l23402842d57e.mp3"
+  },
+  "先找最小的 3，再是 5，最后是 9": {
+   "sweet": "sweet/sd54703c436fa.mp3",
+   "lively": "lively/ldbf41520008f.mp3"
+  },
+  "再想想，正确答案是3 5 9。先找最小的 3，再是 5，最后是 9": {
+   "sweet": "sweet/sffaff8050715.mp3",
+   "lively": "lively/l00676658b91a.mp3"
+  },
+  "19 的前一个数是？": {
+   "sweet": "sweet/s8ebd01719831.mp3",
+   "lively": "lively/l706afa468a52.mp3"
+  },
+  "20": {
+   "sweet": "sweet/sabaad4dd3d98.mp3",
+   "lively": "lively/l45daf700f0ac.mp3"
+  },
+  "18": {
+   "sweet": "sweet/s49acc16ed6c3.mp3",
+   "lively": "lively/l834e13ff60d2.mp3"
+  },
+  "17": {
+   "sweet": "sweet/s7155b26ff6c7.mp3",
+   "lively": "lively/lfa4036e97edd.mp3"
+  },
+  "19 前面是 18": {
+   "sweet": "sweet/s5cc873b9eb1a.mp3",
+   "lively": "lively/la7eff7d418a7.mp3"
+  },
+  "再想想，正确答案是18。19 前面是 18": {
+   "lively": "lively/l1646d5615d2f.mp3",
+   "sweet": "sweet/s7a5025eb6662.mp3"
+  },
+  "3 加 4，等于几？": {
+   "sweet": "sweet/sd16223756559.mp3",
+   "lively": "lively/l5e9937d5e109.mp3"
+  },
+  "3 往后数 4 个是 7": {
+   "lively": "lively/l552ca5403159.mp3",
+   "sweet": "sweet/s777b7af60043.mp3"
+  },
+  "再想想，正确答案是7。3 往后数 4 个是 7": {
+   "sweet": "sweet/s1fa939eeac56.mp3",
+   "lively": "lively/lecc4d0281f38.mp3"
+  },
+  "2 加 5，等于几？": {
+   "lively": "lively/l4d664e662cfa.mp3",
+   "sweet": "sweet/s58bdfaa2c2c7.mp3"
+  },
+  "2 加 5 等于 7": {
+   "sweet": "sweet/s09812ecc80d8.mp3",
+   "lively": "lively/lec89bababdc4.mp3"
+  },
+  "再想想，正确答案是7。2 加 5 等于 7": {
+   "sweet": "sweet/s9eca7287e0be.mp3",
+   "lively": "lively/l6b13671ce218.mp3"
+  },
+  "1 加 8，等于几？": {
+   "sweet": "sweet/sba56c7aded10.mp3",
+   "lively": "lively/l5e62e882e259.mp3"
+  },
+  "1 加 8 等于 9": {
+   "sweet": "sweet/sb30b2f7a4715.mp3",
+   "lively": "lively/lc858861067f1.mp3"
+  },
+  "再想想，正确答案是9。1 加 8 等于 9": {
+   "lively": "lively/l6087802bc64f.mp3",
+   "sweet": "sweet/sf84097f79170.mp3"
+  },
+  "5 加 5，等于几？": {
+   "lively": "lively/ld500319bc6ba.mp3",
+   "sweet": "sweet/s96bbf20df081.mp3"
+  },
+  "两只手一共 10 根手指": {
+   "sweet": "sweet/s16aaa258c6ca.mp3",
+   "lively": "lively/lf43c04a04740.mp3"
+  },
+  "再想想，正确答案是10。两只手一共 10 根手指": {
+   "sweet": "sweet/scefcc5bbb32e.mp3",
+   "lively": "lively/l8bdafa6f5230.mp3"
+  },
+  "6 加 2，等于几？": {
+   "lively": "lively/l367058b0d2c5.mp3",
+   "sweet": "sweet/s587a8c2bb13e.mp3"
+  },
+  "6 加 2 等于 8": {
+   "sweet": "sweet/se2745661f137.mp3",
+   "lively": "lively/l394d5da3448d.mp3"
+  },
+  "再想想，正确答案是8。6 加 2 等于 8": {
+   "lively": "lively/la028ea3cb5f6.mp3",
+   "sweet": "sweet/s3d84b495d5b0.mp3"
+  },
+  "4 加 1，等于几？": {
+   "sweet": "sweet/sdd073af02d78.mp3",
+   "lively": "lively/le51d8908b1f3.mp3"
+  },
+  "4 再加 1 是 5": {
+   "sweet": "sweet/s43d7cc40eb1d.mp3",
+   "lively": "lively/lcd16e3a35292.mp3"
+  },
+  "再想想，正确答案是5。4 再加 1 是 5": {
+   "lively": "lively/lc2b9a632fa59.mp3",
+   "sweet": "sweet/s80baea6f800d.mp3"
+  },
+  "7 加 3，等于几？": {
+   "sweet": "sweet/s13519ec8a977.mp3",
+   "lively": "lively/le47fb372d518.mp3"
+  },
+  "7 加 3 凑成 10": {
+   "lively": "lively/lc3cfdc43b5a7.mp3",
+   "sweet": "sweet/s65061da31730.mp3"
+  },
+  "再想想，正确答案是10。7 加 3 凑成 10": {
+   "lively": "lively/lad493ff60f26.mp3",
+   "sweet": "sweet/sc325280bacca.mp3"
+  },
+  "0 加 9，等于几？": {
+   "sweet": "sweet/s4c4eda8f19fe.mp3",
+   "lively": "lively/l3afa48f01724.mp3"
+  },
+  "加 0 还是原来的数": {
+   "sweet": "sweet/s0e3d04930635.mp3",
+   "lively": "lively/l8c4a0abebed8.mp3"
+  },
+  "再想想，正确答案是9。加 0 还是原来的数": {
+   "sweet": "sweet/sb3032bb48436.mp3",
+   "lively": "lively/l0448c35c3316.mp3"
+  },
+  "13 减 5，等于几？": {
+   "lively": "lively/l5c03f6eeadf8.mp3",
+   "sweet": "sweet/s8d550df6e229.mp3"
+  },
+  "13 减 5 等于 8": {
+   "sweet": "sweet/s27dd641584bb.mp3",
+   "lively": "lively/l0a5c916688aa.mp3"
+  },
+  "再想想，正确答案是8。13 减 5 等于 8": {
+   "lively": "lively/l386f21e37769.mp3",
+   "sweet": "sweet/sad1fbbe35f59.mp3"
+  },
+  "9 加 6，等于几？": {
+   "sweet": "sweet/s0ca73a7c94b7.mp3",
+   "lively": "lively/l6b721d551683.mp3"
+  },
+  "9 加 1 凑 10，再加 5": {
+   "sweet": "sweet/s1edccd110e2d.mp3",
+   "lively": "lively/l7026dde5ec34.mp3"
+  },
+  "再想想，正确答案是15。9 加 1 凑 10，再加 5": {
+   "sweet": "sweet/se56a37761d2d.mp3",
+   "lively": "lively/lb2d3d9c6aa72.mp3"
+  },
+  "18 减 9，等于几？": {
+   "lively": "lively/l20bd3c331cd1.mp3",
+   "sweet": "sweet/sfb51c6db212b.mp3"
+  },
+  "18 减 9 等于 9": {
+   "lively": "lively/lffaac7a15c37.mp3",
+   "sweet": "sweet/scf81fae372ec.mp3"
+  },
+  "再想想，正确答案是9。18 减 9 等于 9": {
+   "lively": "lively/lba9493f3101d.mp3",
+   "sweet": "sweet/s8f952fde5ad2.mp3"
+  },
+  "7 加 8，等于几？": {
+   "sweet": "sweet/s66224893ab47.mp3",
+   "lively": "lively/l547aa9ad4e84.mp3"
+  },
+  "7 加 8 等于 15": {
+   "lively": "lively/l86913809b5f6.mp3",
+   "sweet": "sweet/s6d175db49ccc.mp3"
+  },
+  "再想想，正确答案是15。7 加 8 等于 15": {
+   "sweet": "sweet/s5bd863ddb87c.mp3",
+   "lively": "lively/l31e18c43ab47.mp3"
+  },
+  "20 减 7，等于几？": {
+   "sweet": "sweet/s8f522efc01f8.mp3",
+   "lively": "lively/l62cd92316e5c.mp3"
+  },
+  "20 减 7 等于 13": {
+   "lively": "lively/l2f41d5b57c07.mp3",
+   "sweet": "sweet/s058df33a8dcd.mp3"
+  },
+  "再想想，正确答案是13。20 减 7 等于 13": {
+   "sweet": "sweet/s44fa6410bd3d.mp3",
+   "lively": "lively/l355d29cbfedf.mp3"
+  },
+  "11 加 4，等于几？": {
+   "sweet": "sweet/s3c56bb73af3c.mp3",
+   "lively": "lively/lb87ef4871c9d.mp3"
+  },
+  "个位 1 加 4 是 5": {
+   "sweet": "sweet/saf6dccb33a7e.mp3",
+   "lively": "lively/l62b035625b58.mp3"
+  },
+  "再想想，正确答案是15。个位 1 加 4 是 5": {
+   "lively": "lively/l8da6064805f6.mp3",
+   "sweet": "sweet/sc025e8534a3a.mp3"
+  },
+  "16 减 8，等于几？": {
+   "sweet": "sweet/s57c44b24feac.mp3",
+   "lively": "lively/le180f7828735.mp3"
+  },
+  "8 加 8 等于 16": {
+   "sweet": "sweet/sb367abdaea7b.mp3",
+   "lively": "lively/lcc92a121d436.mp3"
+  },
+  "再想想，正确答案是8。8 加 8 等于 16": {
+   "lively": "lively/l782e63aa91ae.mp3",
+   "sweet": "sweet/sd232e687ca82.mp3"
+  },
+  "12 加 5，等于几？": {
+   "sweet": "sweet/se3ddb0535e1e.mp3",
+   "lively": "lively/l9ae5bbf57595.mp3"
+  },
+  "12 加 5 等于 17": {
+   "lively": "lively/l1f54222d4c76.mp3",
+   "sweet": "sweet/sb452567d9e95.mp3"
+  },
+  "再想想，正确答案是17。12 加 5 等于 17": {
+   "sweet": "sweet/s3c2d179fa1c3.mp3",
+   "lively": "lively/lf78a9cbbdd93.mp3"
+  },
+  "30 加 20，等于几？": {
+   "lively": "lively/l42398a6abc8a.mp3",
+   "sweet": "sweet/s6b364550912c.mp3"
+  },
+  "40": {
+   "sweet": "sweet/s737ab2e971dd.mp3",
+   "lively": "lively/l2ac2536e952b.mp3"
+  },
+  "50": {
+   "sweet": "sweet/s8db545759228.mp3",
+   "lively": "lively/lf31297815b58.mp3"
+  },
+  "60": {
+   "sweet": "sweet/sdd4ab0013e71.mp3",
+   "lively": "lively/lca03a31bab01.mp3"
+  },
+  "3 个十加 2 个十是 5 个十": {
+   "sweet": "sweet/s724182083458.mp3",
+   "lively": "lively/lcd99133cecf3.mp3"
+  },
+  "再想想，正确答案是50。3 个十加 2 个十是 5 个十": {
+   "sweet": "sweet/sf8f5b4b3c50c.mp3",
+   "lively": "lively/l6a92bf9c47a8.mp3"
+  },
+  "45 加 10，等于几？": {
+   "sweet": "sweet/s3e9ff21788c6.mp3",
+   "lively": "lively/l8ba324869954.mp3"
+  },
+  "55": {
+   "sweet": "sweet/sfade0cf6791c.mp3",
+   "lively": "lively/lea73b4a4cc69.mp3"
+  },
+  "54": {
+   "sweet": "sweet/s517e66222151.mp3",
+   "lively": "lively/lbe65cdc50610.mp3"
+  },
+  "65": {
+   "sweet": "sweet/s58e9dabd8d7e.mp3",
+   "lively": "lively/l1e4c55883fa4.mp3"
+  },
+  "加 10 就是十位多 1": {
+   "sweet": "sweet/s1e68d1f8d7fe.mp3",
+   "lively": "lively/l7ed2372c26ed.mp3"
+  },
+  "再想想，正确答案是55。加 10 就是十位多 1": {
+   "sweet": "sweet/s97e3109786b8.mp3",
+   "lively": "lively/l108329c77ca3.mp3"
+  },
+  "80 减 30，等于几？": {
+   "sweet": "sweet/se9ff4aa7d795.mp3",
+   "lively": "lively/lf6fa12c43b8f.mp3"
+  },
+  "8 个十减 3 个十是 5 个十": {
+   "sweet": "sweet/s80c6aec27323.mp3",
+   "lively": "lively/l928305fcdaef.mp3"
+  },
+  "再想想，正确答案是50。8 个十减 3 个十是 5 个十": {
+   "lively": "lively/l7fc4eb3d8a7f.mp3",
+   "sweet": "sweet/s9a6d79b8f75e.mp3"
+  },
+  "56 减 6，等于几？": {
+   "sweet": "sweet/s58205fbaa807.mp3",
+   "lively": "lively/lb85b191eb76b.mp3"
+  },
+  "51": {
+   "sweet": "sweet/s880949fbb9ea.mp3",
+   "lively": "lively/lae3b046a3342.mp3"
+  },
+  "个位刚好减完": {
+   "sweet": "sweet/s2b4296da4d8f.mp3",
+   "lively": "lively/l27b298f986ca.mp3"
+  },
+  "再想想，正确答案是50。个位刚好减完": {
+   "lively": "lively/l02fff243e924.mp3",
+   "sweet": "sweet/s23a13edb0ced.mp3"
+  },
+  "小明有 12 颗糖，吃了 4 颗，还剩几颗？": {
+   "sweet": "sweet/seac16b6f4883.mp3",
+   "lively": "lively/l1e6267d3ba37.mp3"
+  },
+  "12 减 4 等于 8": {
+   "lively": "lively/l59004e0b9eb7.mp3",
+   "sweet": "sweet/s7f65d48336ef.mp3"
+  },
+  "再想想，正确答案是8。12 减 4 等于 8": {
+   "sweet": "sweet/sd8bc02163d08.mp3",
+   "lively": "lively/lc1d08f279a55.mp3"
+  },
+  "一盒 10 支笔，2 盒共几支？": {
+   "lively": "lively/lefbf0029b01d.mp3",
+   "sweet": "sweet/s438d6c4fe90f.mp3"
+  },
+  "22": {
+   "sweet": "sweet/sa24bf4320a68.mp3",
+   "lively": "lively/l848eac01a5c1.mp3"
+  },
+  "10 加 10 等于 20": {
+   "sweet": "sweet/s22dd43c14932.mp3",
+   "lively": "lively/la53d156d1930.mp3"
+  },
+  "再想想，正确答案是20。10 加 10 等于 20": {
+   "sweet": "sweet/scfddb41dc9f0.mp3",
+   "lively": "lively/lb94084c1a75f.mp3"
+  },
+  "树上有 7 只鸟，又飞来 5 只，共几只？": {
+   "sweet": "sweet/sa20581c9e6e0.mp3",
+   "lively": "lively/l051e4a57f71f.mp3"
+  },
+  "7 加 5 等于 12": {
+   "lively": "lively/l882acfac5b4c.mp3",
+   "sweet": "sweet/s1f3b4ff3cf9d.mp3"
+  },
+  "再想想，正确答案是12。7 加 5 等于 12": {
+   "sweet": "sweet/sa1a91ff18556.mp3",
+   "lively": "lively/l2ed251504d68.mp3"
+  },
+  "60 加 15，等于几？": {
+   "sweet": "sweet/sf41e6641417e.mp3",
+   "lively": "lively/l71eb2876413b.mp3"
+  },
+  "70": {
+   "lively": "lively/lcc05a8a57b37.mp3",
+   "sweet": "sweet/s3540ba18e553.mp3"
+  },
+  "75": {
+   "sweet": "sweet/sf5ecf3e5a940.mp3",
+   "lively": "lively/l844489d803e2.mp3"
+  },
+  "60 加 15 等于 75": {
+   "sweet": "sweet/sd6d73d1f9204.mp3",
+   "lively": "lively/la66a1434f62b.mp3"
+  },
+  "再想想，正确答案是75。60 加 15 等于 75": {
+   "sweet": "sweet/s794b14062bb0.mp3",
+   "lively": "lively/l660d43d8eeb5.mp3"
+  },
+  "听一听。别人对你说 Hello，你该怎么回答？": {
+   "sweet": "sweet/s6295bca10996.mp3",
+   "lively": "lively/lc5ae98bb78b3.mp3"
+  },
+  "Hello!": {
+   "sweet": "sweet/sd4416c9ece42.mp3",
+   "lively": "lively/l21792a9f3a9b.mp3"
+  },
+  "Good night": {
+   "sweet": "sweet/sbd33729300f7.mp3",
+   "lively": "lively/l7c78123e55cd.mp3"
+  },
+  "Sorry": {
+   "lively": "lively/lb7ccbe511956.mp3",
+   "sweet": "sweet/s609d83a5df83.mp3"
+  },
+  "Hello，你好": {
+   "lively": "lively/l19efaa465d6a.mp3",
+   "sweet": "sweet/s0051a548d438.mp3"
+  },
+  "Good night，晚安": {
+   "sweet": "sweet/s74023b185c21.mp3",
+   "lively": "lively/l0bd8323a4b0d.mp3"
+  },
+  "Sorry，对不起": {
+   "sweet": "sweet/s9e7d2fbeb4c8.mp3",
+   "lively": "lively/l5fbb6ba0fe3e.mp3"
+  },
+  "Hello 就是你好的意思，别人问好，我们也问好": {
+   "sweet": "sweet/s1f4cac83473d.mp3",
+   "lively": "lively/l82a23db4ebfb.mp3"
+  },
+  "再想想，正确答案是Hello，你好。Hello 就是你好的意思，别人问好，我们也问好": {
+   "sweet": "sweet/s83117d716f51.mp3",
+   "lively": "lively/l5ed4d47c4316.mp3"
+  },
+  "听一听。早上见到老师，应该说什么？": {
+   "lively": "lively/lc93aa3abaf77.mp3",
+   "sweet": "sweet/sc177923ad1cd.mp3"
+  },
+  "Good morning": {
+   "lively": "lively/lef74e62ed83a.mp3",
+   "sweet": "sweet/s12bb467c71f4.mp3"
+  },
+  "Thank you": {
+   "sweet": "sweet/sd25837bd9c67.mp3",
+   "lively": "lively/l91c81effe517.mp3"
+  },
+  "Good morning，早上好": {
+   "sweet": "sweet/s09751cc43b31.mp3",
+   "lively": "lively/lfca3b5fe9c80.mp3"
+  },
+  "Thank you，谢谢你": {
+   "lively": "lively/l08e698fef81e.mp3",
+   "sweet": "sweet/s585264fa5719.mp3"
+  },
+  "早上问好用 Good morning": {
+   "lively": "lively/l1d32154cdaa4.mp3",
+   "sweet": "sweet/sb5e2c9c4eed2.mp3"
+  },
+  "再想想，正确答案是Good morning，早上好。早上问好用 Good morning": {
+   "lively": "lively/lec2ad3188f50.mp3",
+   "sweet": "sweet/sfb6e0bc4d008.mp3"
+  },
+  "听一听。和老师说再见，说什么？": {
+   "lively": "lively/l82fc7608ec63.mp3",
+   "sweet": "sweet/sad630a385f65.mp3"
+  },
+  "Goodbye": {
+   "lively": "lively/l45ca76f0bd57.mp3",
+   "sweet": "sweet/s4062c95869cc.mp3"
+  },
+  "Goodbye，再见": {
+   "sweet": "sweet/safd238b3739a.mp3",
+   "lively": "lively/l5c51c3362f62.mp3"
+  },
+  "Goodbye 就是再见": {
+   "lively": "lively/l88efff76c7cf.mp3",
+   "sweet": "sweet/s1a14f20ab788.mp3"
+  },
+  "再想想，正确答案是Goodbye，再见。Goodbye 就是再见": {
+   "sweet": "sweet/s3a9cef022e06.mp3",
+   "lively": "lively/l3490fe6cc2bb.mp3"
+  },
+  "听一听。别人帮了你，你要说什么？": {
+   "sweet": "sweet/s3cca2eaa9fea.mp3",
+   "lively": "lively/l11c9d93ac312.mp3"
+  },
+  "Thank you 是谢谢你": {
+   "lively": "lively/l113ec30175d4.mp3",
+   "sweet": "sweet/sae59d07520bf.mp3"
+  },
+  "再想想，正确答案是Thank you，谢谢你。Thank you 是谢谢你": {
+   "sweet": "sweet/sf6cdd9dba9aa.mp3",
+   "lively": "lively/l19d25001b0e9.mp3"
+  },
+  "听一听。不小心撞到别人，要说什么？": {
+   "sweet": "sweet/s69f03c17543b.mp3",
+   "lively": "lively/lf90ce56feeea.mp3"
+  },
+  "Sorry 是对不起": {
+   "sweet": "sweet/s418132a70dac.mp3",
+   "lively": "lively/laa1b8fbed080.mp3"
+  },
+  "再想想，正确答案是Sorry，对不起。Sorry 是对不起": {
+   "lively": "lively/ld08c16123936.mp3",
+   "sweet": "sweet/sac04943216f3.mp3"
+  },
+  "听一听。Good night，该在什么时候说？": {
+   "sweet": "sweet/s43620f57b930.mp3",
+   "lively": "lively/leba5b3873c06.mp3"
+  },
+  "睡觉前": {
+   "sweet": "sweet/sc19331052e80.mp3",
+   "lively": "lively/lb59137e8ca26.mp3"
+  },
+  "起床时": {
+   "lively": "lively/lcef526a234e1.mp3",
+   "sweet": "sweet/s453f14d6c84a.mp3"
+  },
+  "吃饭时": {
+   "sweet": "sweet/s2fa0a86f8555.mp3",
+   "lively": "lively/l21a4069575a1.mp3"
+  },
+  "night 是夜晚，晚安就是睡觉前说的": {
+   "lively": "lively/leb5329e6b0ba.mp3",
+   "sweet": "sweet/sacf2996c1502.mp3"
+  },
+  "再想想，正确答案是睡觉前。night 是夜晚，晚安就是睡觉前说的": {
+   "lively": "lively/l086be9acf522.mp3",
+   "sweet": "sweet/s23d8ef0d371e.mp3"
+  },
+  "听一听。苹果是红色，红色用英语怎么说？": {
+   "sweet": "sweet/sd8da956b1e72.mp3",
+   "lively": "lively/l61cc0c1f3649.mp3"
+  },
+  "red": {
+   "lively": "lively/lcc7105d9ff51.mp3",
+   "sweet": "sweet/s8531f61d1492.mp3"
+  },
+  "blue": {
+   "lively": "lively/l1ae3a8ac0bdf.mp3",
+   "sweet": "sweet/s75976e7d05b7.mp3"
+  },
+  "yellow": {
+   "sweet": "sweet/s636bc8444669.mp3",
+   "lively": "lively/l1c32b2639836.mp3"
+  },
+  "red，红色": {
+   "sweet": "sweet/s31a6edd86deb.mp3",
+   "lively": "lively/l5cebe6c7645c.mp3"
+  },
+  "blue，蓝色": {
+   "lively": "lively/l490c7788dd34.mp3",
+   "sweet": "sweet/sf3413e37c01f.mp3"
+  },
+  "yellow，黄色": {
+   "sweet": "sweet/sec2d2eb2dfe6.mp3",
+   "lively": "lively/l6eee9fc192c1.mp3"
+  },
+  "red 就是红色，像苹果一样": {
+   "lively": "lively/l8a54d2552d57.mp3",
+   "sweet": "sweet/s9c2c05fcf1f0.mp3"
+  },
+  "再想想，正确答案是red，红色。red 就是红色，像苹果一样": {
+   "sweet": "sweet/s95555dee522f.mp3",
+   "lively": "lively/la1d2aab901d0.mp3"
+  },
+  "听一听。天空是蓝色，蓝色用英语怎么说？": {
+   "lively": "lively/l53b301101577.mp3",
+   "sweet": "sweet/s148e067b229b.mp3"
+  },
+  "green": {
+   "sweet": "sweet/sad368457f764.mp3",
+   "lively": "lively/l61eaf4cc1313.mp3"
+  },
+  "green，绿色": {
+   "lively": "lively/l585bc73b66e9.mp3",
+   "sweet": "sweet/s017c946e319d.mp3"
+  },
+  "blue 就是蓝色，像天空一样": {
+   "sweet": "sweet/s10cf0864b84a.mp3",
+   "lively": "lively/l8c21ada88157.mp3"
+  },
+  "再想想，正确答案是blue，蓝色。blue 就是蓝色，像天空一样": {
+   "lively": "lively/l2089b8310319.mp3",
+   "sweet": "sweet/s32cdd0fb49c2.mp3"
+  },
+  "听一听。香蕉是黄色，黄色用英语怎么说？": {
+   "sweet": "sweet/sb079cdd2b954.mp3",
+   "lively": "lively/lb3864ce31d29.mp3"
+  },
+  "black": {
+   "sweet": "sweet/s556e38df6fff.mp3",
+   "lively": "lively/le92017721e96.mp3"
+  },
+  "black，黑色": {
+   "sweet": "sweet/sbffe1d7fed26.mp3",
+   "lively": "lively/la0bec8921086.mp3"
+  },
+  "yellow 就是黄色，像香蕉一样": {
+   "sweet": "sweet/sf0040e52abd3.mp3",
+   "lively": "lively/leaa4951a8342.mp3"
+  },
+  "再想想，正确答案是yellow，黄色。yellow 就是黄色，像香蕉一样": {
+   "sweet": "sweet/s5a3a59b0084d.mp3",
+   "lively": "lively/l9f3ad0be4111.mp3"
+  },
+  "听一听。green，是哪个颜色？": {
+   "lively": "lively/le200b2a7ada5.mp3",
+   "sweet": "sweet/s9fb6d1f9c85d.mp3"
+  },
+  "绿色": {
+   "lively": "lively/le52621f5378d.mp3",
+   "sweet": "sweet/s274c826bd008.mp3"
+  },
+  "红色": {
+   "sweet": "sweet/s3dae86808cd6.mp3",
+   "lively": "lively/l5b90c9a6754d.mp3"
+  },
+  "紫色": {
+   "sweet": "sweet/s6088eed00be3.mp3",
+   "lively": "lively/l27bf6a265cba.mp3"
+  },
+  "green 绿色，小草的颜色": {
+   "lively": "lively/lcf5e9f0d451d.mp3",
+   "sweet": "sweet/s4e027bab56ab.mp3"
+  },
+  "再想想，正确答案是绿色。green 绿色，小草的颜色": {
+   "lively": "lively/l7fdd450d6a27.mp3",
+   "sweet": "sweet/s86799366f312.mp3"
+  },
+  "听一听。小草是什么颜色？用英语说。": {
+   "lively": "lively/lf41a0e0a691d.mp3",
+   "sweet": "sweet/s03acc0a8d71a.mp3"
+  },
+  "green 绿色，小草就是 green": {
+   "sweet": "sweet/s07b548fd6b4b.mp3",
+   "lively": "lively/l420761ca31e7.mp3"
+  },
+  "再想想，正确答案是green，绿色。green 绿色，小草就是 green": {
+   "sweet": "sweet/sfb08e7c6acd7.mp3",
+   "lively": "lively/l6c484c45f677.mp3"
+  },
+  "听一听。雪是白色，白色用英语怎么说？": {
+   "sweet": "sweet/s7c248a3fc3ae.mp3",
+   "lively": "lively/l60e4d97fa4f3.mp3"
+  },
+  "white": {
+   "lively": "lively/l4ff9db9049f3.mp3",
+   "sweet": "sweet/s4ec3652371b1.mp3"
+  },
+  "white，白色": {
+   "sweet": "sweet/sfa4a0e62879c.mp3",
+   "lively": "lively/l46928464a624.mp3"
+  },
+  "white 白色，雪就是 white": {
+   "sweet": "sweet/sa62c6bbe159a.mp3",
+   "lively": "lively/l3509fc86c56b.mp3"
+  },
+  "再想想，正确答案是white，白色。white 白色，雪就是 white": {
+   "sweet": "sweet/s752405459072.mp3",
+   "lively": "lively/lc552b8dec57a.mp3"
+  },
+  "听一听。one，是几？": {
+   "sweet": "sweet/sc735be0f9502.mp3",
+   "lively": "lively/l96823298c558.mp3"
+  },
+  "one 就是一": {
+   "lively": "lively/le3c46f7cb918.mp3",
+   "sweet": "sweet/s4f2c50c1aa2e.mp3"
+  },
+  "再想想，正确答案是1。one 就是一": {
+   "lively": "lively/l19d034c1febb.mp3",
+   "sweet": "sweet/s7b88acbf8c56.mp3"
+  },
+  "听一听。3，用英语怎么说？": {
+   "lively": "lively/laa7130f7d5bf.mp3",
+   "sweet": "sweet/s3725c397d11b.mp3"
+  },
+  "three": {
+   "sweet": "sweet/s73c0b82780c4.mp3",
+   "lively": "lively/l5f4c6bf17fa7.mp3"
+  },
+  "two": {
+   "sweet": "sweet/s618c21e3a1ff.mp3",
+   "lively": "lively/laedaeef67aea.mp3"
+  },
+  "five": {
+   "sweet": "sweet/sccb46fc9c8ee.mp3",
+   "lively": "lively/l385b07b08ffc.mp3"
+  },
+  "three 是三": {
+   "sweet": "sweet/s50de386a260e.mp3",
+   "lively": "lively/l91c8d8050d61.mp3"
+  },
+  "再想想，正确答案是three。three 是三": {
+   "lively": "lively/l791c03bf80d4.mp3",
+   "sweet": "sweet/s8b4e37e67265.mp3"
+  },
+  "听一听。five，是几？": {
+   "sweet": "sweet/sae91afc104c8.mp3",
+   "lively": "lively/l5cb3c8ed6cc1.mp3"
+  },
+  "five 就是五": {
+   "sweet": "sweet/sed32d1e5d673.mp3",
+   "lively": "lively/l40b36010449f.mp3"
+  },
+  "再想想，正确答案是5。five 就是五": {
+   "sweet": "sweet/sc53ca489ae84.mp3",
+   "lively": "lively/ldc310fd029a7.mp3"
+  },
+  "听一听。图上有两个苹果，两个用英语怎么说？": {
+   "sweet": "sweet/s203bfadd1aaf.mp3",
+   "lively": "lively/l61f05305db63.mp3"
+  },
+  "one": {
+   "sweet": "sweet/sdf81cd96b16a.mp3",
+   "lively": "lively/lf583a9aea7ee.mp3"
+  },
+  "four": {
+   "sweet": "sweet/scb9d47191af3.mp3",
+   "lively": "lively/ldd06130dd83c.mp3"
+  },
+  "two，二": {
+   "sweet": "sweet/s5d2460034301.mp3",
+   "lively": "lively/l798026352622.mp3"
+  },
+  "one，一": {
+   "sweet": "sweet/s794ec4c181cd.mp3",
+   "lively": "lively/l382c8ae67af5.mp3"
+  },
+  "four，四": {
+   "sweet": "sweet/s539008af4b40.mp3",
+   "lively": "lively/l4ca3a0f4f3bf.mp3"
+  },
+  "two 就是二": {
+   "sweet": "sweet/sb68ef7a3ce3d.mp3",
+   "lively": "lively/lfce810ad198d.mp3"
+  },
+  "再想想，正确答案是two，二。two 就是二": {
+   "sweet": "sweet/sdd90c526023a.mp3",
+   "lively": "lively/lc9e12330d68c.mp3"
+  },
+  "听一听。four 后面是哪个数字？": {
+   "sweet": "sweet/s59148099d987.mp3",
+   "lively": "lively/l0d158dfeb9d9.mp3"
+  },
+  "four 是四，接着就是 five 五": {
+   "sweet": "sweet/s27415cc8949c.mp3",
+   "lively": "lively/lcd389d8be5e6.mp3"
+  },
+  "再想想，正确答案是five。four 是四，接着就是 five 五": {
+   "sweet": "sweet/sf179caa9490a.mp3",
+   "lively": "lively/l317dda0fa690.mp3"
+  },
+  "听一听。数一数有几颗星星，用英语回答。": {
+   "lively": "lively/lac207e931aa9.mp3",
+   "sweet": "sweet/s5d98ff9f84ec.mp3"
+  },
+  "four，四颗": {
+   "lively": "lively/lfb0a689d5b0b.mp3",
+   "sweet": "sweet/s28b31a869eed.mp3"
+  },
+  "three，三颗": {
+   "sweet": "sweet/s390f75ff32af.mp3",
+   "lively": "lively/l1f6d4b501adf.mp3"
+  },
+  "five，五颗": {
+   "lively": "lively/l179da1011fda.mp3",
+   "sweet": "sweet/s5b0d052e108d.mp3"
+  },
+  "一颗一颗数：one two three four": {
+   "lively": "lively/l32e13b9b607b.mp3",
+   "sweet": "sweet/sfa402d9e8621.mp3"
+  },
+  "再想想，正确答案是four，四颗。一颗一颗数：one two three four": {
+   "lively": "lively/lebd6700d2b05.mp3",
+   "sweet": "sweet/s79ba2e4bda26.mp3"
+  },
+  "听一听。小猫用英语怎么说？": {
+   "sweet": "sweet/s78afe551ad7c.mp3",
+   "lively": "lively/l673abde7784a.mp3"
+  },
+  "cat": {
+   "sweet": "sweet/s093795f9ce55.mp3",
+   "lively": "lively/lba12f0e8d83b.mp3"
+  },
+  "dog": {
+   "sweet": "sweet/sf47faf2ab3c6.mp3",
+   "lively": "lively/l70641e134f3b.mp3"
+  },
+  "fish": {
+   "lively": "lively/l59653b60a5f4.mp3",
+   "sweet": "sweet/se76948649018.mp3"
+  },
+  "cat 就是猫": {
+   "sweet": "sweet/s831ed76a5a51.mp3",
+   "lively": "lively/lc3284b5811e5.mp3"
+  },
+  "再想想，正确答案是cat。cat 就是猫": {
+   "sweet": "sweet/sfdd0943060c0.mp3",
+   "lively": "lively/l7c71b88deb1c.mp3"
+  },
+  "听一听。小狗用英语怎么说？": {
+   "sweet": "sweet/sac0fd5f2f6ed.mp3",
+   "lively": "lively/l5daae97e3811.mp3"
+  },
+  "bird": {
+   "sweet": "sweet/sd16816d07da7.mp3",
+   "lively": "lively/lf38da8e45659.mp3"
+  },
+  "dog 就是狗": {
+   "sweet": "sweet/sa65b102e6dae.mp3",
+   "lively": "lively/lf4c84f13c60a.mp3"
+  },
+  "再想想，正确答案是dog。dog 就是狗": {
+   "lively": "lively/l4d3c26c46624.mp3",
+   "sweet": "sweet/sa1d4ffa1bd7b.mp3"
+  },
+  "听一听。fish，是什么动物？": {
+   "sweet": "sweet/s29de0cfd09c6.mp3",
+   "lively": "lively/lc68039d17fa2.mp3"
+  },
+  "兔子": {
+   "sweet": "sweet/sf6bef309ff64.mp3",
+   "lively": "lively/le59017fbbd62.mp3"
+  },
+  "fish 就是鱼": {
+   "sweet": "sweet/s77509c7b9baa.mp3",
+   "lively": "lively/l0d0b28ea725c.mp3"
+  },
+  "再想想，正确答案是鱼。fish 就是鱼": {
+   "sweet": "sweet/sea84ae84dce1.mp3",
+   "lively": "lively/l344e3b50bcef.mp3"
+  },
+  "听一听。小鸟用英语怎么说？": {
+   "lively": "lively/la82bf5fc0f62.mp3",
+   "sweet": "sweet/sab61e0789a71.mp3"
+  },
+  "rabbit": {
+   "lively": "lively/laca59a2ac1a9.mp3",
+   "sweet": "sweet/s0b2219efc9af.mp3"
+  },
+  "bird 就是小鸟": {
+   "lively": "lively/l62d11dae23fd.mp3",
+   "sweet": "sweet/sd77dbcacbc87.mp3"
+  },
+  "再想想，正确答案是bird。bird 就是小鸟": {
+   "lively": "lively/l73c723827988.mp3",
+   "sweet": "sweet/sa207cda36167.mp3"
+  },
+  "听一听。小兔子用英语怎么说？": {
+   "sweet": "sweet/sd439b67090ab.mp3",
+   "lively": "lively/lea34dc89e64a.mp3"
+  },
+  "rabbit 就是兔子": {
+   "sweet": "sweet/sc3f635c415be.mp3",
+   "lively": "lively/le19b98730273.mp3"
+  },
+  "再想想，正确答案是rabbit。rabbit 就是兔子": {
+   "lively": "lively/l100f5542bd46.mp3",
+   "sweet": "sweet/s83e58acb1808.mp3"
+  },
+  "听一听。I like cats，是什么意思？": {
+   "lively": "lively/lce83981968a8.mp3",
+   "sweet": "sweet/s5fc16602bab3.mp3"
+  },
+  "我喜欢猫": {
+   "lively": "lively/l65b46e948220.mp3",
+   "sweet": "sweet/sa36d1e468e5c.mp3"
+  },
+  "我害怕猫": {
+   "sweet": "sweet/s491daad1cbca.mp3",
+   "lively": "lively/lb592caa14041.mp3"
+  },
+  "我在喂猫": {
+   "lively": "lively/l83bf791971da.mp3",
+   "sweet": "sweet/sb871422ad575.mp3"
+  },
+  "I 是我，like 是喜欢": {
+   "lively": "lively/l706ffb9edeba.mp3",
+   "sweet": "sweet/secdf605dc930.mp3"
+  },
+  "再想想，正确答案是我喜欢猫。I 是我，like 是喜欢": {
+   "sweet": "sweet/s90dc9711a688.mp3",
+   "lively": "lively/l37264f6aaca9.mp3"
+  },
+  "听一听。小鸟用什么飞？": {
+   "lively": "lively/l70150af95f66.mp3",
+   "sweet": "sweet/s84f475b20f0b.mp3"
+  },
+  "翅膀": {
+   "sweet": "sweet/s496297e669ce.mp3",
+   "lively": "lively/lfea2386a4393.mp3"
+  },
+  "鳍": {
+   "lively": "lively/l78850e63bc12.mp3",
+   "sweet": "sweet/s0934c634d304.mp3"
+  },
+  "腿": {
+   "sweet": "sweet/sd3b8d9a24ccb.mp3",
+   "lively": "lively/l97699a08e8d3.mp3"
+  },
+  "翅膀上下扇动，就把身体带上了天": {
+   "sweet": "sweet/sb9a2dd0704df.mp3",
+   "lively": "lively/lc037433036a3.mp3"
+  },
+  "再想想，正确答案是翅膀。翅膀上下扇动，就把身体带上了天": {
+   "lively": "lively/l0ca0e8ab68d0.mp3",
+   "sweet": "sweet/s1c853e7e71cf.mp3"
+  },
+  "听一听。小鱼生活在哪里？": {
+   "sweet": "sweet/s0d99fceebefa.mp3",
+   "lively": "lively/lfa1606a16b29.mp3"
+  },
+  "沙漠里": {
+   "sweet": "sweet/s74d6086617bd.mp3",
+   "lively": "lively/l644a7b9de5d4.mp3"
+  },
+  "鱼用鳃呼吸，离开水就活不了": {
+   "lively": "lively/ld6c2f0b3b016.mp3",
+   "sweet": "sweet/s495b34c64790.mp3"
+  },
+  "再想想，正确答案是水里。鱼用鳃呼吸，离开水就活不了": {
+   "sweet": "sweet/s29f38dccd147.mp3",
+   "lively": "lively/l43ca916cdb5b.mp3"
+  },
+  "听一听。哪种小动物会冬眠？": {
+   "sweet": "sweet/s6e2ee3b57090.mp3",
+   "lively": "lively/le76f8725c9c3.mp3"
+  },
+  "青蛙": {
+   "sweet": "sweet/s80750f01da11.mp3",
+   "lively": "lively/l7cc812feb913.mp3"
+  },
+  "小狗": {
+   "sweet": "sweet/s0929767e9bbe.mp3",
+   "lively": "lively/lf5d099310932.mp3"
+  },
+  "小鸡": {
+   "sweet": "sweet/s2ea5ac728541.mp3",
+   "lively": "lively/l81d6dadd651f.mp3"
+  },
+  "青蛙冬天钻进泥里睡觉，这叫冬眠": {
+   "sweet": "sweet/s10cca4e23e17.mp3",
+   "lively": "lively/l657a86a6945d.mp3"
+  },
+  "再想想，正确答案是青蛙。青蛙冬天钻进泥里睡觉，这叫冬眠": {
+   "lively": "lively/la8600901a625.mp3",
+   "sweet": "sweet/s00cb12a68132.mp3"
+  },
+  "听一听。小蝌蚪长大以后变成什么？": {
+   "lively": "lively/l41cf5d9354ef.mp3",
+   "sweet": "sweet/s0a308a85e500.mp3"
+  },
+  "小虾": {
+   "sweet": "sweet/sbc16e46dfbdc.mp3",
+   "lively": "lively/ld61daacfdadc.mp3"
+  },
+  "先长后腿，再长前腿，尾巴慢慢不见": {
+   "sweet": "sweet/sfb1b816933a1.mp3",
+   "lively": "lively/lbcb665b6e392.mp3"
+  },
+  "再想想，正确答案是青蛙。先长后腿，再长前腿，尾巴慢慢不见": {
+   "lively": "lively/ld2885414c8e2.mp3",
+   "sweet": "sweet/s6038925ad9bf.mp3"
+  },
+  "听一听。蜜蜂采花是为什么？": {
+   "sweet": "sweet/sfd98ab7f5cae.mp3",
+   "lively": "lively/l575e0003b570.mp3"
+  },
+  "酿蜂蜜": {
+   "lively": "lively/l357dbf411e5c.mp3",
+   "sweet": "sweet/s4d46b0ee4298.mp3"
+  },
+  "做衣服": {
+   "sweet": "sweet/sd17537f9a327.mp3",
+   "lively": "lively/le18461752f73.mp3"
+  },
+  "搭房子": {
+   "lively": "lively/lb3aee1493b10.mp3",
+   "sweet": "sweet/sdebbfc114d5d.mp3"
+  },
+  "把花蜜带回蜂巢，酿成甜甜的蜂蜜": {
+   "lively": "lively/lc07ae904c006.mp3",
+   "sweet": "sweet/s67c0b269ee57.mp3"
+  },
+  "再想想，正确答案是酿蜂蜜。把花蜜带回蜂巢，酿成甜甜的蜂蜜": {
+   "lively": "lively/ld3a52c3945d8.mp3",
+   "sweet": "sweet/s79253236bbaa.mp3"
+  },
+  "听一听。哪个动物有长长的鼻子？": {
+   "lively": "lively/lbf4d825b8d04.mp3",
+   "sweet": "sweet/s9670df473265.mp3"
+  },
+  "大象": {
+   "sweet": "sweet/seaa46a57237c.mp3",
+   "lively": "lively/l588e89d64bc4.mp3"
+  },
+  "长颈鹿": {
+   "sweet": "sweet/sa2c918f608a6.mp3",
+   "lively": "lively/l775bc77609a4.mp3"
+  },
+  "狮子": {
+   "lively": "lively/l692af313fe14.mp3",
+   "sweet": "sweet/sbe57495824aa.mp3"
+  },
+  "大象的鼻子能闻味、能喝水，还能当手用": {
+   "lively": "lively/lbab98208b602.mp3",
+   "sweet": "sweet/sd96ada85919f.mp3"
+  },
+  "再想想，正确答案是大象。大象的鼻子能闻味、能喝水，还能当手用": {
+   "sweet": "sweet/s967b0837e3e8.mp3",
+   "lively": "lively/l4825c9bb2104.mp3"
+  },
+  "听一听。下雨天出门要带什么？": {
+   "lively": "lively/lff483755e406.mp3",
+   "sweet": "sweet/s3fd34c00df48.mp3"
+  },
+  "雨伞": {
+   "sweet": "sweet/sa341cb65144a.mp3",
+   "lively": "lively/lfa08e5a5e9ce.mp3"
+  },
+  "扇子": {
+   "lively": "lively/la6383db5000b.mp3",
+   "sweet": "sweet/s09e7436b1b43.mp3"
+  },
+  "手套": {
+   "sweet": "sweet/s157c567ff1bb.mp3",
+   "lively": "lively/l318a9b2f2b0d.mp3"
+  },
+  "雨伞像小屋顶，把雨挡在外面": {
+   "lively": "lively/l1ec81b8de807.mp3",
+   "sweet": "sweet/s254d584b328e.mp3"
+  },
+  "再想想，正确答案是雨伞。雨伞像小屋顶，把雨挡在外面": {
+   "lively": "lively/lb0219399bae0.mp3",
+   "sweet": "sweet/s513bea25b617.mp3"
+  },
+  "听一听。冬天天上会飘下什么？": {
+   "sweet": "sweet/sb4c2901e2c62.mp3",
+   "lively": "lively/lb3ea1ba63b75.mp3"
+  },
+  "雪花": {
+   "sweet": "sweet/sd24572d0bd2a.mp3",
+   "lively": "lively/laf8ef6aed6e6.mp3"
+  },
+  "花瓣": {
+   "sweet": "sweet/s60e22f0260dd.mp3",
+   "lively": "lively/lddbe515285c4.mp3"
+  },
+  "沙子": {
+   "sweet": "sweet/s799f6f17ff8a.mp3",
+   "lively": "lively/l1fadbe9c447c.mp3"
+  },
+  "每片雪花都是六角形的": {
+   "lively": "lively/l85c29353e69e.mp3",
+   "sweet": "sweet/se833cc749f2b.mp3"
+  },
+  "再想想，正确答案是雪花。每片雪花都是六角形的": {
+   "sweet": "sweet/s2f8587f8988b.mp3",
+   "lively": "lively/l94d0d5b17965.mp3"
+  },
+  "听一听。彩虹一般什么时候出现？": {
+   "sweet": "sweet/saa7deea97602.mp3",
+   "lively": "lively/l7230e54d156d.mp3"
+  },
+  "雨过天晴": {
+   "sweet": "sweet/s10f1a18c79e4.mp3",
+   "lively": "lively/lbee81162bb99.mp3"
+  },
+  "刮大风": {
+   "lively": "lively/l015068c4921c.mp3",
+   "sweet": "sweet/s92bdc90d6aaf.mp3"
+  },
+  "下大雪": {
+   "sweet": "sweet/s745adc05e964.mp3",
+   "lively": "lively/l5580567ac58f.mp3"
+  },
+  "阳光照进小水珠，就折出七色的彩虹": {
+   "sweet": "sweet/s30a314f10cb5.mp3",
+   "lively": "lively/le45a859c4966.mp3"
+  },
+  "再想想，正确答案是雨过天晴。阳光照进小水珠，就折出七色的彩虹": {
+   "sweet": "sweet/s989e22f241d3.mp3",
+   "lively": "lively/l71c85edbc8af.mp3"
+  },
+  "听一听。太阳从哪边升起来？": {
+   "sweet": "sweet/sdc09876af96e.mp3",
+   "lively": "lively/l21df8ad0f5dc.mp3"
+  },
+  "东边": {
+   "sweet": "sweet/s10dbd26c02ce.mp3",
+   "lively": "lively/lb730af3a4410.mp3"
+  },
+  "西边": {
+   "sweet": "sweet/s37a767d248b4.mp3",
+   "lively": "lively/l29ffd72a9a5d.mp3"
+  },
+  "北边": {
+   "lively": "lively/l4b5efc8412dc.mp3",
+   "sweet": "sweet/se02e50c73e65.mp3"
+  },
+  "太阳东边升起、西边落下": {
+   "sweet": "sweet/s6adf20ffdf1b.mp3",
+   "lively": "lively/l1f5d86f83360.mp3"
+  },
+  "再想想，正确答案是东边。太阳东边升起、西边落下": {
+   "sweet": "sweet/s54355513e92b.mp3",
+   "lively": "lively/lb872f1e8bbc8.mp3"
+  },
+  "听一听。一年里哪个季节最热？": {
+   "sweet": "sweet/s70e7ec107bf2.mp3",
+   "lively": "lively/l576ad959709f.mp3"
+  },
+  "夏天": {
+   "sweet": "sweet/s60ca29b8361c.mp3",
+   "lively": "lively/l9cf9e386b4eb.mp3"
+  },
+  "冬天": {
+   "sweet": "sweet/s0b0846181468.mp3",
+   "lively": "lively/lf9c2a29eefbb.mp3"
+  },
+  "秋天": {
+   "sweet": "sweet/s983a037ef634.mp3",
+   "lively": "lively/l5dce39199cce.mp3"
+  },
+  "夏天太阳照得最直，所以最热": {
+   "lively": "lively/l36dd3b2e0a40.mp3",
+   "sweet": "sweet/sa06de0cbddeb.mp3"
+  },
+  "再想想，正确答案是夏天。夏天太阳照得最直，所以最热": {
+   "sweet": "sweet/s4918e03d3aba.mp3",
+   "lively": "lively/l52e6236dec4a.mp3"
+  },
+  "听一听。春天最早开花的是什么？": {
+   "sweet": "sweet/s5a04e99cc2fb.mp3",
+   "lively": "lively/l23fa945f9598.mp3"
+  },
+  "桃花": {
+   "sweet": "sweet/s9474463803fb.mp3",
+   "lively": "lively/l6fe583df712c.mp3"
+  },
+  "荷花": {
+   "lively": "lively/l7d58eba7eff5.mp3",
+   "sweet": "sweet/s7519e26f0a81.mp3"
+  },
+  "桂花": {
+   "sweet": "sweet/s0f4202ba8c11.mp3",
+   "lively": "lively/l0de74ca6c88a.mp3"
+  },
+  "桃花、迎春花春天先开，荷花要等夏天": {
+   "lively": "lively/l2c6b15427a91.mp3",
+   "sweet": "sweet/sa8ef04b4d255.mp3"
+  },
+  "再想想，正确答案是桃花。桃花、迎春花春天先开，荷花要等夏天": {
+   "sweet": "sweet/s70554cd56b60.mp3",
+   "lively": "lively/l27f311d491f9.mp3"
+  },
+  "听一听。我们用什么看东西？": {
+   "sweet": "sweet/se1a8238089a6.mp3",
+   "lively": "lively/lfece33cedca6.mp3"
+  },
+  "眼睛": {
+   "lively": "lively/l20b84de58d87.mp3",
+   "sweet": "sweet/s067a43fbce73.mp3"
+  },
+  "耳朵": {
+   "sweet": "sweet/s4516e0b00943.mp3",
+   "lively": "lively/l77fb88401ff6.mp3"
+  },
+  "鼻子": {
+   "sweet": "sweet/s8ccef50d7339.mp3",
+   "lively": "lively/lfb02128ffaa6.mp3"
+  },
+  "眼睛里的晶状体，像小镜头把东西照清楚": {
+   "sweet": "sweet/s3073e08ccc95.mp3",
+   "lively": "lively/lb4be7bcc4347.mp3"
+  },
+  "再想想，正确答案是眼睛。眼睛里的晶状体，像小镜头把东西照清楚": {
+   "sweet": "sweet/s4d5913d36aac.mp3",
+   "lively": "lively/l0947c7692fc7.mp3"
+  },
+  "听一听。我们用什么听声音？": {
+   "sweet": "sweet/s48037aeff814.mp3",
+   "lively": "lively/l5c29236770b2.mp3"
+  },
+  "手": {
+   "sweet": "sweet/s99a15c7a743d.mp3",
+   "lively": "lively/ld5c9171a9aa3.mp3"
+  },
+  "声音钻进耳朵，变成信号告诉大脑": {
+   "lively": "lively/la88eede0f99a.mp3",
+   "sweet": "sweet/s425c78edb3ee.mp3"
+  },
+  "再想想，正确答案是耳朵。声音钻进耳朵，变成信号告诉大脑": {
+   "sweet": "sweet/sbf08c7ee68dd.mp3",
+   "lively": "lively/lbf0bb3b71bb3.mp3"
+  },
+  "听一听。心脏在身体里做什么？": {
+   "lively": "lively/l1c8e18616f5d.mp3",
+   "sweet": "sweet/sf55bbb298fdb.mp3"
+  },
+  "把血送到全身": {
+   "sweet": "sweet/se55647b860e7.mp3",
+   "lively": "lively/l9e647a5ff42e.mp3"
+  },
+  "帮我们吃饭": {
+   "sweet": "sweet/s5bcc4df38618.mp3",
+   "lively": "lively/lc2f16c23574f.mp3"
+  },
+  "帮我们长头发": {
+   "sweet": "sweet/se652fc49cfc0.mp3",
+   "lively": "lively/l777d5e05de02.mp3"
+  },
+  "心脏像小水泵，一下一下把血送出去": {
+   "lively": "lively/l0526f8245653.mp3",
+   "sweet": "sweet/s88e5b5a29775.mp3"
+  },
+  "再想想，正确答案是把血送到全身。心脏像小水泵，一下一下把血送出去": {
+   "lively": "lively/l2224c81ddec2.mp3",
+   "sweet": "sweet/s35e63cd6ebc8.mp3"
+  },
+  "听一听。牙齿的作用是什么？": {
+   "sweet": "sweet/sdffc267ea93d.mp3",
+   "lively": "lively/l574d32a13fb8.mp3"
+  },
+  "把食物嚼碎": {
+   "sweet": "sweet/secc6eb708070.mp3",
+   "lively": "lively/l204647e433d3.mp3"
+  },
+  "闻味道": {
+   "sweet": "sweet/s9022205f7971.mp3",
+   "lively": "lively/lf1a47579bb40.mp3"
+  },
+  "听声音": {
+   "sweet": "sweet/s3d212431bd41.mp3",
+   "lively": "lively/l399590e03211.mp3"
+  },
+  "嚼碎了才好消化，所以要好好刷牙": {
+   "lively": "lively/l2732b1b1f6fe.mp3",
+   "sweet": "sweet/s1ca0534919f5.mp3"
+  },
+  "再想想，正确答案是把食物嚼碎。嚼碎了才好消化，所以要好好刷牙": {
+   "sweet": "sweet/s63a6b747607e.mp3",
+   "lively": "lively/l4b33281e41fd.mp3"
+  },
+  "听一听。小学生一天要睡多久？": {
+   "lively": "lively/l931c41ed131c.mp3",
+   "sweet": "sweet/sfc8132bf388c.mp3"
+  },
+  "十小时左右": {
+   "lively": "lively/l65689bc04b23.mp3",
+   "sweet": "sweet/sf79877af490d.mp3"
+  },
+  "三小时": {
+   "lively": "lively/lcff730f1c07f.mp3",
+   "sweet": "sweet/s1a0fd0b73e6e.mp3"
+  },
+  "二十小时": {
+   "sweet": "sweet/sb7178a4a9e1b.mp3",
+   "lively": "lively/lac38da107b79.mp3"
+  },
+  "睡够了，白天才有精神、才长个子": {
+   "sweet": "sweet/s670181e15650.mp3",
+   "lively": "lively/l85b3a4869116.mp3"
+  },
+  "再想想，正确答案是十小时左右。睡够了，白天才有精神、才长个子": {
+   "sweet": "sweet/s0e1e620a7aac.mp3",
+   "lively": "lively/l05cdfa9a13bf.mp3"
+  },
+  "听一听。两只手一共有几个手指？": {
+   "lively": "lively/la10180ab92d8.mp3",
+   "sweet": "sweet/s5d898164f0ff.mp3"
+  },
+  "十个": {
+   "lively": "lively/l39347ad8fe1a.mp3",
+   "sweet": "sweet/sfee017c167fe.mp3"
+  },
+  "五个": {
+   "sweet": "sweet/s28931e3024bd.mp3",
+   "lively": "lively/l08ab7653d06f.mp3"
+  },
+  "二十个": {
+   "sweet": "sweet/s66459e030c67.mp3",
+   "lively": "lively/lfd1c666dfa94.mp3"
+  },
+  "一只手五个，两只手十个": {
+   "sweet": "sweet/s06a908b2f03b.mp3",
+   "lively": "lively/l6cc48c0c8726.mp3"
+  },
+  "再想想，正确答案是十个。一只手五个，两只手十个": {
+   "sweet": "sweet/s0f5aaa63734e.mp3",
+   "lively": "lively/l99f10219aa22.mp3"
+  },
+  "听一听。种子发芽最需要什么？": {
+   "sweet": "sweet/s6aee79a97b9e.mp3",
+   "lively": "lively/l5d1031167a04.mp3"
+  },
+  "阳光和水": {
+   "sweet": "sweet/s4f8deada633d.mp3",
+   "lively": "lively/l4b01785662a6.mp3"
+  },
+  "糖果": {
+   "sweet": "sweet/sd72ebafde6a1.mp3",
+   "lively": "lively/l0611ee9e92f3.mp3"
+  },
+  "石头": {
+   "sweet": "sweet/sf7f531559aa8.mp3",
+   "lively": "lively/l5acec9c75c41.mp3"
+  },
+  "有阳光、有水、有空气，种子才肯醒来": {
+   "sweet": "sweet/s6b7321c7143f.mp3",
+   "lively": "lively/ld5008e538b62.mp3"
+  },
+  "再想想，正确答案是阳光和水。有阳光、有水、有空气，种子才肯醒来": {
+   "lively": "lively/lca64a1dd66a8.mp3",
+   "sweet": "sweet/sf9ea59248ed1.mp3"
+  },
+  "听一听。植物用什么喝水？": {
+   "sweet": "sweet/sc4a2779174b8.mp3",
+   "lively": "lively/l78b2dea36083.mp3"
+  },
+  "根": {
+   "sweet": "sweet/s1e8123faa23b.mp3",
+   "lively": "lively/lf13cef8f43bf.mp3"
+  },
+  "叶子": {
+   "lively": "lively/l596c0dd2eac8.mp3",
+   "sweet": "sweet/s47da7f6d3f0f.mp3"
+  },
+  "花": {
+   "sweet": "sweet/s4f2b6869e7fc.mp3",
+   "lively": "lively/l1e16a496504d.mp3"
+  },
+  "根在土里，像小吸管把水吸上来": {
+   "sweet": "sweet/s71f0e0ccd7d5.mp3",
+   "lively": "lively/lb90cba56e36e.mp3"
+  },
+  "再想想，正确答案是根。根在土里，像小吸管把水吸上来": {
+   "lively": "lively/l4191df0d427a.mp3",
+   "sweet": "sweet/s42c9a3667ddb.mp3"
+  },
+  "听一听。大树能活多久？": {
+   "lively": "lively/l34908c84a5d6.mp3",
+   "sweet": "sweet/sfe3f68856c33.mp3"
+  },
+  "很多很多年": {
+   "sweet": "sweet/s20f7c81f10d8.mp3",
+   "lively": "lively/l51cbf36dd1dd.mp3"
+  },
+  "只有一天": {
+   "sweet": "sweet/s8d85c206d5fa.mp3",
+   "lively": "lively/l434a17b74f8e.mp3"
+  },
+  "一个月": {
+   "sweet": "sweet/sbfdffa845f24.mp3",
+   "lively": "lively/l1c3ca945b1e0.mp3"
+  },
+  "有的老树活了几百年，比爷爷的爷爷还老": {
+   "sweet": "sweet/s8a5b2652dc3b.mp3",
+   "lively": "lively/l7738c7510795.mp3"
+  },
+  "再想想，正确答案是很多很多年。有的老树活了几百年，比爷爷的爷爷还老": {
+   "sweet": "sweet/s476054f91e21.mp3",
+   "lively": "lively/le3e3de2782e9.mp3"
+  },
+  "听一听。向日葵的花盘朝着什么转？": {
+   "lively": "lively/l29925ff9561d.mp3",
+   "sweet": "sweet/s8e4c51eba64d.mp3"
+  },
+  "它跟着太阳走，所以叫向日葵": {
+   "lively": "lively/l016cef82480b.mp3",
+   "sweet": "sweet/s2e8c43c7e633.mp3"
+  },
+  "再想想，正确答案是太阳。它跟着太阳走，所以叫向日葵": {
+   "sweet": "sweet/sb9b4640af504.mp3",
+   "lively": "lively/l42a299b319e4.mp3"
+  },
+  "听一听。花谢了以后会结什么？": {
+   "lively": "lively/l4b32a8a80049.mp3",
+   "sweet": "sweet/s4d419ee08edc.mp3"
+  },
+  "果实": {
+   "sweet": "sweet/s22320f8947ce.mp3",
+   "lively": "lively/lc009d105c848.mp3"
+  },
+  "花谢了，果实就慢慢长出来": {
+   "sweet": "sweet/sc2ba898f7298.mp3",
+   "lively": "lively/ld959349af863.mp3"
+  },
+  "再想想，正确答案是果实。花谢了，果实就慢慢长出来": {
+   "sweet": "sweet/sc078eeb1ede1.mp3",
+   "lively": "lively/lab1835bc6e4d.mp3"
+  },
+  "听一听。树叶为什么是绿色的？": {
+   "lively": "lively/lcc1a16a8bd2b.mp3",
+   "sweet": "sweet/sb2e5d390372a.mp3"
+  },
+  "叶子里有叶绿素": {
+   "lively": "lively/l0a243d1250bd.mp3",
+   "sweet": "sweet/s46491d977891.mp3"
+  },
+  "被太阳晒绿的": {
+   "sweet": "sweet/s20ba80734323.mp3",
+   "lively": "lively/l6c78d11ddef8.mp3"
+  },
+  "喝的是绿色的水": {
+   "lively": "lively/l451c64cb6603.mp3",
+   "sweet": "sweet/s1d0f18e479fe.mp3"
+  },
+  "叶绿素是绿色的，还能帮大树做养料": {
+   "sweet": "sweet/s6c698f927104.mp3",
+   "lively": "lively/l3332af781805.mp3"
+  },
+  "再想想，正确答案是叶子里有叶绿素。叶绿素是绿色的，还能帮大树做养料": {
+   "lively": "lively/lca7042149098.mp3",
+   "sweet": "sweet/s34e982e35c6b.mp3"
+  },
+  "恐龙为什么会消失？": {
+   "lively": "lively/l0a7eaba7a4a4.mp3",
+   "sweet": "sweet/s458db8778f19.mp3"
+  },
+  "很久很久以前，一颗很大的石头从天上掉下来，砸出一个大坑。灰尘飞满天空，挡住了太阳，植物长不好，恐龙找不到吃的，就慢慢消失了。现在我们只能在博物馆里看到恐龙的骨头。": {
+   "sweet": "sweet/s44c3fba2842d.mp3",
+   "lively": "lively/l9318fd58fa7c.mp3"
+  },
+  "恐龙吃什么？": {
+   "sweet": "sweet/sf77787fc1f78.mp3",
+   "lively": "lively/lca580e7c5ec2.mp3"
+  },
+  "有的恐龙吃植物，比如三角龙；有的恐龙吃肉，比如霸王龙。牙齿尖尖的，多半是吃肉的；牙齿像小树叶那样平平的，多半是吃草的。": {
+   "lively": "lively/l9998fa2d12f2.mp3",
+   "sweet": "sweet/s96c3126988cc.mp3"
+  },
+  "最大的恐龙有多大？": {
+   "sweet": "sweet/sbb47cf9cd956.mp3",
+   "lively": "lively/l03f8b16fe9c1.mp3"
+  },
+  "最大的恐龙叫阿根廷龙，光脖子就有好几米长，站直了差不多有五六层楼那么高。它的一个脚印，比我们的洗澡盆还大。": {
+   "lively": "lively/lb4add6338311.mp3",
+   "sweet": "sweet/s7054ea5b7392.mp3"
+  },
+  "为什么猫喜欢晒太阳？": {
+   "lively": "lively/lcd98d13f8b4e.mp3",
+   "sweet": "sweet/s763568daeaf7.mp3"
+  },
+  "猫喜欢暖和的地方。晒太阳的时候身体暖洋洋的，还能把毛晒得干爽舒服。所以它总爱找有太阳的窗台，团成一团睡一觉。": {
+   "sweet": "sweet/s9381b771231b.mp3",
+   "lively": "lively/lb4baa3b5a97f.mp3"
+  },
+  "鱼在水里怎么呼吸？": {
+   "sweet": "sweet/s9db53d6c86a7.mp3",
+   "lively": "lively/l8e9efc3acd56.mp3"
+  },
+  "鱼用鳃呼吸。水从嘴巴进去，鳃把水里的空气留下来，再把水从两边送出去。所以鱼离开水就喘不上气，不能离开水太久。": {
+   "sweet": "sweet/s83c72ac98b99.mp3",
+   "lively": "lively/lbfc743650e4b.mp3"
+  },
+  "鱼睡觉吗？": {
+   "sweet": "sweet/secc6d3bbea75.mp3",
+   "lively": "lively/l03739bc77692.mp3"
+  },
+  "鱼也睡觉，只是它没有眼皮，眼睛闭不上。睡觉的时候它停在水的中间或者石头旁，一动也不动，嘴还轻轻地一张一合。": {
+   "lively": "lively/l08735d9fbafe.mp3",
+   "sweet": "sweet/sea1042d97d8c.mp3"
+  },
+  "蜜蜂为什么会嗡嗡叫？": {
+   "sweet": "sweet/s4d4787889cfb.mp3",
+   "lively": "lively/l40147326d816.mp3"
+  },
+  "那是蜜蜂的翅膀在飞快地扇动，一秒钟要扇两百多次。空气跟着抖起来，我们就听到了嗡嗡的声音。它不是在叫，是在飞。": {
+   "sweet": "sweet/s9198c78b3977.mp3",
+   "lively": "lively/l1a827b09a65d.mp3"
+  },
+  "蚂蚁住在哪里？": {
+   "lively": "lively/lc28a4e97fddc.mp3",
+   "sweet": "sweet/s89a884d75a41.mp3"
+  },
+  "蚂蚁住在地下的洞里，叫作蚁巢。里面有好多小房间，有的放食物，有的养小蚂蚁。地上的一个小土堆，常常就是它们的家门口。": {
+   "sweet": "sweet/sca99331aada0.mp3",
+   "lively": "lively/lcddd210d12d3.mp3"
+  },
+  "天为什么是蓝色的？": {
+   "sweet": "sweet/sf611a016c4bf.mp3",
+   "lively": "lively/l94c880131d9e.mp3"
+  },
+  "太阳光看起来是白色的，其实里面藏着红、橙、黄、绿、蓝、紫七种颜色。蓝光最容易被空气里的小颗粒撞散，撒满整个天空，所以我们抬头看到的是蓝色。": {
+   "sweet": "sweet/s830ca4870ace.mp3",
+   "lively": "lively/l35eab46bc532.mp3"
+  },
+  "云是怎么来的？": {
+   "sweet": "sweet/s685ce9e06854.mp3",
+   "lively": "lively/la3611afa7a32.mp3"
+  },
+  "地上的水被太阳晒热，变成看不见的水汽飞上天。水汽遇冷，抱成一颗颗小水珠，聚在一起就是云。水珠越来越重，就变成雨落下来了。": {
+   "lively": "lively/lac287aee9ef0.mp3",
+   "sweet": "sweet/sef77d0cac344.mp3"
+  },
+  "彩虹是怎么形成的？": {
+   "sweet": "sweet/sbbb6a41cb0a2.mp3",
+   "lively": "lively/lef578f77bb7f.mp3"
+  },
+  "下雨之后，空气里还挂着许多小水珠。阳光穿过水珠的时候被分成七种颜色，就在天上挂出一道彩虹。背对太阳的时候最容易看到。": {
+   "sweet": "sweet/s9cc29d129220.mp3",
+   "lively": "lively/lf09aaad6a763.mp3"
+  },
+  "为什么会打雷？": {
+   "sweet": "sweet/s1e2150448e00.mp3",
+   "lively": "lively/l6784f00f021a.mp3"
+  },
+  "云里挤满了电，电一下子跑出来，把空气烧得又亮又热，这就是闪电。空气猛地膨胀，发出轰的一声，就是雷声。看到闪电要赶紧进屋，别站在大树下面。": {
+   "sweet": "sweet/s7333aeb3f3fd.mp3",
+   "lively": "lively/leb77418f92dc.mp3"
+  },
+  "雪是怎么形成的？": {
+   "sweet": "sweet/saaf80314d2a5.mp3",
+   "lively": "lively/l035a6aa4734e.mp3"
+  },
+  "天特别冷的时候，云里的水汽直接变成小冰晶，一片一片粘在一起，长成雪花飘下来。每一片雪花都是六角形的，但找不出两片一模一样的。": {
+   "sweet": "sweet/s24f1c1a1026f.mp3",
+   "lively": "lively/le46e8bb279a3.mp3"
+  },
+  "风是从哪里来的？": {
+   "sweet": "sweet/s083fe5ce5105.mp3",
+   "lively": "lively/l2da9c41a5556.mp3"
+  },
+  "有的地方空气热，有的地方空气冷。热空气往上跑，旁边的冷空气挤过来补空位，空气流动起来，就变成了风。": {
+   "sweet": "sweet/s4d8a1c25cec9.mp3",
+   "lively": "lively/l83cc0fdc1b8b.mp3"
+  },
+  "为什么会有春夏秋冬？": {
+   "lively": "lively/lfd1e60ac3602.mp3",
+   "sweet": "sweet/s480085773ed0.mp3"
+  },
+  "地球一边自己转，一边斜着身子绕太阳走。走到不同的位置，我们这里收到的阳光多少不一样：阳光多就是夏天，阳光少就是冬天，中间就是春天和秋天。": {
+   "lively": "lively/l7abbd754416c.mp3",
+   "sweet": "sweet/sc5c4ffd5e1a5.mp3"
+  },
+  "我们为什么要睡觉？": {
+   "sweet": "sweet/s52f22c7e9e41.mp3",
+   "lively": "lively/l7403be35131b.mp3"
+  },
+  "睡觉的时候，身体在悄悄修理白天用累的地方，脑子也在把学过的东西整理好。小学生一天要睡十小时左右，睡够了第二天才有力气。": {
+   "sweet": "sweet/seef29b22e962.mp3",
+   "lively": "lively/l4eb386923f5a.mp3"
+  },
+  "为什么会做梦？": {
+   "lively": "lively/ldd49aaadf3a2.mp3",
+   "sweet": "sweet/se145e0381e53.mp3"
+  },
+  "睡觉的时候，脑子并没有完全休息，它还在整理白天看到、听到的事。这些片段拼在一起，就变成了梦。梦常常很奇怪，因为它不讲顺序。": {
+   "sweet": "sweet/s691d3623b85c.mp3",
+   "lively": "lively/l58b8b58081db.mp3"
+  },
+  "为什么会打喷嚏？": {
+   "sweet": "sweet/s32e1730dba1d.mp3",
+   "lively": "lively/l0588596db851.mp3"
+  },
+  "鼻子里进了灰尘或者小虫子，身体想把它赶出去，就用力喷出一口气，这就是喷嚏。打喷嚏的时候要用胳膊挡住嘴巴，别对着别人。": {
+   "sweet": "sweet/s5128e9db032d.mp3",
+   "lively": "lively/le53c741519d1.mp3"
+  },
+  "心脏一直在跳吗？": {
+   "sweet": "sweet/s373e4a68722d.mp3",
+   "lively": "lively/la58d7d4bee7c.mp3"
+  },
+  "是的，心脏从我们还在妈妈肚子里就开始跳，一天也不休息。它像一个小水泵，一下一下把血送到全身。运动的时候跳得快，睡觉的时候跳得慢。": {
+   "sweet": "sweet/sf3fe2979de48.mp3",
+   "lively": "lively/l683b0e011598.mp3"
+  },
+  "血为什么是红色的？": {
+   "lively": "lively/l6f0f07602f36.mp3",
+   "sweet": "sweet/sda9e6bb2fc17.mp3"
+  },
+  "血里有好多红色的细胞，叫红细胞。它们负责把氧气送到身体各处，红细胞里的铁让血看起来是红色的。": {
+   "sweet": "sweet/s5359bb9332e9.mp3",
+   "lively": "lively/la1c99657eaad.mp3"
+  },
+  "为什么要刷牙？": {
+   "sweet": "sweet/sb432504c4820.mp3",
+   "lively": "lively/l94a34d650b1b.mp3"
+  },
+  "吃完东西，牙齿上会留下糖和食物渣。细菌吃了这些会造出酸，把牙齿蛀出小洞。早晚各刷一次，每次刷够两分钟，牙齿就能保护好。": {
+   "sweet": "sweet/sfce2d887e992.mp3",
+   "lively": "lively/ld705db82cadb.mp3"
+  },
+  "眼泪有什么用？": {
+   "sweet": "sweet/s1c79e001e24c.mp3",
+   "lively": "lively/ldcdd9422a2ab.mp3"
+  },
+  "眼泪能冲洗眼睛里的灰尘，还能让眼睛保持湿润，眨眼的时候不磨得慌。难过的时候哭一哭，心里也会舒服一点。": {
+   "sweet": "sweet/s2f8963e84944.mp3",
+   "lively": "lively/lffc7d5d2f2c2.mp3"
+  },
+  "月亮为什么会跟着我们走？": {
+   "sweet": "sweet/s94275455f1d1.mp3",
+   "lively": "lively/lf7b80ff0951a.mp3"
+  },
+  "月亮离我们很远很远。我们走一小段路，看它的角度几乎没变，所以觉得它一直跟着我们。其实我们在走，它也在天上慢慢地走。": {
+   "sweet": "sweet/sf22e2ee8fd0e.mp3",
+   "lively": "lively/l463df54cd3e7.mp3"
+  },
+  "星星白天去哪儿了？": {
+   "sweet": "sweet/sa201054c3c8f.mp3",
+   "lively": "lively/la402b2bb5f0f.mp3"
+  },
+  "星星白天也在天上，只是太阳太亮了，把星星那一点点微光盖住了。等天一黑，它们就一颗一颗露出来了。": {
+   "sweet": "sweet/s4f045b0b331d.mp3",
+   "lively": "lively/l32d6e657c102.mp3"
+  },
+  "太阳有多大？": {
+   "sweet": "sweet/se12e711ea54e.mp3",
+   "lively": "lively/lf37dc7094b13.mp3"
+  },
+  "太阳比地球大得多，能装下一百多万个地球。它离我们非常远，坐飞机一直飞，也要飞十几年才能到。": {
+   "sweet": "sweet/sa6b4a84ad0b7.mp3",
+   "lively": "lively/l6ba49bba56e0.mp3"
+  },
+  "为什么会有白天和黑夜？": {
+   "lively": "lively/la37e88fc790a.mp3",
+   "sweet": "sweet/s83a9afe75d2b.mp3"
+  },
+  "地球一边自己转圈，一边绕着太阳走。转到朝着太阳的那一面就是白天，背着太阳的那一面就是黑夜。转一圈是一天。": {
+   "lively": "lively/le7c6a9a4bf98.mp3",
+   "sweet": "sweet/sbe9005815eaa.mp3"
+  },
+  "月亮上有什么？": {
+   "lively": "lively/l4b1fa429b935.mp3",
+   "sweet": "sweet/s15b15a9924c2.mp3"
+  },
+  "月亮上没有空气也没有水，到处是灰和石头，还有很多圆圆的大坑。白天特别热，晚上特别冷，所以月亮上没有小动物住。": {
+   "sweet": "sweet/s110e61bef199.mp3",
+   "lively": "lively/l9faf0e27a04f.mp3"
+  },
+  "宇航员在太空怎么走路？": {
+   "sweet": "sweet/s6cd3bad86820.mp3",
+   "lively": "lively/l99eb186a36f5.mp3"
+  },
+  "太空里几乎没有重力，人会飘起来。宇航员抓着扶手慢慢移动，睡觉时还要钻进睡袋里绑好，不然会飘到别处去。": {
+   "lively": "lively/l62552cecf196.mp3",
+   "sweet": "sweet/s928912dabe83.mp3"
+  },
+  "为什么不能多吃糖？": {
+   "sweet": "sweet/s5e99be719a96.mp3",
+   "lively": "lively/l05ad0d422fad.mp3"
+  },
+  "糖吃多了，牙齿容易被蛀，身体也会长得胖胖的，还不爱吃饭。想吃甜的时候，吃一点水果更好，水果里还有维生素。": {
+   "sweet": "sweet/s42afa78c5d23.mp3",
+   "lively": "lively/lf3ef8f43d713.mp3"
+  },
+  "为什么要多喝水？": {
+   "sweet": "sweet/s124fa6e68bff.mp3",
+   "lively": "lively/lf3d4a3b4832a.mp3"
+  },
+  "我们的身体一大半都是水。喝水能帮身体运送养料、调节温度。渴了就要喝，运动完、出汗后更要喝。": {
+   "sweet": "sweet/s36f53aeefe50.mp3",
+   "lively": "lively/lb910009640c6.mp3"
+  },
+  "为什么饭前要洗手？": {
+   "sweet": "sweet/s76c6d3b59986.mp3",
+   "lively": "lively/l2be20f622ee0.mp3"
+  },
+  "手上有很多看不见的细菌，摸来摸去会沾到食物上。用肥皂搓二十秒，指缝和手背都搓到，细菌就被水冲走了。": {
+   "lively": "lively/lf9d018e04791.mp3",
+   "sweet": "sweet/sa307e1f85582.mp3"
+  },
+  "迷路了怎么办？": {
+   "sweet": "sweet/s9e4542984532.mp3",
+   "lively": "lively/lbf533bed3610.mp3"
+  },
+  "站在原地不要乱跑，这样爸爸妈妈才好回来找你。找穿制服的工作人员帮忙，或者请人打电话给爸爸妈妈。平时要记住爸爸妈妈的电话号码。": {
+   "sweet": "sweet/sd989513011a5.mp3",
+   "lively": "lively/l4c9490eb19ce.mp3"
+  },
+  "为什么红灯要停？": {
+   "sweet": "sweet/s25b30ad29f9c.mp3",
+   "lively": "lively/l32a2d9a65d7f.mp3"
+  },
+  "红灯是让车先走，绿灯才是我们走。过马路要牵着大人的手，先看左边再看右边，走在斑马线上。": {
+   "sweet": "sweet/se55c40b7cd56.mp3",
+   "lively": "lively/ldff983d36528.mp3"
+  },
+  "为什么火很危险？": {
+   "lively": "lively/la9207c6cc95e.mp3",
+   "sweet": "sweet/se4a07f25d4a8.mp3"
+  },
+  "火能烧东西，也会烫伤人。看到火不要碰，打火机不是玩具。发现着火要马上告诉大人，弯着腰捂住口鼻往外走。": {
+   "lively": "lively/lbda882771cdc.mp3",
+   "sweet": "sweet/sdc2f62f19e1a.mp3"
+  },
+  "为什么学过的字会忘？": {
+   "sweet": "sweet/sa4b51356dcf8.mp3",
+   "lively": "lively/lcd3d8d0fdd8d.mp3"
+  },
+  "脑子只留下常常用到的东西。学完的第二天再看一眼，过几天再看一眼，见面的次数多了，它就赖着不走了。": {
+   "sweet": "sweet/se3605919f951.mp3",
+   "lively": "lively/ld0e288490140.mp3"
+  },
+  "怎么才能背得快？": {
+   "lively": "lively/l27fb7048ab74.mp3",
+   "sweet": "sweet/s4be640012b30.mp3"
+  },
+  "先听懂每一句在说什么，再一句一句地背，最后连起来。背的时候大声念出来，耳朵也在帮你记。睡前读两遍，第二天会记得更牢。": {
+   "sweet": "sweet/sdde933bcd35e.mp3",
+   "lively": "lively/l731361073acd.mp3"
+  },
+  "一天学多久最好？": {
+   "lively": "lively/l7b503efd9555.mp3",
+   "sweet": "sweet/s7c1f7e673fcf.mp3"
+  },
+  "一次专心学二十分钟左右就很好，然后起来动一动、看看远处，再接着学。短一点、专心一点，比坐很久更有用。": {
+   "lively": "lively/lfa0a0ca2a3ce.mp3",
+   "sweet": "sweet/s0ca193fa5887.mp3"
+  },
+  "学不会怎么办？": {
+   "sweet": "sweet/s5c0b60881d60.mp3",
+   "lively": "lively/l3db3c75da946.mp3"
+  },
+  "学不会不代表笨，只是还没找到方法。把它拆小一点，一步一步来；也可以请老师再讲一遍，或者先放一放，明天再试。": {
+   "lively": "lively/l47237a972984.mp3",
+   "sweet": "sweet/sad2d8ab54cd9.mp3"
+  },
+  "为什么要读书？": {
+   "sweet": "sweet/s24833a3531fc.mp3",
+   "lively": "lively/l415e4c128cf2.mp3"
+  },
+  "书里装着别人走过的路和想过的事。读书就像多了一双眼睛，能看到更远的地方，也能听懂更多有趣的话。": {
+   "sweet": "sweet/sb28f1ff5455f.mp3",
+   "lively": "lively/l58fd26ab0672.mp3"
+  },
+  "为什么要早睡早起？": {
+   "sweet": "sweet/sa11fd489112f.mp3",
+   "lively": "lively/l62faff533613.mp3"
+  },
+  "睡得早，第二天脑子清楚，学东西更快。早上阳光好，人也更有精神。睡前不要看太亮的屏幕，会不容易睡着。": {
+   "sweet": "sweet/s8cec6244c88f.mp3",
+   "lively": "lively/l0e4da783f539.mp3"
+  },
+  "大脑是怎么记住东西的？": {
+   "lively": "lively/lc240da374517.mp3",
+   "sweet": "sweet/sb3e43b94b0c3.mp3"
+  },
+  "大脑里有好多像小电线一样的神经细胞。一件事重复得多了，它们之间就拉起了更粗的线，下次一想就想起来了。所以多练几遍真的有用。": {
+   "lively": "lively/l22c1e25220e1.mp3",
+   "sweet": "sweet/sa5d89c88f52c.mp3"
+  },
+  "小狗为什么摇尾巴？": {
+   "sweet": "sweet/s48d39e412fe6.mp3",
+   "lively": "lively/l9b6152a3c37e.mp3"
+  },
+  "小狗摇尾巴多半是高兴。看到熟悉的人、想一起玩的时候，尾巴就摇得特别快。害怕的时候，它反而会把尾巴夹起来。": {
+   "sweet": "sweet/sf2343c297c40.mp3",
+   "lively": "lively/l7ed13da22712.mp3"
+  },
+  "正确答案是人，大人的人": {
+   "sweet": "sweet/s5f058adf9a24.mp3",
+   "lively": "lively/l109fdd27fe9c.mp3"
+  },
+  "正确答案是口，开口的口": {
+   "lively": "lively/l5fada6e0238d.mp3",
+   "sweet": "sweet/s0d2780c27e70.mp3"
+  },
+  "正确答案是一，一二的一": {
+   "lively": "lively/l28556c6eae4f.mp3",
+   "sweet": "sweet/sfe007baa6dab.mp3"
+  },
+  "正确答案是日，太阳的日": {
+   "sweet": "sweet/sae4f9dd0aaf6.mp3",
+   "lively": "lively/l97e34e9856d0.mp3"
+  },
+  "正确答案是山，高山的山": {
+   "lively": "lively/l2bac901d0ad7.mp3",
+   "sweet": "sweet/s896a263aa055.mp3"
+  },
+  "正确答案是大，大小的大": {
+   "sweet": "sweet/s8e9ab2554138.mp3",
+   "lively": "lively/l8028522f063d.mp3"
+  },
+  "正确答案是木，木头的木": {
+   "sweet": "sweet/s1fca1a6958a2.mp3",
+   "lively": "lively/lc1dd7cb375d1.mp3"
+  },
+  "正确答案是上，上面的上": {
+   "lively": "lively/l5b8e600c7b6b.mp3",
+   "sweet": "sweet/s45f56db8db24.mp3"
+  },
+  "正确答案是太阳": {
+   "sweet": "sweet/s9a9178e77cec.mp3",
+   "lively": "lively/l43350da30167.mp3"
+  },
+  "正确答案是月亮": {
+   "sweet": "sweet/sf69f1f99147d.mp3",
+   "lively": "lively/l4ca608371a8c.mp3"
+  },
+  "正确答案是水": {
+   "lively": "lively/lc0d08fc20f8a.mp3",
+   "sweet": "sweet/sc269387e3db7.mp3"
+  },
+  "正确答案是红": {
+   "sweet": "sweet/s8dd30438b511.mp3",
+   "lively": "lively/l0a6d4abbeabb.mp3"
+  },
+  "正确答案是高高低低": {
+   "sweet": "sweet/sd2bb24863042.mp3",
+   "lively": "lively/ldac984e19784.mp3"
+  },
+  "正确答案是庄稼": {
+   "sweet": "sweet/sa40b48f01934.mp3",
+   "lively": "lively/l8aadfc1c1d55.mp3"
+  },
+  "正确答案是天上": {
+   "sweet": "sweet/s838c60128629.mp3",
+   "lively": "lively/ldac90d45e95d.mp3"
+  },
+  "正确答案是水里": {
+   "sweet": "sweet/s539b072787c7.mp3",
+   "lively": "lively/l91388e921138.mp3"
+  },
+  "正确答案是云": {
+   "lively": "lively/l12de0294bf7b.mp3",
+   "sweet": "sweet/s17bce9b7b55f.mp3"
+  },
+  "正确答案是鸟": {
+   "lively": "lively/l45b82be8b530.mp3",
+   "sweet": "sweet/s3c5c4281eb0a.mp3"
+  },
+  "正确答案是阳": {
+   "sweet": "sweet/s17d8cf9812d6.mp3",
+   "lively": "lively/la47b12c6e4c3.mp3"
+  },
+  "正确答案是亮": {
+   "sweet": "sweet/sbaee6606c9f3.mp3",
+   "lively": "lively/l0a6b55ab2acf.mp3"
+  },
+  "正确答案是朵": {
+   "sweet": "sweet/s853dc8d68ce4.mp3",
+   "lively": "lively/l78fa004a5ee0.mp3"
+  },
+  "正确答案是书": {
+   "lively": "lively/leef1a7d62c5e.mp3",
+   "sweet": "sweet/s144ecf3cc477.mp3"
+  },
+  "正确答案是虎": {
+   "lively": "lively/lfcb39d9337bf.mp3",
+   "sweet": "sweet/s793c7237dcd7.mp3"
+  },
+  "正确答案是车": {
+   "lively": "lively/l182fe1a373a2.mp3",
+   "sweet": "sweet/s1e82e1239510.mp3"
+  },
+  "正确答案是小": {
+   "sweet": "sweet/s275a9c149079.mp3",
+   "lively": "lively/lfca0a5ec652c.mp3"
+  },
+  "正确答案是下": {
+   "lively": "lively/l5083611634f8.mp3",
+   "sweet": "sweet/s343c7949fa65.mp3"
+  },
+  "正确答案是少": {
+   "sweet": "sweet/s34fd9932adf0.mp3",
+   "lively": "lively/l373ed87b7bac.mp3"
+  },
+  "正确答案是晚上": {
+   "lively": "lively/l025dd7e700f9.mp3",
+   "sweet": "sweet/s7e798adfc9d9.mp3"
+  },
+  "正确答案是去": {
+   "sweet": "sweet/s503c276e8fb2.mp3",
+   "lively": "lively/l96ed6cb714e4.mp3"
+  },
+  "正确答案是矮": {
+   "lively": "lively/l84bc85712158.mp3",
+   "sweet": "sweet/s3d186dc1e181.mp3"
+  },
+  "正确答案是热": {
+   "sweet": "sweet/se76b1dcea081.mp3",
+   "lively": "lively/le8960f6eeda6.mp3"
+  },
+  "正确答案是哭": {
+   "sweet": "sweet/s65ed0678d635.mp3",
+   "lively": "lively/l9d31ff8040fd.mp3"
+  },
+  "正确答案是飞": {
+   "sweet": "sweet/sbb774775ba6b.mp3",
+   "lively": "lively/l6a8c0a19ee4e.mp3"
+  },
+  "正确答案是游": {
+   "lively": "lively/l18cdbf9863d3.mp3",
+   "sweet": "sweet/sa093c45e543a.mp3"
+  },
+  "正确答案是写": {
+   "sweet": "sweet/s33f535cc8db9.mp3",
+   "lively": "lively/l0a0eb8ea4cb3.mp3"
+  },
+  "正确答案是升": {
+   "lively": "lively/l7ac8b70a689e.mp3",
+   "sweet": "sweet/s65e8ff3af40a.mp3"
+  },
+  "正确答案是开": {
+   "sweet": "sweet/s204950338bd3.mp3",
+   "lively": "lively/l5f4334a9042e.mp3"
+  },
+  "正确答案是大": {
+   "lively": "lively/ld416bb45f8a5.mp3",
+   "sweet": "sweet/sf8fefa264604.mp3"
+  },
+  "正确答案是睡": {
+   "sweet": "sweet/s1646e9a64f9c.mp3",
+   "lively": "lively/ld4244ce81ba1.mp3"
+  },
+  "正确答案是专": {
+   "sweet": "sweet/s081f76686070.mp3",
+   "lively": "lively/l448c9fbbc399.mp3"
+  },
+  "正确答案是啊": {
+   "sweet": "sweet/s57f15d43d750.mp3",
+   "lively": "lively/l5e6f5b7128fb.mp3"
+  },
+  "正确答案是喔": {
+   "sweet": "sweet/s1484b7cd9052.mp3",
+   "lively": "lively/lc1d16b94ce66.mp3"
+  },
+  "正确答案是鹅": {
+   "lively": "lively/l4d9bce839de3.mp3",
+   "sweet": "sweet/s6a4b47377986.mp3"
+  },
+  "正确答案是衣": {
+   "sweet": "sweet/s2680c0a1ab9e.mp3",
+   "lively": "lively/l0bb2060f9432.mp3"
+  },
+  "正确答案是乌": {
+   "sweet": "sweet/s336992026a4e.mp3",
+   "lively": "lively/l7f581da7bab6.mp3"
+  },
+  "正确答案是鱼": {
+   "sweet": "sweet/sdeea9a3ed5c1.mp3",
+   "lively": "lively/l56cec9cfa39a.mp3"
+  },
+  "正确答案是妈": {
+   "sweet": "sweet/sca94b98469d3.mp3",
+   "lively": "lively/l618f7c506e77.mp3"
+  },
+  "正确答案是麻": {
+   "sweet": "sweet/s30e2190a8466.mp3",
+   "lively": "lively/l3be92b612527.mp3"
+  },
+  "正确答案是马": {
+   "lively": "lively/l956ead68f5c4.mp3",
+   "sweet": "sweet/sfc2140428340.mp3"
+  },
+  "正确答案是骂": {
+   "sweet": "sweet/s55a4688758c9.mp3",
+   "lively": "lively/lbf1e44c74032.mp3"
+  },
+  "正确答案是波": {
+   "sweet": "sweet/scf6f4475ef5e.mp3",
+   "lively": "lively/l859454896bbe.mp3"
+  },
+  "正确答案是泼": {
+   "sweet": "sweet/s6ea90e2c03fa.mp3",
+   "lively": "lively/lf49737603d09.mp3"
+  },
+  "正确答案是摸": {
+   "sweet": "sweet/s21ec6a71979c.mp3",
+   "lively": "lively/lf74aafe1a87a.mp3"
+  },
+  "正确答案是佛": {
+   "sweet": "sweet/s871c847bf5a0.mp3",
+   "lively": "lively/l79cc25eb0d7b.mp3"
+  },
+  "正确答案是得": {
+   "sweet": "sweet/s8093b8641d4c.mp3",
+   "lively": "lively/l02def7921b64.mp3"
+  },
+  "正确答案是特": {
+   "sweet": "sweet/s70bdd9f06e52.mp3",
+   "lively": "lively/l0da39a6ba0d3.mp3"
+  },
+  "正确答案是讷": {
+   "lively": "lively/lb0bb2129c102.mp3",
+   "sweet": "sweet/s6bdfa8f9fb11.mp3"
+  },
+  "正确答案是勒": {
+   "sweet": "sweet/s5afc866b2334.mp3",
+   "lively": "lively/lc7c357462497.mp3"
+  },
+  "正确答案是八": {
+   "sweet": "sweet/s26b37bace6b6.mp3",
+   "lively": "lively/lc3df3ee75bcf.mp3"
+  },
+  "正确答案是兔": {
+   "sweet": "sweet/sacb46ff71b6c.mp3",
+   "lively": "lively/l9df06962805b.mp3"
+  },
+  "正确答案是梨": {
+   "lively": "lively/la8fa7fdb2f47.mp3",
+   "sweet": "sweet/scb446c985f84.mp3"
+  },
+  "正确答案是你": {
+   "lively": "lively/lb0cc0f0cc44f.mp3",
+   "sweet": "sweet/s228e1a3a1846.mp3"
+  },
+  "正确答案是知": {
+   "lively": "lively/l4b8743dee7d0.mp3",
+   "sweet": "sweet/s5d844cab9655.mp3"
+  },
+  "正确答案是吃": {
+   "lively": "lively/lc9bec8a2d792.mp3",
+   "sweet": "sweet/s8699d4e37f25.mp3"
+  },
+  "正确答案是狮": {
+   "sweet": "sweet/s9b2d33ad0e8b.mp3",
+   "lively": "lively/l1a926902d2c8.mp3"
+  },
+  "正确答案是一": {
+   "sweet": "sweet/sa220b7f56e44.mp3",
+   "lively": "lively/lb859cbf3d843.mp3"
+  },
+  "正确答案是五": {
+   "lively": "lively/laeee8bae720a.mp3",
+   "sweet": "sweet/s4a8607abea6f.mp3"
+  },
+  "正确答案是3": {
+   "sweet": "sweet/saa30d3b8fb9c.mp3",
+   "lively": "lively/l264d845811bb.mp3"
+  },
+  "正确答案是5": {
+   "sweet": "sweet/s1a027fe3d0c2.mp3",
+   "lively": "lively/l88564bc843f0.mp3"
+  },
+  "正确答案是2": {
+   "sweet": "sweet/se37e7a272675.mp3",
+   "lively": "lively/l2c296f31d6a2.mp3"
+  },
+  "正确答案是7": {
+   "sweet": "sweet/s40f88a20cc89.mp3",
+   "lively": "lively/lfc0520180989.mp3"
+  },
+  "正确答案是1": {
+   "sweet": "sweet/s27cf1848b5fb.mp3",
+   "lively": "lively/l967173c35a2c.mp3"
+  },
+  "正确答案是8": {
+   "sweet": "sweet/s9da40f720245.mp3",
+   "lively": "lively/l48ec212e4cd2.mp3"
+  },
+  "正确答案是4": {
+   "lively": "lively/l7ad0753b2147.mp3",
+   "sweet": "sweet/sc037622729a5.mp3"
+  },
+  "正确答案是6": {
+   "sweet": "sweet/s73d96bbae39c.mp3",
+   "lively": "lively/l6f92c56f57cd.mp3"
+  },
+  "正确答案是12": {
+   "sweet": "sweet/sf270a9508cd0.mp3",
+   "lively": "lively/l91bd5852c6c8.mp3"
+  },
+  "正确答案是13": {
+   "sweet": "sweet/s90cc4ef05846.mp3",
+   "lively": "lively/le9ceaf00264d.mp3"
+  },
+  "正确答案是14": {
+   "sweet": "sweet/s6610aff9e2da.mp3",
+   "lively": "lively/lc56199679b3b.mp3"
+  },
+  "正确答案是3 5 9": {
+   "sweet": "sweet/sfcf6d6d6f4fe.mp3",
+   "lively": "lively/l58cbb364111b.mp3"
+  },
+  "正确答案是18": {
+   "lively": "lively/l6e440cbc0487.mp3",
+   "sweet": "sweet/s834eb746de18.mp3"
+  },
+  "正确答案是9": {
+   "sweet": "sweet/sf1dee03074e0.mp3",
+   "lively": "lively/l921bca7aee20.mp3"
+  },
+  "正确答案是10": {
+   "lively": "lively/la459cf0aad52.mp3",
+   "sweet": "sweet/s1254759488ba.mp3"
+  },
+  "正确答案是15": {
+   "sweet": "sweet/scbadefdb6f60.mp3",
+   "lively": "lively/l3a4bd4dd6aba.mp3"
+  },
+  "正确答案是17": {
+   "sweet": "sweet/sddfc16606b6d.mp3",
+   "lively": "lively/l282565d06fd6.mp3"
+  },
+  "正确答案是50": {
+   "lively": "lively/lb938bb41a6d6.mp3",
+   "sweet": "sweet/s83394e1b89e2.mp3"
+  },
+  "正确答案是55": {
+   "sweet": "sweet/s924e4b7783f7.mp3",
+   "lively": "lively/l4e5e6e5936e1.mp3"
+  },
+  "正确答案是20": {
+   "sweet": "sweet/s384281eef557.mp3",
+   "lively": "lively/lcd4f062228d0.mp3"
+  },
+  "正确答案是75": {
+   "lively": "lively/l3f5c5402a71b.mp3",
+   "sweet": "sweet/s0a80bea9f501.mp3"
+  },
+  "正确答案是Hello，你好": {
+   "lively": "lively/l61982e566b52.mp3",
+   "sweet": "sweet/s6c4f4fa426be.mp3"
+  },
+  "正确答案是Good morning，早上好": {
+   "lively": "lively/l3f57bef6e0f4.mp3",
+   "sweet": "sweet/sbf8e407c6a87.mp3"
+  },
+  "正确答案是Goodbye，再见": {
+   "lively": "lively/l86cc5c926e09.mp3",
+   "sweet": "sweet/s05ede8a66c42.mp3"
+  },
+  "正确答案是Thank you，谢谢你": {
+   "sweet": "sweet/s782b39d73117.mp3",
+   "lively": "lively/l7d8b4a8cbf7d.mp3"
+  },
+  "正确答案是Sorry，对不起": {
+   "lively": "lively/ld692971a27ea.mp3",
+   "sweet": "sweet/scac7fe315c3a.mp3"
+  },
+  "正确答案是睡觉前": {
+   "lively": "lively/l22362975786c.mp3",
+   "sweet": "sweet/sfd981164b8b8.mp3"
+  },
+  "正确答案是red，红色": {
+   "sweet": "sweet/s2923246cf64e.mp3",
+   "lively": "lively/lcb51d84a26be.mp3"
+  },
+  "正确答案是blue，蓝色": {
+   "sweet": "sweet/s57f1ca48205a.mp3",
+   "lively": "lively/l1d0674bad49d.mp3"
+  },
+  "正确答案是yellow，黄色": {
+   "lively": "lively/laaa7ab8e0fa4.mp3",
+   "sweet": "sweet/sabf73cbb7452.mp3"
+  },
+  "正确答案是绿色": {
+   "lively": "lively/ldaff14c0768a.mp3",
+   "sweet": "sweet/s464da40f63c1.mp3"
+  },
+  "正确答案是green，绿色": {
+   "sweet": "sweet/sbd8b779328d7.mp3",
+   "lively": "lively/lf1a45d72dd75.mp3"
+  },
+  "正确答案是white，白色": {
+   "lively": "lively/l6183291904fa.mp3",
+   "sweet": "sweet/s8c90015e4a7f.mp3"
+  },
+  "正确答案是three": {
+   "sweet": "sweet/s3118e06a80e3.mp3",
+   "lively": "lively/lc0e90550d11a.mp3"
+  },
+  "正确答案是two，二": {
+   "lively": "lively/lf9e8c04e3965.mp3",
+   "sweet": "sweet/se3719b3344f7.mp3"
+  },
+  "正确答案是five": {
+   "lively": "lively/l4281d5479f32.mp3",
+   "sweet": "sweet/sb12e720de024.mp3"
+  },
+  "正确答案是four，四颗": {
+   "sweet": "sweet/s7cd51e0d2ae6.mp3",
+   "lively": "lively/ldaeb2ca629a1.mp3"
+  },
+  "正确答案是cat": {
+   "lively": "lively/ld2d312ddd19f.mp3",
+   "sweet": "sweet/sf5122b4ed511.mp3"
+  },
+  "正确答案是dog": {
+   "lively": "lively/lbf579664d7cc.mp3",
+   "sweet": "sweet/s917c35e0126f.mp3"
+  },
+  "正确答案是bird": {
+   "lively": "lively/l98e312d2e45c.mp3",
+   "sweet": "sweet/s89fd8d28d67a.mp3"
+  },
+  "正确答案是rabbit": {
+   "sweet": "sweet/s48a374160b44.mp3",
+   "lively": "lively/l3e4abfaa13f9.mp3"
+  },
+  "正确答案是我喜欢猫": {
+   "sweet": "sweet/s1ab777a23c55.mp3",
+   "lively": "lively/l30d4b0bf7b32.mp3"
+  },
+  "正确答案是翅膀": {
+   "sweet": "sweet/s6601e0a74f49.mp3",
+   "lively": "lively/l59481fd929b3.mp3"
+  },
+  "正确答案是青蛙": {
+   "lively": "lively/l0ff840b6584a.mp3",
+   "sweet": "sweet/sea882c5b08df.mp3"
+  },
+  "正确答案是酿蜂蜜": {
+   "sweet": "sweet/sec2fe453a233.mp3",
+   "lively": "lively/l7003ef930a93.mp3"
+  },
+  "正确答案是大象": {
+   "sweet": "sweet/s7d94a9ab35d6.mp3",
+   "lively": "lively/l6920f2785181.mp3"
+  },
+  "正确答案是雨伞": {
+   "sweet": "sweet/sad28ad2df6d9.mp3",
+   "lively": "lively/lbdd7c5d311cb.mp3"
+  },
+  "正确答案是雪花": {
+   "sweet": "sweet/s86b77608a1c3.mp3",
+   "lively": "lively/l22bbfcdf2b48.mp3"
+  },
+  "正确答案是雨过天晴": {
+   "lively": "lively/lc0be08c2b9de.mp3",
+   "sweet": "sweet/s27896c448029.mp3"
+  },
+  "正确答案是东边": {
+   "lively": "lively/l47ac004d1aec.mp3",
+   "sweet": "sweet/s7a5fd87e282e.mp3"
+  },
+  "正确答案是夏天": {
+   "sweet": "sweet/s3e37178b5c58.mp3",
+   "lively": "lively/l7a1ee9d6e826.mp3"
+  },
+  "正确答案是桃花": {
+   "lively": "lively/l9fa52ccec930.mp3",
+   "sweet": "sweet/s97952b3233b0.mp3"
+  },
+  "正确答案是眼睛": {
+   "sweet": "sweet/s638a16eef3f5.mp3",
+   "lively": "lively/l7f8c020226dc.mp3"
+  },
+  "正确答案是耳朵": {
+   "sweet": "sweet/sa30998483ddc.mp3",
+   "lively": "lively/l5de43462bf5a.mp3"
+  },
+  "正确答案是把血送到全身": {
+   "lively": "lively/l53905398f044.mp3",
+   "sweet": "sweet/s164e5e1ed7b0.mp3"
+  },
+  "正确答案是把食物嚼碎": {
+   "lively": "lively/l578423448d2a.mp3",
+   "sweet": "sweet/s4a131e8d835e.mp3"
+  },
+  "正确答案是十小时左右": {
+   "sweet": "sweet/sc16e801b813a.mp3",
+   "lively": "lively/l6836f130b0f9.mp3"
+  },
+  "正确答案是十个": {
+   "sweet": "sweet/sc5a6d8533dc5.mp3",
+   "lively": "lively/lca5532843f11.mp3"
+  },
+  "正确答案是阳光和水": {
+   "sweet": "sweet/s6ac2e9200d0f.mp3",
+   "lively": "lively/l1f180f1b06b1.mp3"
+  },
+  "正确答案是根": {
+   "lively": "lively/le6e02327c2a5.mp3",
+   "sweet": "sweet/s1e7a625f1270.mp3"
+  },
+  "正确答案是很多很多年": {
+   "sweet": "sweet/s1d2495b0a1e0.mp3",
+   "lively": "lively/l89c91ec9f301.mp3"
+  },
+  "正确答案是果实": {
+   "lively": "lively/lb5d5aca53159.mp3",
+   "sweet": "sweet/s91b9af3524c9.mp3"
+  },
+  "正确答案是叶子里有叶绿素": {
+   "sweet": "sweet/s20c9cb7d72af.mp3",
+   "lively": "lively/l5477edaccd7e.mp3"
+  },
+  "妈，妈妈的妈。第一声，平平的。": {
+   "sweet": "sweet/s1eb019622dbf.mp3",
+   "lively": "lively/l4cb167326545.mp3"
+  },
+  "麻，麻花的麻。第二声，往上扬。": {
+   "sweet": "sweet/sa3ece586a5f6.mp3",
+   "lively": "lively/la246b750f877.mp3"
+  },
+  "马，小马的马。第三声，拐个弯。": {
+   "sweet": "sweet/sf5e61f2e76bf.mp3",
+   "lively": "lively/l1f697550ecf0.mp3"
+  },
+  "骂，第四声，往下降。": {
+   "sweet": "sweet/s8e29da0622a4.mp3",
+   "lively": "lively/la44257e50887.mp3"
+  },
+  "拼音是汉字的小声音。跟着念：啊，阿姨的阿。": {
+   "sweet": "sweet/s7709e713c3c2.mp3",
+   "lively": "lively/l4386da1970fb.mp3"
+  },
+  "马，小马的马。第三声，先下再上，拐个弯。": {
+   "lively": "lively/l46422ac3610f.mp3",
+   "sweet": "sweet/sb8916ac8b86b.mp3"
+  },
+  "骂，第四声，往下降，像坐滑梯。": {
+   "sweet": "sweet/sc8e74e3ea135.mp3",
+   "lively": "lively/l5c0c3cd36bfc.mp3"
+  },
+  "啊，张大嘴巴，啊啊啊。阿姨的阿。": {
+   "lively": "lively/ldaa5fc194d4f.mp3",
+   "sweet": "sweet/s8606a3f9b0ed.mp3"
+  },
+  "喔，圆圆嘴巴，喔喔喔。公鸡喔喔叫。": {
+   "lively": "lively/l1a1514e125d3.mp3",
+   "sweet": "sweet/s60c739d4c76d.mp3"
+  },
+  "鹅，扁扁嘴巴，鹅鹅鹅。大白鹅的鹅。": {
+   "lively": "lively/l2cdeada218b5.mp3",
+   "sweet": "sweet/s3d0b76bb9dc0.mp3"
+  },
+  "衣，牙齿对齐，衣衣衣。衣服的衣。": {
+   "sweet": "sweet/s2c30ba22dbe7.mp3",
+   "lively": "lively/l4c24ec9cca8b.mp3"
+  },
+  "乌，嘴巴突出，乌乌乌。乌鸦的乌。": {
+   "sweet": "sweet/s491828aa4b12.mp3",
+   "lively": "lively/lf19ad950ab2b.mp3"
+  },
+  "鱼，小鱼吐泡，鱼鱼鱼。头上两点别忘啦。": {
+   "sweet": "sweet/sca949d543f12.mp3",
+   "lively": "lively/lc8048be3c9ef.mp3"
+  },
+  "爸，爸爸的爸。波、爸。右下半圆波波波。": {
+   "lively": "lively/l05bb7743e817.mp3",
+   "sweet": "sweet/sf7aabefae435.mp3"
+  },
+  "婆，婆婆的婆。泼、婆。右上半圆泼泼泼。": {
+   "lively": "lively/l977d2d264da1.mp3",
+   "sweet": "sweet/sd4c1a8bef3c5.mp3"
+  },
+  "妈，妈妈的妈。摸、妈。两个门洞摸摸摸。": {
+   "lively": "lively/l41b47af8f30a.mp3",
+   "sweet": "sweet/sb30ce4fa6347.mp3"
+  },
+  "佛，佛像的佛。佛、佛。一根拐杖佛佛佛。": {
+   "sweet": "sweet/se6ff46ddd269.mp3",
+   "lively": "lively/lf77eddbf2650.mp3"
+  },
+  "爬，爬山，爬。": {
+   "lively": "lively/l29741a5784e4.mp3",
+   "sweet": "sweet/s3f8ab5603f72.mp3"
+  },
+  "佛，佛像的佛。": {
+   "sweet": "sweet/sa6e4df24ac78.mp3",
+   "lively": "lively/l2980be6d9c7d.mp3"
+  },
+  "大，大小的大。得、大。左下半圆得得得。": {
+   "lively": "lively/l1780ff79ad42.mp3",
+   "sweet": "sweet/see6c77b8eb2a.mp3"
+  },
+  "兔，兔子的兔。特、兔。伞柄朝下特特特。": {
+   "sweet": "sweet/sc84dc16c3494.mp3",
+   "lively": "lively/l62bd60106282.mp3"
+  },
+  "牛，小牛的牛。讷、牛。一个门洞讷讷讷。": {
+   "lively": "lively/lc7a4bbb5f9da.mp3",
+   "sweet": "sweet/se1c966941627.mp3"
+  },
+  "梨，梨子的梨。勒、梨。一根小棍勒勒勒。": {
+   "sweet": "sweet/s59286082b46e.mp3",
+   "lively": "lively/l6547afb1312f.mp3"
+  },
+  "大，大象真大，大。": {
+   "lively": "lively/l70ef7b1a2675.mp3",
+   "sweet": "sweet/s7dd929937b51.mp3"
+  },
+  "牛，小牛的牛。": {
+   "sweet": "sweet/sfda5a3e047dd.mp3",
+   "lively": "lively/l54a7d290829b.mp3"
+  },
+  "梨，甜甜的梨，梨。": {
+   "lively": "lively/l489225835f1e.mp3",
+   "sweet": "sweet/s6878cd5cdb28.mp3"
+  },
+  "知，知道的知。整体认读，枝、知。": {
+   "lively": "lively/l30bc87b1d9b8.mp3",
+   "sweet": "sweet/s00dec2ca19da.mp3"
+  },
+  "吃，吃饭的吃。整体认读，吃、吃。": {
+   "sweet": "sweet/s752a8300dd8e.mp3",
+   "lively": "lively/lc9d7e3cab33d.mp3"
+  },
+  "狮，狮子的狮。整体认读，狮、狮。": {
+   "lively": "lively/l7a15393238e8.mp3",
+   "sweet": "sweet/se72533c05710.mp3"
+  },
+  "一，一二三的一。整体认读，一、一。": {
+   "sweet": "sweet/se6ca68f89634.mp3",
+   "lively": "lively/l5e89bb726181.mp3"
+  },
+  "五，五个手指，五。整体认读，五、五。": {
+   "lively": "lively/l6d1c4c63cfc7.mp3",
+   "sweet": "sweet/s51b040a5fddf.mp3"
+  },
+  "鱼，小鱼的鱼。整体认读，鱼、鱼。": {
+   "sweet": "sweet/s9c51787df2dc.mp3",
+   "lively": "lively/l0e58a9872ff6.mp3"
+  },
+  "你，你好，你。": {
+   "sweet": "sweet/s664654aa6537.mp3",
+   "lively": "lively/l139affd22f6a.mp3"
+  },
+  "ü": {
+   "lively": "lively/l8137cd6b3abc.mp3",
+   "sweet": "sweet/s26d89007b486.mp3"
+  }
+ }
+}
