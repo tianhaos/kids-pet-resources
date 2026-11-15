@@ -1,14 +1,23 @@
 {
-  "version": 1,
-  "updated": "2026-11-14",
-  "note": "古诗视频片源表。只登记官方平台的页面地址，App 里只做「外跳打开」，不下载、不缓存、不代理视频流。改完这份文件推到 kids-pet-resources 仓库，App 同步后立即生效，不用发新版。",
-  "provider_note": "collection = 官方节目/专题页；items = 单首诗对应的精确某集（没有就让用户按诗名搜索）。",
+  "version": 2,
+  "updated": "2026-11-15",
+  "note": "古诗动画片源表。items 里配了精确地址的诗，点「看动画」会一键直达，不再经过专题页或搜索页。改完这份文件推到 kids-pet-resources 仓库，App 同步后立即生效，不用发新版。",
+  "type_note": "items[].type 三种：page = 官方单集播放页（用系统浏览器打开，央视网自己播，版权合规）；video = mp4/m3u8 直链（App 内全屏播放）；resource = 资源包里的动画文件，填相对路径如 video/jys.mp4，同步后 App 内播放。央视网的视频不能抓流，只允许 page 外跳。",
+  "provider_note": "collection = 官方节目专题页（全部剧集）；items = 单首诗对应的精确地址。给自有或已授权的动画加片源时，放 video/xxx.mp4 到资源仓库并用 type=resource，或填一个可直链的 mp4 用 type=video。",
+  "example": {
+    "type": "resource",
+    "url": "video/jingyesi.mp4",
+    "provider": "自有动画",
+    "name": "静夜思 · 水墨动画",
+    "official": true
+  },
   "collection": {
     "provider": "央视网",
-    "name": "《千秋诗颂》官方节目页",
+    "name": "《千秋诗颂》全部剧集",
     "subtitle": "总台 AI 国风诗词动画 · 统编教材篇目",
     "url": "https://tv.cctv.com/2024/02/26/VIDAUw4U4rxtLHnKuKP9dFZV240226.shtml",
-    "official": true
+    "official": true,
+    "type": "page"
   },
   "search": {
     "provider": "央视网",
@@ -20,5 +29,105 @@
     "url": "https://www.yangshipin.cn/search?keyword={q}",
     "query_prefix": "千秋诗颂"
   },
-  "items": {}
+  "items": {
+    "咏鹅": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 咏鹅",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2024/02/27/VIDEUoqF6FgxQqjFnlCgFWo6240227.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "静夜思": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 静夜思",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2026/02/03/VIDENw7c5GRXTQogyXIrCgJ9260203.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "登鹳雀楼": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 登鹳雀楼",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2025/09/22/VIDEgA5yX9KlT93FVe5XM5wn250922.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "悯农": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 早发白帝城 / 悯农",
+      "subtitle": "合集 · 含《悯农》",
+      "url": "https://tv.cctv.com/2025/02/08/VIDEhjIDnedgNaDKD90u4k1F250208.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "早发白帝城": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 早发白帝城",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2024/10/18/VIDEaWqPencbaXpv14SmeBbt241018.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "望庐山瀑布": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 望庐山瀑布",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2025/02/06/VIDEzf7LPJd0J2XVOW6IDDYF250206.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "赠汪伦": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 赠汪伦",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2025/09/24/VIDEhm2uu7f1jrRUlZ7iiVAG250924.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "池上": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 池上",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2024/10/17/VIDEKeK9dCPUcLvoH5qM8P3B241017.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "游子吟": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 游子吟",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2024/10/22/VIDEI9HsXtft9nvqvzvKufN5241022.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "回乡偶书": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 回乡偶书",
+      "subtitle": "中央广播电视总台 · 水墨国风动画",
+      "url": "https://tv.cctv.com/2026/02/06/VIDEYU78ZrIWTpI0CRJm31rg260206.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    },
+    "九月九日忆山东兄弟": {
+      "provider": "央视网",
+      "name": "《千秋诗颂》 九月九日忆山东兄弟（合集）",
+      "subtitle": "合集 · 含《九月九日忆山东兄弟》",
+      "url": "https://tv.cctv.com/2025/02/10/VIDEXljVOYmSGmkduERRAjNh250210.shtml",
+      "official": true,
+      "type": "page",
+      "checked_at": "2026-11-15"
+    }
+  }
 }

@@ -1,6 +1,6 @@
 {
- "version": "2026.11.14.1",
- "updatedAt": "2026-11-14T21:20:00+08:00",
+ "version": "2026.11.15.1",
+ "updatedAt": "2026-11-15T08:10:00+08:00",
  "files": [
   {
    "path": "audio/bgm.wav",
@@ -16774,8 +16774,8 @@
   },
   {
    "path": "data/poem_media.json",
-   "size": 1026,
-   "sha256": "59cfc616df11c20051a915a2b725dd0d168131e3e30043c590b2d0ba0e9f29e6"
+   "size": 5416,
+   "sha256": "ca02e1558284625c0e7bf0451b0b3e6d193bf3ecede5fe0b2a5a12fdc4f530d3"
   }
  ]
 }
