@@ -1,72 +1,72 @@
 {
   "schema": 1,
-  "versionName": "1.7.7",
-  "versionCode": 28,
-  "apkName": "kids_pet_learning_1.7.7_28.apk",
-  "size": 63626324,
-  "sha256": "32433b7027ed73b030848ffb873eae3cb38848c936e24c0d9261c2c96670d8e8",
+  "versionName": "1.7.8",
+  "versionCode": 29,
+  "apkName": "kids_pet_learning_1.7.8_29.apk",
+  "size": 63633480,
+  "sha256": "cba37c48644091f65cf10f977d5169ad2cba258392dd6d420b2ad96f9195a231",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.7.7_28/part_000.bin",
+      "path": "apk/v1.7.8_29/part_000.bin",
       "size": 6291456,
-      "sha256": "0fd88e6c11c3071da07b1a62f0ff3087e92bfa25ab961dbc5d40cd42e7c4ee69"
+      "sha256": "e097c6a9a2c0ec8e972a535ff9354094a449af82d673844c6625d6e20d5837e5"
     },
     {
-      "path": "apk/v1.7.7_28/part_001.bin",
+      "path": "apk/v1.7.8_29/part_001.bin",
       "size": 6291456,
-      "sha256": "831ca18c6fb848cbe78dcb30e54862e0be5e9f72aee4d3a5533dd74fa2e141e6"
+      "sha256": "f6469c063a1cd7d2906a212d4230ca19603f32bf3f8e8ad8c5f7e0dafe2d67b9"
     },
     {
-      "path": "apk/v1.7.7_28/part_002.bin",
+      "path": "apk/v1.7.8_29/part_002.bin",
       "size": 6291456,
       "sha256": "71820b13666efa228310d3d7c3f2f7686784e79a302b06764b0ab0ab2b65af0c"
     },
     {
-      "path": "apk/v1.7.7_28/part_003.bin",
+      "path": "apk/v1.7.8_29/part_003.bin",
       "size": 6291456,
-      "sha256": "191aaff2953a8b26e6af3c915cae83ecc54d34aa5f013f84b5006b4b20e6ca56"
+      "sha256": "526ed0087fce0f43a48ea05f16e23be055ecd90eb3bfe435c048a393bc945cd1"
     },
     {
-      "path": "apk/v1.7.7_28/part_004.bin",
+      "path": "apk/v1.7.8_29/part_004.bin",
       "size": 6291456,
-      "sha256": "e9382cf1f573cbb73e7e1154c2237bdbb7d9add107a7b4b4caeb9106b4b6c6c3"
+      "sha256": "84f3c8e8e18882ff719a4c36d719fa4ec070abe7ada4db90a41b69e985895885"
     },
     {
-      "path": "apk/v1.7.7_28/part_005.bin",
+      "path": "apk/v1.7.8_29/part_005.bin",
       "size": 6291456,
       "sha256": "bfa23b8137dbefeb0cec40a9aea1020a3290be8e38235b89787eba605e3c33cb"
     },
     {
-      "path": "apk/v1.7.7_28/part_006.bin",
+      "path": "apk/v1.7.8_29/part_006.bin",
       "size": 6291456,
-      "sha256": "402e956458a4da0335070f248904ee88bdecf8f8b78fbdc74087bf240737560b"
+      "sha256": "5d09cd01363903b69a74e95f603a5585f6bb62b3e22ac979c56e0f05eb5080af"
     },
     {
-      "path": "apk/v1.7.7_28/part_007.bin",
+      "path": "apk/v1.7.8_29/part_007.bin",
       "size": 6291456,
-      "sha256": "7047fecc6d8b5a16b66f54c2af394d838cf9a9c985999812b9a6d26ba9db6ec9"
+      "sha256": "a0aff3196611d78c25fa2d0b4dd34398520847a2307fdc0384ed7dff41d3f59e"
     },
     {
-      "path": "apk/v1.7.7_28/part_008.bin",
+      "path": "apk/v1.7.8_29/part_008.bin",
       "size": 6291456,
       "sha256": "d0f47e05fa609f2c971586482900ee98bbe9ab1963761d4d97053c6ecee8e556"
     },
     {
-      "path": "apk/v1.7.7_28/part_009.bin",
+      "path": "apk/v1.7.8_29/part_009.bin",
       "size": 6291456,
-      "sha256": "8bd7596aa0674221e3a56b5317aa9e3e60e21019f44eb76b66d7a567da347009"
+      "sha256": "50094dd594344bdb0ba2d7172aff8823938e4b00e0cf280d3152750627bf3b8a"
     },
     {
-      "path": "apk/v1.7.7_28/part_010.bin",
-      "size": 711764,
-      "sha256": "1570db75ad15947ae73604be041d7b698cbdf3144792b2d4fb6d30e40f8c9587"
+      "path": "apk/v1.7.8_29/part_010.bin",
+      "size": 718920,
+      "sha256": "d7e52aad93c3352901418a771e99f8986651b34b2045d1d929b2377278b7a0fa"
     }
   ],
-  "updatedAt": "2026-11-16T19:39:02+08:00",
+  "updatedAt": "2026-11-16T19:53:59+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "答题体验优化：选项加1.2.3序号、读题后连读选项、下划线填空改问句"
+    "修复科学课启动报错：补 assets/data/science.json 资产声明，加载器增加兜底避免单文件缺失白屏"
   ]
 }
