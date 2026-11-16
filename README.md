@@ -101,6 +101,11 @@ cd kids-pet-resources
 git add -A && git commit -m "更新古诗动画片源" && git push
 ```
 
+> **git push 卡认证时**：本机全局配置会把 `github.com` 重写到 ghproxy，push 常会失败。
+> 可改用 API 脚本 `python _build/push_repo_media.py`（按需编辑脚本里的 `FILES` / `MESSAGE`，
+> 一次 commit 同时更新多个文件）。发布安装包则直接用 `python _build/release_apk.py`，
+> 它会自动提交清单 + 全部分片，不需要手动 git 操作。
+
 最后在 App「家长中心 → 资料同步 → 立即同步」即可生效。同步成功后 App 会刷新片源缓存，不用重启、不用重装。
 
 > **务必跑第 3 步**：App 下载时用 `manifest.json` 里的 sha256 校验文件，只改 `data/poem_media.json` 而不更新清单，会校验失败（或一直显示"已是最新"）。
