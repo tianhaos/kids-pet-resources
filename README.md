@@ -180,37 +180,41 @@ python _build/release_apk.py --dry-run
 
 `update.json` 不进 `manifest.json`，资源同步不会去下载它，两套机制互不干扰。
 
-## 古诗内容包（加诗只更新资源，不用重装 APK）
+## 内容包：古诗 + 科学课（加内容只更新资源，不用重装 APK）
 
-仓库根目录的 `content_pack.json` 是**完整诗单**（当前 105 首 = 内置 38 + 扩展 67）。App 启动时并发拉 6 条线路、取 `version` 最大的一份，有新版本就在加载题库前落盘，**本次启动即生效**，孩子界面零提示。
+仓库根目录的 `content_pack.json` 同时带两份数据：`poems.json`（完整诗单，当前 123 首 = 内置 38 + 扩展 85）和 `science.json`（科学课 30 课：生活常识 8 / 自然 8 / 物理 6 / 化学 4 / 科学方法 4）。App 启动时并发拉 6 条线路、取 `version` 最大的一份，有新版本就在加载资源前落盘，**本次启动即生效**，孩子界面零提示。
 
 > 这个文件也不进 `manifest.json`，和安装包在线更新、二进制资源同步三套机制互不干扰。
 
-### 新增 / 修改古诗后
+### 新增 / 修改内容后
 
 ```bash
-# 1. 改诗单：直接编辑 kids_pet_learning/assets/data/poems.json（内置），
-#    或在 kids_pet_learning/content/library/poem_extend_*.json 里加扩展资料，
-#    然后运行 python _build/content_tools.py library 刷新清单。
+# 1a. 加古诗：编辑 kids_pet_learning/assets/data/poems.json，
+#     或在 content/library/poem_extend_*.json 里加扩展资料。
+# 1b. 加科学课：编辑 kids_pet_learning/_build/generate_science_pack.py 里的课程数据，
+#     然后 python _build/generate_science_pack.py 重新生成 assets/data/science.json。
+#     （一课 = 2~3 段科普 + 1 题；科普 type 显式写 text/image/animation/video/interaction，
+#       animation/video 配官方链接，无配置跳 B 站搜索，不在 App 里爬网页。）
 
-# 2. 重新生成并推送内容包（版本号同日自动 +1，不用手改）：
-python _build/publish_content_pack.py --note "新增古诗3首"
+# 2. 重新生成并推送内容包（版本号为 14 位时间戳，自动递增，不用手改）：
+python _build/publish_content_pack.py --note "新增古诗3首、科学课5课"
 
 # 先本地预演、不上传：
 python _build/publish_content_pack.py --dry-run
 
-# 3. 端到端校验（模拟 App 启动预检，确认 6 线路取到最新、诗单是超集）：
+# 3. 端到端校验（模拟 App 启动预检，确认 6 线路取最新、诗单/科学课都是超集）：
 python _build/verify_content_pack.py
 ```
 
-推完手机**重启 App** 即看到新诗，不用改 Dart 代码、不用重新打包、不用走在线更新装 APK。
+推完手机**重启 App** 即看到新诗 / 新科学课，不用改 Dart 代码、不用重新打包、不用走在线更新装 APK。
 
 ### 生效规则
 
-- `version` 形如 `20261116.1`（日期.当天序号），App 按字符串比较取最大；同日重发脚本会自动递增序号；
+- `version` 为 14 位时间戳 `YYYYMMDDHHMMSS`，App 按字符串比较取最大；历史上的点号版本（如 `20261116.2`）会被正确判定为旧版；
 - 家长在「内容热更新」点过「恢复内置内容」会暂时关闭预检，任何一次手动导入 / 检查会重新开启；
 - 家长手动导入的内容（pinLocal）优先级最高，自动预检绝不覆盖；
-- 内容包只带 `poems.json`，落盘时会保留已生效的其他数据文件（题库 / 宠物配置），不会冲掉。
+- 内容包带 `poems.json` 和 `science.json`，落盘时会保留已生效的其他数据文件（题库 / 宠物配置），不会冲掉；
+- 科学课的 `lesson` 下标 +1 就是科学学科关卡 index，星星和进度照旧记给家长看，孩子界面不显示。
 
 ## 合规边界
 
