@@ -1,75 +1,76 @@
 {
   "schema": 1,
-  "versionName": "1.7.1",
-  "versionCode": 22,
-  "apkName": "kids_pet_learning_1.7.1_22.apk",
+  "versionName": "1.7.2",
+  "versionCode": 23,
+  "apkName": "kids_pet_learning_1.7.2_23.apk",
   "size": 63413396,
-  "sha256": "a78c907d40267be9332ebafa85bfac656e1c132aaa6aa1143b14839199a72884",
+  "sha256": "2cb69c97a553f738b4d88062b8ea4f9a046d41dd1ec480c3f3d1be59c27a885c",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.7.1_22/part_000.bin",
+      "path": "apk/v1.7.2_23/part_000.bin",
       "size": 6291456,
-      "sha256": "6e41daf85976cc1f0742ce7d038313cd4ce1e8ac5da21aca1f395867236d4168"
+      "sha256": "d994168c0758a85b71f4ccaa54781c9ede9e034ce359294cdf86dcdbc9768728"
     },
     {
-      "path": "apk/v1.7.1_22/part_001.bin",
+      "path": "apk/v1.7.2_23/part_001.bin",
       "size": 6291456,
-      "sha256": "0b94e90a2c977110ae3c255d35368444ac219457111d4998ff05cbc092852a37"
+      "sha256": "6879b2c12dc492d8a1388f775e7ae2639734d3cf1c2c0e7f8cadd78552283905"
     },
     {
-      "path": "apk/v1.7.1_22/part_002.bin",
+      "path": "apk/v1.7.2_23/part_002.bin",
       "size": 6291456,
       "sha256": "27d5df6cc9666fdee8a7c8321fa1ec7f0c83cd0a0808783696125e3ae3c06867"
     },
     {
-      "path": "apk/v1.7.1_22/part_003.bin",
+      "path": "apk/v1.7.2_23/part_003.bin",
       "size": 6291456,
-      "sha256": "e89ccd014b52996094e2d01ea879600c8dbe0578e5bd26a9984f5a6fed452dcf"
+      "sha256": "2b6c8d6fe1c8972c33e9e96e828901f46eaa45d2d5e6b0b0ae5f7c94ac7c7c67"
     },
     {
-      "path": "apk/v1.7.1_22/part_004.bin",
+      "path": "apk/v1.7.2_23/part_004.bin",
       "size": 6291456,
-      "sha256": "c5eecc4e774522bfe7492f747705b1255274f8e50f392202c27ea0af94555697"
+      "sha256": "6c0b2bfd5ac4e5c02a832bd6d060b399f108f45d1e0bffa301bff3e24e13f672"
     },
     {
-      "path": "apk/v1.7.1_22/part_005.bin",
+      "path": "apk/v1.7.2_23/part_005.bin",
       "size": 6291456,
       "sha256": "824b519fe46423c24f1021c0ff2c0511822bc2a17992a1aeb4d0dafaf5609853"
     },
     {
-      "path": "apk/v1.7.1_22/part_006.bin",
+      "path": "apk/v1.7.2_23/part_006.bin",
       "size": 6291456,
-      "sha256": "f80c652fc2e23ec964a28260f7b8235918b2233ff1f41b253b5cd74a86304770"
+      "sha256": "42a34632c9135c2194161b3b9df8d6d2aebca82c7ba877e703b076b7d15f4ef6"
     },
     {
-      "path": "apk/v1.7.1_22/part_007.bin",
+      "path": "apk/v1.7.2_23/part_007.bin",
       "size": 6291456,
-      "sha256": "69493318a7940b788a47751f9a4157420343c347c91378fbc285c56bba99974f"
+      "sha256": "7036bbc38ca142e344da1b55f6fb77cf9844a56d03758ddc12cebc91d02d8851"
     },
     {
-      "path": "apk/v1.7.1_22/part_008.bin",
+      "path": "apk/v1.7.2_23/part_008.bin",
       "size": 6291456,
       "sha256": "649e6e040e68b5d478de97734efd5b0a43b4c85a406e96b31f5d6a78f4cbcff0"
     },
     {
-      "path": "apk/v1.7.1_22/part_009.bin",
+      "path": "apk/v1.7.2_23/part_009.bin",
       "size": 6291456,
       "sha256": "9c5af329fbda7fff9a44e354099bfd18beaf459106897960e8fd1188fdc60550"
     },
     {
-      "path": "apk/v1.7.1_22/part_010.bin",
+      "path": "apk/v1.7.2_23/part_010.bin",
       "size": 498836,
-      "sha256": "fa0e4eb75e63df27ef4a8fd59175a6eaa367d2f25d6369b250c8ee87f98f5acb"
+      "sha256": "b3231c811f169dabac3b67a7ae6407bc7ffd2c81a241a24f6b96fae43f53c0ab"
     }
   ],
-  "updatedAt": "2026-11-16T11:53:17+08:00",
+  "updatedAt": "2026-11-16T12:08:13+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
     "新增：安装包在线更新，家长中心可直接检查并升级",
     "新增：手机里下载完直接装，不用再连电脑传 APK",
     "优化：安装包分片下载，断点续传、自动换线路、逐片与整包双重校验",
+    "优化：自动复用最快下载线路，避免慢线路拖慢整包",
     "优化：孩子界面不显示任何更新提示，只在家长界面提醒"
   ]
 }
