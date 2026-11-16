@@ -1,74 +1,74 @@
 {
   "schema": 1,
-  "versionName": "1.7.3",
-  "versionCode": 24,
-  "apkName": "kids_pet_learning_1.7.3_24.apk",
-  "size": 63413396,
-  "sha256": "5b86ad370d3a301a97422f00da85662e513d5e71622f60ba57cd77ad4dad0e4d",
+  "versionName": "1.7.4",
+  "versionCode": 25,
+  "apkName": "kids_pet_learning_1.7.4_25.apk",
+  "size": 63426764,
+  "sha256": "c78e78a58ae673053af4e47bde4c44041956afffedb14be7e369215af0e726d1",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.7.3_24/part_000.bin",
+      "path": "apk/v1.7.4_25/part_000.bin",
       "size": 6291456,
-      "sha256": "850530b204b2453b69c831df25af0529806db936dde1883decbbfd9ca5763c03"
+      "sha256": "218046f52cb4b92aa1de679b077b0d4670299e112445547dea94f1cd3687ebe9"
     },
     {
-      "path": "apk/v1.7.3_24/part_001.bin",
+      "path": "apk/v1.7.4_25/part_001.bin",
       "size": 6291456,
       "sha256": "50d910bffca497b46e73f78a494ae27c179dff4e35da95202f1a58c7ce84f5d4"
     },
     {
-      "path": "apk/v1.7.3_24/part_002.bin",
+      "path": "apk/v1.7.4_25/part_002.bin",
       "size": 6291456,
       "sha256": "27d5df6cc9666fdee8a7c8321fa1ec7f0c83cd0a0808783696125e3ae3c06867"
     },
     {
-      "path": "apk/v1.7.3_24/part_003.bin",
+      "path": "apk/v1.7.4_25/part_003.bin",
       "size": 6291456,
-      "sha256": "ccf181bce06d072b3f284a246b467092ddc41f55056e563bff9888f1fae9e079"
+      "sha256": "727354e6910818469b3cf288e019f8fa18c2118e4da25711e8dd420c303b7077"
     },
     {
-      "path": "apk/v1.7.3_24/part_004.bin",
+      "path": "apk/v1.7.4_25/part_004.bin",
       "size": 6291456,
-      "sha256": "4568e019ff88f742fdd31ced212cf2cdd19a865a267e510dbbe72bdfdc4d9f77"
+      "sha256": "97231d1dc35ad54156784e0b4ef379fd6c021fa90cf507e5d8f232ebb30d2741"
     },
     {
-      "path": "apk/v1.7.3_24/part_005.bin",
+      "path": "apk/v1.7.4_25/part_005.bin",
       "size": 6291456,
       "sha256": "824b519fe46423c24f1021c0ff2c0511822bc2a17992a1aeb4d0dafaf5609853"
     },
     {
-      "path": "apk/v1.7.3_24/part_006.bin",
+      "path": "apk/v1.7.4_25/part_006.bin",
       "size": 6291456,
-      "sha256": "6f5c600dd6fb53e24141bb6f196693fc05b8c38b8bd63f356444aa074f528a24"
+      "sha256": "2f269af636345a89e48ddc3da60302b54388f1070c37f19f2f6e66c115ef73d0"
     },
     {
-      "path": "apk/v1.7.3_24/part_007.bin",
+      "path": "apk/v1.7.4_25/part_007.bin",
       "size": 6291456,
       "sha256": "170de51e52d892768ec69a68083e377d1013da0c5bb242932861ad55ef850d68"
     },
     {
-      "path": "apk/v1.7.3_24/part_008.bin",
+      "path": "apk/v1.7.4_25/part_008.bin",
       "size": 6291456,
       "sha256": "649e6e040e68b5d478de97734efd5b0a43b4c85a406e96b31f5d6a78f4cbcff0"
     },
     {
-      "path": "apk/v1.7.3_24/part_009.bin",
+      "path": "apk/v1.7.4_25/part_009.bin",
       "size": 6291456,
       "sha256": "9c5af329fbda7fff9a44e354099bfd18beaf459106897960e8fd1188fdc60550"
     },
     {
-      "path": "apk/v1.7.3_24/part_010.bin",
-      "size": 498836,
-      "sha256": "ed7178727c25f8bb81287c016843d43fd8a4142f101f5ec699d552c87752fc96"
+      "path": "apk/v1.7.4_25/part_010.bin",
+      "size": 512204,
+      "sha256": "fc44b7c2577808ba43944286b9fe7d424968e36b5233726fc0f6f765fa598f17"
     }
   ],
-  "updatedAt": "2026-11-16T15:55:49+08:00",
+  "updatedAt": "2026-11-16T16:26:00+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "优化：首页宠物卡布局收紧，去掉大片空白",
-    "优化：台词气泡改为说话时才出现，平时不占位置",
-    "优化：隐藏的进度/统计相关间距一并清理"
+    "新增：古诗扩展 67 首，覆盖小学一至六年级必背篇目",
+    "新增：按年级分 4 份资料，家长中心课程资料库可勾选导入",
+    "优化：原文逐首核对，配白话意思与主题标签"
   ]
 }
