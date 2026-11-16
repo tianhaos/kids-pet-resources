@@ -21,6 +21,8 @@ https://raw.githubusercontent.com/tianhaos/kids-pet-resources/main/
 | `audio/` | 音效与背景音乐 wav | 4 个 |
 | `books/` | 绘本插图 jpg | 28 张 |
 | `data/poem_media.json` | **古诗动画片源表 v4**（可热更新，改完同步即生效） | 1 个 |
+| `update.json` | **安装包更新清单**：版本号 / 整包 sha256 / 分片列表 / 更新说明 | 1 个 |
+| `apk/v<版本>_<build>/` | 安装包分片，每片 6MB（App 下载后合并校验） | 约 11 片 / 版 |
 
 ## 古诗动画片源表 `data/poem_media.json`（v4）
 
@@ -112,9 +114,70 @@ git add -A && git commit -m "更新古诗动画片源" && git push
 
 > **CDN 缓存提示**：jsDelivr 国内节点（`testingcf.jsdelivr.net`）对 `@main` 缓存较长。v1.3.9 起 App 会并发比对 6 条线路的清单版本、取最新的一条同步；老版本 APK 遇到「同步后仍是旧版」，在资料同步页手动切到「GitHub 直连 / jsDelivr 全球 / GHProxy 加速」再同步即可。
 
+## 安装包在线更新（App 内升级）
+
+家长在 App「家长中心 → 检查更新」就能看到新版本、下载并安装，**不用再连电脑传 APK**。孩子界面不显示任何更新提示，避免打扰小朋友。
+
+### 为什么分片
+
+本机网络只有 `api.github.com` / `raw.githubusercontent.com` 可达，`github.com` 和 `uploads.github.com` 都连不上，用不了 Release asset 和 `git push`；而 GitHub Git Data API 对单个 blob 有大小限制（60MB 整包实测返回 422）。所以把 APK 切成 **6MB 一片**，通过 API 上传。分片还有个好处：低于 jsDelivr 单文件 20MB 上限，App 能直接复用上面那 6 条资源下载线路，国内速度更好、断线自动换线路。
+
+### `update.json` 格式
+
+```json
+{
+  "schema": 1,
+  "versionName": "1.7.0",
+  "versionCode": 21,
+  "apkName": "kids_pet_learning_v1.7.0_21.apk",
+  "size": 63084372,
+  "sha256": "整包 sha256",
+  "partSize": 6291456,
+  "parts": [
+    {"path": "apk/v1.7.0_21/part_000.bin", "size": 6291456, "sha256": "该片 sha256"}
+  ],
+  "updatedAt": "2026-11-16T11:00:00+08:00",
+  "minVersionCode": 0,
+  "force": false,
+  "changelog": ["新增：…", "修复：…"]
+}
+```
+
+- `versionCode` 必须和 `pubspec.yaml` 里 `version: 1.7.0+21` 的 `+21` 一致，App 用它和本机版本比较；
+- `parts[].path` 是**仓库相对路径**，App 用内置线路基址拼出下载 URL；
+- 每片单独校验 sha256，合并后再校验整包 `sha256`，任何一片坏了都会换线路重下，绝不拿坏包去安装；
+- `changelog` 一行一条，用 `|` 写在发布命令里；`force` 为 true 时 App 不提供「跳过此版本」。
+
+### 发布新版本
+
+```bash
+# 1. 改 pubspec.yaml 的 version（版本号 + build 号都要 +1）
+# 2. 在工作区根目录执行：打包并一次提交所有分片
+python _build/release_apk.py --build --notes "新增：安装包在线更新|优化：手机里直接升级"
+
+# 只想发布已经打好的 APK：
+python _build/release_apk.py --notes "修复：…"
+
+# 先本地预演，不上传：
+python _build/release_apk.py --dry-run
+```
+
+脚本会：读 `pubspec.yaml` 版本 → 切 6MB 分片并算 sha256 → 生成 `update.json` → 通过 GitHub API **一次 commit** 提交清单 + 全部分片 + README（避免「新清单 + 旧分片」的中间态）→ 清理只保留最近 2 个版本的分片。token 从 Windows 凭据管理器读取，不打印、不落盘。
+
+> 每次发版**务必同步递增 build 号**：App 只认 `versionCode`，版本号变了但 build 号没变会检测不到更新。
+
+### App 端流程
+
+1. 启动后静默并发拉 6 条线路的 `update.json`，取 `versionCode` 最大的一份（防 CDN 旧缓存）；只在**家长首页**亮「有新版本」角标；
+2. 家长点「检查更新」看更新说明，点「下载更新」逐片下载，支持断点续传、自动换线路、屏幕常亮；
+3. 下载完合并校验 → 调起系统安装界面（Android 8+ 首次需允许「安装未知应用」，App 内有引导按钮）；
+4. 安装失败 / 用户取消，已下好的 APK 会保留，可随时点「重新打开安装界面」。
+
+`update.json` 不进 `manifest.json`，资源同步不会去下载它，两套机制互不干扰。
+
 ## 合规边界
 
-只用公开免费内容，不登录、不碰大会员 / 付费、不破解加密；App 不下载、不缓存、不转存任何一方的视频流。网页类片源由官方平台自己播放与授权。
+只用公开免费内容，不登录、不碰大会员 / 付费、不破解加密；App 不下载、不缓存、不转存任何一方的视频流。网页类片源由官方平台自己播放与授权。安装包为本 App 自有构建产物，仅通过本仓库分发。
 
 ---
-小宠学伴 · 4 岁宝宝识字启蒙 App · 片源表 v4 · 资源包版本见 `manifest.json`
+小宠学伴 · 4 岁宝宝识字启蒙 App · 片源表 v4 · 安装包在线更新 v1 · 资源包版本见 `manifest.json`

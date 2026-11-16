@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "versionName": "1.7.1",
+  "versionCode": 22,
+  "apkName": "kids_pet_learning_1.7.1_22.apk",
+  "size": 63413396,
+  "sha256": "a78c907d40267be9332ebafa85bfac656e1c132aaa6aa1143b14839199a72884",
+  "partSize": 6291456,
+  "parts": [
+    {
+      "path": "apk/v1.7.1_22/part_000.bin",
+      "size": 6291456,
+      "sha256": "6e41daf85976cc1f0742ce7d038313cd4ce1e8ac5da21aca1f395867236d4168"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_001.bin",
+      "size": 6291456,
+      "sha256": "0b94e90a2c977110ae3c255d35368444ac219457111d4998ff05cbc092852a37"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_002.bin",
+      "size": 6291456,
+      "sha256": "27d5df6cc9666fdee8a7c8321fa1ec7f0c83cd0a0808783696125e3ae3c06867"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_003.bin",
+      "size": 6291456,
+      "sha256": "e89ccd014b52996094e2d01ea879600c8dbe0578e5bd26a9984f5a6fed452dcf"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_004.bin",
+      "size": 6291456,
+      "sha256": "c5eecc4e774522bfe7492f747705b1255274f8e50f392202c27ea0af94555697"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_005.bin",
+      "size": 6291456,
+      "sha256": "824b519fe46423c24f1021c0ff2c0511822bc2a17992a1aeb4d0dafaf5609853"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_006.bin",
+      "size": 6291456,
+      "sha256": "f80c652fc2e23ec964a28260f7b8235918b2233ff1f41b253b5cd74a86304770"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_007.bin",
+      "size": 6291456,
+      "sha256": "69493318a7940b788a47751f9a4157420343c347c91378fbc285c56bba99974f"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_008.bin",
+      "size": 6291456,
+      "sha256": "649e6e040e68b5d478de97734efd5b0a43b4c85a406e96b31f5d6a78f4cbcff0"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_009.bin",
+      "size": 6291456,
+      "sha256": "9c5af329fbda7fff9a44e354099bfd18beaf459106897960e8fd1188fdc60550"
+    },
+    {
+      "path": "apk/v1.7.1_22/part_010.bin",
+      "size": 498836,
+      "sha256": "fa0e4eb75e63df27ef4a8fd59175a6eaa367d2f25d6369b250c8ee87f98f5acb"
+    }
+  ],
+  "updatedAt": "2026-11-16T11:53:17+08:00",
+  "minVersionCode": 0,
+  "force": false,
+  "changelog": [
+    "新增：安装包在线更新，家长中心可直接检查并升级",
+    "新增：手机里下载完直接装，不用再连电脑传 APK",
+    "优化：安装包分片下载，断点续传、自动换线路、逐片与整包双重校验",
+    "优化：孩子界面不显示任何更新提示，只在家长界面提醒"
+  ]
+}
