@@ -216,6 +216,22 @@ python _build/verify_content_pack.py
 - 内容包带 `poems.json` 和 `science.json`，落盘时会保留已生效的其他数据文件（题库 / 宠物配置），不会冲掉；
 - 科学课的 `lesson` 下标 +1 就是科学学科关卡 index，星星和进度照旧记给家长看，孩子界面不显示。
 
+### 科学课多形态内容约定（v2）
+
+每课 3~4 段科普 + 1 道巩固题，形态按内容选配，`segments[].type` 显式指定，App 不解析网页：
+
+| type | 用途 | 关键字段 |
+|---|---|---|
+| `text` | 文字讲解 | `text` + `say` |
+| `image` | 图片 / emoji 图示 | `asset`（emoji 或资源路径）+ `caption` |
+| `html` | 富文本：步骤、表格、要点、可点读按钮 | `text`（受限 HTML）+ `say`（纯文本朗读） |
+| `video` | 官方平台视频 | `url` + `text` 引导语 |
+| `animation` | 动画（无 id 跳平台搜索） | `title` + `provider` |
+| `interaction` | 点选 / 连一连 | `style` + `options` + `answer` |
+
+- HTML 段支持 `h2/h3`、`p`、`ul/ol/li`、`table`、`div.tip` 提示框、`<button data-say="...">` 点读按钮；内容由 JSON 提供，App 内渲染，不加载外部网页、不执行脚本。
+- 分类写在 `category`，列表页自动按它生成筛选胶囊；`tags` 是细分子主题。以后新增分类 / 形态只需改 `_build/generate_science_pack.py` 并重发内容包，不用改 Dart。
+
 ## 合规边界
 
 只用公开免费内容，不登录、不碰大会员 / 付费、不破解加密；App 不下载、不缓存、不转存任何一方的视频流。网页类片源由官方平台自己播放与授权。安装包为本 App 自有构建产物，仅通过本仓库分发。
