@@ -180,6 +180,38 @@ python _build/release_apk.py --dry-run
 
 `update.json` 不进 `manifest.json`，资源同步不会去下载它，两套机制互不干扰。
 
+## 古诗内容包（加诗只更新资源，不用重装 APK）
+
+仓库根目录的 `content_pack.json` 是**完整诗单**（当前 105 首 = 内置 38 + 扩展 67）。App 启动时并发拉 6 条线路、取 `version` 最大的一份，有新版本就在加载题库前落盘，**本次启动即生效**，孩子界面零提示。
+
+> 这个文件也不进 `manifest.json`，和安装包在线更新、二进制资源同步三套机制互不干扰。
+
+### 新增 / 修改古诗后
+
+```bash
+# 1. 改诗单：直接编辑 kids_pet_learning/assets/data/poems.json（内置），
+#    或在 kids_pet_learning/content/library/poem_extend_*.json 里加扩展资料，
+#    然后运行 python _build/content_tools.py library 刷新清单。
+
+# 2. 重新生成并推送内容包（版本号同日自动 +1，不用手改）：
+python _build/publish_content_pack.py --note "新增古诗3首"
+
+# 先本地预演、不上传：
+python _build/publish_content_pack.py --dry-run
+
+# 3. 端到端校验（模拟 App 启动预检，确认 6 线路取到最新、诗单是超集）：
+python _build/verify_content_pack.py
+```
+
+推完手机**重启 App** 即看到新诗，不用改 Dart 代码、不用重新打包、不用走在线更新装 APK。
+
+### 生效规则
+
+- `version` 形如 `20261116.1`（日期.当天序号），App 按字符串比较取最大；同日重发脚本会自动递增序号；
+- 家长在「内容热更新」点过「恢复内置内容」会暂时关闭预检，任何一次手动导入 / 检查会重新开启；
+- 家长手动导入的内容（pinLocal）优先级最高，自动预检绝不覆盖；
+- 内容包只带 `poems.json`，落盘时会保留已生效的其他数据文件（题库 / 宠物配置），不会冲掉。
+
 ## 合规边界
 
 只用公开免费内容，不登录、不碰大会员 / 付费、不破解加密；App 不下载、不缓存、不转存任何一方的视频流。网页类片源由官方平台自己播放与授权。安装包为本 App 自有构建产物，仅通过本仓库分发。
