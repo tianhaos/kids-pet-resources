@@ -225,9 +225,12 @@ python _build/verify_content_pack.py
 | `text` | 文字讲解 | `text` + `say` |
 | `image` | 图片 / emoji 图示 | `asset`（emoji 或资源路径）+ `caption` |
 | `html` | 富文本：步骤、表格、要点、可点读按钮 | `text`（受限 HTML）+ `say`（纯文本朗读） |
-| `video` | 官方平台视频 | `url` + `text` 引导语 |
-| `animation` | 动画（无 id 跳平台搜索） | `title` + `provider` |
+| `video` | App 内播放的视频 | `provider=video` + `url`（mp4/m3u8 直链）|
+| `animation` | App 内播放的动画 | `provider=video/resource` + `url`（直链或资源包路径）|
+| `demo` | 内置过程演示动画 | `demo`（类型）+ `caption`，零网络依赖 |
 | `interaction` | 点选 / 连一连 | `style` + `options` + `answer` |
+
+视频/动画**只在 App 内播放，不再跳外部平台**（复用古诗播放器）：`provider=video` 填可直链的 mp4/m3u8；`provider=resource` 填资源包相对路径（如 `video/xx.mp4`，先同步到本地再播）。**没有可靠可播地址时不要配 `video`/`animation` 段**——用 `demo` 演示动画或图文段替代，否则点了会加载失败。`demo` 支持类型见 `lib/widgets/science_demo_view.dart` 的 `ScienceDemoType`：seed/traffic/rain/ice/shadow/magnet/mirror/yeast/earth/sound/water/bubble/rainbow。
 
 - HTML 段支持 `h2/h3`、`p`、`ul/ol/li`、`table`、`div.tip` 提示框、`<button data-say="...">` 点读按钮；内容由 JSON 提供，App 内渲染，不加载外部网页、不执行脚本。
 - 分类写在 `category`，列表页自动按它生成筛选胶囊；`tags` 是细分子主题。以后新增分类 / 形态只需改 `_build/generate_science_pack.py` 并重发内容包，不用改 Dart。

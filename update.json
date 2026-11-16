@@ -1,72 +1,72 @@
 {
   "schema": 1,
-  "versionName": "1.8.0",
-  "versionCode": 31,
-  "apkName": "kids_pet_learning_1.8.0_31.apk",
-  "size": 65325520,
-  "sha256": "9eb4e4b3f87f577ebe8d031bbd023c31e38950d00ecb33847e5ce55a636ce00b",
+  "versionName": "1.8.1",
+  "versionCode": 32,
+  "apkName": "kids_pet_learning_1.8.1_32.apk",
+  "size": 65342268,
+  "sha256": "04058e915cf5e72d9abbe8ae422ceeac52141c02b82dfb21c198a889dcd0e476",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.8.0_31/part_000.bin",
+      "path": "apk/v1.8.1_32/part_000.bin",
       "size": 6291456,
-      "sha256": "699819f83d4d7b2e163074f257b9db02e0d4341973f0d1f7269c552fe4c3df26"
+      "sha256": "7c1279ea75a33dbe9ef300ed6915cc24095d8a4316209606df9b618a4ea54226"
     },
     {
-      "path": "apk/v1.8.0_31/part_001.bin",
+      "path": "apk/v1.8.1_32/part_001.bin",
       "size": 6291456,
-      "sha256": "a2d707690fc5cea6d908fd8f3863172e914b6f232fcdfa3b2f8bcfb34846fbad"
+      "sha256": "61209419bdec7d44c3ac3a48d961dad0aa4050113fe84e7a819c0ac62b657e26"
     },
     {
-      "path": "apk/v1.8.0_31/part_002.bin",
+      "path": "apk/v1.8.1_32/part_002.bin",
       "size": 6291456,
       "sha256": "ea0241eeef644dc40a266c8cdab8d90bdcc987aa51ef9ad874f129c93331c57c"
     },
     {
-      "path": "apk/v1.8.0_31/part_003.bin",
+      "path": "apk/v1.8.1_32/part_003.bin",
       "size": 6291456,
-      "sha256": "9ce7aae99ee9646a14b16d90a18fb4e4615a0a6c0d8fbbc99b2747d68fae9c70"
+      "sha256": "a630d06b7a98deebd1cd91f8d457284f5674ac9b2b4d25c8e08c38765ba7e696"
     },
     {
-      "path": "apk/v1.8.0_31/part_004.bin",
+      "path": "apk/v1.8.1_32/part_004.bin",
       "size": 6291456,
-      "sha256": "36fa281395a4561e0468e61a69f2e8ea5780f1b4a48d4bdacdee47bf5e17da52"
+      "sha256": "617ed4f64bb2a62c236022bde35fa32fc6e1ca6d9b7d7789713d189b817286fd"
     },
     {
-      "path": "apk/v1.8.0_31/part_005.bin",
+      "path": "apk/v1.8.1_32/part_005.bin",
       "size": 6291456,
-      "sha256": "315d090eee653ecd9e67f51331c522a4003dc3fcfb1d9da6c6a2db5d737989be"
+      "sha256": "62ef1381512aad388ec96d3c127144f4ca2f42ea0a8b9712b5c37d479d2c8e57"
     },
     {
-      "path": "apk/v1.8.0_31/part_006.bin",
+      "path": "apk/v1.8.1_32/part_006.bin",
       "size": 6291456,
-      "sha256": "514996ca3e7e935302f3450abac96593254ea6aa887deb451d8250d705bf3fb8"
+      "sha256": "56a9d1be87e5677d47cb0fabbf05e9248e8b957cb46afaebf770e54ee5bb5746"
     },
     {
-      "path": "apk/v1.8.0_31/part_007.bin",
+      "path": "apk/v1.8.1_32/part_007.bin",
       "size": 6291456,
-      "sha256": "d180c0c73ef03baef9841ee0b5ebcfc6ec677a5ac8f43e01cd09094b5d0a0ba2"
+      "sha256": "16cec9822a31d5bc7f2509c1cf1344f28510efd82e5235c197747d2a0b10f6e1"
     },
     {
-      "path": "apk/v1.8.0_31/part_008.bin",
+      "path": "apk/v1.8.1_32/part_008.bin",
       "size": 6291456,
-      "sha256": "357b076854c4b81540adb97fa4f187dd2a4ac207bd9c28050558eeabcf0f9333"
+      "sha256": "fc9b607f774a24822185da8eb618f799c227a7eb69e3aa98b6c4ff39ff9b4d5c"
     },
     {
-      "path": "apk/v1.8.0_31/part_009.bin",
+      "path": "apk/v1.8.1_32/part_009.bin",
       "size": 6291456,
-      "sha256": "75ebf0b44f9a39fc54b393fb1d22d13e99b52a4fec4f1d4ac171d43c97fee7ca"
+      "sha256": "47b74abd25102a84d35bd4270d740dfb250e7b3eda9124ddb8b798b98c725c3b"
     },
     {
-      "path": "apk/v1.8.0_31/part_010.bin",
-      "size": 2410960,
-      "sha256": "9c3e94ee56e6bdde813e05ae81122169346253386660a06c4f7005ce4d4efbc0"
+      "path": "apk/v1.8.1_32/part_010.bin",
+      "size": 2427708,
+      "sha256": "0b3b3997fdc98759a3a624a38c26d38aa58731dce967441beec3d82e135d2555"
     }
   ],
-  "updatedAt": "2026-11-16T22:05:59+08:00",
+  "updatedAt": "2026-11-17T01:50:21+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "科学课动画改造：18个内置过程演示动画、HTML交互动效能动，动画/视频App内播放不跳转"
+    "新增品牌启动动画页：会呼吸眨眼的小宠物+品牌弹入+加载进度，冷启动不再白屏"
   ]
 }
