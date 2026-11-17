@@ -1,75 +1,76 @@
 {
   "schema": 1,
-  "versionName": "1.8.9",
-  "versionCode": 40,
-  "apkName": "kids_pet_learning_1.8.9_40.apk",
-  "size": 66395924,
-  "sha256": "10cc93f44855c3824d7f4844212fade440c05edb45baedbadab5e690d5470d7f",
+  "versionName": "1.9.0",
+  "versionCode": 41,
+  "apkName": "kids_pet_learning_1.9.0_41.apk",
+  "size": 66543552,
+  "sha256": "b150725d4477ea753887c00cddc110aac6396057556b99e62e62814db9c93f81",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.8.9_40/part_000.bin",
+      "path": "apk/v1.9.0_41/part_000.bin",
       "size": 6291456,
-      "sha256": "092ef9ae4b35a1136825528db5bcb1bd16d1bd3f1f7882f85959a44ece305ffd"
+      "sha256": "cb9e15aa7455c1da7880dc1c87a412ef4f8faa75465d426626c6813a12775c36"
     },
     {
-      "path": "apk/v1.8.9_40/part_001.bin",
+      "path": "apk/v1.9.0_41/part_001.bin",
       "size": 6291456,
-      "sha256": "c8e692d34616f680c2e4484017c8c4fec2870fac28282a194f5adfdb70a5e399"
+      "sha256": "481b48c37bdbd7b05603f319366990414fbbb80e04c34bc74da61826eb96271a"
     },
     {
-      "path": "apk/v1.8.9_40/part_002.bin",
+      "path": "apk/v1.9.0_41/part_002.bin",
       "size": 6291456,
       "sha256": "0793606e6d545c2be5d48f146994549e11a09a2256e60996c27d1506b0b9fa3d"
     },
     {
-      "path": "apk/v1.8.9_40/part_003.bin",
+      "path": "apk/v1.9.0_41/part_003.bin",
       "size": 6291456,
-      "sha256": "9a9b676006b32e63ce828dc711f9a9e8ff103e158002c92bdb4d711d403e674c"
+      "sha256": "7ac45c8091d739c98737ef791a2b983230037071c2545ac95d50788f6a239cf2"
     },
     {
-      "path": "apk/v1.8.9_40/part_004.bin",
+      "path": "apk/v1.9.0_41/part_004.bin",
       "size": 6291456,
-      "sha256": "e7c48c9053062a9c83f6320582af95d3ae1569f9be63e5e9588ca89c1511953b"
+      "sha256": "351c42cea32327b8b995ea07d5255f0e97e72a92fa66d9069dfe5c78cb93d574"
     },
     {
-      "path": "apk/v1.8.9_40/part_005.bin",
+      "path": "apk/v1.9.0_41/part_005.bin",
       "size": 6291456,
-      "sha256": "8646a58581e4ce379aad4b0815cc68cc645d4926e7b4aeb4fa7bb34598eaab9e"
+      "sha256": "4b87c041be45186db0f6495882cfd22dd022a944d93986bf12696b2967336126"
     },
     {
-      "path": "apk/v1.8.9_40/part_006.bin",
+      "path": "apk/v1.9.0_41/part_006.bin",
       "size": 6291456,
-      "sha256": "e0e3d2f469af3c1ef8f53e002216a3e32e36c149f943d969c362332a6d3e2a28"
+      "sha256": "e7e6bb8773f4147e9424b60ddbfb25b3488942b0d6c8dd7f10096eb79622f1c9"
     },
     {
-      "path": "apk/v1.8.9_40/part_007.bin",
+      "path": "apk/v1.9.0_41/part_007.bin",
       "size": 6291456,
-      "sha256": "e1e155fa1d686475351008ac7e48273472b120b1349f2668109c709c1abb0a88"
+      "sha256": "f1558d3c4f8a6c0950aa87398068ce1f5032a8f31bd72497e5c9cf1306f3b322"
     },
     {
-      "path": "apk/v1.8.9_40/part_008.bin",
+      "path": "apk/v1.9.0_41/part_008.bin",
       "size": 6291456,
-      "sha256": "7546a10fd71a4b69c75e6408a1fca516351f833fd32f40e84d62c5e593fdf64e"
+      "sha256": "3c73c52e36f37b1ee3e6cee248d4342ca4a65728038447c4f4449acb4794f07f"
     },
     {
-      "path": "apk/v1.8.9_40/part_009.bin",
+      "path": "apk/v1.9.0_41/part_009.bin",
       "size": 6291456,
-      "sha256": "e42c2c694de534585615ca4266e5f4a80da110f6aedc08448e86c461ad0da338"
+      "sha256": "fa43b887c0956c88a369da1152e92212defb1a5a2751edd2133b4b1768d924ab"
     },
     {
-      "path": "apk/v1.8.9_40/part_010.bin",
-      "size": 3481364,
-      "sha256": "ee59111760738deabc9595408df635e707895d4348423966ab9312c33cad3823"
+      "path": "apk/v1.9.0_41/part_010.bin",
+      "size": 3628992,
+      "sha256": "fafb56b5fb094255eec60739714d2e331d535ded0d5e391411273a552f7505eb"
     }
   ],
-  "updatedAt": "2026-11-18T00:19:26+08:00",
+  "updatedAt": "2026-11-18T01:54:06+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "宠物编程剧场大升级：新增转圈舞/变大/变小/放烟花/唱歌 5 个动作积木",
-    "真舞台：红幕布开合、聚光灯、彩纸庆祝、台词气泡",
-    "演出按动作丰富度评 1-3 星，新增「我的剧场」收藏与成就徽章",
-    "回家回放支持全部新动作"
+    "编程乐园简单/中等全新升级：点卡片就能指挥宠物表演，不用再拖积木",
+    "动作从12个扩到21个：走两步、跳一下、转个圈、鞠个躬、摇摇头、伸懒腰、打个盹、摇摆舞…",
+    "新增「灵感」模板，一键装好一整场；节目单可调顺序、重复、改台词",
+    "舞台加了开幕、聚光灯、烟花/爱心/星光/彩纸特效，演出自动评星并收进「我的剧场」",
+    "困难关仍是完整 Scratch 3，新增「我做完啦」领星"
   ]
 }
