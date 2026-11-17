@@ -67,6 +67,11 @@
     cute:{type:'kid_cute',action:'cute',ms:2800,emoji:'🥰',label:'卖个萌'},
     eat:{type:'kid_eat',action:'eat',ms:2000,emoji:'🍚',label:'吃一口'},
     cheer:{type:'kid_cheer',action:'levelUp',ms:2200,emoji:'🎉',label:'庆祝'},
+    dance:{type:'kid_dance',action:'dance',ms:2600,emoji:'💃',label:'转圈舞'},
+    grow:{type:'kid_grow',action:'grow',ms:1500,emoji:'🎈',label:'变大'},
+    shrink:{type:'kid_shrink',action:'shrink',ms:1500,emoji:'🔍',label:'变小'},
+    firework:{type:'kid_firework',action:'firework',ms:2400,emoji:'🎆',label:'放烟花'},
+    sing:{type:'kid_sing',action:'sing',ms:2600,emoji:'🎵',label:'唱歌'},
     wait:{type:'kid_wait',action:'wait',ms:900,emoji:'⏳',label:'等一下'}
   };
   function post(o){ try{ if(window.KidCodingBridge) window.KidCodingBridge.postMessage(JSON.stringify(o)); }catch(e){} }
@@ -80,13 +85,18 @@
     {type:'kid_cute',message0:'🥰 卖个萌',previousStatement:null,nextStatement:null,colour:'#D4537E',tooltip:'卖萌',helpUrl:''},
     {type:'kid_eat',message0:'🍚 吃一口',previousStatement:null,nextStatement:null,colour:'#F3A33C',tooltip:'吃东西',helpUrl:''},
     {type:'kid_cheer',message0:'🎉 庆祝一下',previousStatement:null,nextStatement:null,colour:'#F5C518',tooltip:'庆祝',helpUrl:''},
+    {type:'kid_dance',message0:'💃 转圈舞',previousStatement:null,nextStatement:null,colour:'#E8608F',tooltip:'转圈跳舞',helpUrl:''},
+    {type:'kid_grow',message0:'🎈 变大',previousStatement:null,nextStatement:null,colour:'#4C9BE8',tooltip:'变得更大',helpUrl:''},
+    {type:'kid_shrink',message0:'🔍 变小',previousStatement:null,nextStatement:null,colour:'#7A8FE0',tooltip:'变得小小的',helpUrl:''},
+    {type:'kid_firework',message0:'🎆 放烟花',previousStatement:null,nextStatement:null,colour:'#F07A3C',tooltip:'在舞台上放烟花',helpUrl:''},
+    {type:'kid_sing',message0:'🎵 唱歌',previousStatement:null,nextStatement:null,colour:'#29A5A0',tooltip:'唱一首歌',helpUrl:''},
     {type:'kid_wait',message0:'⏳ 等一下',previousStatement:null,nextStatement:null,colour:'#9AA5B1',tooltip:'停顿一下',helpUrl:''},
     {type:'kid_repeat',message0:'🔁 重复 %1 次 %2 %3',args0:[{type:'field_number',name:'TIMES',value:2,min:1,max:20,precision:1},{type:'field_label',name:'LABEL',text:'做这些'},{type:'input_statement',name:'DO'}],previousStatement:null,nextStatement:null,colour:'#9B6DE8',tooltip:'重复执行里面的动作',helpUrl:''}
   ]);
 
   function toolboxFor(names){
     var act='';
-    ['say','roll','run','cute','eat','cheer','wait'].forEach(function(k){
+    ['say','roll','run','cute','eat','cheer','dance','grow','shrink','firework','sing','wait'].forEach(function(k){
       if(names.indexOf(k)>=0){
         var t=ACTIONS[k].type;
         if(k==='say') act+='<block type="'+t+'"><field name="TEXT">你好呀</field></block>';
@@ -169,6 +179,7 @@
     if(!steps.length){ log('先把动作积木接在<b>开始表演</b>后面哦'); return; }
     running=true; performed=[];
     preview(steps,0); log('🎬 表演开始！看下面你的小伙伴～');
+    post({type:'showStart',total:steps.length});
     for(var i=0;i<steps.length;i++){
       var s=steps[i];
       post({type:'petStep',action:s.action,text:s.text,ms:s.ms,index:i,total:steps.length});
@@ -182,12 +193,16 @@
     var got={}; steps.forEach(function(s){ got[s.action]=1; });
     var ok=steps.length>=minSteps && need.every(function(a){ return !!got[a]; });
     if(ok){
-      log('🎉 表演成功！获得 <b>3 颗星</b>');
+      log('🎉 表演成功！这一幕已经收进「我的剧场」');
       var saved=steps.map(function(s){ return {action:s.action,text:s.text,ms:s.ms}; });
-      post({type:'showDone',lessonId:lesson.id,title:lesson.title,icon:lesson.icon,steps:saved});
+      var kinds={}; saved.forEach(function(s){ kinds[s.action]=1; });
+      post({type:'showDone',lessonId:lesson.id,title:lesson.title,icon:lesson.icon,
+            steps:saved,variety:Object.keys(kinds).length});
     } else {
       var miss=need.filter(function(a){ return !got[a]; });
-      log('还不错！这次少了 '+(miss.map(function(a){ for(var k in ACTIONS) if(ACTIONS[k].action===a) return ACTIONS[k].label; return a; }).join('、')||'多表演几步')+'，再试试～');
+      var missText=miss.map(function(a){ for(var k in ACTIONS) if(ACTIONS[k].action===a) return ACTIONS[k].label; return a; }).join('、')||'多表演几步';
+      log('还不错！这次少了 '+(missText)+'，再试试～');
+      post({type:'showFail',missing:missText});
     }
   }
   function reset(){ performed=[]; preview([],-1); log('准备好，重新编排吧！'); }
