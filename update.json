@@ -4,18 +4,18 @@
   "versionCode": 40,
   "apkName": "kids_pet_learning_1.8.9_40.apk",
   "size": 66395924,
-  "sha256": "495f5b536dfd230de6ffa9491a59ec0ffea6ed26ccba42e24221353846110b01",
+  "sha256": "10cc93f44855c3824d7f4844212fade440c05edb45baedbadab5e690d5470d7f",
   "partSize": 6291456,
   "parts": [
     {
       "path": "apk/v1.8.9_40/part_000.bin",
       "size": 6291456,
-      "sha256": "4eccebc7247b03793c677ee8d73192904334458824d025605d61a800735ef67f"
+      "sha256": "092ef9ae4b35a1136825528db5bcb1bd16d1bd3f1f7882f85959a44ece305ffd"
     },
     {
       "path": "apk/v1.8.9_40/part_001.bin",
       "size": 6291456,
-      "sha256": "c77fee06a77b8d8d5b05450ce2afd84b1990b2389bad4b56d2a15a612bf74274"
+      "sha256": "c8e692d34616f680c2e4484017c8c4fec2870fac28282a194f5adfdb70a5e399"
     },
     {
       "path": "apk/v1.8.9_40/part_002.bin",
@@ -25,27 +25,27 @@
     {
       "path": "apk/v1.8.9_40/part_003.bin",
       "size": 6291456,
-      "sha256": "151015618161617a540fbdbf5e6928895736db2aa291591fe20f1f4feb9d4fa8"
+      "sha256": "9a9b676006b32e63ce828dc711f9a9e8ff103e158002c92bdb4d711d403e674c"
     },
     {
       "path": "apk/v1.8.9_40/part_004.bin",
       "size": 6291456,
-      "sha256": "12cb428736edff54b773f9373b15285f5ec13200f4e96593c7fd97013178b77c"
+      "sha256": "e7c48c9053062a9c83f6320582af95d3ae1569f9be63e5e9588ca89c1511953b"
     },
     {
       "path": "apk/v1.8.9_40/part_005.bin",
       "size": 6291456,
-      "sha256": "a261a4c897ddcb4b09f5d5c106a26b94e90f370bc9781d9ced43da1caf9079af"
+      "sha256": "8646a58581e4ce379aad4b0815cc68cc645d4926e7b4aeb4fa7bb34598eaab9e"
     },
     {
       "path": "apk/v1.8.9_40/part_006.bin",
       "size": 6291456,
-      "sha256": "7f57fc026ecffe4d59822487703a1eec0f9456d1335f5ca228a72bde0e1876bd"
+      "sha256": "e0e3d2f469af3c1ef8f53e002216a3e32e36c149f943d969c362332a6d3e2a28"
     },
     {
       "path": "apk/v1.8.9_40/part_007.bin",
       "size": 6291456,
-      "sha256": "fa0dd855ef8506edda902ac55566fbbccb93ce376c92d168aadd3395045af960"
+      "sha256": "e1e155fa1d686475351008ac7e48273472b120b1349f2668109c709c1abb0a88"
     },
     {
       "path": "apk/v1.8.9_40/part_008.bin",
@@ -60,15 +60,16 @@
     {
       "path": "apk/v1.8.9_40/part_010.bin",
       "size": 3481364,
-      "sha256": "d29f83caf7d261f677e826f52a774b70de9b6ae98e394f9450e75fcfa9b93a8e"
+      "sha256": "ee59111760738deabc9595408df635e707895d4348423966ab9312c33cad3823"
     }
   ],
-  "updatedAt": "2026-11-18T00:09:52+08:00",
+  "updatedAt": "2026-11-18T00:19:26+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
     "宠物编程剧场大升级：新增转圈舞/变大/变小/放烟花/唱歌 5 个动作积木",
     "真舞台：红幕布开合、聚光灯、彩纸庆祝、台词气泡",
-    "演出按动作丰富度评 1-3 星，新增「我的剧场」收藏与成就徽章"
+    "演出按动作丰富度评 1-3 星，新增「我的剧场」收藏与成就徽章",
+    "回家回放支持全部新动作"
   ]
 }
