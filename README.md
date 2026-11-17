@@ -230,10 +230,29 @@ python _build/verify_content_pack.py
 | `demo` | 内置过程演示动画 | `demo`（类型）+ `caption`，零网络依赖 |
 | `interaction` | 点选 / 连一连 | `style` + `options` + `answer` |
 
-视频/动画**只在 App 内播放，不再跳外部平台**（复用古诗播放器）：`provider=video` 填可直链的 mp4/m3u8；`provider=resource` 填资源包相对路径（如 `video/xx.mp4`，先同步到本地再播）。**没有可靠可播地址时不要配 `video`/`animation` 段**——用 `demo` 演示动画或图文段替代，否则点了会加载失败。`demo` 支持类型见 `lib/widgets/science_demo_view.dart` 的 `ScienceDemoType`：seed/traffic/rain/ice/shadow/magnet/mirror/yeast/earth/sound/water/bubble/rainbow。
+视频/动画**只在 App 内播放，不再跳外部平台**（复用古诗播放器）：`provider=video` 填可直链的 mp4/m3u8；`provider=resource` 填资源包相对路径（如 `videos/earth.mp4`，先同步到本地再播）。**没有可靠可播地址时不要配公网 `video` 直链**——国内大多打不开或防盗链，用下方「本地视频资源」或 `demo`。`demo` 支持类型见 `lib/widgets/science_demo_view.dart` 的 `ScienceDemoType`。
 
 - HTML 段支持 `h2/h3`、`p`、`ul/ol/li`、`table`、`div.tip` 提示框、`<button data-say="...">` 点读按钮；内容由 JSON 提供，App 内渲染，不加载外部网页、不执行脚本。
-- 分类写在 `category`，列表页自动按它生成筛选胶囊；`tags` 是细分子主题。以后新增分类 / 形态只需改 `_build/generate_science_pack.py` 并重发内容包，不用改 Dart。
+- 分类写在 `category`，列表页自动按它生成筛选胶囊；`tags` 是细分子主题。
+
+### 本地科普视频资源（v3，推荐）
+
+公网视频直链在国内不可达的问题已彻底绕开：把**现成的免费可商用科普视频**下载、压缩后放进本仓库 `videos/`，登记进 `manifest.json`，App 随资源同步落到本地，`provider=resource` 直接播本地文件，离线也能看、不依赖任何外部网站。
+
+- 当前 15 段视频（Pixabay 免费授权，480p 无音轨，单个 40KB~2MB，合计约 11MB）：`earth / sun / moon / galaxy / mars / rocket / satellite`（宇宙）、`bubble / rainbow / autumn / autumn2 / plasma`（现象）、`dna / cells / brain`（生命）；
+- 课程里配了 7 段（洗手→bubble、早睡早起→earth、太阳→sun、月亮→moon、落叶→autumn、彩虹→rainbow、泡泡→bubble），其余留在资源包，将来加宇宙 / 生命专题课直接改 JSON 即可；
+- 新增视频流程：视频压好放进 `videos/` → 重算 sha256 写入 `manifest.json` → `python _build/push_science_videos.py` 推送 → 在 `science.json` 里加 `{"type":"video","provider":"resource","url":"videos/xx.mp4","title":...,"caption":...}` → 重发内容包。
+
+### 科学课内容质量约定（v3）
+
+每课按「现象 → 为什么 → 生活里 → 小观察」四层讲，既准确又能让 4-6 岁听懂：
+
+- `text` 段：先说看得见的现象，再讲背后的原理（如彩虹＝阳光被小水滴分成七色），不是只描述表面；
+- `video` 段：贴切的真实演示，配 `caption` 说明看什么；
+- `html` 段（标题「生活里」）：给出生活应用或一个动手小观察 / 小实验，`<button data-say>` 可点读；
+- `interaction` + `question`：沿用题库结构，进度 / 星星照旧记给家长。
+
+内容升级脚本：`python _build/upgrade_science_content.py`（改的是 `kids_pet_learning/assets/data/science.json`，改完按上面流程重发内容包）。
 
 ## 合规边界
 
