@@ -1,73 +1,73 @@
 {
   "schema": 1,
-  "versionName": "1.8.4",
-  "versionCode": 35,
-  "apkName": "kids_pet_learning_1.8.4_35.apk",
-  "size": 65999589,
-  "sha256": "294fad7b8905108c41e1b439e0d039481e84895983ea64d1c5da77cd56118557",
+  "versionName": "1.8.5",
+  "versionCode": 36,
+  "apkName": "kids_pet_learning_1.8.5_36.apk",
+  "size": 66016253,
+  "sha256": "d67a77059fe3b3a7c36ce23cda5d8b969d2908095055bbba6c5c92bed2117699",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.8.4_35/part_000.bin",
+      "path": "apk/v1.8.5_36/part_000.bin",
       "size": 6291456,
-      "sha256": "8abb5c3b82e9c862327468cfd14d0f8ccf1b3a0f2f8ce59698b5687d1ac3a364"
+      "sha256": "36c705c656eb03a1c80f84d69177c3c44c40c577057a36b2d857208003f3c7bb"
     },
     {
-      "path": "apk/v1.8.4_35/part_001.bin",
+      "path": "apk/v1.8.5_36/part_001.bin",
       "size": 6291456,
-      "sha256": "98a8730f06b488f104c636089ac11bc186c6347a141de8082ce1b28b3f19b119"
+      "sha256": "181e10ae74549973e459e15f912f4d004bb90bf1fd26c598d916d31071a1bea2"
     },
     {
-      "path": "apk/v1.8.4_35/part_002.bin",
+      "path": "apk/v1.8.5_36/part_002.bin",
       "size": 6291456,
       "sha256": "383b8c89e12ec91c6ea9b4cfa40e912801e7fba09e0232bde8fe68ccf5e61a51"
     },
     {
-      "path": "apk/v1.8.4_35/part_003.bin",
+      "path": "apk/v1.8.5_36/part_003.bin",
       "size": 6291456,
-      "sha256": "dde357afc67fdc30376a07955652397e4cf4f8b934a783dee3197a9fe88ad1ae"
+      "sha256": "12b3d51a7cbc4816833eee48ce402f752a0c00b9d3a238e3f0599a802c4b62ea"
     },
     {
-      "path": "apk/v1.8.4_35/part_004.bin",
+      "path": "apk/v1.8.5_36/part_004.bin",
       "size": 6291456,
-      "sha256": "d904aec67d2366e0560635849a8e5838c06fea136f0af97c2e2c9b5a7f703d4a"
+      "sha256": "8ff66faccd886c517a560220cc893af1aa0ce8145e2a28bfb53d916a57e74834"
     },
     {
-      "path": "apk/v1.8.4_35/part_005.bin",
+      "path": "apk/v1.8.5_36/part_005.bin",
       "size": 6291456,
-      "sha256": "67c6b28b7ec70ce2dda93c292416cad44e04f76fbb95dd04efa24c8be74b5e55"
+      "sha256": "8590e0352a819d7351a1fcc694f79e1547a1b7f4de953f2fc58c835bb72e8298"
     },
     {
-      "path": "apk/v1.8.4_35/part_006.bin",
+      "path": "apk/v1.8.5_36/part_006.bin",
       "size": 6291456,
-      "sha256": "9bd33f78e6fefc52cb7a0b224bcf9965ea57637e09bc3e9e89ed8cf8c6041f7c"
+      "sha256": "1a24a196af252a30f5c8ca4058d93f964ea513881e0bcb4e489864cc3165edc9"
     },
     {
-      "path": "apk/v1.8.4_35/part_007.bin",
+      "path": "apk/v1.8.5_36/part_007.bin",
       "size": 6291456,
-      "sha256": "0dbfafd0ac346f4095e857c1cb60517a4e21a516a1f3e519ad854be5215400db"
+      "sha256": "42cf6eb17bdcbe80f5ec2bbc240e83d24d31c1788a9b27c866b40d76b8044a64"
     },
     {
-      "path": "apk/v1.8.4_35/part_008.bin",
+      "path": "apk/v1.8.5_36/part_008.bin",
       "size": 6291456,
-      "sha256": "74abcf69a682a7869c0f6e09025169cda8960ab3a38d17395d40ddd34872dd72"
+      "sha256": "d14decca1bf891beceed3763acddb8665d4b0ad6ea6f86e214ce12216b9bf4e8"
     },
     {
-      "path": "apk/v1.8.4_35/part_009.bin",
+      "path": "apk/v1.8.5_36/part_009.bin",
       "size": 6291456,
-      "sha256": "7d6c040f219403aff8d6026b7de989edced6754477fb2fb8ee6cede8cbcb0172"
+      "sha256": "d4ecc8ea9d7ca88b17f75436b00535b9343af6157c4b58700f8b358e3dedc650"
     },
     {
-      "path": "apk/v1.8.4_35/part_010.bin",
-      "size": 3085029,
-      "sha256": "2273bb22e90a4812673b18630798331d0a5fc882ef453e6d84ae89738c171ce3"
+      "path": "apk/v1.8.5_36/part_010.bin",
+      "size": 3101693,
+      "sha256": "a6f2a5ec65a7cfdc68d0b2797f0015444f1864f51d485283a7600b15078bd6e2"
     }
   ],
-  "updatedAt": "2026-11-17T18:51:13+08:00",
+  "updatedAt": "2026-11-17T19:36:56+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "科学实验筛选按设计稿重排：学科标签在前、学段分为小学/初中/高中/大学",
-    "实验分类数据统一，119 个实验均可按新分类筛选"
+    "科学实验筛选菜单美化：彩色学科分类按钮、整齐三列布局、学段分段控件",
+    "筛选卡片改为白底柔和阴影，选中态更清晰"
   ]
 }
