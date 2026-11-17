@@ -259,10 +259,11 @@ python _build/verify_content_pack.py
 
 给孩子最真实的是**能上手拖、上手点的仿真实验**，不是看视频。采用 PhET（科罗拉多大学博尔德分校）的 HTML5 仿真——官方提供**中文单文件 HTML**（`{slug}_zh_CN.html`），脚本/图片全内嵌，浏览器/WebView 打开即玩，离线可用。
 
-- 当前 6 个仿真放在 `sims/`（单个 1.2~4.6MB，合计约 19MB）：`balancing-act`（跷跷板平衡）、`forces-and-motion-basics`（力与运动）、`states-of-matter`（水的三态）、`density`（沉浮）、`circuit-construction-kit-dc`（电路）、`area-builder`（面积）；
-- 已有 6 节「动手实验」专题课（课 31-36），每课 `text 引入 → simulation 实验 → interaction 观察 → question 答题`；关卡地图从 `science.json` 动态生成，新增课自动出现；
-- App 端：`SimulationPage`（`lib/pages/simulation_page.dart`）用 WebView 打开本地 HTML，允许横屏、重新开始、显示署名；`science_lesson_page.dart` 的 `simulation` 分支走 `ResourceSyncService.localPath()` 取本地文件，**不跳外部网页**；
-- 新增仿真流程：从 `https://phet.colorado.edu/sims/html/{slug}/latest/{slug}_zh_CN.html` 下载 → 放进 `sims/` → 重算 sha256 写入 `manifest.json` → `python _build/push_phet_sims.py` 推送 → 在 `science.json` 加 `{"type":"simulation","provider":"resource","url":"sims/xx.html",...}` → 重发内容包；生成实验课用 `python _build/add_phet_science_lessons.py`；
+- **本地仿真**：`sims/` 下 12 个（单个 1.2~4.9MB，合计约 39MB），随资源包同步到本地、离线可玩。对应 12 节「动手实验」专题课（课 31-42），每课 `text 引入 → simulation 实验 → interaction 观察 → question 答题`；关卡地图从 `science.json` 动态生成，新增课自动出现；
+- **完整实验目录（v5 新增）**：`experiments.json`（随内容包热更新，白名单已加入）收录 **119 个独立实验**（网站索引的 288 条是分屏，按 slug 去重后 119 个）。每条带 `subjects`（物理/化学/数学/生物/地理）、`stages`（小学/中学/大学，可跨段）、`local`（是否已同步本地）、`officialUrl`。App 学习页有独立的「科学实验」入口卡 → `ExperimentHubPage` 按学段+学科双筛选；
+- **两种可玩方式**：`local=true` 的 12 个直接用 `ResourceSyncService.localPath()` 打开；其余 107 个点开时由 `ExperimentDownloadService` 从官方中文直链下载到 App 私有目录 `experiments/` 缓存（带 3 次重试），之后离线可玩，**不跳外部网页**；
+- App 端：`SimulationPage`（`lib/pages/simulation_page.dart`）用 WebView 打开本地 HTML，允许横屏、重新开始、显示署名；
+- 生成/推送脚本：`python _build/gen_experiments.py`（从网站清单生成 `experiments.json`，按 slug 去重+三段学段归一化+清理英文 hint）→ 并入内容包 `python _build/publish_content_pack.py --note "..."`；本地仿真新增流程仍走 `push_phet_sims.py`（**务必先把 HTML 转成 LF 换行再算 sha256**，否则 CDN 会把 CRLF 标准化成 LF 导致校验失败——踩过坑）；
 - **授权（重要）**：PhET 仿真为 **CC BY-NC 4.0**，仅允许非商业使用，须保留署名（仿真内已带 PhET logo，App 页面底部也加了署名行）。本 App 为个人/家庭非商业启蒙用途。若未来商业化，需先向科罗拉多大学取得商业授权。中文镜像站 `iphet.cn` 仅作索引参考，仿真本体直接从 PhET 官方源获取。
 
 ## 合规边界
@@ -270,4 +271,4 @@ python _build/verify_content_pack.py
 只用公开免费内容，不登录、不碰大会员 / 付费、不破解加密；App 不下载、不缓存、不转存任何一方的视频流。网页类片源由官方平台自己播放与授权。PhET 仿真遵守 CC BY-NC 4.0，**仅限非商业使用并保留署名**，商业化前须取得官方授权。安装包为本 App 自有构建产物，仅通过本仓库分发。
 
 ---
-小宠学伴 · 4 岁宝宝识字启蒙 App · 片源表 v4 · 安装包在线更新 v1 · PhET 互动仿真 v4 · 资源包版本见 `manifest.json`
+小宠学伴 · 4 岁宝宝识字启蒙 App · 片源表 v4 · 安装包在线更新 v1 · PhET 互动仿真 v5（119 实验目录）· 资源包版本见 `manifest.json`
