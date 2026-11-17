@@ -1,0 +1,10 @@
+本资源包包含两部分：
+
+1. 简单 / 中等：Google Blockly（Apache-2.0）
+   https://github.com/google/blockly
+
+2. 困难：Scratch 3 编辑器（Scratch Foundation，AGPL-3.0-only）
+   https://github.com/scratchfoundation/scratch-editor
+   Scratch name and logo are trademarks of the Scratch Foundation.
+
+仅用于孩子个人学习与非商业分享；请保留原许可证与署名。

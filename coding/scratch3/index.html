@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Scratch 3 创作室</title>
+<style>html,body{margin:0;height:100%;overflow:hidden;background:#fff}#scratch{height:100%}#boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#F6F4FF;color:#5C63DD;font:15px sans-serif;z-index:9}</style>
+</head>
+<body>
+<div id="boot">Scratch 3 正在准备中…</div>
+<div id="scratch"></div>
+<script src="scratch-gui-standalone.js"></script>
+<script>
+(function(){
+  function post(o){ try{ if(window.KidCodingBridge) window.KidCodingBridge.postMessage(JSON.stringify(o)); }catch(e){} }
+  function b64ToBytes(s){ var bin=atob(s), out=new Uint8Array(bin.length); for(var i=0;i<bin.length;i++) out[i]=bin.charCodeAt(i); return out; }
+  function bytesToB64(bytes){ return new Promise(function(resolve){ var bin=''; var chunk=0x8000; for(var i=0;i<bytes.length;i+=chunk){ bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+chunk)); } resolve(btoa(bin)); }); }
+  function vm(){ return window.scratchState && window.scratchState.store && window.scratchState.store.getState().scratchGui.vm; }
+  try{
+    var storage = new GUI.ScratchStorage();
+    var configFactory = function(){ return {storage:{scratchStorage:storage, saveProject:function(){ return Promise.resolve({id:null}); }}}; };
+    var state = new GUI.EditorState({locale:'zh-cn',isEmbedded:false,showTelemetryModal:false,isFullScreen:false,isPlayerOnly:false},configFactory);
+    window.scratchState=state;
+    if(GUI.setAppElement) GUI.setAppElement(document.body);
+    window.scratchRoot=GUI.createStandaloneRoot(state,document.getElementById('scratch'));
+    window.scratchRoot.render({isEmbedded:false,isFullScreen:false,isPlayerOnly:false});
+    document.getElementById('boot').style.display='none';
+    post({type:'ready',engine:'scratch3'});
+  }catch(e){ document.getElementById('boot').textContent='Scratch 3 加载失败：'+e; post({type:'error',message:String(e)}); }
+
+  window.KidCoding={
+    setLesson:function(raw){ window.__lesson=typeof raw==='string'?JSON.parse(raw):raw; post({type:'ready',engine:'scratch3',lessonId:window.__lesson&&window.__lesson.id}); },
+    saveProject:function(){
+      var v=vm(); if(!v) return Promise.resolve('');
+      return v.saveProjectSb3().then(function(blob){ return blob.arrayBuffer(); }).then(function(buf){ return bytesToB64(new Uint8Array(buf)); });
+    },
+    loadProject:function(base64){
+      var v=vm(); if(!v||!base64) return Promise.resolve(false);
+      var bytes=b64ToBytes(base64);
+      return v.loadProject(bytes.buffer).then(function(){return true;}).catch(function(){return false;});
+    },
+    greenFlag:function(){ var v=vm(); if(v){ v.stopAll(); v.start(); } },
+    stopAll:function(){ var v=vm(); if(v) v.stopAll(); },
+    requestSave:function(){ window.KidCoding.saveProject().then(function(b64){ post({type:'save',lessonId:(window.__lesson&&window.__lesson.id)||'',project:b64}); }); }
+  };
+  setTimeout(function(){ post({type:'vmReady',engine:'scratch3',ok:!!vm()}); },1500);
+})();
+</script>
+</body>
+</html>
