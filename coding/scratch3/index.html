@@ -2,48 +2,375 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <title>Scratch 3 创作室</title>
-<style>html,body{margin:0;height:100%;overflow:hidden;background:#fff}#scratch{height:100%}#boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#F6F4FF;color:#5C63DD;font:15px sans-serif;z-index:9}</style>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:#fff;
+    -webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none}
+  #scratch{height:100%}
+  #boot{position:fixed;inset:0;z-index:99;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:14px;background:#F6F4FF;
+    color:#5C63DD;font:15px/1.5 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif}
+  #boot .sp{width:34px;height:34px;border-radius:50%;
+    border:3px solid #D9D4FF;border-top-color:#6E56CF;animation:spin .9s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  /* 桌面版菜单栏（文件 / 编辑 / 教程 / 语言）在手机上只会误触，藏起来换成 App 的大按钮 */
+  [class*="menu-bar_menu-bar_"]{display:none !important}
+  /* 舞台左上角那几个小图标（舞台大小、全屏）对小孩也过于隐蔽，一并收掉 */
+  [class*="stage-header_stage-size-row_"],
+  [class*="stage-header_control-buttons_"]{display:none !important}
+  /* 触屏上放大素材库/造型库的列表项，原来 96px 太小不好点 */
+  [class*="library-item_library-item_"]{min-width:104px !important;min-height:104px !important}
+</style>
 </head>
 <body>
-<div id="boot">Scratch 3 正在准备中…</div>
+<div id="boot"><div class="sp"></div><div id="bootTxt">创作室正在准备…</div></div>
 <div id="scratch"></div>
+
+<!-- 离线素材表：背景 / 角色 / 声音全部内置，官方 CDN 在国内连不上 -->
+<script src="local-assets.js"></script>
+<script>
+/* ── 1. 素材请求拦截 ──────────────────────────────────────
+   Scratch 取素材统一走 .../internalapi/asset/<文件名>/get/，
+   这里直接换成本地 data URI，既不用联网，也绕开 file:// 的跨域限制。 */
+(function () {
+  var A = window.__SCRATCH_LOCAL_ASSETS || {};
+  // 大小写索引：Scratch 有时用 .svg，有时用 .SVG 请求同一份素材
+  var INDEX = {};
+  Object.keys(A).forEach(function (k) { INDEX[k.toLowerCase()] = A[k]; });
+  window.__kidAssetHit = 0;
+  window.__kidAssetMiss = [];
+
+  function localAsset(url) {
+    if (!url) return null;
+    var s = String(url);
+    if (s.indexOf('data:') === 0) return s;
+    // 两种请求形式都要认：
+    //   ① https://cdn.assets.../internalapi/asset/<md5ext>/get/   （素材库缩略图）
+    //   ② 相对路径 <md5ext>                                        （点了素材真正加载时）
+    var m = s.match(/\/internalapi\/asset\/([^\/?#]+)/) ||
+            s.match(/([a-f0-9]{32}\.[a-z0-9]+)(?:[?#]|$)/i);
+    if (!m) return null;
+    var k = decodeURIComponent(m[1]);
+    if (A[k]) return A[k];
+    var low = INDEX[k.toLowerCase()];
+    if (!low) window.__kidAssetMiss.push(k);
+    return low || null;
+  }
+  function toBytes(dataUri) {
+    var body = dataUri.slice(dataUri.indexOf(',') + 1);
+    var bin = atob(body);
+    var out = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+  // 供后面的桥接脚本复用（同一个页面里两个 IIFE）
+  window.__kidToBytes = toBytes;
+  window.__kidLocalAsset = localAsset;
+
+  function mimeOf(name) {
+    var clean = String(name).split('?')[0].split('/').pop() || '';
+    var e = (clean.split('.').pop() || '').toLowerCase();
+    return ({svg:'image/svg+xml', png:'image/png', wav:'audio/wav', mp3:'audio/mpeg',
+             jpg:'image/jpeg', jpeg:'image/jpeg', gif:'image/gif'})[e] || 'application/octet-stream';
+  }
+
+  if (window.fetch) {
+    var rawFetch = window.fetch;
+    window.fetch = function (input, init) {
+      try {
+        var url = typeof input === 'string' ? input : (input && input.url);
+        var hit = localAsset(url);
+        if (hit) {
+          window.__kidAssetHit++;
+          return Promise.resolve(new Response(toBytes(hit), {
+            status: 200,
+            headers: {'Content-Type': mimeOf(url)}
+          }));
+        }
+      } catch (e) {}
+      return rawFetch.apply(window, arguments);
+    };
+  }
+
+  // 部分 WebView 里 scratch-storage 仍走 XHR，兜一层
+  var rawOpen = XMLHttpRequest.prototype.open;
+  var rawSend = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.open = function (method, url) {
+    this.__kidUrl = url;
+    return rawOpen.apply(this, arguments);
+  };
+  XMLHttpRequest.prototype.send = function () {
+    var hit = localAsset(this.__kidUrl);
+    if (hit) {
+      var self = this, buf = toBytes(hit).buffer;
+      try {
+        Object.defineProperty(self, 'responseType', {value: 'arraybuffer', configurable: true});
+        Object.defineProperty(self, 'status', {value: 200, configurable: true});
+        Object.defineProperty(self, 'readyState', {value: 4, configurable: true});
+        Object.defineProperty(self, 'response', {value: buf, configurable: true});
+        setTimeout(function () {
+          if (self.onreadystatechange) self.onreadystatechange();
+          if (self.onload) self.onload();
+          if (self.onloadend) self.onloadend();
+        }, 0);
+        return;
+      } catch (e) {}
+    }
+    return rawSend.apply(this, arguments);
+  };
+})();
+</script>
+
 <script src="scratch-gui-standalone.js"></script>
 <script>
-(function(){
-  function post(o){ try{ if(window.KidCodingBridge) window.KidCodingBridge.postMessage(JSON.stringify(o)); }catch(e){} }
-  function b64ToBytes(s){ var bin=atob(s), out=new Uint8Array(bin.length); for(var i=0;i<bin.length;i++) out[i]=bin.charCodeAt(i); return out; }
-  function bytesToB64(bytes){ return new Promise(function(resolve){ var bin=''; var chunk=0x8000; for(var i=0;i<bytes.length;i+=chunk){ bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+chunk)); } resolve(btoa(bin)); }); }
-  function vm(){ return window.scratchState && window.scratchState.store && window.scratchState.store.getState().scratchGui.vm; }
-  try{
-    var storage = new GUI.ScratchStorage();
-    var configFactory = function(){ return {storage:{scratchStorage:storage, saveProject:function(){ return Promise.resolve({id:null}); }}}; };
-    var state = new GUI.EditorState({locale:'zh-cn',isEmbedded:false,showTelemetryModal:false,isFullScreen:false,isPlayerOnly:false},configFactory);
-    window.scratchState=state;
-    if(GUI.setAppElement) GUI.setAppElement(document.body);
-    window.scratchRoot=GUI.createStandaloneRoot(state,document.getElementById('scratch'));
-    window.scratchRoot.render({isEmbedded:false,isFullScreen:false,isPlayerOnly:false});
-    document.getElementById('boot').style.display='none';
-    post({type:'ready',engine:'scratch3'});
-  }catch(e){ document.getElementById('boot').textContent='Scratch 3 加载失败：'+e; post({type:'error',message:String(e)}); }
+/* ── 2. 与 App 的桥 ───────────────────────────────────────
+   消息类型：ready / vmReady / saveBegin / saveChunk / saveEnd /
+             saveResult / loadResult / runResult / error            */
+(function () {
+  var lesson = null;
+  var cachedVm = null;
+  var pendingLoad = null;          // 编辑器还没起来时先存着，等 VM 就绪再灌
+  var dirty = false;
+  var autoTimer = null;
+  var saveSeq = 0;
 
-  window.KidCoding={
-    setLesson:function(raw){ window.__lesson=typeof raw==='string'?JSON.parse(raw):raw; post({type:'ready',engine:'scratch3',lessonId:window.__lesson&&window.__lesson.id}); },
-    saveProject:function(){
-      var v=vm(); if(!v) return Promise.resolve('');
-      return v.saveProjectSb3().then(function(blob){ return blob.arrayBuffer(); }).then(function(buf){ return bytesToB64(new Uint8Array(buf)); });
+  function post(o) {
+    try {
+      if (window.KidCodingBridge) window.KidCodingBridge.postMessage(JSON.stringify(o));
+    } catch (e) {}
+  }
+  function bootTxt(t) {
+    var el = document.getElementById('bootTxt');
+    if (el) el.textContent = t;
+  }
+  function hideBoot() {
+    var el = document.getElementById('boot');
+    if (el) el.style.display = 'none';
+  }
+  function getVm() {
+    if (cachedVm) return cachedVm;
+    try {
+      var st = window.scratchState;
+      var v = st && st.store && st.store.getState().scratchGui.vm;
+      if (v) cachedVm = v;
+      return v || null;
+    } catch (e) {
+      return null;
+    }
+  }
+  function whenVm(cb, tries) {
+    var n = tries || 0;
+    var v = getVm();
+    if (v) { cb(v); return; }
+    if (n > 250) { post({type: 'error', message: '编辑器启动超时'}); return; }
+    setTimeout(function () { whenVm(cb, n + 1); }, 120);
+  }
+  /* 素材真正装进造型 / 声音时走的是 storage.load(assetType, assetId, dataFormat)，
+     不产生网络请求，fetch / XHR 都拦不到，所以要在这一层接本地素材。 */
+  function localAssetForId(assetId, dataFormat) {
+    var A = window.__SCRATCH_LOCAL_ASSETS || {};
+    var id = String(assetId || '');
+    var keys = [id, id + '.' + String(dataFormat || '').toLowerCase()];
+    if (id.indexOf('.') < 0) {
+      keys.push(id + '.svg', id + '.png', id + '.wav', id + '.mp3');
+    }
+    for (var i = 0; i < keys.length; i++) {
+      if (A[keys[i]]) return A[keys[i]];
+    }
+    var low = id.toLowerCase();
+    for (var k in A) {
+      if (k.split('.')[0] === low) return A[k];
+    }
+    return null;
+  }
+
+  function useLocalAssetStorage(storage) {
+    if (!storage || storage.__kidPatched) return;
+    var raw = storage.load.bind(storage);
+    storage.load = function (assetType, assetId, dataFormat) {
+      try {
+        var d = localAssetForId(assetId, dataFormat);
+        if (d) {
+          var bytes = (window.__kidToBytes || toBytes)(d);
+          return Promise.resolve(new GUI.Asset(assetType, assetId, dataFormat, bytes));
+        }
+      } catch (e) {}
+      return raw(assetType, assetId, dataFormat);
+    };
+    storage.__kidPatched = true;
+  }
+
+  function bytesToB64(bytes) {
+    var bin = '', chunk = 0x8000;
+    for (var i = 0; i < bytes.length; i += chunk) {
+      bin += String.fromCharCode.apply(null, bytes.subarray(i, i + chunk));
+    }
+    return btoa(bin);
+  }
+  function b64ToBytes(s) {
+    var bin = atob(s), out = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+
+  /* ── 保存：作品可能有几 MB，切成小段回传，避免一次消息过大被丢掉 ── */
+  var saving = false;
+
+  function doSave(reason) {
+    var v = getVm();
+    // 同一时间只跑一次保存：自动保存和手动保存撞在一起会拼出坏文件
+    if (saving) return;
+    if (!v) {
+      post({type: 'saveResult', ok: false, message: '编辑器还没准备好，再等一下'});
+      return;
+    }
+    var empty = true;
+    try { empty = !v.runtime.targets || v.runtime.targets.length === 0; } catch (e) {}
+    if (empty) {
+      post({type: 'saveResult', ok: false, message: '舞台上还没有东西，先加个角色吧'});
+      return;
+    }
+    var id = ++saveSeq;
+    saving = true;
+    bootTxt('正在保存作品…');
+    v.saveProjectSb3().then(function (blob) {
+      return blob.arrayBuffer();
+    }).then(function (buf) {
+      var b64 = bytesToB64(new Uint8Array(buf));
+      var CH = 160 * 1024;
+      var total = Math.max(1, Math.ceil(b64.length / CH));
+      post({type: 'saveBegin', id: id, total: total, bytes: b64.length, reason: reason || 'manual'});
+      for (var i = 0; i < total; i++) {
+        post({type: 'saveChunk', id: id, seq: i, data: b64.slice(i * CH, (i + 1) * CH)});
+      }
+      post({type: 'saveEnd', id: id, total: total});
+      saving = false;
+    }).catch(function (e) {
+      saving = false;
+      post({type: 'saveResult', ok: false, message: String((e && e.message) || e)});
+    });
+  }
+
+  function markDirty() {
+    dirty = true;
+    if (autoTimer) clearTimeout(autoTimer);
+    // 停手 4 秒就自动存一次：孩子不会记得点保存
+    autoTimer = setTimeout(function () {
+      if (!dirty) return;
+      dirty = false;
+      doSave('auto');
+    }, 4000);
+  }
+
+  /* 屏幕全空是最劝退的：先给一个能点绿旗就跑的起步作品。 */
+  function loadStarter(v) {
+    var data = (window.__SCRATCH_LOCAL_ASSETS || {})['__starter.sb3'];
+    if (!data) return;
+    try {
+      var bytes = b64ToBytes(data.slice(data.indexOf(',') + 1));
+      v.stopAll();
+      v.loadProject(bytes.buffer).then(function () {
+        post({type: 'starterLoaded'});
+      }).catch(function (e) {
+        post({type: 'error', message: '起步作品加载失败：' + e});
+      });
+    } catch (e) {}
+  }
+
+  function applyLoad(b64) {
+    whenVm(function (v) {
+      v.stopAll();
+      bootTxt('正在打开作品…');
+      v.loadProject(b64ToBytes(b64).buffer).then(function () {
+        pendingLoad = null;
+        hideBoot();
+        post({type: 'loadResult', ok: true});
+        post({type: 'ready', engine: 'scratch3'});
+      }).catch(function (e) {
+        post({type: 'loadResult', ok: false, message: String((e && e.message) || e)});
+      });
+    });
+  }
+
+  try {
+    var storage = new GUI.ScratchStorage();
+    var configFactory = function () {
+      return {storage: {scratchStorage: storage, saveProject: function () { return Promise.resolve({id: null}); }}};
+    };
+    var state = new GUI.EditorState({
+      locale: 'zh-cn', isEmbedded: false, showTelemetryModal: false,
+      isFullScreen: false, isPlayerOnly: false
+    }, configFactory);
+    window.scratchState = state;
+    if (GUI.setAppElement) GUI.setAppElement(document.body);
+    window.scratchRoot = GUI.createStandaloneRoot(state, document.getElementById('scratch'));
+    window.scratchRoot.render({isEmbedded: false, isFullScreen: false, isPlayerOnly: false});
+    hideBoot();
+    post({type: 'ready', engine: 'scratch3'});
+  } catch (e) {
+    bootTxt('创作室加载失败：' + e);
+    post({type: 'error', message: String(e)});
+  }
+
+  whenVm(function (v) {
+    try {
+      useLocalAssetStorage(v.runtime.storage);
+    } catch (e) {}
+    try {
+      v.on('PROJECT_CHANGED', markDirty);
+    } catch (e) {}
+    post({type: 'vmReady', engine: 'scratch3', ok: true});
+    // 等一小会儿：如果 App 那边有存过的作品，让它先灌进来，别和起步作品打架
+    setTimeout(function () {
+      if (pendingLoad) { applyLoad(pendingLoad); return; }
+      var empty = true;
+      try { empty = !v.runtime.targets || v.runtime.targets.length === 0; } catch (e) {}
+      if (empty) loadStarter(v);
+    }, 900);
+  });
+
+  // 切到后台 / 退出前，尽量把现场存下来
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) doSave('auto');
+  });
+
+  window.KidCoding = {
+    setLesson: function (raw) {
+      lesson = typeof raw === 'string' ? JSON.parse(raw) : raw;
+      post({type: 'ready', engine: 'scratch3', lessonId: (lesson && lesson.id) || ''});
     },
-    loadProject:function(base64){
-      var v=vm(); if(!v||!base64) return Promise.resolve(false);
-      var bytes=b64ToBytes(base64);
-      return v.loadProject(bytes.buffer).then(function(){return true;}).catch(function(){return false;});
+    loadProject: function (b64) {
+      if (!b64) {
+        pendingLoad = null;
+        post({type: 'loadResult', ok: true, empty: true});
+        return;
+      }
+      pendingLoad = b64;
+      applyLoad(b64);
     },
-    greenFlag:function(){ var v=vm(); if(v){ v.stopAll(); v.start(); } },
-    stopAll:function(){ var v=vm(); if(v) v.stopAll(); },
-    requestSave:function(){ window.KidCoding.saveProject().then(function(b64){ post({type:'save',lessonId:(window.__lesson&&window.__lesson.id)||'',project:b64}); }); }
+    requestSave: function (reason) { doSave(reason || 'manual'); },
+    newProject: function () {
+      var v = getVm();
+      if (!v) return;
+      loadStarter(v);
+    },
+    greenFlag: function () {
+      var v = getVm();
+      if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
+      v.stopAll();
+      v.greenFlag();
+      post({type: 'runResult', ok: true});
+    },
+    stopAll: function () {
+      var v = getVm();
+      if (v) v.stopAll();
+      post({type: 'runResult', ok: true, stopped: true});
+    },
+    stats: function () {
+      return JSON.stringify({hit: window.__kidAssetHit, vm: !!getVm()});
+    }
   };
-  setTimeout(function(){ post({type:'vmReady',engine:'scratch3',ok:!!vm()}); },1500);
 })();
 </script>
 </body>

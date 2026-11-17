@@ -7,4 +7,10 @@
    https://github.com/scratchfoundation/scratch-editor
    Scratch name and logo are trademarks of the Scratch Foundation.
 
+3. 角色素材：Twemoji（Twitter/X，CC-BY 4.0）
+   https://github.com/jdecked/twemoji
+   已重新打包为 Scratch 造型（SVG），未做实质性修改。
+
+4. 背景与音效：本项目自制（脚本绘制 / 合成），随资源包一同分发。
+
 仅用于孩子个人学习与非商业分享；请保留原许可证与署名。
