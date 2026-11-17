@@ -3,54 +3,54 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>积木编程</title>
+<title>宠物编程剧场</title>
 <style>
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html,body{margin:0;height:100%;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#F6F4FF;color:#342F4B}
   #app{height:100%;display:flex;flex-direction:column}
-  #top{padding:10px 12px 8px;background:linear-gradient(135deg,#8F9BFB,#5C63DD);color:#fff;display:flex;align-items:center;gap:10px}
+  #top{padding:9px 12px;background:linear-gradient(135deg,#FF9A8B,#FF6B9D 55%,#A06BFF);color:#fff;display:flex;align-items:center;gap:10px}
   #top .badge{width:38px;height:38px;border-radius:12px;background:rgba(255,255,255,.22);display:flex;align-items:center;justify-content:center;font-size:21px}
   #top .text{flex:1;min-width:0}
   #top h1{font-size:15px;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   #top p{font-size:11px;margin:2px 0 0;opacity:.92;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .btn{border:0;border-radius:12px;padding:9px 13px;font-size:13px;font-weight:700;background:#fff;color:#5C63DD;box-shadow:0 4px 10px rgba(45,40,90,.12)}
+  .btn{border:0;border-radius:12px;padding:9px 13px;font-size:13px;font-weight:700;background:#fff;color:#C65286;box-shadow:0 4px 10px rgba(90,40,80,.12)}
   .btn:active{transform:translateY(1px)}
   #main{flex:1;min-height:0;display:flex;gap:8px;padding:8px}
   #left{flex:1.35;min-width:0;border-radius:16px;background:#fff;overflow:hidden;box-shadow:0 4px 14px rgba(65,56,120,.10)}
   #right{flex:1;min-width:190px;display:flex;flex-direction:column;gap:8px}
-  #stageCard{flex:1;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 14px rgba(65,56,120,.10);display:flex;flex-direction:column}
-  #stageTitle{font-size:12px;color:#6B658A;padding:9px 12px 4px}
-  #stageWrap{flex:1;display:flex;align-items:center;justify-content:center;padding:6px 10px 10px}
-  #stage{position:relative;display:grid;gap:2px;background:#EEF2FF;border-radius:12px;padding:5px}
-  .cell{width:30px;height:30px;border-radius:7px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:19px;transition:transform .15s}
-  .cell.star{background:#FFF7D6}.cell.obstacle{background:#E9E4DC}
-  .cell.hero{background:#DFF7E8;box-shadow:inset 0 0 0 2px #64C48D}
-  #log{min-height:54px;max-height:74px;overflow:auto;background:#fff;border-radius:14px;padding:9px 12px;font-size:12px;color:#6B658A;box-shadow:0 4px 14px rgba(65,56,120,.10)}
-  #log b{color:#5C63DD}
+  #showCard{flex:1;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 14px rgba(65,56,120,.10);display:flex;flex-direction:column}
+  #showTitle{font-size:12px;color:#8A6B8A;padding:9px 12px 4px;font-weight:700}
+  #showList{flex:1;overflow:auto;padding:2px 10px 10px}
+  .step{display:flex;align-items:center;gap:8px;padding:7px 9px;margin:5px 0;border-radius:11px;background:#FFF3F8;font-size:13px;transition:.15s}
+  .step .ic{font-size:18px}
+  .step .tx{color:#9A7A9A;font-size:11px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .step.on{background:#FFE0EC;box-shadow:inset 0 0 0 2px #FF7BA8;transform:scale(1.02)}
+  #empty{font-size:12px;color:#B9A9C9;text-align:center;padding:14px 8px;line-height:1.6}
+  #log{min-height:46px;max-height:70px;overflow:auto;background:#fff;border-radius:14px;padding:9px 12px;font-size:12px;color:#8A6B8A;box-shadow:0 4px 14px rgba(65,56,120,.10)}
+  #log b{color:#C65286}
   #blocklyDiv{width:100%;height:100%}
   .blocklyText{font-family:"PingFang SC","Microsoft YaHei",sans-serif !important}
   @media (max-width:640px), (orientation:portrait){
     #main{flex-direction:column;padding:6px}
-    #left{height:52%;flex:none}
+    #left{height:48%;flex:none}
     #right{flex:1;min-height:0;flex-direction:row}
-    #stageCard{flex:1.4}
+    #showCard{flex:1.4}
     #log{flex:1;max-height:none}
-    .cell{width:25px;height:25px;font-size:16px}
   }
 </style>
 </head>
 <body>
 <div id="app">
   <div id="top">
-    <div class="badge">🧩</div>
-    <div class="text"><h1 id="title">积木编程</h1><p id="goal">完成任务，拿到星星</p></div>
-    <button class="btn" id="run">▶ 运行</button>
+    <div class="badge">🎬</div>
+    <div class="text"><h1 id="title">宠物编程剧场</h1><p id="goal">编排动作，让你的小伙伴演出来</p></div>
+    <button class="btn" id="run">▶ 开演</button>
   </div>
   <div id="main">
     <div id="left"><div id="blocklyDiv"></div></div>
     <div id="right">
-      <div id="stageCard"><div id="stageTitle">小动物出发啦</div><div id="stageWrap"><div id="stage"></div></div></div>
-      <div id="log">拖动积木，点<b>运行</b>看看会发生什么～</div>
+      <div id="showCard"><div id="showTitle">📋 节目单</div><div id="showList"><div id="empty">把动作积木接在「开始表演」后面，点开演，看小伙伴表演～</div></div></div>
+      <div id="log">把动作积木接在<b>开始表演</b>后面，点<b>开演</b>试试～</div>
     </div>
   </div>
 </div>
@@ -59,122 +59,139 @@
 <script src="blockly/msg/zh-hans.js"></script>
 <script>
 (function(){
-  var lesson = null, workspace = null, running = false, hero = {x:0,y:0,dir:0}, said = '';
-  var DIRS = [[1,0],[0,-1],[-1,0],[0,1]]; // 右 上 左 下
+  var lesson=null, workspace=null, running=false, performed=[];
+  var ACTIONS={
+    say:{type:'kid_say',action:'speak',ms:2400,emoji:'💬',label:'说话'},
+    roll:{type:'kid_roll',action:'roll',ms:1900,emoji:'🤸',label:'前滚翻'},
+    run:{type:'kid_run',action:'run',ms:3200,emoji:'🏃',label:'蹦跑'},
+    cute:{type:'kid_cute',action:'cute',ms:2800,emoji:'🥰',label:'卖个萌'},
+    eat:{type:'kid_eat',action:'eat',ms:2000,emoji:'🍚',label:'吃一口'},
+    cheer:{type:'kid_cheer',action:'levelUp',ms:2200,emoji:'🎉',label:'庆祝'},
+    wait:{type:'kid_wait',action:'wait',ms:900,emoji:'⏳',label:'等一下'}
+  };
   function post(o){ try{ if(window.KidCodingBridge) window.KidCodingBridge.postMessage(JSON.stringify(o)); }catch(e){} }
-  function log(html){ document.getElementById('log').innerHTML = html; }
+  function log(html){ document.getElementById('log').innerHTML=html; }
 
   Blockly.defineBlocksWithJsonArray([
-    {type:'kid_start',message0:'🟢 开始 %1 %2',args0:[{type:'field_label',name:'LABEL',text:'按下绿旗执行'},{type:'input_statement',name:'DO'}],colour:'#4CAF50',tooltip:'从这里开始',helpUrl:''},
-    {type:'kid_move',message0:'向 %1 走 %2 步',args0:[{type:'field_dropdown',name:'DIR',options:[['前','forward'],['后','back']]},{type:'field_number',name:'STEPS',value:1,min:1,max:9,precision:1}],previousStatement:null,nextStatement:null,colour:'#5C81F5',tooltip:'向前或向后走',helpUrl:''},
-    {type:'kid_turn',message0:'向 %1 转',args0:[{type:'field_dropdown',name:'DIR',options:[['左','left'],['右','right']]}],previousStatement:null,nextStatement:null,colour:'#F5A623',tooltip:'改变方向',helpUrl:''},
-    {type:'kid_say',message0:'说 %1',args0:[{type:'field_input',name:'TEXT',text:'你好'}],previousStatement:null,nextStatement:null,colour:'#EA7BC0',tooltip:'说一句话',helpUrl:''},
-    {type:'kid_repeat',message0:'重复 %1 次 %2 %3',args0:[{type:'field_number',name:'TIMES',value:2,min:1,max:20,precision:1},{type:'field_label',name:'LABEL',text:'做这些'},{type:'input_statement',name:'DO'}],previousStatement:null,nextStatement:null,colour:'#9B6DE8',tooltip:'重复执行里面的积木',helpUrl:''}
+    {type:'kid_start',message0:'🎬 开始表演 %1 %2',args0:[{type:'field_label',name:'LABEL',text:'按下开演'},{type:'input_statement',name:'DO'}],colour:'#FF6B9D',tooltip:'从这里开始表演',helpUrl:''},
+    {type:'kid_say',message0:'💬 说 %1',args0:[{type:'field_input',name:'TEXT',text:'你好呀'}],previousStatement:null,nextStatement:null,colour:'#EA7BC0',tooltip:'说一句话',helpUrl:''},
+    {type:'kid_roll',message0:'🤸 前滚翻',previousStatement:null,nextStatement:null,colour:'#7F77DD',tooltip:'翻个跟头',helpUrl:''},
+    {type:'kid_run',message0:'🏃 蹦跑',previousStatement:null,nextStatement:null,colour:'#3FA37A',tooltip:'开心地跑',helpUrl:''},
+    {type:'kid_cute',message0:'🥰 卖个萌',previousStatement:null,nextStatement:null,colour:'#D4537E',tooltip:'卖萌',helpUrl:''},
+    {type:'kid_eat',message0:'🍚 吃一口',previousStatement:null,nextStatement:null,colour:'#F3A33C',tooltip:'吃东西',helpUrl:''},
+    {type:'kid_cheer',message0:'🎉 庆祝一下',previousStatement:null,nextStatement:null,colour:'#F5C518',tooltip:'庆祝',helpUrl:''},
+    {type:'kid_wait',message0:'⏳ 等一下',previousStatement:null,nextStatement:null,colour:'#9AA5B1',tooltip:'停顿一下',helpUrl:''},
+    {type:'kid_repeat',message0:'🔁 重复 %1 次 %2 %3',args0:[{type:'field_number',name:'TIMES',value:2,min:1,max:20,precision:1},{type:'field_label',name:'LABEL',text:'做这些'},{type:'input_statement',name:'DO'}],previousStatement:null,nextStatement:null,colour:'#9B6DE8',tooltip:'重复执行里面的动作',helpUrl:''}
   ]);
 
   function toolboxFor(names){
-    var cats = [];
-    if(names.indexOf('move')>=0) cats.push('<category name="动作" colour="#5C81F5"><block type="kid_move"><field name="DIR">forward</field><field name="STEPS">1</field></block><block type="kid_turn"></block></category>');
-    if(names.indexOf('turn')>=0 && names.indexOf('move')<0) cats.push('<category name="动作" colour="#5C81F5"><block type="kid_turn"></block></category>');
-    if(names.indexOf('say')>=0) cats.push('<category name="说话" colour="#EA7BC0"><block type="kid_say"><field name="TEXT">你好</field></block></category>');
-    if(names.indexOf('repeat')>=0) cats.push('<category name="重复" colour="#9B6DE8"><block type="kid_repeat"><field name="TIMES">2</field><statement name="DO"><block type="kid_move"><field name="DIR">forward</field><field name="STEPS">1</field></block></statement></block></category>');
+    var act='';
+    ['say','roll','run','cute','eat','cheer','wait'].forEach(function(k){
+      if(names.indexOf(k)>=0){
+        var t=ACTIONS[k].type;
+        if(k==='say') act+='<block type="'+t+'"><field name="TEXT">你好呀</field></block>';
+        else act+='<block type="'+t+'"></block>';
+      }
+    });
+    var cats=[];
+    if(act) cats.push('<category name="表演动作" colour="#FF6B9D">'+act+'</category>');
+    if(names.indexOf('repeat')>=0) cats.push('<category name="重复" colour="#9B6DE8"><block type="kid_repeat"><field name="TIMES">2</field><statement name="DO"><block type="kid_cute"></block></statement></block></category>');
+    if(!cats.length) cats.push('<category name="表演动作" colour="#FF6B9D"><block type="kid_say"><field name="TEXT">你好呀</field></block><block type="kid_cute"></block><block type="kid_run"></block></category>');
     return '<xml>'+cats.join('')+'</xml>';
   }
 
-  function draw(){
-    if(!lesson||!lesson.grid) return;
-    var g=lesson.grid, stage=document.getElementById('stage');
-    stage.style.gridTemplateColumns='repeat('+g.cols+', auto)';
-    stage.innerHTML='';
-    for(var y=0;y<g.rows;y++) for(var x=0;x<g.cols;x++){
-      var cell=document.createElement('div'); cell.className='cell';
-      if(g.target && g.target[0]===x && g.target[1]===y) cell.classList.add('star'),cell.textContent='⭐';
-      if((g.obstacles||[]).some(function(o){return o[0]===x&&o[1]===y;})) cell.classList.add('obstacle'),cell.textContent='🪨';
-      if(hero.x===x&&hero.y===y) cell.classList.add('hero'),cell.textContent='🐱';
-      stage.appendChild(cell);
+  function preview(steps, activeIndex){
+    var box=document.getElementById('showList');
+    if(!steps.length){ box.innerHTML='<div id="empty">把动作积木接在「开始表演」后面，点开演，看小伙伴表演～</div>'; return; }
+    box.innerHTML=steps.map(function(s,i){
+      return '<div class="step'+(i===activeIndex?' on':'')+'"><span class="ic">'+s.emoji+'</span><span>'+s.label+'</span><span class="tx">'+(s.text||'')+'</span></div>';
+    }).join('');
+    var on=box.querySelector('.on'); if(on) on.scrollIntoView({block:'nearest'});
+  }
+
+  function collect(){
+    var list=[];
+    var start=workspace.getTopBlocks(true).filter(function(b){return b.type==='kid_start';})[0];
+    if(!start) return list;
+    walk(start.getInputTargetBlock('DO'),list,0);
+    return list;
+  }
+  function walk(block,list,depth){
+    if(!block||depth>12) return;
+    var b=block;
+    while(b){
+      if(b.type==='kid_repeat'){
+        var times=parseInt(b.getFieldValue('TIMES')||'1',10)||1;
+        for(var r=0;r<times;r++) walk(b.getInputTargetBlock('DO'),list,depth+1);
+      } else {
+        var key=null;
+        for(var k in ACTIONS) if(ACTIONS[k].type===b.type){ key=k; break; }
+        if(key){
+          var a=ACTIONS[key];
+          var text=(key==='say')?(b.getFieldValue('TEXT')||'你好呀'):'';
+          list.push({key:key,action:a.action,text:text,ms:a.ms,emoji:a.emoji,label:a.label});
+        }
+      }
+      b=b.getNextBlock();
     }
   }
 
   function setLesson(raw){
-    lesson = typeof raw==='string'?JSON.parse(raw):raw;
-    document.getElementById('title').textContent=(lesson.icon||'🧩')+' '+(lesson.title||'积木编程');
-    document.getElementById('goal').textContent=lesson.goal||'完成任务';
-    hero={x:lesson.grid.start[0],y:lesson.grid.start[1],dir:0}; said='';
+    lesson=typeof raw==='string'?JSON.parse(raw):raw;
+    document.getElementById('title').textContent=(lesson.icon||'🎬')+' '+(lesson.title||'宠物编程剧场');
+    document.getElementById('goal').textContent=lesson.goal||'编排动作，让小伙伴演出来';
     if(workspace){ workspace.dispose(); workspace=null; }
-    workspace=Blockly.inject('blocklyDiv',{toolbox:toolboxFor(lesson.blocks||['move']),grid:{spacing:20,length:3,colour:'#ccc'},sounds:false,trashcan:false,scrollbars:true,zoom:{controls:false,wheel:false,startScale:.9,maxScale:1.2,minScale:.6}});
+    workspace=Blockly.inject('blocklyDiv',{toolbox:toolboxFor(lesson.blocks||['say','cute','run']),grid:{spacing:20,length:3,colour:'#ccc'},sounds:false,trashcan:false,scrollbars:true,zoom:{controls:false,wheel:false,startScale:.9,maxScale:1.2,minScale:.6}});
     var start=workspace.newBlock('kid_start'); start.initSvg(); start.render(); start.moveBy(30,30);
-    var first=workspace.newBlock((lesson.blocks||[]).indexOf('repeat')>=0?'kid_repeat':'kid_move'); first.initSvg(); first.render();
-    start.getInput('DO').connection.connect(first.previousConnection);
-    draw(); log('拖动积木，点<b>运行</b>试试～');
+    var firstType=null;
+    var bs=lesson.blocks||['say','cute','run'];
+    for(var i=0;i<bs.length;i++){ if(ACTIONS[bs[i]]&&bs[i]!=='wait'){ firstType=ACTIONS[bs[i]].type; break; } }
+    if(firstType){
+      var first=workspace.newBlock(firstType);
+      if(firstType==='kid_say') first.setFieldValue('你好呀','TEXT');
+      first.initSvg(); first.render(); start.getInput('DO').connection.connect(first.previousConnection);
+    }
+    performed=[]; preview([],-1);
+    log('接好动作积木，点<b>开演</b>，看你的小伙伴表演～');
     post({type:'ready',engine:'lite',lessonId:lesson.id});
   }
 
   function loadProject(xml){
     if(!workspace||!xml) return;
-    try{ Blockly.Xml.domToWorkspace(Blockly.Xml.textToDom(xml),workspace); log('作品已经打开啦'); }catch(e){ log('作品打不开，还是用当前积木吧'); }
+    try{ Blockly.Xml.domToWorkspace(Blockly.Xml.textToDom(xml),workspace); log('上次的表演脚本打开啦'); preview(collect(),-1); }catch(e){}
   }
 
   function sleep(ms){ return new Promise(function(r){setTimeout(r,ms);}); }
-  async function step(block){
-    if(!block) return;
-    var type=block.type;
-    if(type==='kid_move'){
-      var d=block.getFieldValue('DIR')==='back'?-1:1;
-      var n=parseInt(block.getFieldValue('STEPS')||'1',10)||1;
-      for(var i=0;i<n;i++){
-        var v=DIRS[hero.dir], nx=hero.x+v[0]*d, ny=hero.y+v[1]*d;
-        var g=lesson.grid;
-        if(nx<0||ny<0||nx>=g.cols||ny>=g.rows){ log('走不动啦，前面是边界'); return false; }
-        if((g.obstacles||[]).some(function(o){return o[0]===nx&&o[1]===ny;})){ log('前面有石头，换条路试试'); return false; }
-        hero.x=nx; hero.y=ny; draw(); await sleep(210);
-      }
-    } else if(type==='kid_turn'){
-      hero.dir=(hero.dir+(block.getFieldValue('DIR')==='left'?3:1))%4; draw(); await sleep(180);
-    } else if(type==='kid_say'){
-      said=block.getFieldValue('TEXT')||''; log('小猫说：<b>'+said+'</b>'); await sleep(260);
-    } else if(type==='kid_repeat'){
-      var times=parseInt(block.getFieldValue('TIMES')||'1',10)||1;
-      for(var r=0;r<times;r++){ var ok=await runChain(block.getInputTargetBlock('DO')); if(ok===false) return false; }
-    }
-    return step(block.getNextBlock());
-  }
-  async function runChain(first){ var b=first; while(b){ var ok=await stepOne(b); if(ok===false) return false; b=b.getNextBlock(); } return true; }
-  async function stepOne(block){
-    if(block.type==='kid_move'){
-      var d=block.getFieldValue('DIR')==='back'?-1:1;
-      var n=parseInt(block.getFieldValue('STEPS')||'1',10)||1;
-      for(var i=0;i<n;i++){
-        var v=DIRS[hero.dir], nx=hero.x+v[0]*d, ny=hero.y+v[1]*d, g=lesson.grid;
-        if(nx<0||ny<0||nx>=g.cols||ny>=g.rows){ log('走不动啦，前面是边界'); return false; }
-        if((g.obstacles||[]).some(function(o){return o[0]===nx&&o[1]===ny;})){ log('前面有石头，换条路试试'); return false; }
-        hero.x=nx; hero.y=ny; draw(); await sleep(190);
-      }
-      return true;
-    }
-    if(block.type==='kid_turn'){ hero.dir=(hero.dir+(block.getFieldValue('DIR')==='left'?3:1))%4; draw(); await sleep(160); return true; }
-    if(block.type==='kid_say'){ said=block.getFieldValue('TEXT')||''; log('小猫说：<b>'+said+'</b>'); await sleep(240); return true; }
-    if(block.type==='kid_repeat'){
-      var times=parseInt(block.getFieldValue('TIMES')||'1',10)||1;
-      for(var r=0;r<times;r++){ var ok=await runChain(block.getInputTargetBlock('DO')); if(ok===false) return false; }
-      return true;
-    }
-    return true;
-  }
+
   async function run(){
     if(running||!workspace) return;
-    running=true; hero={x:lesson.grid.start[0],y:lesson.grid.start[1],dir:0}; said=''; draw();
-    var start=workspace.getTopBlocks(true).filter(function(b){return b.type==='kid_start';})[0];
-    if(!start){ log('把积木接在<b>开始</b>后面哦'); running=false; return; }
-    var ok=await runChain(start.getInputTargetBlock('DO'));
+    var steps=collect();
+    if(!steps.length){ log('先把动作积木接在<b>开始表演</b>后面哦'); return; }
+    running=true; performed=[];
+    preview(steps,0); log('🎬 表演开始！看下面你的小伙伴～');
+    for(var i=0;i<steps.length;i++){
+      var s=steps[i];
+      post({type:'petStep',action:s.action,text:s.text,ms:s.ms,index:i,total:steps.length});
+      preview(steps,i);
+      await sleep(s.ms+140);
+    }
+    preview(steps,-1);
     running=false;
-    var g=lesson.grid, at=(hero.x===g.target[0]&&hero.y===g.target[1]);
-    var saidOk=!g.say||said===g.say;
-    if(ok!==false&&at&&saidOk){
-      log('🎊 成功啦！获得 <b>3 颗星</b>'); post({type:'success',lessonId:lesson.id,stars:3});
-    } else if(!at){ log('还没到星星那里，改一改进度再运行吧'); }
+    var need=(lesson.show&&lesson.show.need)||[];
+    var minSteps=(lesson.show&&lesson.show.minSteps)||need.length||1;
+    var got={}; steps.forEach(function(s){ got[s.action]=1; });
+    var ok=steps.length>=minSteps && need.every(function(a){ return !!got[a]; });
+    if(ok){
+      log('🎉 表演成功！获得 <b>3 颗星</b>');
+      var saved=steps.map(function(s){ return {action:s.action,text:s.text,ms:s.ms}; });
+      post({type:'showDone',lessonId:lesson.id,title:lesson.title,icon:lesson.icon,steps:saved});
+    } else {
+      var miss=need.filter(function(a){ return !got[a]; });
+      log('还不错！这次少了 '+(miss.map(function(a){ for(var k in ACTIONS) if(ACTIONS[k].action===a) return ACTIONS[k].label; return a; }).join('、')||'多表演几步')+'，再试试～');
+    }
   }
-  function reset(){ if(!lesson) return; hero={x:lesson.grid.start[0],y:lesson.grid.start[1],dir:0}; said=''; draw(); log('重新出发！'); }
-  function clear(){ if(workspace) for(var b of workspace.getTopBlocks(true)) if(b.type!=='kid_start') b.dispose(); }
+  function reset(){ performed=[]; preview([],-1); log('准备好，重新编排吧！'); }
+  function clear(){ if(workspace) for(var b of workspace.getTopBlocks(true)) if(b.type!=='kid_start') b.dispose(); performed=[]; preview([],-1); }
 
   document.getElementById('run').addEventListener('click',run);
   window.addEventListener('beforeunload',function(){
@@ -182,9 +199,11 @@
     var xml=Blockly.Xml.workspaceToDom(workspace);
     post({type:'save',lessonId:(lesson&&lesson.id)||'',project:Blockly.Xml.domToText(xml)});
   });
-  window.KidCoding={setLesson:setLesson,loadProject:loadProject,run:run,reset:reset,clear:clear,
+  window.KidCoding={
+    setLesson:setLesson, loadProject:loadProject, run:run, reset:reset, clear:clear,
     saveProject:function(){ if(!workspace)return ''; return Blockly.Xml.domToText(Blockly.Xml.workspaceToDom(workspace)); },
-    requestSave:function(){ post({type:'save',lessonId:(lesson&&lesson.id)||'',project:window.KidCoding.saveProject()}); }};
+    requestSave:function(){ post({type:'save',lessonId:(lesson&&lesson.id)||'',project:window.KidCoding.saveProject()}); }
+  };
   post({type:'ready',engine:'lite',lessonId:''});
 })();
 </script>
