@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.17.3",
-  "updatedAt": "2026-11-17T17:45:00Z",
+  "version": "2026.11.17.4",
+  "updatedAt": "2026-11-17T17:56:00Z",
   "files": [
     {
       "path": "audio/bgm.wav",
@@ -178,6 +178,16 @@
       "sha256": "77d114dc1229b94875359ee2080c2808e04929fd3d1047a2032cf1bdd76c46ec"
     },
     {
+      "path": "sims/balloons-and-static-electricity.html",
+      "size": 3539329,
+      "sha256": "5a84b018dbd885e8d9a58b4f9c9eb6c2eeca40f7e6af100b609b5b6efc739ba4"
+    },
+    {
+      "path": "sims/bending-light.html",
+      "size": 3406431,
+      "sha256": "b2ade5c1089495452d4dfdae227d79bcd172cfdec05b6c2a56481a9057421daf"
+    },
+    {
       "path": "sims/circuit-construction-kit-dc.html",
       "size": 3509533,
       "sha256": "b0204de33d70b2f16e1ed700417a93dac499495f0e5a942f186afde0768304f4"
@@ -188,9 +198,29 @@
       "sha256": "ef95721348aaf9eb5b06ed9487d42ef8183723d7455d90874bda01859cc345ab"
     },
     {
+      "path": "sims/energy-skate-park.html",
+      "size": 4901189,
+      "sha256": "ab0bc6bf249228b090818ffd1200cd0384803ea3ff3510d3db47398990cd5666"
+    },
+    {
       "path": "sims/forces-and-motion-basics.html",
       "size": 4851261,
       "sha256": "476fd1a699a78e1dba8748fe12dc1281ddd85b2aee53700c9b76d898de8c6007"
+    },
+    {
+      "path": "sims/masses-and-springs.html",
+      "size": 1587399,
+      "sha256": "b754bf9e401ae46fd6cad38a1eeba72d6f236fef5dd8562bc2713e50095cfc81"
+    },
+    {
+      "path": "sims/pendulum-lab.html",
+      "size": 3809355,
+      "sha256": "ab16cb759a7a534b46260a113b833d66240fabc7d64bb5b56b982993b0346258"
+    },
+    {
+      "path": "sims/projectile-motion.html",
+      "size": 4379585,
+      "sha256": "0cdc9b1a48a51e16d7f46f843af88360bb54acc4b61e2f734fe99282bfda972d"
     },
     {
       "path": "sims/states-of-matter.html",
