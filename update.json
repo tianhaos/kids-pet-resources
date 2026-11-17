@@ -1,73 +1,74 @@
 {
   "schema": 1,
-  "versionName": "1.8.7",
-  "versionCode": 38,
-  "apkName": "kids_pet_learning_1.8.7_38.apk",
-  "size": 66199280,
-  "sha256": "8bb00299493d5a4e8cc05d791ce46b4b3fc2c1ac648935515a28bb8f3538c1c7",
+  "versionName": "1.8.9",
+  "versionCode": 40,
+  "apkName": "kids_pet_learning_1.8.9_40.apk",
+  "size": 66395924,
+  "sha256": "495f5b536dfd230de6ffa9491a59ec0ffea6ed26ccba42e24221353846110b01",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.8.7_38/part_000.bin",
+      "path": "apk/v1.8.9_40/part_000.bin",
       "size": 6291456,
-      "sha256": "1250b5dda412861ccb2751aa6d427e684fb8da6f7a7b5549f6060e416e90fe80"
+      "sha256": "4eccebc7247b03793c677ee8d73192904334458824d025605d61a800735ef67f"
     },
     {
-      "path": "apk/v1.8.7_38/part_001.bin",
+      "path": "apk/v1.8.9_40/part_001.bin",
       "size": 6291456,
-      "sha256": "a308377692863eca3eaec03526a549f95e7acc2d73456984bdaf3321a287986f"
+      "sha256": "c77fee06a77b8d8d5b05450ce2afd84b1990b2389bad4b56d2a15a612bf74274"
     },
     {
-      "path": "apk/v1.8.7_38/part_002.bin",
+      "path": "apk/v1.8.9_40/part_002.bin",
       "size": 6291456,
-      "sha256": "45c5e0d790eac594fb09d0016073c40a535190c9783284d05d42bf11eee0474e"
+      "sha256": "0793606e6d545c2be5d48f146994549e11a09a2256e60996c27d1506b0b9fa3d"
     },
     {
-      "path": "apk/v1.8.7_38/part_003.bin",
+      "path": "apk/v1.8.9_40/part_003.bin",
       "size": 6291456,
-      "sha256": "437ab1c212d2f6cbab4a5b06661c54378e859bbd5e75f2c71b163c16808c7dfa"
+      "sha256": "151015618161617a540fbdbf5e6928895736db2aa291591fe20f1f4feb9d4fa8"
     },
     {
-      "path": "apk/v1.8.7_38/part_004.bin",
+      "path": "apk/v1.8.9_40/part_004.bin",
       "size": 6291456,
-      "sha256": "9fdc4f9e050528588008e9e18636c3a9cda82e9d294fbff2f8f1f3324749381b"
+      "sha256": "12cb428736edff54b773f9373b15285f5ec13200f4e96593c7fd97013178b77c"
     },
     {
-      "path": "apk/v1.8.7_38/part_005.bin",
+      "path": "apk/v1.8.9_40/part_005.bin",
       "size": 6291456,
-      "sha256": "e5a4a1bd755655a1fbb107acba7af2c4eebee60a72d5b0a6a809d272728c672e"
+      "sha256": "a261a4c897ddcb4b09f5d5c106a26b94e90f370bc9781d9ced43da1caf9079af"
     },
     {
-      "path": "apk/v1.8.7_38/part_006.bin",
+      "path": "apk/v1.8.9_40/part_006.bin",
       "size": 6291456,
-      "sha256": "6f29057b60085af5005b7eed175931396827102769cd7a96869c88bba4015827"
+      "sha256": "7f57fc026ecffe4d59822487703a1eec0f9456d1335f5ca228a72bde0e1876bd"
     },
     {
-      "path": "apk/v1.8.7_38/part_007.bin",
+      "path": "apk/v1.8.9_40/part_007.bin",
       "size": 6291456,
-      "sha256": "3e96f4e0b2f19fe2d380f61667701a26e705e650aa565b3a21ba6a3664ff1270"
+      "sha256": "fa0dd855ef8506edda902ac55566fbbccb93ce376c92d168aadd3395045af960"
     },
     {
-      "path": "apk/v1.8.7_38/part_008.bin",
+      "path": "apk/v1.8.9_40/part_008.bin",
       "size": 6291456,
-      "sha256": "48a359ef729524ef05dd1407cf2ca0572632ff1096b4dd62a151412250547888"
+      "sha256": "7546a10fd71a4b69c75e6408a1fca516351f833fd32f40e84d62c5e593fdf64e"
     },
     {
-      "path": "apk/v1.8.7_38/part_009.bin",
+      "path": "apk/v1.8.9_40/part_009.bin",
       "size": 6291456,
-      "sha256": "32b3709629b17e9eae792d013f6e919d24e373eb0cee2ee15ad1b50d5f064d09"
+      "sha256": "e42c2c694de534585615ca4266e5f4a80da110f6aedc08448e86c461ad0da338"
     },
     {
-      "path": "apk/v1.8.7_38/part_010.bin",
-      "size": 3284720,
-      "sha256": "76bb83d8d637c6b6caacf9d3b5552af35068d21f0702bb370c9b9dc887747988"
+      "path": "apk/v1.8.9_40/part_010.bin",
+      "size": 3481364,
+      "sha256": "d29f83caf7d261f677e826f52a774b70de9b6ae98e394f9450e75fcfa9b93a8e"
     }
   ],
-  "updatedAt": "2026-11-17T21:14:16+08:00",
+  "updatedAt": "2026-11-18T00:09:52+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "新增编程乐园：简单/中等积木闯关 + 困难完整 Scratch 3 创作",
-    "18 关三档训练，编辑器资源走 GitHub 按需同步，作品本地保存"
+    "宠物编程剧场大升级：新增转圈舞/变大/变小/放烟花/唱歌 5 个动作积木",
+    "真舞台：红幕布开合、聚光灯、彩纸庆祝、台词气泡",
+    "演出按动作丰富度评 1-3 星，新增「我的剧场」收藏与成就徽章"
   ]
 }
