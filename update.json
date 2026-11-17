@@ -1,74 +1,72 @@
 {
   "schema": 1,
-  "versionName": "1.8.2",
-  "versionCode": 33,
-  "apkName": "kids_pet_learning_1.8.2_33.apk",
-  "size": 65909125,
-  "sha256": "9ff464b60a3d97c7047372c1f51fe31bbf03f845bd3526bd070289ebd44f9efd",
+  "versionName": "1.8.3",
+  "versionCode": 34,
+  "apkName": "kids_pet_learning_1.8.3_34.apk",
+  "size": 65999573,
+  "sha256": "bac96197d351acb0626e2c571166f7885323ca4a997b0f81470c6acb74c20cf2",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.8.2_33/part_000.bin",
+      "path": "apk/v1.8.3_34/part_000.bin",
       "size": 6291456,
-      "sha256": "7946ac0a24d7cda5ae31f3f186c0cad5d590498f9dc6e22b3c8ee088b8c7d1b5"
+      "sha256": "fca5e0e4498fc5c3b61cb0618309c6cb5ac6f658b6ac9e5be279d5b07f7ea7e2"
     },
     {
-      "path": "apk/v1.8.2_33/part_001.bin",
+      "path": "apk/v1.8.3_34/part_001.bin",
       "size": 6291456,
-      "sha256": "3d3f6f00549628524feded17fb8914aa4598296a87f3ff9786ace44d306956cf"
+      "sha256": "0b263781bc4fbb13f31183ad68742d684f0b89e783de66f43bd54ddd7b24ac6b"
     },
     {
-      "path": "apk/v1.8.2_33/part_002.bin",
+      "path": "apk/v1.8.3_34/part_002.bin",
       "size": 6291456,
-      "sha256": "c09663131996c7d32f394b982c5c4ce3d215148c1b80b60b389686036a5c4b3b"
+      "sha256": "383b8c89e12ec91c6ea9b4cfa40e912801e7fba09e0232bde8fe68ccf5e61a51"
     },
     {
-      "path": "apk/v1.8.2_33/part_003.bin",
+      "path": "apk/v1.8.3_34/part_003.bin",
       "size": 6291456,
-      "sha256": "2a0306d152cca1a211da173ebda92b733bacd05d68b8c553ddc8558a9849292a"
+      "sha256": "b3944e8f7a8f2f9f64d0c371c88b1f5f830fee1d9ba755174df17744250daf1e"
     },
     {
-      "path": "apk/v1.8.2_33/part_004.bin",
+      "path": "apk/v1.8.3_34/part_004.bin",
       "size": 6291456,
-      "sha256": "41ebd9aa7cf4a04e53101b426ddd3ae88eef6c5deab6b4c8fefc85c02c665797"
+      "sha256": "d2b7c3bd57218350c92cf559e7c7036df79d7c55995a08fce8fc1f715466a0df"
     },
     {
-      "path": "apk/v1.8.2_33/part_005.bin",
+      "path": "apk/v1.8.3_34/part_005.bin",
       "size": 6291456,
-      "sha256": "b661b2d749b58a7d0654700b45fc2950feb087ca51d23facecfd7b2f7d7cf235"
+      "sha256": "f0ec1a521b69ef19b8e4f8dc363f987bb7890d35feb3cfe13e1203a33dadb302"
     },
     {
-      "path": "apk/v1.8.2_33/part_006.bin",
+      "path": "apk/v1.8.3_34/part_006.bin",
       "size": 6291456,
-      "sha256": "50c1970412b091c6fc7562d1f1e2494ca6e14e60df2b94e9b541503f38872399"
+      "sha256": "5c263d81ed2a20096bc2ac02b458d4ea791759a7d96f5ec9e5b660cd2b863e21"
     },
     {
-      "path": "apk/v1.8.2_33/part_007.bin",
+      "path": "apk/v1.8.3_34/part_007.bin",
       "size": 6291456,
-      "sha256": "17df41cde600b1b193071a9bc72016b63a37ad73cc0d5270ddf8d2a366150693"
+      "sha256": "0c343d91995068ba7e271defce12b3cb41b80e7bda6be5872378eaf636beb4fe"
     },
     {
-      "path": "apk/v1.8.2_33/part_008.bin",
+      "path": "apk/v1.8.3_34/part_008.bin",
       "size": 6291456,
-      "sha256": "f92f1245fd59603b036ed449d5bb3523e14f7acf9403d1d63b34c8973145ac0b"
+      "sha256": "74abcf69a682a7869c0f6e09025169cda8960ab3a38d17395d40ddd34872dd72"
     },
     {
-      "path": "apk/v1.8.2_33/part_009.bin",
+      "path": "apk/v1.8.3_34/part_009.bin",
       "size": 6291456,
-      "sha256": "29743fdeb52edfc856e856ad5606e2bd5e55706b432d61f876f951af9cc9758a"
+      "sha256": "7d6c040f219403aff8d6026b7de989edced6754477fb2fb8ee6cede8cbcb0172"
     },
     {
-      "path": "apk/v1.8.2_33/part_010.bin",
-      "size": 2994565,
-      "sha256": "d61efb489b8067ea82956ebaa19168bbfd0721182d1733a816f75d13358a6410"
+      "path": "apk/v1.8.3_34/part_010.bin",
+      "size": 3085013,
+      "sha256": "9a3faa38c4baecc2637d483c066eff8a7440ca77013c92d5c543b5f9586ff8dd"
     }
   ],
-  "updatedAt": "2026-11-17T17:03:45+08:00",
+  "updatedAt": "2026-11-17T18:32:06+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "新增：底部菜单支持左右滑动切换（首页/学习/我的）",
-    "新增：6节PhET互动科学实验课，可上手拖拽",
-    "新增：品牌启动动画与科普视频"
+    "新增：科学实验模块，119个仿真按小学/中学/大学和物理化学生物数学分类，可动手拖拽"
   ]
 }
