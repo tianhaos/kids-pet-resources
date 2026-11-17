@@ -1,6 +1,6 @@
 {
-  "version": "2026.11.17.1",
-  "updatedAt": "2026-11-17T08:00:00Z",
+  "version": "2026.11.17.2",
+  "updatedAt": "2026-11-17T16:30:00Z",
   "files": [
     {
       "path": "audio/bgm.wav",
@@ -166,6 +166,36 @@
       "path": "data/poem_media.json",
       "size": 9650,
       "sha256": "373bd9a8a22f980553bf687752f16a31c6e8e20ceb68b439a531271bf684141d"
+    },
+    {
+      "path": "sims/area-builder.html",
+      "size": 1287697,
+      "sha256": "a4a06b07b29ba1acb382d845c06f50d54c0a47a0cb19b01e7ed1d23ecb132496"
+    },
+    {
+      "path": "sims/balancing-act.html",
+      "size": 3152682,
+      "sha256": "4989bdd6a7b75b8302f4708f8ec4421b0646aa80e9630f2beb225a1229c71f10"
+    },
+    {
+      "path": "sims/circuit-construction-kit-dc.html",
+      "size": 3509534,
+      "sha256": "8a122735cda6d6ecfac1fa3b07e781f210071c26f4f522097d39307c1b226535"
+    },
+    {
+      "path": "sims/density.html",
+      "size": 4846806,
+      "sha256": "33f8a35ac0423165faabdcc00b5062195d239e472466047dc9c14302bbb62d51"
+    },
+    {
+      "path": "sims/forces-and-motion-basics.html",
+      "size": 4851262,
+      "sha256": "ee97f7d16b44612082be25f85ef82d63b432f0122f0274d95055f0e73676649b"
+    },
+    {
+      "path": "sims/states-of-matter.html",
+      "size": 2006298,
+      "sha256": "6089ec80eafb4b0fb276ce666fc3a206a1309f2afd87d8b9fb76f3ba4a689937"
     },
     {
       "path": "videos/autumn.mp4",
