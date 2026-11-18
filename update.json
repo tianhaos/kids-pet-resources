@@ -1,73 +1,76 @@
 {
   "schema": 1,
-  "versionName": "1.9.10",
-  "versionCode": 51,
-  "apkName": "kids_pet_learning_1.9.10_51.apk",
-  "size": 67258936,
-  "sha256": "1aa77d680b947f7fad940eaa4b77e0727d5408f0f6bfc9ac5b81870461e2e6a2",
+  "versionName": "1.9.11",
+  "versionCode": 52,
+  "apkName": "kids_pet_learning_1.9.11_52.apk",
+  "size": 67775600,
+  "sha256": "e33bce3f3fa8788a40fc1c1222780c6e6cfe4656d5b70dbe2a8265cbc431db99",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.10_51/part_000.bin",
+      "path": "apk/v1.9.11_52/part_000.bin",
       "size": 6291456,
-      "sha256": "f9023ab6a9c3bc3903ba1c72a52afad3d8a040d8be8ade733f6e267bd30f09e5"
+      "sha256": "dc1945cbf5985b605f81d49b21c4d73c34e92db28479ea2ab8ad60a794151b0e"
     },
     {
-      "path": "apk/v1.9.10_51/part_001.bin",
+      "path": "apk/v1.9.11_52/part_001.bin",
       "size": 6291456,
-      "sha256": "6b0705c6301ed34b82994fa3d3355fa77a66302df5828b46b0c4ade1b942a030"
+      "sha256": "63662d8c67521f78241ea9bb80d47ab661da43ea7fa664395486f36e05e163d9"
     },
     {
-      "path": "apk/v1.9.10_51/part_002.bin",
+      "path": "apk/v1.9.11_52/part_002.bin",
       "size": 6291456,
-      "sha256": "ab17e3758cb0c096401555b1bb22d9b96a402d1c5d56476dc3f3fb0ff0c648f2"
+      "sha256": "c83bc218cf51dfacbab70e57d6b448f38510dc2997722f243363203da617447e"
     },
     {
-      "path": "apk/v1.9.10_51/part_003.bin",
+      "path": "apk/v1.9.11_52/part_003.bin",
       "size": 6291456,
-      "sha256": "de267107a2d5c17f0fe66d2841c5f46dafa456d5189073276a2e78e1ba4dbb68"
+      "sha256": "d9198b12671a29779b6455a9d397d4995fcc805ebb71a16e2c16e39b46108e6b"
     },
     {
-      "path": "apk/v1.9.10_51/part_004.bin",
+      "path": "apk/v1.9.11_52/part_004.bin",
       "size": 6291456,
-      "sha256": "0e2a905fc426bfb3869fd217479b495c2ff252d5450fe5597d301359127a5378"
+      "sha256": "666b29e67393c56a97fd86b617e4cf9c53ea9b0d88f75d7b9e921504925e6ba4"
     },
     {
-      "path": "apk/v1.9.10_51/part_005.bin",
+      "path": "apk/v1.9.11_52/part_005.bin",
       "size": 6291456,
-      "sha256": "f10bdc2d15f5a10a4857df442e1191dfa31ae5afae0de2b272d03ee2e66645b3"
+      "sha256": "b25b87cb2c640e1f1571620b48e15f41ff3be8a87fc8bfa49aa6c2c331a106a4"
     },
     {
-      "path": "apk/v1.9.10_51/part_006.bin",
+      "path": "apk/v1.9.11_52/part_006.bin",
       "size": 6291456,
-      "sha256": "fabe3d84184595ba26f13307b092cb98a6546f0bd18fd2e427e89cf5660c27f8"
+      "sha256": "e20d0f093fb741c153b0cce71d2af7593d21aebfb89185f75daa3f0a3db8ff9f"
     },
     {
-      "path": "apk/v1.9.10_51/part_007.bin",
+      "path": "apk/v1.9.11_52/part_007.bin",
       "size": 6291456,
-      "sha256": "b0a9587a2b4468a3f89f9b7b508ad12efe503c0e8590e749440fbbc041d0c126"
+      "sha256": "5eb0101e22ce6cabbfc52ef6d88488a89490a4448cc0e1f0208dbccd1a3841e8"
     },
     {
-      "path": "apk/v1.9.10_51/part_008.bin",
+      "path": "apk/v1.9.11_52/part_008.bin",
       "size": 6291456,
-      "sha256": "8e7745b68e496ee055d5faca856f594088cea17b121d4ead2fac5c19ad22faa9"
+      "sha256": "8d7b218daff7ba8dceeccadb0f21de02dc6256ff06618550820c147ab1b4bd98"
     },
     {
-      "path": "apk/v1.9.10_51/part_009.bin",
+      "path": "apk/v1.9.11_52/part_009.bin",
       "size": 6291456,
-      "sha256": "0d47ec4e94e14cc66583b47e73987239db0a5d2ad0c2fd75f50251d4b8c51468"
+      "sha256": "ca27c0df5909aceabe41e959db23e9d1f6423ad53effeb17ef69afb8a31d9fce"
     },
     {
-      "path": "apk/v1.9.10_51/part_010.bin",
-      "size": 4344376,
-      "sha256": "033938c37218ae926d28e74c0fe9fa04340b9ef21b3896ef61dbee3196756cdb"
+      "path": "apk/v1.9.11_52/part_010.bin",
+      "size": 4861040,
+      "sha256": "33580a58a8f8f3fc70040c0c9817a8672e85256e5a0c475aceb4fada2aea0ce4"
     }
   ],
-  "updatedAt": "2026-11-18T20:03:23+08:00",
+  "updatedAt": "2026-11-19T00:48:11+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "科学实验导读可以点了：怎么做/为什么/动动脑/相关实验，点小喇叭念整段，点文字念单条，宝宝不识字也能听懂",
-    "修复实验导读内容偶尔空白：装新版后自动同步到最新内容"
+    "学科学习大改版：识字/数学/英语三科都加了专属新玩法",
+    "识字：字源小剧场，看字从图画变成本字，听字源故事和组词",
+    "数学：数字积木乐园，把数字变成看得见的方块，认数1-20+10以内加减",
+    "英语：开口说英语，纯正英文发音+话筒跟读打分，CVC单词自然拼读",
+    "答题连对3题起，每题额外奖励1颗能量豆"
   ]
 }
