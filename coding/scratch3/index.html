@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="kid-view-edit">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
@@ -21,10 +21,80 @@
   [class*="stage-header_control-buttons_"]{display:none !important}
   /* 触屏上放大素材库/造型库的列表项，原来 96px 太小不好点 */
   [class*="library-item_library-item_"]{min-width:104px !important;min-height:104px !important}
+
+  /* ─── 视图一：搭积木（默认）───────────────────────────────
+     手机横屏只有 780 宽，而 Scratch 的布局是「积木 598 + 舞台 426 = 1024」，
+     舞台那一列会被整个推到屏幕外，怎么滑都看不到。所以编辑时先把舞台收起来，
+     宽度全给积木和工作区；底部留一条 84px 的角色条，用来切换角色。
+     想看效果点「🎬 看效果」，舞台会单独全屏铺开。 */
+  /* 菜单栏被藏起来后，body 还留着 48px 的空档，退回来给编辑区 */
+  [class*="gui_body-wrapper_"]{height:100% !important}
+  html.kid-view-edit [class*="gui_body-wrapper_"]{
+    display:flex !important;flex-direction:column !important}
+  html.kid-view-edit [class*="gui_editor-wrapper_"]{
+    flex:1 1 auto !important;flex-basis:auto !important;width:100% !important;
+    min-width:0 !important;min-height:0 !important}
+  html.kid-view-edit [class*="stage-and-target-wrapper_"]{
+    flex:0 0 96px !important;width:100% !important;height:96px !important;
+    min-height:0 !important;position:relative !important;overflow:hidden !important}
+  /* 舞台不是 display:none 而是挪到屏幕外：让它保持 408×306 的布局尺寸，
+     canvas 的绘制缓冲才不会变成 0×0（变 0 之后再切回来就是一片白）。 */
+  html.kid-view-edit [class*="stage-wrapper_stage-wrapper_"]{
+    position:absolute !important;left:-10000px !important;top:0 !important;
+    display:block !important}
+  html.kid-view-edit [class*="gui_target-wrapper_"]{
+    flex:1 1 auto !important;height:100% !important;min-height:0 !important;
+    padding:0 4px 4px !important}
+  html.kid-view-edit [class*="sprite-info_"]{display:none !important}
+  html.kid-view-edit [class*="stage-selector-wrapper_"]{flex-basis:64px !important}
+  /* 角色卡片放大到 72px，小手更好点 */
+  html.kid-view-edit [class*="sprite-selector_sprite-wrapper_"]{
+    width:72px !important;min-width:72px !important;max-width:72px !important;
+    height:72px !important;min-height:72px !important}
+  /* 原来 scroll-wrapper 高度是「100% - 96px 角色信息条」，我们藏了信息条，
+     高度算成 0，角色卡片就全被裁掉了 */
+  html.kid-view-edit [class*="sprite-selector_scroll-wrapper_"]{
+    height:100% !important;overflow-y:hidden !important;overflow-x:auto !important}
+  html.kid-view-edit [class*="sprite-selector_items-wrapper_"]{
+    justify-content:flex-start !important;flex-wrap:nowrap !important}
+
+  /* ─── 视图二：看效果（舞台全屏铺开）────────────────────── */
+  html.kid-view-stage [class*="gui_editor-wrapper_"]{display:none !important}
+  html.kid-view-stage [class*="stage-and-target-wrapper_"]{
+    position:fixed !important;inset:0 !important;width:100vw !important;height:100vh !important;
+    z-index:9000 !important;margin:0 !important;padding:0 !important;
+    display:flex !important;flex-direction:column !important;background:#141428 !important}
+  html.kid-view-stage [class*="stage-header_stage-header-wrapper_"]{display:none !important}
+  html.kid-view-stage [class*="stage-wrapper_stage-wrapper_"]{
+    flex:1 1 auto !important;width:100% !important;height:auto !important;min-height:0 !important;
+    padding:6px !important;box-sizing:border-box !important;
+    display:flex !important;align-items:center !important;justify-content:center !important}
+  html.kid-view-stage [class*="stage-canvas-wrapper_"]{
+    width:100% !important;height:100% !important;min-height:0 !important;padding:0 !important;
+    display:flex !important;align-items:center !important;justify-content:center !important}
+  html.kid-view-stage [class*="stage_stage-wrapper_"]{
+    width:100% !important;height:100% !important;padding:0 !important;
+    display:flex !important;align-items:center !important;justify-content:center !important}
+  /* 舞台本身是固定 480×360（或窄屏 408×306）的位图，这里整体等比缩放铺进屏幕，
+     保证四个角都在屏幕里，不会再有「最右边差一截」。 */
+  html.kid-view-stage [class^="stage_stage_"]{
+    flex:0 0 auto !important;margin:0 !important;
+    transform-origin:center center !important}
+  html.kid-view-stage [class*="gui_target-wrapper_"]{display:none !important}
+
+  /* 竖屏时积木栏会吃掉一大半宽度，提示孩子把手机横过来 */
+  #kidRotate{position:fixed;left:50%;bottom:104px;transform:translateX(-50%);
+    display:none;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;
+    background:rgba(52,47,75,.88);color:#fff;z-index:60;pointer-events:none;
+    font:12px/1 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;white-space:nowrap}
+  @media (orientation:portrait){
+    html.kid-view-edit #kidRotate{display:flex}
+  }
 </style>
 </head>
 <body>
 <div id="boot"><div class="sp"></div><div id="bootTxt">创作室正在准备…</div></div>
+<div id="kidRotate">↻ 把手机横过来，积木区会宽一倍</div>
 <div id="scratch"></div>
 
 <!-- 离线素材表：背景 / 角色 / 声音全部内置，官方 CDN 在国内连不上 -->
@@ -126,7 +196,7 @@
 <script>
 /* ── 2. 与 App 的桥 ───────────────────────────────────────
    消息类型：ready / vmReady / saveBegin / saveChunk / saveEnd /
-             saveResult / loadResult / runResult / error            */
+             saveResult / loadResult / runResult / viewChanged / error */
 (function () {
   var lesson = null;
   var cachedVm = null;
@@ -134,6 +204,7 @@
   var dirty = false;
   var autoTimer = null;
   var saveSeq = 0;
+  var view = 'edit';
 
   function post(o) {
     try {
@@ -213,6 +284,78 @@
     for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
     return out;
   }
+
+  /* ── 视图切换：搭积木 / 看效果 ─────────────────────────────
+     手机上「积木区 + 舞台区」并排放不下（需要 1024px 宽），所以做成两个视图：
+       edit  —— 舞台收起，宽度全给积木，底部留角色条
+       stage —— 舞台单独铺满屏幕，等比缩放，四角都在屏幕内
+     切换后要主动触发一次 resize，Blockly 和舞台渲染器才会按新尺寸重排。 */
+  function stageEl() {
+    var list = document.querySelectorAll('[class^="stage_stage_"]');
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].tagName === 'DIV') return list[i];
+    }
+    return document.querySelector('canvas');
+  }
+  /* 舞台被挪到屏幕外时（编辑视图），canvas 的绘制缓冲可能被算成 0×0，
+     切回来看效果就是一片白。这里按舞台当前的内框尺寸重新分配缓冲并重画。 */
+  function hardRefreshStage() {
+    var v = getVm();
+    var st = stageEl();
+    if (!v || !v.renderer || !st) return;
+    var w = st.clientWidth || 0, h = st.clientHeight || 0;
+    if (!(w > 10) || !(h > 10)) return;
+    try {
+      v.renderer.resize(w, h);
+      v.renderer.draw();
+    } catch (e) {}
+  }
+  function fitStage() {
+    var st = stageEl();
+    if (!st) return;
+    if (view !== 'stage') {
+      st.style.removeProperty('transform');
+      return;
+    }
+    // offsetWidth/offsetHeight 是未经 transform 的布局尺寸（480×360 或 408×306）
+    var w = st.offsetWidth || 480, h = st.offsetHeight || 360;
+    var vw = window.innerWidth || 780, vh = window.innerHeight || 360;
+    var k = Math.min((vw - 12) / w, (vh - 12) / h);
+    if (!(k > 0.1)) k = 1;
+    st.style.setProperty('transform', 'scale(' + k.toFixed(4) + ')', 'important');
+  }
+  function relayout() {
+    try { window.dispatchEvent(new Event('resize')); } catch (e) {}
+    try {
+      var ws = window.Blockly && window.Blockly.getMainWorkspace && window.Blockly.getMainWorkspace();
+      if (ws && ws.resize) ws.resize();
+    } catch (e) {}
+    if (view === 'stage') hardRefreshStage();
+    fitStage();
+    setTimeout(fitStage, 120);
+    setTimeout(function () {
+      if (view === 'stage') hardRefreshStage();
+      fitStage();
+    }, 420);
+  }
+  function setView(next, silent) {
+    view = next === 'stage' ? 'stage' : 'edit';
+    var root = document.documentElement;
+    root.classList.toggle('kid-view-stage', view === 'stage');
+    root.classList.toggle('kid-view-edit', view === 'edit');
+    setTimeout(relayout, 30);
+    setTimeout(relayout, 320);
+    if (!silent) post({type: 'viewChanged', view: view});
+  }
+  window.addEventListener('resize', function () {
+    // 手机转屏 / 键盘弹起后重新贴合
+    setTimeout(fitStage, 60);
+    setTimeout(fitStage, 300);
+    setTimeout(function () {
+      if (view === 'stage') hardRefreshStage();
+      fitStage();
+    }, 600);
+  });
 
   /* ── 保存：作品可能有几 MB，切成小段回传，避免一次消息过大被丢掉 ── */
   var saving = false;
@@ -327,6 +470,7 @@
       var empty = true;
       try { empty = !v.runtime.targets || v.runtime.targets.length === 0; } catch (e) {}
       if (empty) loadStarter(v);
+      setTimeout(relayout, 600);
     }, 900);
   });
 
@@ -355,6 +499,20 @@
       if (!v) return;
       loadStarter(v);
     },
+    setView: function (v) { setView(v, true); },
+    view: function () { return view; },
+    /* App 换了顶栏高度，WebView 视口跟着变，要重新贴合一次 */
+    relayout: function () { relayout(); },
+    /* 开始：先切到「看效果」再跑，孩子一定看得到舞台 */
+    run: function () {
+      var v = getVm();
+      if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
+      setView('stage', true);
+      setTimeout(function () {
+        try { v.stopAll(); v.greenFlag(); } catch (e) {}
+        post({type: 'runResult', ok: true});
+      }, 260);
+    },
     greenFlag: function () {
       var v = getVm();
       if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
@@ -368,9 +526,10 @@
       post({type: 'runResult', ok: true, stopped: true});
     },
     stats: function () {
-      return JSON.stringify({hit: window.__kidAssetHit, vm: !!getVm()});
+      return JSON.stringify({hit: window.__kidAssetHit, vm: !!getVm(), view: view});
     }
   };
+  setView('edit', true);
 })();
 </script>
 </body>
