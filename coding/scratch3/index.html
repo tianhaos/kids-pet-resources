@@ -224,8 +224,23 @@
     display:none;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;
     background:rgba(52,47,75,.92);color:#fff;z-index:9300;
     font:12px/1 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;white-space:nowrap}
-  /* 只在演出这一屏提示，编辑时冒出来会挡住积木 */
+  /* 只在演出这一屏提示，编辑时冒出来会挡住积木；和全屏「点一下」不重复出 */
   html.kid-view-stage.kid-audio-locked #kidAudioHint{display:flex}
+  html.kid-tap-play #kidAudioHint{display:none !important}
+
+  /* 第一次演出前先让孩子在页面上真点一下：浏览器只认页面内的手势，
+     Flutter 顶栏那个「开始」不算。点过这一次以后就一直有声了。 */
+  #kidTapPlay{position:fixed;inset:0;z-index:9600;display:none;
+    align-items:center;justify-content:center;background:rgba(22,18,40,.58);
+    font:14px/1.5 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif}
+  #kidTapPlay .card{width:78%;max-width:340px;padding:24px 20px 20px;border-radius:22px;
+    background:#fff;box-shadow:0 20px 50px rgba(0,0,0,.32);text-align:center}
+  #kidTapPlay .ico{font-size:36px;line-height:1}
+  #kidTapPlay .t{font-size:17px;font-weight:800;color:#3C3A52;margin:10px 0 4px}
+  #kidTapPlay .s{font-size:12.5px;color:#7A7396}
+  #kidTapPlay .btn{margin-top:16px;height:52px;width:100%;border:0;border-radius:16px;
+    background:linear-gradient(135deg,#8B6FE0,#6E56CF);color:#fff;
+    font-size:17px;font-weight:800;font-family:inherit}
 
   /* 切到造型 / 声音时 react-tabs 会把代码面板 display:none，Blockly 一量尺寸
      就重算滚动位置，积木会横移 70px 钻到调色板底下（实测 353→283）。
@@ -265,6 +280,14 @@
 <div id="kidRotate">↻ 把手机横过来，积木区会宽一倍</div>
 <div id="kidToolToggle"><span>🎨</span><span id="kidToolLabel">颜色/线宽</span><span class="ar">▾</span></div>
 <div id="kidAudioHint">🔊 点一下屏幕，声音才会打开</div>
+<div id="kidTapPlay">
+  <div class="card">
+    <div class="ico">🔊</div>
+    <div class="t">点一下，声音就打开啦</div>
+    <div class="s">第一次要让小猫听你点一下，之后就都有声音了</div>
+    <button class="btn" id="kidTapPlayBtn">点我开始演出</button>
+  </div>
+</div>
 <div id="kidConfirm">
   <div class="box">
     <div class="t" id="kidConfirmTxt">要删掉这个角色吗？</div>
@@ -534,6 +557,7 @@
     root.classList.toggle('kid-view-code', view === 'code');
     root.classList.toggle('kid-view-sprite', view === 'sprite');
     root.classList.toggle('kid-view-stage', view === 'stage');
+    if (view !== 'stage') hideTapPlay();
     setTimeout(relayout, 30);
     setTimeout(relayout, 320);
     if (!silent) post({type: 'viewChanged', view: view});
@@ -630,45 +654,144 @@
   })();
   setTools(false);
 
-  /* ── 声音：先解锁 AudioContext ──────────────────────────
-     WebAudio 在没有真实用户点击之前一直是 suspended，演出再正确也没声。
-     ① 任何一次触摸 / 按键都顺手 resume；② App 顶栏点「开始」时也会调
-     KidCoding.unlockAudio()；③ 真的还没解锁时，舞台底部提示点一下。 */
+  /* ── 声音：AudioContext 解锁 + 自愈 ─────────────────────
+     浏览器规定：页面内没有过「真实手势」，AudioContext 一直是 suspended，
+     演出再正确也没声。而 App 顶栏那个「开始」是 Flutter 按钮，不算页面手势，
+     所以连着两条反馈——「运行没声音」和「下拉通知栏声音中断」——都在这里：
+       ① 任何一次触摸 / 按键顺手 resume；
+       ② 顶栏点「开始」时如果还没解锁，弹一个全屏「点一下开始」，
+          孩子点下去就是真手势，resume 完立刻跑；
+       ③ 解锁过一次（sticky activation）之后，被系统挂起也能自己恢复，
+          不用再点——下拉通知栏、切后台回来都靠这条。 */
+  var _everGesture = false;
+  var _lastResume = 0;
+
   function audioCtx() {
     var v = getVm();
     try { return (v && v.runtime && v.runtime.audioEngine && v.runtime.audioEngine.audioContext) || null; }
     catch (e) { return null; }
   }
-  function refreshAudioHint() {
+  function audioState() {
     var c = audioCtx();
-    document.documentElement.classList.toggle('kid-audio-locked', !!c && c.state !== 'running');
-    return !!c && c.state === 'running';
+    return c ? String(c.state || 'unknown') : 'none';
   }
-  function unlockAudio() {
+  /* 以前有没有过真实手势：有的话系统允许我们自己 resume（粘性激活） */
+  function hasActivation() {
+    try { if (navigator.userActivation) return !!navigator.userActivation.hasBeenActive; } catch (e) {}
+    return _everGesture;
+  }
+  function refreshAudioHint() {
+    var st = audioState();
+    var locked = st !== 'running' && st !== 'none';
+    document.documentElement.classList.toggle('kid-audio-locked', locked);
+    return !locked;
+  }
+  function resumeAudio(force) {
     var c = audioCtx();
     if (!c) return false;
-    if (c.state === 'running') { refreshAudioHint(); return true; }
+    if (c.state === 'running') { _everGesture = true; refreshAudioHint(); return true; }
+    var now = Date.now();
+    if (!force && now - _lastResume < 1200) return false;
+    _lastResume = now;
     try {
       var p = c.resume();
       if (p && p.then) p.then(refreshAudioHint, refreshAudioHint);
     } catch (e) {}
-    setTimeout(refreshAudioHint, 200);
+    setTimeout(refreshAudioHint, 120);
     setTimeout(refreshAudioHint, 700);
-    return false;
+    return c.state === 'running';
+  }
+  /* 全屏「点一下开始」：只在真的没手势、又还没解锁时才出现 */
+  var _tapGo = null;
+  function showTapPlay(go) {
+    _tapGo = go;
+    var box = document.getElementById('kidTapPlay');
+    if (box) box.style.display = 'flex';
+    document.documentElement.classList.add('kid-tap-play');
+  }
+  function hideTapPlay() {
+    var box = document.getElementById('kidTapPlay');
+    if (box) box.style.display = 'none';
+    document.documentElement.classList.remove('kid-tap-play');
+    _tapGo = null;
+  }
+  function tapPlayUsed() {
+    var go = _tapGo;
+    hideTapPlay();
+    _everGesture = true;
+    resumeAudio(true);
+    setTimeout(function () { if (go) go(); }, 180);
+  }
+  (function bindTapPlay() {
+    var box = document.getElementById('kidTapPlay');
+    if (!box) return;
+    box.addEventListener('pointerdown', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      tapPlayUsed();
+    }, true);
+    box.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      if (_tapGo) tapPlayUsed();
+    }, true);
+  })();
+
+  /* 自检：用同一个 AudioContext 放一声「嘀」，把状态一起报给 App。
+     以后再有「没声音」就能分清是系统把声音锁了、还是手机音量/静音。 */
+  function beep() {
+    var c = audioCtx();
+    if (!c || c.state !== 'running') return false;
+    try {
+      var o = c.createOscillator();
+      var g = c.createGain();
+      o.type = 'sine';
+      o.frequency.value = 660;
+      g.gain.value = 0.16;
+      o.connect(g);
+      g.connect(c.destination);
+      o.start();
+      o.stop(c.currentTime + 0.5);
+      return true;
+    } catch (e) { return false; }
+  }
+  function soundsInProject() {
+    var v = getVm();
+    var n = 0;
+    try {
+      (v.runtime.targets || []).forEach(function (t) {
+        var s = t.sprite && t.sprite.sounds;
+        if (s) n += s.length;
+      });
+    } catch (e) {}
+    return n;
   }
   (function bindAudio() {
-    var on = function () { unlockAudio(); };
-    window.addEventListener('pointerdown', on, true);
-    window.addEventListener('touchstart', on, true);
-    window.addEventListener('mousedown', on, true);
-    window.addEventListener('keydown', on, true);
+    var on = function () { _everGesture = true; resumeAudio(true); };
+    ['pointerdown', 'touchstart', 'mousedown', 'keydown'].forEach(function (n) {
+      window.addEventListener(n, on, true);
+    });
+    // 从后台 / 通知栏回来：页面可能被冻结过，声音要补一次
+    ['focus', 'pageshow', 'resume'].forEach(function (n) {
+      window.addEventListener(n, function () {
+        setTimeout(function () { resumeAudio(true); }, 60);
+      }, false);
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden) setTimeout(function () { resumeAudio(true); }, 80);
+    });
     whenVm(function () {
-      unlockAudio();
-      // 还锁着就隔一会儿再试一次；真的解不开时舞台底部那条提示会一直在
+      resumeAudio(true);
+      // 守护：点过（sticky activation）之后被系统挂起就自己恢复
       setInterval(function () {
-        if (refreshAudioHint()) return;
-        if (view === 'stage') unlockAudio();
-      }, 2500);
+        var st = audioState();
+        refreshAudioHint();
+        if (st === 'running' || st === 'none') {
+          if (st === 'running' && _tapGo) tapPlayUsed();
+          return;
+        }
+        if (hasActivation()) resumeAudio(false);
+      }, 700);
     });
   })();
 
@@ -936,30 +1059,56 @@
     run: function () {
       var v = getVm();
       if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
-      // 声音先解锁：没这一步，演出是「哑剧」
-      unlockAudio();
       // 在造型 / 声音页点「开始」时先回积木页，演完点「搭积木」才看得懂
       if (currentTab() !== 'code') {
         var tabList = document.querySelectorAll('[role="tab"]');
         if (tabList[0]) { try { tabList[0].click(); } catch (e) {} }
       }
+      resumeAudio(true);
       setView('stage', true);
-      setTimeout(function () {
+      var go = function () {
         try { v.stopAll(); v.greenFlag(); } catch (e) {}
-        unlockAudio();
-        post({type: 'runResult', ok: true});
-      }, 260);
+        resumeAudio(true);
+        post({type: 'runResult', ok: true, silent: soundsInProject() === 0});
+        setTimeout(refreshAudioHint, 400);
+      };
+      var st = audioState();
+      /* 页面里从没有过手势 → 声音必然出不来，先让孩子点一下再跑，别演哑剧 */
+      if (st !== 'running' && st !== 'none' && !hasActivation()) {
+        showTapPlay(go);
+        return;
+      }
+      setTimeout(go, 260);
     },
     greenFlag: function () {
       var v = getVm();
       if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
-      unlockAudio();
+      resumeAudio(true);
       v.stopAll();
       v.greenFlag();
-      post({type: 'runResult', ok: true});
+      post({type: 'runResult', ok: true, silent: soundsInProject() === 0});
     },
     /* App 侧没手势也能叫一下，部分 WebView 允许直接恢复 */
-    unlockAudio: function () { return unlockAudio(); },
+    unlockAudio: function () { return resumeAudio(true); },
+    /* 从后台 / 通知栏回来时补一刀 */
+    ensureAudio: function () { return resumeAudio(true); },
+    audioState: function () { return audioState(); },
+    /** 声音自检：同一个 AudioContext 放一声「嘀」，返回诊断信息 */
+    testSound: function () {
+      resumeAudio(true);
+      var st = audioState();
+      var c = audioCtx();
+      var ok = beep();
+      var r = {
+        state: st,
+        activation: hasActivation(),
+        beeped: ok,
+        sampleRate: (c && c.sampleRate) || 0,
+        sounds: soundsInProject()
+      };
+      post({type: 'soundCheck', ok: ok, detail: JSON.stringify(r)});
+      return JSON.stringify(r);
+    },
     audioLocked: function () {
       var c = audioCtx();
       return !c || c.state !== 'running';
