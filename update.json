@@ -1,75 +1,75 @@
 {
   "schema": 1,
-  "versionName": "1.9.3",
-  "versionCode": 44,
-  "apkName": "kids_pet_learning_1.9.3_44.apk",
+  "versionName": "1.9.4",
+  "versionCode": 45,
+  "apkName": "kids_pet_learning_1.9.4_45.apk",
   "size": 67002504,
-  "sha256": "ca2c4790041517d3f0aa7cee5789b304de88c7d8fa9b47ba4459d2444e746809",
+  "sha256": "2df4bd4747bb44954e6c777c2ae316410d740601853f94242d065f427a859b5f",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.3_44/part_000.bin",
+      "path": "apk/v1.9.4_45/part_000.bin",
       "size": 6291456,
-      "sha256": "9d167d5d356fec9a3652b4a5bc7040820361a1cf1cbedab844b1020d8d905945"
+      "sha256": "04ec6c388b9886a35a8e1af5ba3beda5b24870818e4df1d62b70bf3ba0e09fb5"
     },
     {
-      "path": "apk/v1.9.3_44/part_001.bin",
+      "path": "apk/v1.9.4_45/part_001.bin",
       "size": 6291456,
-      "sha256": "b051d5157eaf425fd5792efcbe446f4105053cea386fe7e3c966e3387e51ab51"
+      "sha256": "78170696866207f073751e09ba37580d0324864bb3709a02d20b89da5e423cf7"
     },
     {
-      "path": "apk/v1.9.3_44/part_002.bin",
+      "path": "apk/v1.9.4_45/part_002.bin",
       "size": 6291456,
       "sha256": "ab17e3758cb0c096401555b1bb22d9b96a402d1c5d56476dc3f3fb0ff0c648f2"
     },
     {
-      "path": "apk/v1.9.3_44/part_003.bin",
+      "path": "apk/v1.9.4_45/part_003.bin",
       "size": 6291456,
-      "sha256": "550d457c81a23312c60cc8277d4b6f44abcb1b3db1d5ae9b232d7b15afd6ea99"
+      "sha256": "bd496772985d823a15f16f73db9bcea335d67b239a518b60f494939fcc3569cd"
     },
     {
-      "path": "apk/v1.9.3_44/part_004.bin",
+      "path": "apk/v1.9.4_45/part_004.bin",
       "size": 6291456,
-      "sha256": "a8f181c19d00e59cdbb0fb48b5181575c805af597a9aec12652f45c1026761b6"
+      "sha256": "5127f7fec6f1ec0cef2e88ea55f9a47d342da46deeca10c9187a7ed079fe72af"
     },
     {
-      "path": "apk/v1.9.3_44/part_005.bin",
+      "path": "apk/v1.9.4_45/part_005.bin",
       "size": 6291456,
-      "sha256": "371683d856e2cdfb8f31bd4911e53e7cb63386c07b6965a3ccbf9ca6d2113fd6"
+      "sha256": "47d4f1e21946c9addf47dbd91f797503d19d2df187bbc7e8bd9f8e0861fc165c"
     },
     {
-      "path": "apk/v1.9.3_44/part_006.bin",
+      "path": "apk/v1.9.4_45/part_006.bin",
       "size": 6291456,
-      "sha256": "5b2db65e15ee2b621e321ab37a93de6c8f425b2689c477a95016101cfc18ac91"
+      "sha256": "5c919ce38a17cb32f37d2183567666a2db1189e60c0b8aecd58585610b9232f5"
     },
     {
-      "path": "apk/v1.9.3_44/part_007.bin",
+      "path": "apk/v1.9.4_45/part_007.bin",
       "size": 6291456,
-      "sha256": "0d747919a492a45716d740b1206bc1d5b13c141be68120f2dd34ca64ec8b8012"
+      "sha256": "cdd497a8c85f389d26cb50153d333a35cddc53f5f8a1359e64f7d45d3e8723d4"
     },
     {
-      "path": "apk/v1.9.3_44/part_008.bin",
+      "path": "apk/v1.9.4_45/part_008.bin",
       "size": 6291456,
-      "sha256": "b6df59c4e3c7a312b99372ad4339425fd6566cb55fa40704961e2a38384890ad"
+      "sha256": "6ffac025bc078a719b454a336612fa2213256de908e96900a12880b8f13eadb2"
     },
     {
-      "path": "apk/v1.9.3_44/part_009.bin",
+      "path": "apk/v1.9.4_45/part_009.bin",
       "size": 6291456,
       "sha256": "f52a08bfef2e80b73b6c875fb02005cb07eeda988434bcacf9b872b6a88e0732"
     },
     {
-      "path": "apk/v1.9.3_44/part_010.bin",
+      "path": "apk/v1.9.4_45/part_010.bin",
       "size": 4087944,
-      "sha256": "f23cf35168a97553c123753c522526aaf3301056dcbebe089811dfe1524ec001"
+      "sha256": "f6a2fa673e207aea28ab4cbe34cd67bf9050ca39ca3eb7aef2c1dc56c52f9335"
     }
   ],
-  "updatedAt": "2026-11-18T10:24:33+08:00",
+  "updatedAt": "2026-11-18T11:10:09+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "高级编程页重新排版：编辑时只留积木，角色和舞台收进顶部三个按钮",
-    "角色改成大卡片列表，点谁就改谁，右下角一键加角色",
-    "删角色前会问一句「要删掉吗」",
-    "换背景点底部「舞台」那一条"
+    "造型和背景编辑：工具栏可以收起，画布立刻多出将近一半地方，底部的颜色和缩放也能看到了",
+    "声音编辑同样压回一屏，波形不再被裁掉",
+    "点画笔、形状这些工具时会自动把颜色条露出来",
+    "修好了演出没声音：起步作品自带「喵」，还会提示点一下屏幕解锁声音"
   ]
 }
