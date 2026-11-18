@@ -1,76 +1,73 @@
 {
   "schema": 1,
-  "versionName": "1.9.9",
-  "versionCode": 50,
-  "apkName": "kids_pet_learning_1.9.9_50.apk",
+  "versionName": "1.9.10",
+  "versionCode": 51,
+  "apkName": "kids_pet_learning_1.9.10_51.apk",
   "size": 67258936,
-  "sha256": "f976bb02bc314fe8d9c214e5aa5e939be52f698275ecef6b3f39f3e4e53bb083",
+  "sha256": "1aa77d680b947f7fad940eaa4b77e0727d5408f0f6bfc9ac5b81870461e2e6a2",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.9_50/part_000.bin",
+      "path": "apk/v1.9.10_51/part_000.bin",
       "size": 6291456,
-      "sha256": "8ee660977c9b71b65b66f1ccf2761372d51c725cf29fdc5455e8285dfa814676"
+      "sha256": "f9023ab6a9c3bc3903ba1c72a52afad3d8a040d8be8ade733f6e267bd30f09e5"
     },
     {
-      "path": "apk/v1.9.9_50/part_001.bin",
+      "path": "apk/v1.9.10_51/part_001.bin",
       "size": 6291456,
-      "sha256": "fa7384d708fef3a7d113920ea85deeb90cd85cdd0271ab5a3fa924ef565c1402"
+      "sha256": "6b0705c6301ed34b82994fa3d3355fa77a66302df5828b46b0c4ade1b942a030"
     },
     {
-      "path": "apk/v1.9.9_50/part_002.bin",
+      "path": "apk/v1.9.10_51/part_002.bin",
       "size": 6291456,
       "sha256": "ab17e3758cb0c096401555b1bb22d9b96a402d1c5d56476dc3f3fb0ff0c648f2"
     },
     {
-      "path": "apk/v1.9.9_50/part_003.bin",
+      "path": "apk/v1.9.10_51/part_003.bin",
       "size": 6291456,
-      "sha256": "9bb2c3b01d7beefbdcdf1245b60eb410a30f35639601bc6a8bf5938c7f533712"
+      "sha256": "de267107a2d5c17f0fe66d2841c5f46dafa456d5189073276a2e78e1ba4dbb68"
     },
     {
-      "path": "apk/v1.9.9_50/part_004.bin",
+      "path": "apk/v1.9.10_51/part_004.bin",
       "size": 6291456,
-      "sha256": "73d93992590dc884307c9aedef95022499d9ceb25b46e2ed63b2b7b76dcc3c31"
+      "sha256": "0e2a905fc426bfb3869fd217479b495c2ff252d5450fe5597d301359127a5378"
     },
     {
-      "path": "apk/v1.9.9_50/part_005.bin",
+      "path": "apk/v1.9.10_51/part_005.bin",
       "size": 6291456,
-      "sha256": "192997e6186a719d7ddb30eb57e99afcec566aab9c85c5db10c01dbe4966ad4c"
+      "sha256": "f10bdc2d15f5a10a4857df442e1191dfa31ae5afae0de2b272d03ee2e66645b3"
     },
     {
-      "path": "apk/v1.9.9_50/part_006.bin",
+      "path": "apk/v1.9.10_51/part_006.bin",
       "size": 6291456,
-      "sha256": "9fab78514b8542edd0ad2b0bfa9977a5407465834f81b7bdec4d37dac5c91281"
+      "sha256": "fabe3d84184595ba26f13307b092cb98a6546f0bd18fd2e427e89cf5660c27f8"
     },
     {
-      "path": "apk/v1.9.9_50/part_007.bin",
+      "path": "apk/v1.9.10_51/part_007.bin",
       "size": 6291456,
-      "sha256": "190ae6181adaac23c27370d42819bdc409d1414b77404ea45e103709b8dae993"
+      "sha256": "b0a9587a2b4468a3f89f9b7b508ad12efe503c0e8590e749440fbbc041d0c126"
     },
     {
-      "path": "apk/v1.9.9_50/part_008.bin",
+      "path": "apk/v1.9.10_51/part_008.bin",
       "size": 6291456,
-      "sha256": "31bac4f9b307a4c039bec3b7f8f8847ea1b6628aa637f0469a8f91765dc74a80"
+      "sha256": "8e7745b68e496ee055d5faca856f594088cea17b121d4ead2fac5c19ad22faa9"
     },
     {
-      "path": "apk/v1.9.9_50/part_009.bin",
+      "path": "apk/v1.9.10_51/part_009.bin",
       "size": 6291456,
       "sha256": "0d47ec4e94e14cc66583b47e73987239db0a5d2ad0c2fd75f50251d4b8c51468"
     },
     {
-      "path": "apk/v1.9.9_50/part_010.bin",
+      "path": "apk/v1.9.10_51/part_010.bin",
       "size": 4344376,
-      "sha256": "7e7ca36a984491d771be0aba04fef0c13975d216a2beafa9fe18f8a16804bfb8"
+      "sha256": "033938c37218ae926d28e74c0fe9fa04340b9ef21b3896ef61dbee3196756cdb"
     }
   ],
-  "updatedAt": "2026-11-18T18:22:25+08:00",
+  "updatedAt": "2026-11-18T20:03:23+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "重新领养宠物从0级开始、装备清空，切回去各自等级和衣服还在",
-    "换了新的桌面图标：小狐狸看书，更好认",
-    "科学实验下载完退出再进，状态正确显示可玩",
-    "科学实验新增玩法/原理/动动脑/相关实验导读，还能点星星收藏快速打开",
-    "问一问可接入大模型：顶栏一键进设置，DeepSeek/通义/智谱/Kimi 一键配置（需家长自备密钥）"
+    "科学实验导读可以点了：怎么做/为什么/动动脑/相关实验，点小喇叭念整段，点文字念单条，宝宝不识字也能听懂",
+    "修复实验导读内容偶尔空白：装新版后自动同步到最新内容"
   ]
 }
