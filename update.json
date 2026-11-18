@@ -3,19 +3,19 @@
   "versionName": "1.9.7",
   "versionCode": 48,
   "apkName": "kids_pet_learning_1.9.7_48.apk",
-  "size": 67557872,
-  "sha256": "03499208e969d4b600b1683a62a00854aee73ea41b27c72dd55c4935b1e4295a",
+  "size": 67018888,
+  "sha256": "0f951b718b073c2fe9d5dca746d5e0f4e0eca74f8d9a714b0db852462cce6d36",
   "partSize": 6291456,
   "parts": [
     {
       "path": "apk/v1.9.7_48/part_000.bin",
       "size": 6291456,
-      "sha256": "566f469000ee2a688de5125be558bb07c40647609926d610a4b01b92793bfbef"
+      "sha256": "5b5bcaca0cd3a5e8431a425f59eafc14bad413354619005a2102eaf930b817f4"
     },
     {
       "path": "apk/v1.9.7_48/part_001.bin",
       "size": 6291456,
-      "sha256": "85b6c7cc8cf71f4f09aadfb3c8e2e7b5f02d368a1ffb57809e9e502387427d9c"
+      "sha256": "60178d84389ae14b4e0a3ff5802408609a7209f3459b953b345c86e6e49da05e"
     },
     {
       "path": "apk/v1.9.7_48/part_002.bin",
@@ -25,32 +25,32 @@
     {
       "path": "apk/v1.9.7_48/part_003.bin",
       "size": 6291456,
-      "sha256": "6026da4a785da94627abf84ff55be4719264cc55a807025f2aa3ad23043b6eb2"
+      "sha256": "3ee0a6cb391fa7c69f19362ad7417df644d4d29d1019f7613e4efb8959310fde"
     },
     {
       "path": "apk/v1.9.7_48/part_004.bin",
       "size": 6291456,
-      "sha256": "d3b289c1080fa32646aed5f45c43e1047caae600d7a2b945c2464ce06d6fbb20"
+      "sha256": "4dd71fa7456842a747b0e460efb2f804f94dd9c616c28388081dd0864e1e9e26"
     },
     {
       "path": "apk/v1.9.7_48/part_005.bin",
       "size": 6291456,
-      "sha256": "191e73a77bd2179dcd73656f5c174feb54482edbcccd7ce8418f89293723a075"
+      "sha256": "a7d5e238d2022632ae138fc2ef6691874ff143f8e9aaa3ac9181a5d6ea945a28"
     },
     {
       "path": "apk/v1.9.7_48/part_006.bin",
       "size": 6291456,
-      "sha256": "3fe0be56e9dabb68a38d1ef176a9b2effb57530dd2262a2192a20d1688c2cc42"
+      "sha256": "fad8ca3f12a847f36ff2919f2a2e0dd05b11d5eee2f55f1cde87b19ca882171d"
     },
     {
       "path": "apk/v1.9.7_48/part_007.bin",
       "size": 6291456,
-      "sha256": "c142676ca5135e5322689ff15694d824e1f37c3a669f18b6abb0b699d60515bf"
+      "sha256": "198e859d4517aaf499fd18f5d817ac44d4e741b8bb8f1c9766cef4e73bd3875c"
     },
     {
       "path": "apk/v1.9.7_48/part_008.bin",
       "size": 6291456,
-      "sha256": "1efcf8e6c2a28030df7fc8289156af03fc5a6cf2b20d6e995c0d4d6b7d817a64"
+      "sha256": "0eb2a7d8e5843e040a64fe39596a8c7c2a0b024398955afd5631617072169935"
     },
     {
       "path": "apk/v1.9.7_48/part_009.bin",
@@ -59,16 +59,16 @@
     },
     {
       "path": "apk/v1.9.7_48/part_010.bin",
-      "size": 4643312,
-      "sha256": "040eb0e7efca77fa67d5c38b8b8ed731a6d00a946c52b8d45e3348df029ca463"
+      "size": 4104328,
+      "sha256": "d9a8fdf1608f0dfe7b1bc25615af65adafe57395a5ba526850070db7ea34c2a1"
     }
   ],
-  "updatedAt": "2026-11-18T15:32:47+08:00",
+  "updatedAt": "2026-11-18T15:55:02+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "问一问、科学实验、编程乐园搬到首页「探索」区，孩子一眼就能看到，不用再翻进学习 tab",
-    "学习页保留选科、拼音、我的题库，界面更清爽",
-    "编程包下载失败时提示更明确，回上一页重进会自动补下载"
+    "首页「养成」移到「探索」上面，喂一口/换装在上面，问一问/科学实验/编程乐园在下面",
+    "修复升级后版本号不变：以前 APK 里的 versionCode 一直被 gradle 缓存固定在 46、显示 1.9.5，装多少次都还是旧号；这次起每版都会真正的递增（本版 build 48）",
+    "更新页装完会自动核对版本，没装上会明确提示「请再点安装并选安装而不是取消」"
   ]
 }
