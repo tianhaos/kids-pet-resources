@@ -1,75 +1,75 @@
 {
   "schema": 1,
-  "versionName": "1.9.5",
-  "versionCode": 46,
-  "apkName": "kids_pet_learning_1.9.5_46.apk",
-  "size": 67541488,
-  "sha256": "f456051f58c4df36150726c12fb2b90ac5a2c99a9b42ee864e92aa14f3d8da45",
+  "versionName": "1.9.6",
+  "versionCode": 47,
+  "apkName": "kids_pet_learning_1.9.6_47.apk",
+  "size": 67557872,
+  "sha256": "18c861e4e97aa14a388f506694464de13c8c804db5f640372218299334777901",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.5_46/part_000.bin",
+      "path": "apk/v1.9.6_47/part_000.bin",
       "size": 6291456,
-      "sha256": "0aa649199e55875b6b457a0ced2242085e6f371e207d876fcce14643e21ec4dd"
+      "sha256": "ba5836f7946b27519d31a688dc92cee3ff64d36e92c60d01616e217f0134964e"
     },
     {
-      "path": "apk/v1.9.5_46/part_001.bin",
+      "path": "apk/v1.9.6_47/part_001.bin",
       "size": 6291456,
-      "sha256": "e07af4f4f704fdc68c1a61424b69bd35715824c21b62f9b7f61d96314c6a9779"
+      "sha256": "cf7e1c7562bf0096fd6ef526a9dd783363b72d7e5786d56d84ee18e3239836c7"
     },
     {
-      "path": "apk/v1.9.5_46/part_002.bin",
+      "path": "apk/v1.9.6_47/part_002.bin",
       "size": 6291456,
       "sha256": "ab17e3758cb0c096401555b1bb22d9b96a402d1c5d56476dc3f3fb0ff0c648f2"
     },
     {
-      "path": "apk/v1.9.5_46/part_003.bin",
+      "path": "apk/v1.9.6_47/part_003.bin",
       "size": 6291456,
-      "sha256": "7781b2b26e5c7c61531958dd8e6a9247c7038fb74f6479fac95eaa6518fc8de0"
+      "sha256": "d71029a13664f14fdacc198ef35b020a8e6ad41ba292de962316433d35243f7a"
     },
     {
-      "path": "apk/v1.9.5_46/part_004.bin",
+      "path": "apk/v1.9.6_47/part_004.bin",
       "size": 6291456,
-      "sha256": "7bcb34c27e0f3724b9bdd92ff5728ff07fd3ca0a24642bfaf0640b9f5975697f"
+      "sha256": "f463d78f478daf82937ce5be9d9441a28c1489648943dbacd808a1cdac22532f"
     },
     {
-      "path": "apk/v1.9.5_46/part_005.bin",
+      "path": "apk/v1.9.6_47/part_005.bin",
       "size": 6291456,
-      "sha256": "7583c7e0f48799c5d0053a2b617abd0414f654998d9c1126c14a31beb2fbefd4"
+      "sha256": "f45292c08856f56bd80514c51bd322a908caae11199ab56712778a5a29cab106"
     },
     {
-      "path": "apk/v1.9.5_46/part_006.bin",
+      "path": "apk/v1.9.6_47/part_006.bin",
       "size": 6291456,
-      "sha256": "df3fd75a2144e93d14a13bd951b6e2fc95cfbbffacfb0a9c24d8c9124f42c07a"
+      "sha256": "0987d68367af841c6f94092a11c167adcc00dff4ddff490f05bcbfdb27f35c91"
     },
     {
-      "path": "apk/v1.9.5_46/part_007.bin",
+      "path": "apk/v1.9.6_47/part_007.bin",
       "size": 6291456,
-      "sha256": "a257e6747c9da0128a6361db260ad29fa1a8401478a0b52d934dba8c774e1168"
+      "sha256": "ec193e0a41351402511fcf0a6791d45c3d9d09e75eccfaa7860ae6a082fe27c2"
     },
     {
-      "path": "apk/v1.9.5_46/part_008.bin",
+      "path": "apk/v1.9.6_47/part_008.bin",
       "size": 6291456,
-      "sha256": "5d7d5c16890016603d9e5faf76579f588c0e1677738506416c6260975486be82"
+      "sha256": "78b8820cc816fa8c522d57934e530cfbb4df8d8cc50c663cc3114af2839fa4f8"
     },
     {
-      "path": "apk/v1.9.5_46/part_009.bin",
+      "path": "apk/v1.9.6_47/part_009.bin",
       "size": 6291456,
-      "sha256": "f52a08bfef2e80b73b6c875fb02005cb07eeda988434bcacf9b872b6a88e0732"
+      "sha256": "6d3495a095a39613a48135d54e7cbd6a34446a00077ffe754e1bfb9cbf6cc36d"
     },
     {
-      "path": "apk/v1.9.5_46/part_010.bin",
-      "size": 4626928,
-      "sha256": "e2e763ec747cc60136cef71ee1563568e8906fa02225770fc51996875d0818c7"
+      "path": "apk/v1.9.6_47/part_010.bin",
+      "size": 4643312,
+      "sha256": "c9d1a3d74ff9155d3ca35b954af30ed81f68058660f7eef44811e1e19113a450"
     }
   ],
-  "updatedAt": "2026-11-18T13:08:59+08:00",
+  "updatedAt": "2026-11-18T14:35:08+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "运行没声音修好了：第一次点「开始」会先让孩子在屏幕上点一下解锁声音，之后一直有声",
-    "下拉通知栏、切后台回来，声音会自动接上不再中断",
-    "家长中心拉通知栏不会再被弹回孩子界面、语音也不会被切断",
-    "右上角「⋯」新增「声音自检」，听不到声音时点一下就知道卡在哪"
+    "换手机后点高级编程会提示要同步：现在点课程卡会直接问「现在下载」，只补 31MB 编程包，下完自动进编辑器，不用再去家长中心绕一圈",
+    "修好「明明同步过却还提示要同步」：上次同步被打断时索引没来得及存，App 误判没下过；现在文件在就直接认，不再重复下 31MB",
+    "没连 WiFi 时不再默默失败，会明确问「用流量下载」",
+    "已下过的文件不重复下，中途退出再点会接着补"
   ]
 }
