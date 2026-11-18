@@ -1,76 +1,75 @@
 {
   "schema": 1,
-  "versionName": "1.9.12",
-  "versionCode": 53,
-  "apkName": "kids_pet_learning_1.9.12_53.apk",
-  "size": 68254810,
-  "sha256": "aab2f47f581fd428aa9d1c381533ebfe245faaee602aa5fe00ca76ab4352e067",
+  "versionName": "1.9.13",
+  "versionCode": 54,
+  "apkName": "kids_pet_learning_1.9.13_54.apk",
+  "size": 68494198,
+  "sha256": "ebf6860cc95a9371297769b75320361c9fde24e42e19122d402db73284d40309",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.12_53/part_000.bin",
+      "path": "apk/v1.9.13_54/part_000.bin",
       "size": 6291456,
-      "sha256": "2796cfad662ac51ee3d4e58f56aa29c28d758fc83cf6848772d3ca3d2abf5ec4"
+      "sha256": "cedf3f0ac17e1fbb22583bb358f663044a550a2ef6abf9413443829779a68f41"
     },
     {
-      "path": "apk/v1.9.12_53/part_001.bin",
+      "path": "apk/v1.9.13_54/part_001.bin",
       "size": 6291456,
-      "sha256": "641ad161f85d18c9b8680f5f343ac0a1ebc8bd2a4bb071f7fe07be7a7e44b917"
+      "sha256": "2f066b0d3cdb46048899d89ce3ce45ff24a9d91421c6e7dd7848437a9166a7b2"
     },
     {
-      "path": "apk/v1.9.12_53/part_002.bin",
+      "path": "apk/v1.9.13_54/part_002.bin",
       "size": 6291456,
-      "sha256": "ae0a853c49761182f0b4cd629553103aaf0850c927cf9f9ac5042372655b4223"
+      "sha256": "c12c10761fcfd937d8486f3f842d9a6cba7e74b762920cb8d9a4e4709fdc0e19"
     },
     {
-      "path": "apk/v1.9.12_53/part_003.bin",
+      "path": "apk/v1.9.13_54/part_003.bin",
       "size": 6291456,
-      "sha256": "4b78158c006e0ed7e2fed376168fb592a4be658825e36f768621c597de7900b2"
+      "sha256": "080693595fffcf4d2529eb25e87c61111afd61983b8024bfec00b63091e018ea"
     },
     {
-      "path": "apk/v1.9.12_53/part_004.bin",
+      "path": "apk/v1.9.13_54/part_004.bin",
       "size": 6291456,
-      "sha256": "9f4e3714724fe8f5dd95fce5153ddbf699b47644dfacb1b3dd9f9edbdbac3d6e"
+      "sha256": "8cd5101405eed20f7d9d887da40c9292bfa58bcca35421325761fd15543966c0"
     },
     {
-      "path": "apk/v1.9.12_53/part_005.bin",
+      "path": "apk/v1.9.13_54/part_005.bin",
       "size": 6291456,
-      "sha256": "c26e9b3a6f40693a84b784d19348fb870e8807f39309f0b33b99ca6b1135960f"
+      "sha256": "176f6814be540636748daa15deddda63ecef65a2c8dba3e674c78f53d6cc051b"
     },
     {
-      "path": "apk/v1.9.12_53/part_006.bin",
+      "path": "apk/v1.9.13_54/part_006.bin",
       "size": 6291456,
-      "sha256": "aeeabdd9652913a7e59d9307a394a043c8e22fd6b78d73f5db95e74e1098b1f2"
+      "sha256": "1a31436e059dc842014a388f3b243d7048575fb18ef48c420f80612f8abf24bf"
     },
     {
-      "path": "apk/v1.9.12_53/part_007.bin",
+      "path": "apk/v1.9.13_54/part_007.bin",
       "size": 6291456,
-      "sha256": "4f343990df3531646d38d2366f4dbe59c4674a7f1fa9303c4bcf0a7727293642"
+      "sha256": "ede9c9a261b9c373feea12d583eb67a1691fff86df3e2f49d7e73b075d30a284"
     },
     {
-      "path": "apk/v1.9.12_53/part_008.bin",
+      "path": "apk/v1.9.13_54/part_008.bin",
       "size": 6291456,
-      "sha256": "85af38dd864e6fcb541ee241875e112823e94ef889f3a0601baaf035bc2d5369"
+      "sha256": "ea19363cec0da01443eece11b15c89d18331427c2cb7b8cf9e019f178e2cc19b"
     },
     {
-      "path": "apk/v1.9.12_53/part_009.bin",
+      "path": "apk/v1.9.13_54/part_009.bin",
       "size": 6291456,
-      "sha256": "57664324ed1c67f684b5a7c92d394ac1501abc0e15884a831ca4b36173ef37fe"
+      "sha256": "834db3b37ba1fa7a27f39516de521ffc901c91feaee925cd4480b20678097e01"
     },
     {
-      "path": "apk/v1.9.12_53/part_010.bin",
-      "size": 5340250,
-      "sha256": "9e63725a3003ca42437353b24732bfe85a9bba9c4f9cdcfc531b1d03d62d9043"
+      "path": "apk/v1.9.13_54/part_010.bin",
+      "size": 5579638,
+      "sha256": "8c1a2d7e33048cb64d556fe898a2a0f5274d01ccdb1a893aa8c747a30cf5fd57"
     }
   ],
-  "updatedAt": "2026-11-19T01:12:43+08:00",
+  "updatedAt": "2026-11-19T01:54:49+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "识字新玩法：偏旁拼字，把木和木拖一起拼出林，拼对有彩纸还能收进汉字图鉴",
-    "英语新玩法：玩转高频词，听音找词、词义配对、记忆翻牌三个小游戏",
-    "数学新玩法：动动手，拖数字填空、把糖分两堆、找颜色规律",
-    "学习页恢复今日任务：每天三件小事，做完点亮小星星",
-    "新增5枚勋章：拼字小工匠、识字小达人、英语小明星、高频词高手、数感小高手"
+    "英语分级绘本20本：L1启蒙/L2起步/L3进阶，点句听英文、点词看意思、跟读打分、读后理解题",
+    "AI小参谋：按孩子近期正确率推荐轻松/刚好/挑战难度，开了AI还能给个性化建议",
+    "我的学习报告：近7天答题趋势、各科掌握度、薄弱点和勋章",
+    "学科页和首页都能看到难度建议，一键接着学"
   ]
 }
