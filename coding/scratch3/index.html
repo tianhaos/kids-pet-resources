@@ -161,6 +161,82 @@
     transform-origin:center center !important}
   html.kid-view-stage [class*="gui_target-wrapper_"]{display:none !important}
 
+  /* ═══ 造型 / 声音编辑器：手机上工具栏太高，画布被挤得看不见 ═══
+     paint-editor 内部本来就能自适应（画布是 flex-grow），真正的问题在它上面
+     几层容器：tab-panel / asset-panel / detail-area 都是 min-height:auto，
+     会被桌面尺寸的内容撑到 520px，而可视高度只有 315px，页面又是 overflow:hidden，
+     于是画布下沿和底部那条颜色/线宽控件永远露不出来。这里把整条链压回 100%。 */
+  html.kid-tab-costume [class*="gui_tabs_"],
+  html.kid-tab-sound [class*="gui_tabs_"],
+  html.kid-tab-costume [class*="react-tabs__tab-panel"],
+  html.kid-tab-sound [class*="react-tabs__tab-panel"],
+  html.kid-tab-costume [class*="asset-panel_wrapper_"],
+  html.kid-tab-sound [class*="asset-panel_wrapper_"]{
+    height:100% !important;min-height:0 !important;overflow:hidden !important}
+  html.kid-tab-costume [class*="asset-panel_detail-area_"],
+  html.kid-tab-sound [class*="asset-panel_detail-area_"]{
+    min-height:0 !important;overflow:hidden !important}
+
+  /* 造型编辑器：画布吃掉剩下的高度，内容再高也能纵向滑动 */
+  html.kid-tab-costume [class*="paint-editor_editor-container_"]{
+    height:100% !important;min-height:0 !important;padding:4px !important;
+    overflow-y:auto !important;overflow-x:hidden !important;
+    -webkit-overflow-scrolling:touch !important}
+  html.kid-tab-costume [class*="paint-editor_editor-container-top_"]{
+    flex:0 0 auto !important;padding-bottom:2px !important}
+  html.kid-tab-costume [class*="paint-editor_top-align-row_"]{
+    flex:1 1 auto !important;height:auto !important;min-height:0 !important;
+    padding-top:2px !important}
+  html.kid-tab-costume [class*="paint-editor_controls-container_"],
+  html.kid-tab-costume [class*="paint-editor_canvas-container_"]{
+    min-height:0 !important}
+  html.kid-tab-costume [class*="paint-editor_canvas-controls_"]{flex:0 0 auto !important}
+  /* 左边画笔 / 橡皮 / 形状那排：限成两列，别把画布横向挤窄（原来会自己摊到 105px） */
+  html.kid-tab-costume [class*="paint-editor_mode-selector_"]{
+    flex:0 0 auto !important;width:88px !important;max-width:88px !important;
+    flex-flow:row wrap !important;align-content:flex-start !important;
+    overflow-y:auto !important;overflow-x:hidden !important}
+  /* 工具行收起：把「填充 / 轮廓 / 线宽 / 复制 / 删除 / 翻转」那一整行藏起来，
+     画布立刻多出 48px。用选择器按「顶栏里的第二行」定位，不依赖具体类名后缀。 */
+  html.kid-tools-collapsed.kid-tab-costume
+    [class*="paint-editor_editor-container-top_"] > [class*="paint-editor_row_"] +
+    [class*="paint-editor_row_"]{display:none !important}
+
+  /* 声音编辑器：波形区同理，能滚、不裁 */
+  html.kid-tab-sound [class*="sound-editor_"]{
+    height:100% !important;min-height:0 !important}
+  html.kid-tab-sound [class*="sound-editor_waveform-container_"],
+  html.kid-tab-sound [class*="sound-editor_waveform-wrapper_"]{
+    min-height:0 !important;flex:1 1 auto !important}
+
+  /* 工具栏展开 / 收起的开关，贴在 tab 条右边的空白处 */
+  #kidToolToggle{position:fixed;top:6px;right:8px;z-index:620;display:none;
+    align-items:center;gap:4px;height:32px;padding:0 10px;border-radius:999px;
+    background:#fff;border:1px solid #D9D4F0;color:#5B4BA8;
+    font:12px/1 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;
+    font-weight:700;box-shadow:0 2px 8px rgba(90,72,160,.16)}
+  html.kid-tab-costume #kidToolToggle{display:flex}
+  #kidToolToggle .ar{font-size:10px;color:#9A93B8}
+
+  /* 浏览器策略：没有真实点击，AudioContext 会一直挂起 → 演出没声音。
+     只在真的挂起时露出这条提示，点一下就能解锁。 */
+  #kidAudioHint{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);
+    display:none;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;
+    background:rgba(52,47,75,.92);color:#fff;z-index:9300;
+    font:12px/1 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;white-space:nowrap}
+  /* 只在演出这一屏提示，编辑时冒出来会挡住积木 */
+  html.kid-view-stage.kid-audio-locked #kidAudioHint{display:flex}
+
+  /* 切到造型 / 声音时 react-tabs 会把代码面板 display:none，Blockly 一量尺寸
+     就重算滚动位置，积木会横移 70px 钻到调色板底下（实测 353→283）。
+     这里让代码面板保留原尺寸、挪到屏幕外，Blockly 完全感觉不到变化。 */
+  .kid-keep-layout{
+    display:block !important;position:absolute !important;
+    left:-10000px !important;top:0 !important;
+    width:100% !important;height:100% !important;
+    visibility:hidden !important;pointer-events:none !important;
+    overflow:hidden !important}
+
   /* 竖屏时积木栏会吃掉一大半宽度，提示孩子把手机横过来 */
   #kidRotate{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);
     display:none;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;
@@ -187,6 +263,8 @@
 <body>
 <div id="boot"><div class="sp"></div><div id="bootTxt">创作室正在准备…</div></div>
 <div id="kidRotate">↻ 把手机横过来，积木区会宽一倍</div>
+<div id="kidToolToggle"><span>🎨</span><span id="kidToolLabel">颜色/线宽</span><span class="ar">▾</span></div>
+<div id="kidAudioHint">🔊 点一下屏幕，声音才会打开</div>
 <div id="kidConfirm">
   <div class="box">
     <div class="t" id="kidConfirmTxt">要删掉这个角色吗？</div>
@@ -470,6 +548,130 @@
     }, 600);
   });
 
+  /* ── 造型 / 声音 tab ─────────────────────────────────────
+     这两个 tab 里是 Scratch 自己的 paint-editor / sound-editor，桌面版按 520px
+     高排的，手机上（可视 315px）画布下沿和底部颜色条会被裁掉。CSS 里按 tab
+     挂了 kid-tab-costume / kid-tab-sound 两个 class 把整条容器链压回 100%，
+     切过去之后还要 dispatch 一次 resize，画布才会按新高度重算尺寸。 */
+  function currentTab() {
+    var tabs = document.querySelectorAll('[role="tab"]');
+    for (var i = 0; i < tabs.length; i++) {
+      if (tabs[i].getAttribute('aria-selected') === 'true') {
+        var t = String(tabs[i].textContent || '');
+        // 选中舞台时 Scratch 会把「造型」改叫「背景」，两个都要认
+        if (t.indexOf('造型') >= 0 || t.indexOf('背景') >= 0 ||
+            /costume|backdrop/i.test(t)) return 'costume';
+        if (t.indexOf('声音') >= 0 || /sound/i.test(t)) return 'sound';
+        return 'code';
+      }
+    }
+    return 'code';
+  }
+  function codePanelEl() {
+    var tabs = document.querySelectorAll('[role="tab"]');
+    for (var i = 0; i < tabs.length; i++) {
+      var txt = String(tabs[i].textContent || '');
+      if (txt.indexOf('代码') >= 0 || /^\s*code\s*$/i.test(txt)) {
+        var id = tabs[i].getAttribute('aria-controls');
+        return id ? document.getElementById(id) : null;
+      }
+    }
+    return null;
+  }
+  function syncTab() {
+    var t = currentTab();
+    var root = document.documentElement;
+    var now = root.classList.contains('kid-tab-costume') ? 'costume' :
+              root.classList.contains('kid-tab-sound') ? 'sound' : 'code';
+    // 代码面板永远保留布局尺寸：否则 Blockly 会重算滚动位置，积木横移一段
+    var panel = codePanelEl();
+    if (panel) panel.classList.toggle('kid-keep-layout', t !== 'code');
+    if (t === now) return;
+    root.classList.remove('kid-tab-costume', 'kid-tab-sound');
+    if (t !== 'code') root.classList.add('kid-tab-' + t);
+    setTimeout(function () { try { window.dispatchEvent(new Event('resize')); } catch (e) {} }, 60);
+    setTimeout(function () { try { window.dispatchEvent(new Event('resize')); } catch (e) {} }, 320);
+    post({type: 'tabChanged', tab: t});
+  }
+  setInterval(syncTab, 400);
+  // 点 tab 的那一刻就切 class，别等 400ms 轮询——否则 paint editor 会按旧尺寸先画一帧
+  document.addEventListener('click', function (e) {
+    if (!closest(e.target, '[role="tab"]')) return;
+    setTimeout(syncTab, 0);
+    setTimeout(syncTab, 140);
+  }, true);
+
+  /* ── 造型编辑器工具栏：可收起 ───────────────────────────
+     顶上两行工具（名称/撤销/组合/前后放 一行，填充/轮廓/线宽/复制/删除 一行）
+     吃掉 114px，手机上画布只剩一条缝。默认收成一行，点右上角再展开；
+     孩子一选画笔 / 形状 / 文字这些绘图工具，也自动把颜色条露出来。 */
+  function setTools(open) {
+    var root = document.documentElement;
+    root.classList.toggle('kid-tools-collapsed', !open);
+    var label = document.getElementById('kidToolLabel');
+    var ar = document.querySelector('#kidToolToggle .ar');
+    if (label) label.textContent = open ? '收起工具' : '颜色/线宽';
+    if (ar) ar.textContent = open ? '▴' : '▾';
+    setTimeout(function () { try { window.dispatchEvent(new Event('resize')); } catch (e) {} }, 80);
+    setTimeout(function () { try { window.dispatchEvent(new Event('resize')); } catch (e) {} }, 360);
+  }
+  (function bindTools() {
+    var btn = document.getElementById('kidToolToggle');
+    if (btn) btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      setTools(document.documentElement.classList.contains('kid-tools-collapsed'));
+    });
+    document.addEventListener('pointerdown', function (e) {
+      if (!document.documentElement.classList.contains('kid-tab-costume')) return;
+      if (!closest(e.target, '[class*="paint-editor_mode-selector_"]')) return;
+      if (document.documentElement.classList.contains('kid-tools-collapsed')) setTools(true);
+    }, true);
+  })();
+  setTools(false);
+
+  /* ── 声音：先解锁 AudioContext ──────────────────────────
+     WebAudio 在没有真实用户点击之前一直是 suspended，演出再正确也没声。
+     ① 任何一次触摸 / 按键都顺手 resume；② App 顶栏点「开始」时也会调
+     KidCoding.unlockAudio()；③ 真的还没解锁时，舞台底部提示点一下。 */
+  function audioCtx() {
+    var v = getVm();
+    try { return (v && v.runtime && v.runtime.audioEngine && v.runtime.audioEngine.audioContext) || null; }
+    catch (e) { return null; }
+  }
+  function refreshAudioHint() {
+    var c = audioCtx();
+    document.documentElement.classList.toggle('kid-audio-locked', !!c && c.state !== 'running');
+    return !!c && c.state === 'running';
+  }
+  function unlockAudio() {
+    var c = audioCtx();
+    if (!c) return false;
+    if (c.state === 'running') { refreshAudioHint(); return true; }
+    try {
+      var p = c.resume();
+      if (p && p.then) p.then(refreshAudioHint, refreshAudioHint);
+    } catch (e) {}
+    setTimeout(refreshAudioHint, 200);
+    setTimeout(refreshAudioHint, 700);
+    return false;
+  }
+  (function bindAudio() {
+    var on = function () { unlockAudio(); };
+    window.addEventListener('pointerdown', on, true);
+    window.addEventListener('touchstart', on, true);
+    window.addEventListener('mousedown', on, true);
+    window.addEventListener('keydown', on, true);
+    whenVm(function () {
+      unlockAudio();
+      // 还锁着就隔一会儿再试一次；真的解不开时舞台底部那条提示会一直在
+      setInterval(function () {
+        if (refreshAudioHint()) return;
+        if (view === 'stage') unlockAudio();
+      }, 2500);
+    });
+  })();
+
   /* ── 角色视图里的交互 ─────────────────────────────────────
      1) 点某个角色 / 背景，就回到积木视图去改它（孩子少一步操作）
      2) 点角色右上角的小叉，先问一句再删，避免误触丢角色 */
@@ -734,18 +936,33 @@
     run: function () {
       var v = getVm();
       if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
+      // 声音先解锁：没这一步，演出是「哑剧」
+      unlockAudio();
+      // 在造型 / 声音页点「开始」时先回积木页，演完点「搭积木」才看得懂
+      if (currentTab() !== 'code') {
+        var tabList = document.querySelectorAll('[role="tab"]');
+        if (tabList[0]) { try { tabList[0].click(); } catch (e) {} }
+      }
       setView('stage', true);
       setTimeout(function () {
         try { v.stopAll(); v.greenFlag(); } catch (e) {}
+        unlockAudio();
         post({type: 'runResult', ok: true});
       }, 260);
     },
     greenFlag: function () {
       var v = getVm();
       if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
+      unlockAudio();
       v.stopAll();
       v.greenFlag();
       post({type: 'runResult', ok: true});
+    },
+    /* App 侧没手势也能叫一下，部分 WebView 允许直接恢复 */
+    unlockAudio: function () { return unlockAudio(); },
+    audioLocked: function () {
+      var c = audioCtx();
+      return !c || c.state !== 'running';
     },
     stopAll: function () {
       var v = getVm();
