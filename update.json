@@ -1,75 +1,74 @@
 {
   "schema": 1,
-  "versionName": "1.9.6",
-  "versionCode": 47,
-  "apkName": "kids_pet_learning_1.9.6_47.apk",
+  "versionName": "1.9.7",
+  "versionCode": 48,
+  "apkName": "kids_pet_learning_1.9.7_48.apk",
   "size": 67557872,
-  "sha256": "18c861e4e97aa14a388f506694464de13c8c804db5f640372218299334777901",
+  "sha256": "03499208e969d4b600b1683a62a00854aee73ea41b27c72dd55c4935b1e4295a",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.6_47/part_000.bin",
+      "path": "apk/v1.9.7_48/part_000.bin",
       "size": 6291456,
-      "sha256": "ba5836f7946b27519d31a688dc92cee3ff64d36e92c60d01616e217f0134964e"
+      "sha256": "566f469000ee2a688de5125be558bb07c40647609926d610a4b01b92793bfbef"
     },
     {
-      "path": "apk/v1.9.6_47/part_001.bin",
+      "path": "apk/v1.9.7_48/part_001.bin",
       "size": 6291456,
-      "sha256": "cf7e1c7562bf0096fd6ef526a9dd783363b72d7e5786d56d84ee18e3239836c7"
+      "sha256": "85b6c7cc8cf71f4f09aadfb3c8e2e7b5f02d368a1ffb57809e9e502387427d9c"
     },
     {
-      "path": "apk/v1.9.6_47/part_002.bin",
+      "path": "apk/v1.9.7_48/part_002.bin",
       "size": 6291456,
       "sha256": "ab17e3758cb0c096401555b1bb22d9b96a402d1c5d56476dc3f3fb0ff0c648f2"
     },
     {
-      "path": "apk/v1.9.6_47/part_003.bin",
+      "path": "apk/v1.9.7_48/part_003.bin",
       "size": 6291456,
-      "sha256": "d71029a13664f14fdacc198ef35b020a8e6ad41ba292de962316433d35243f7a"
+      "sha256": "6026da4a785da94627abf84ff55be4719264cc55a807025f2aa3ad23043b6eb2"
     },
     {
-      "path": "apk/v1.9.6_47/part_004.bin",
+      "path": "apk/v1.9.7_48/part_004.bin",
       "size": 6291456,
-      "sha256": "f463d78f478daf82937ce5be9d9441a28c1489648943dbacd808a1cdac22532f"
+      "sha256": "d3b289c1080fa32646aed5f45c43e1047caae600d7a2b945c2464ce06d6fbb20"
     },
     {
-      "path": "apk/v1.9.6_47/part_005.bin",
+      "path": "apk/v1.9.7_48/part_005.bin",
       "size": 6291456,
-      "sha256": "f45292c08856f56bd80514c51bd322a908caae11199ab56712778a5a29cab106"
+      "sha256": "191e73a77bd2179dcd73656f5c174feb54482edbcccd7ce8418f89293723a075"
     },
     {
-      "path": "apk/v1.9.6_47/part_006.bin",
+      "path": "apk/v1.9.7_48/part_006.bin",
       "size": 6291456,
-      "sha256": "0987d68367af841c6f94092a11c167adcc00dff4ddff490f05bcbfdb27f35c91"
+      "sha256": "3fe0be56e9dabb68a38d1ef176a9b2effb57530dd2262a2192a20d1688c2cc42"
     },
     {
-      "path": "apk/v1.9.6_47/part_007.bin",
+      "path": "apk/v1.9.7_48/part_007.bin",
       "size": 6291456,
-      "sha256": "ec193e0a41351402511fcf0a6791d45c3d9d09e75eccfaa7860ae6a082fe27c2"
+      "sha256": "c142676ca5135e5322689ff15694d824e1f37c3a669f18b6abb0b699d60515bf"
     },
     {
-      "path": "apk/v1.9.6_47/part_008.bin",
+      "path": "apk/v1.9.7_48/part_008.bin",
       "size": 6291456,
-      "sha256": "78b8820cc816fa8c522d57934e530cfbb4df8d8cc50c663cc3114af2839fa4f8"
+      "sha256": "1efcf8e6c2a28030df7fc8289156af03fc5a6cf2b20d6e995c0d4d6b7d817a64"
     },
     {
-      "path": "apk/v1.9.6_47/part_009.bin",
+      "path": "apk/v1.9.7_48/part_009.bin",
       "size": 6291456,
       "sha256": "6d3495a095a39613a48135d54e7cbd6a34446a00077ffe754e1bfb9cbf6cc36d"
     },
     {
-      "path": "apk/v1.9.6_47/part_010.bin",
+      "path": "apk/v1.9.7_48/part_010.bin",
       "size": 4643312,
-      "sha256": "c9d1a3d74ff9155d3ca35b954af30ed81f68058660f7eef44811e1e19113a450"
+      "sha256": "040eb0e7efca77fa67d5c38b8b8ed731a6d00a946c52b8d45e3348df029ca463"
     }
   ],
-  "updatedAt": "2026-11-18T14:35:08+08:00",
+  "updatedAt": "2026-11-18T15:32:47+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "换手机后点高级编程会提示要同步：现在点课程卡会直接问「现在下载」，只补 31MB 编程包，下完自动进编辑器，不用再去家长中心绕一圈",
-    "修好「明明同步过却还提示要同步」：上次同步被打断时索引没来得及存，App 误判没下过；现在文件在就直接认，不再重复下 31MB",
-    "没连 WiFi 时不再默默失败，会明确问「用流量下载」",
-    "已下过的文件不重复下，中途退出再点会接着补"
+    "问一问、科学实验、编程乐园搬到首页「探索」区，孩子一眼就能看到，不用再翻进学习 tab",
+    "学习页保留选科、拼音、我的题库，界面更清爽",
+    "编程包下载失败时提示更明确，回上一页重进会自动补下载"
   ]
 }
