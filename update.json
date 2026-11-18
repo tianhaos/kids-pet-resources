@@ -1,77 +1,75 @@
 {
   "schema": 1,
-  "versionName": "1.9.1",
-  "versionCode": 42,
-  "apkName": "kids_pet_learning_1.9.1_42.apk",
-  "size": 66920404,
-  "sha256": "e0b47213a63b9ac1957b4ced23c05955eb0bc13b38b61e808b2955474edb0938",
+  "versionName": "1.9.2",
+  "versionCode": 43,
+  "apkName": "kids_pet_learning_1.9.2_43.apk",
+  "size": 67002324,
+  "sha256": "e72922631acb47ace0cf4a821afb06a5157c336955ae0e26f00bdde5ecbfaf16",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.1_42/part_000.bin",
+      "path": "apk/v1.9.2_43/part_000.bin",
       "size": 6291456,
-      "sha256": "cebb07aa1f346dd88a0c741fe6fcac36760ad5fd098a6f5f60d668e3d2588341"
+      "sha256": "5b3b10076fd0b20b187bbf23dccf1411dec7e160ec5c8aa0bd3aa2d79812263b"
     },
     {
-      "path": "apk/v1.9.1_42/part_001.bin",
+      "path": "apk/v1.9.2_43/part_001.bin",
       "size": 6291456,
-      "sha256": "3c4a45ccaf2c4e777c764d1110e36ac0d060e039c632543a5cf8779ed4fbf7f2"
+      "sha256": "1e593d7494866560fa67203082e5dd512bb91b37f6209300e647f95a19ef8b16"
     },
     {
-      "path": "apk/v1.9.1_42/part_002.bin",
+      "path": "apk/v1.9.2_43/part_002.bin",
       "size": 6291456,
-      "sha256": "b08573d2b82cebdd0ffa13b9467bcd248aa95ac304a2e55108bff1c201b1094a"
+      "sha256": "ab17e3758cb0c096401555b1bb22d9b96a402d1c5d56476dc3f3fb0ff0c648f2"
     },
     {
-      "path": "apk/v1.9.1_42/part_003.bin",
+      "path": "apk/v1.9.2_43/part_003.bin",
       "size": 6291456,
-      "sha256": "6a7a8dbe1b9b9080d081445d6e0ff91a1ecfd15b6c0d3217fbacaa6b2bc88d2d"
+      "sha256": "5146355e9569b5bbb616ae419da910b31fd9b6c98a00815cd47db1a276fa56ad"
     },
     {
-      "path": "apk/v1.9.1_42/part_004.bin",
+      "path": "apk/v1.9.2_43/part_004.bin",
       "size": 6291456,
-      "sha256": "a5d3398aa462da511c7bc4947081149076db87371cc4cff1377750950d531d9d"
+      "sha256": "48e33110bb046a168325a95349a805cc9e006bd46aca920da86c3ff80125b474"
     },
     {
-      "path": "apk/v1.9.1_42/part_005.bin",
+      "path": "apk/v1.9.2_43/part_005.bin",
       "size": 6291456,
-      "sha256": "0e46ba934184bd8bf967c6d1b213b0c91c0237270b52cc9dc6f3612e5d445fb8"
+      "sha256": "3469d7f4ee5e522ed449ea46cc2e02b232345c2f68d4584580332ac05c198f91"
     },
     {
-      "path": "apk/v1.9.1_42/part_006.bin",
+      "path": "apk/v1.9.2_43/part_006.bin",
       "size": 6291456,
-      "sha256": "865148b890955737ec9745b1e052cd497cfda343a01bb5f4d67838959d82e38c"
+      "sha256": "748df74bd53c0a228b1da6cf4b057f0c9a6b9ba32cb306d1b59f26c615fbf4a9"
     },
     {
-      "path": "apk/v1.9.1_42/part_007.bin",
+      "path": "apk/v1.9.2_43/part_007.bin",
       "size": 6291456,
-      "sha256": "fa49dd9123ae833e2370f06c9f442ca471a93969d7f1806a474c629903a8e53f"
+      "sha256": "6e14ca7c5067b686f132d7023181ae2dc366167a8a08019c54f035ea17109a9f"
     },
     {
-      "path": "apk/v1.9.1_42/part_008.bin",
+      "path": "apk/v1.9.2_43/part_008.bin",
       "size": 6291456,
-      "sha256": "328b44fc8aea75ac57644e8531ed0a5cc03991c4af3ce3064a3e44874fbcc786"
+      "sha256": "3227c6f1517f37ed6e2e1c19374cb5a9fc22fde0e05082ac4a6c6911ee37e191"
     },
     {
-      "path": "apk/v1.9.1_42/part_009.bin",
+      "path": "apk/v1.9.2_43/part_009.bin",
       "size": 6291456,
-      "sha256": "f6d2ef9819906132ce42e839cfe4232202ff6dd27dcfe22a687aed234e0c24fb"
+      "sha256": "f52a08bfef2e80b73b6c875fb02005cb07eeda988434bcacf9b872b6a88e0732"
     },
     {
-      "path": "apk/v1.9.1_42/part_010.bin",
-      "size": 4005844,
-      "sha256": "0e98b42a7e5d75788644629c6e7098dc03da9d4bbdf0be2f0c0ed38116d68d07"
+      "path": "apk/v1.9.2_43/part_010.bin",
+      "size": 4087764,
+      "sha256": "5bac350819b2a941c0388ea89b7948c902ea01148c2374057bb06d53a53d22cb"
     }
   ],
-  "updatedAt": "2026-11-18T03:09:11+08:00",
+  "updatedAt": "2026-11-18T09:23:59+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "困难关 Scratch 大修：背景 16 张、角色 20 个、音效 12 个全部内置，断网也能选能用",
-    "打开就是「小猫+草地+点绿旗说你好」，点绿旗真的会跑，不再是一片空白",
-    "藏掉桌面版菜单栏，换成 App 里的大按钮：开始 / 停止 / 保存 / 作品",
-    "保存修好了：改完自动存，手动保存会给真实结果提示",
-    "所有模式都能存多份作品：想看旧版就切回来，还能改名、复制、删除",
-    "第一次进创作室有三步提示，照着点就会"
+    "困难关：搭积木和看效果分成两个视图，舞台不再被挤出屏幕",
+    "点开始自动铺满屏幕演出，随时点「✏️ 搭积木」回去改",
+    "积木区拿回全部宽度，底部角色条可以换角色",
+    "还修了播放时舞台一片空白的问题"
   ]
 }
