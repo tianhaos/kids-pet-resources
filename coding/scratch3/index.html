@@ -202,12 +202,29 @@
     [class*="paint-editor_editor-container-top_"] > [class*="paint-editor_row_"] +
     [class*="paint-editor_row_"]{display:none !important}
 
-  /* 声音编辑器：波形区同理，能滚、不裁 */
-  html.kid-tab-sound [class*="sound-editor_"]{
-    height:100% !important;min-height:0 !important}
-  html.kid-tab-sound [class*="sound-editor_waveform-container_"],
-  html.kid-tab-sound [class*="sound-editor_waveform-wrapper_"]{
-    min-height:0 !important;flex:1 1 auto !important}
+  /* 声音编辑器：波形 + 上下两排按钮，在手机上总高超过一屏，下排「变响 / 变轻 /
+     静音 / 反转 / 淡入淡出」就被挤到看不见的地方，孩子以为工具没了。
+     注意别再用 [class*="sound-editor_"] 这种通配：它会把每个按钮也设成 100% 高，
+     整块直接撑爆一屏——之前「剪裁时工具被遮住」就是这么来的。
+     这里只压容器本身，波形限高，整块可纵向滚动。 */
+  html.kid-tab-sound [class*="sound-editor_editor-container_"]{
+    height:100% !important;min-height:0 !important;
+    overflow-y:auto !important;overflow-x:hidden !important;
+    -webkit-overflow-scrolling:touch !important;
+    padding:8px !important}
+  html.kid-tab-sound [class*="sound-editor_waveform-container_"]{
+    flex:0 0 auto !important;
+    min-height:96px !important;max-height:176px !important;
+    margin-top:8px !important;margin-bottom:8px !important}
+  /* 波形图是 600×160 的固定画布，手机上横向超宽会把容器顶出去 */
+  html.kid-tab-sound [class*="sound-editor_waveform-container_"] svg,
+  html.kid-tab-sound [class*="waveform_container_"]{
+    width:100% !important;max-width:100% !important;height:100% !important}
+  html.kid-tab-sound [class*="sound-editor_row_"]{
+    flex:0 0 auto !important;min-height:0 !important}
+  /* 收起：只留播放 / 停止，效果按钮那一排先藏起来，波形立刻多出 60px */
+  html.kid-tools-collapsed.kid-tab-sound
+    [class*="sound-editor_effect-button_"]{display:none !important}
 
   /* 工具栏展开 / 收起的开关，贴在 tab 条右边的空白处 */
   #kidToolToggle{position:fixed;top:6px;right:8px;z-index:620;display:none;
@@ -215,7 +232,8 @@
     background:#fff;border:1px solid #D9D4F0;color:#5B4BA8;
     font:12px/1 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;
     font-weight:700;box-shadow:0 2px 8px rgba(90,72,160,.16)}
-  html.kid-tab-costume #kidToolToggle{display:flex}
+  html.kid-tab-costume #kidToolToggle,
+  html.kid-tab-sound #kidToolToggle{display:flex}
   #kidToolToggle .ar{font-size:10px;color:#9A93B8}
 
   /* 浏览器策略：没有真实点击，AudioContext 会一直挂起 → 演出没声音。
@@ -444,9 +462,56 @@
   function whenVm(cb, tries) {
     var n = tries || 0;
     var v = getVm();
-    if (v) { cb(v); return; }
+    if (v) { hookSay(v); cb(v); return; }
     if (n > 250) { post({type: 'error', message: '编辑器启动超时'}); return; }
     setTimeout(function () { whenVm(cb, n + 1); }, 120);
+  }
+
+  /* ── 「说」积木：把文字念出来 ────────────────────────
+     Scratch 的「说 你好」只画一个气泡，不发声；孩子点了「开始」，
+     屏幕上出了字却一点声音没有，就会以为坏了（这也是反馈里那条
+     「添加了说话积木但没声音」）。这里监听 VM 的 SAY 事件，
+     把文字交给 App 用系统 TTS 念；浏览器预览（没有桥）退回到
+     speechSynthesis。连续的 say for secs 会重复触发，做 1.2 秒去重。 */
+  var _sayHooked = null;
+  var _lastSayText = '';
+  var _lastSayAt = 0;
+  var _ttsOn = true;
+
+  function speakSay(txt) {
+    txt = String(txt || '').replace(/\s+/g, ' ').trim();
+    if (!txt || !_ttsOn) return;
+    var now = Date.now();
+    if (txt === _lastSayText && now - _lastSayAt < 1200) return;
+    _lastSayText = txt;
+    _lastSayAt = now;
+    if (window.KidCodingBridge) { post({type: 'say', text: txt}); return; }
+    try {
+      if (window.speechSynthesis && window.SpeechSynthesisUtterance) {
+        var u = new SpeechSynthesisUtterance(txt);
+        u.lang = 'zh-CN';
+        u.rate = 0.95;
+        u.pitch = 1.15;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(u);
+      }
+    } catch (e) {}
+  }
+  function hookSay(v) {
+    if (!v || !v.runtime || _sayHooked === v) return;
+    try {
+      v.runtime.on('SAY', function (target, type, text) {
+        if (String(type) !== 'say') return; // 「想」只是心里想，不念
+        speakSay(text);
+      });
+      _sayHooked = v;
+    } catch (e) {}
+  }
+  /* 念到一半点「停」或者切走，别让声音继续飘 */
+  function stopSay() {
+    _lastSayText = '';
+    if (window.speechSynthesis) { try { window.speechSynthesis.cancel(); } catch (e) {} }
+    post({type: 'sayStop'});
   }
   /* 素材真正装进造型 / 声音时走的是 storage.load(assetType, assetId, dataFormat)，
      不产生网络请求，fetch / XHR 都拦不到，所以要在这一层接本地素材。 */
@@ -616,6 +681,7 @@
     setTimeout(function () { try { window.dispatchEvent(new Event('resize')); } catch (e) {} }, 60);
     setTimeout(function () { try { window.dispatchEvent(new Event('resize')); } catch (e) {} }, 320);
     post({type: 'tabChanged', tab: t});
+    refreshToolLabel();
   }
   setInterval(syncTab, 400);
   // 点 tab 的那一刻就切 class，别等 400ms 轮询——否则 paint editor 会按旧尺寸先画一帧
@@ -629,13 +695,22 @@
      顶上两行工具（名称/撤销/组合/前后放 一行，填充/轮廓/线宽/复制/删除 一行）
      吃掉 114px，手机上画布只剩一条缝。默认收成一行，点右上角再展开；
      孩子一选画笔 / 形状 / 文字这些绘图工具，也自动把颜色条露出来。 */
+  function toolLabelText(open) {
+    var sound = document.documentElement.classList.contains('kid-tab-sound');
+    if (open) return sound ? '收起效果' : '收起工具';
+    return sound ? '音效工具' : '颜色/线宽';
+  }
+  function refreshToolLabel() {
+    var open = !document.documentElement.classList.contains('kid-tools-collapsed');
+    var label = document.getElementById('kidToolLabel');
+    var ar = document.querySelector('#kidToolToggle .ar');
+    if (label) label.textContent = toolLabelText(open);
+    if (ar) ar.textContent = open ? '▴' : '▾';
+  }
   function setTools(open) {
     var root = document.documentElement;
     root.classList.toggle('kid-tools-collapsed', !open);
-    var label = document.getElementById('kidToolLabel');
-    var ar = document.querySelector('#kidToolToggle .ar');
-    if (label) label.textContent = open ? '收起工具' : '颜色/线宽';
-    if (ar) ar.textContent = open ? '▴' : '▾';
+    refreshToolLabel();
     setTimeout(function () { try { window.dispatchEvent(new Event('resize')); } catch (e) {} }, 80);
     setTimeout(function () { try { window.dispatchEvent(new Event('resize')); } catch (e) {} }, 360);
   }
@@ -1065,6 +1140,7 @@
         if (tabList[0]) { try { tabList[0].click(); } catch (e) {} }
       }
       resumeAudio(true);
+      stopSay();
       setView('stage', true);
       var go = function () {
         try { v.stopAll(); v.greenFlag(); } catch (e) {}
@@ -1085,6 +1161,7 @@
       if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
       resumeAudio(true);
       v.stopAll();
+      stopSay();
       v.greenFlag();
       post({type: 'runResult', ok: true, silent: soundsInProject() === 0});
     },
@@ -1093,6 +1170,9 @@
     /* 从后台 / 通知栏回来时补一刀 */
     ensureAudio: function () { return resumeAudio(true); },
     audioState: function () { return audioState(); },
+    /* 「说」积木要不要念出来（默认开） */
+    setSpeech: function (on) { _ttsOn = !!on; if (!_ttsOn) stopSay(); return _ttsOn; },
+    speechState: function () { return _ttsOn; },
     /** 声音自检：同一个 AudioContext 放一声「嘀」，返回诊断信息 */
     testSound: function () {
       resumeAudio(true);
@@ -1116,6 +1196,7 @@
     stopAll: function () {
       var v = getVm();
       if (v) v.stopAll();
+      stopSay();
       post({type: 'runResult', ok: true, stopped: true});
     },
     /* 角色视图里点了「背景」：选中舞台，回积木视图改背景 */
