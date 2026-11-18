@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN" class="kid-view-edit">
+<html lang="zh-CN" class="kid-view-code">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
@@ -22,44 +22,123 @@
   /* 触屏上放大素材库/造型库的列表项，原来 96px 太小不好点 */
   [class*="library-item_library-item_"]{min-width:104px !important;min-height:104px !important}
 
-  /* ─── 视图一：搭积木（默认）───────────────────────────────
-     手机横屏只有 780 宽，而 Scratch 的布局是「积木 598 + 舞台 426 = 1024」，
-     舞台那一列会被整个推到屏幕外，怎么滑都看不到。所以编辑时先把舞台收起来，
-     宽度全给积木和工作区；底部留一条 84px 的角色条，用来切换角色。
-     想看效果点「🎬 看效果」，舞台会单独全屏铺开。 */
   /* 菜单栏被藏起来后，body 还留着 48px 的空档，退回来给编辑区 */
   [class*="gui_body-wrapper_"]{height:100% !important}
-  html.kid-view-edit [class*="gui_body-wrapper_"]{
+  html.kid-view-code [class*="gui_body-wrapper_"],
+  html.kid-view-sprite [class*="gui_body-wrapper_"]{
     display:flex !important;flex-direction:column !important}
-  html.kid-view-edit [class*="gui_editor-wrapper_"]{
+
+  /* ═══ 视图一：积木（默认）═══════════════════════════════
+     手机横屏 780 宽，而 Scratch 的布局是「积木 598 + 舞台 426 = 1024」，
+     舞台那一列会被整个推到屏幕外，怎么滑都看不到。所以编辑时把角色条和舞台
+     一起收掉，宽度和高度全给积木；要看角色点「角色」，要看效果点「舞台」。 */
+  html.kid-view-code [class*="gui_editor-wrapper_"]{
     flex:1 1 auto !important;flex-basis:auto !important;width:100% !important;
     min-width:0 !important;min-height:0 !important}
-  html.kid-view-edit [class*="stage-and-target-wrapper_"]{
-    flex:0 0 96px !important;width:100% !important;height:96px !important;
-    min-height:0 !important;position:relative !important;overflow:hidden !important}
-  /* 舞台不是 display:none 而是挪到屏幕外：让它保持 408×306 的布局尺寸，
-     canvas 的绘制缓冲才不会变成 0×0（变 0 之后再切回来就是一片白）。 */
-  html.kid-view-edit [class*="stage-wrapper_stage-wrapper_"]{
+  /* 舞台这一列高度压成 0。舞台本身是屏幕外的绝对定位元素，自带 410×310 的
+     固定尺寸，所以 canvas 的绘制缓冲不会缩成 0×0（缩成 0 再切回来就是一片白）。 */
+  html.kid-view-code [class*="stage-and-target-wrapper_"]{
+    flex:0 0 0 !important;width:100% !important;height:0 !important;min-height:0 !important;
+    padding:0 !important;overflow:hidden !important;position:relative !important}
+  html.kid-view-code [class*="stage-wrapper_stage-wrapper_"]{
     position:absolute !important;left:-10000px !important;top:0 !important;
     display:block !important}
-  html.kid-view-edit [class*="gui_target-wrapper_"]{
-    flex:1 1 auto !important;height:100% !important;min-height:0 !important;
-    padding:0 4px 4px !important}
-  html.kid-view-edit [class*="sprite-info_"]{display:none !important}
-  html.kid-view-edit [class*="stage-selector-wrapper_"]{flex-basis:64px !important}
-  /* 角色卡片放大到 72px，小手更好点 */
-  html.kid-view-edit [class*="sprite-selector_sprite-wrapper_"]{
-    width:72px !important;min-width:72px !important;max-width:72px !important;
-    height:72px !important;min-height:72px !important}
-  /* 原来 scroll-wrapper 高度是「100% - 96px 角色信息条」，我们藏了信息条，
-     高度算成 0，角色卡片就全被裁掉了 */
-  html.kid-view-edit [class*="sprite-selector_scroll-wrapper_"]{
-    height:100% !important;overflow-y:hidden !important;overflow-x:auto !important}
-  html.kid-view-edit [class*="sprite-selector_items-wrapper_"]{
-    justify-content:flex-start !important;flex-wrap:nowrap !important}
 
-  /* ─── 视图二：看效果（舞台全屏铺开）────────────────────── */
-  html.kid-view-stage [class*="gui_editor-wrapper_"]{display:none !important}
+  /* ═══ 视图二：角色（全屏列表，点一下就去改它）═══════════
+     注意：编辑器本身不隐藏，只是被这一层盖住。把它 display:none 会让 Blockly
+     重新算尺寸、把滚动位置重置，切回来积木会突然跳一段（还会钻到调色板底下）。
+     z-index 用 400：素材库弹窗是 501/510，得压在它上面。 */
+  html.kid-view-sprite [class*="stage-and-target-wrapper_"]{
+    position:fixed !important;inset:0 !important;width:100vw !important;height:100vh !important;
+    z-index:400 !important;margin:0 !important;padding:0 !important;
+    display:flex !important;flex-direction:column !important;background:#F6F4FF !important}
+  html.kid-view-sprite [class*="stage-wrapper_stage-wrapper_"]{
+    position:absolute !important;left:-10000px !important;top:0 !important;
+    display:block !important}
+  html.kid-view-sprite [class*="gui_target-wrapper_"]{
+    flex:1 1 auto !important;width:100% !important;height:auto !important;
+    min-height:0 !important;margin:0 !important;padding:0 !important;display:flex !important}
+  html.kid-view-sprite [class*="target-pane_target-pane_"]{
+    display:flex !important;flex-direction:column !important;
+    width:100% !important;height:100% !important;min-height:0 !important}
+  html.kid-view-sprite [class*="sprite-selector_sprite-selector_"]{
+    flex:1 1 auto !important;min-height:0 !important;margin:0 !important;
+    border:0 !important;border-radius:0 !important;background:#F6F4FF !important;
+    display:flex !important;flex-direction:column !important}
+  /* 舞台 / 角色的 x、y、大小数字面板：小孩用不到，藏掉 */
+  html.kid-view-sprite [class^="sprite-info_sprite-info_"]{display:none !important}
+  html.kid-view-sprite [class*="sprite-selector_scroll-wrapper_"]{
+    flex:1 1 auto !important;height:auto !important;min-height:0 !important;
+    overflow-y:auto !important;overflow-x:hidden !important;
+    -webkit-overflow-scrolling:touch !important}
+  html.kid-view-sprite [class*="sprite-selector_items-wrapper_"]{
+    display:flex !important;flex-direction:column !important;flex-wrap:nowrap !important;
+    padding:10px 10px 92px !important;margin:0 !important}
+  /* 角色卡片从 72px 方块改成一整行：左边大图，右边名字，最好认也最好点 */
+  html.kid-view-sprite [class*="sprite-selector_sprite-wrapper_"]{
+    width:100% !important;min-width:0 !important;max-width:none !important;
+    height:78px !important;min-height:78px !important;margin:0 0 8px !important}
+  html.kid-view-sprite [class*="sprite-selector-item_sprite-selector-item_"]{
+    flex-direction:row !important;align-items:center !important;
+    background:#fff !important;border-radius:16px !important;
+    border:2px solid rgba(92,80,140,.12) !important;
+    box-shadow:0 2px 6px rgba(80,66,140,.07) !important}
+  html.kid-view-sprite [class*="sprite-selector-item_is-selected_"]{
+    border-color:#6E56CF !important;box-shadow:0 0 0 3px rgba(110,86,207,.22) !important}
+  html.kid-view-sprite [class*="sprite-selector-item_sprite-image-outer_"]{
+    flex:0 0 64px !important;width:64px !important;height:64px !important;margin-left:6px !important}
+  html.kid-view-sprite body [class*="sprite-selector-item_sprite-image_"]{
+    max-width:52px !important;max-height:52px !important}
+  html.kid-view-sprite [class*="sprite-selector-item_sprite-info_"]{
+    flex:1 1 auto !important;text-align:left !important;padding:0 12px !important;
+    background:transparent !important;color:#3C3A52 !important}
+  html.kid-view-sprite [class*="_sprite-name_"]{
+    font-size:15px !important;font-weight:700 !important;line-height:1.4 !important}
+  html.kid-view-sprite [class*="_sprite-details_"]{font-size:11px !important;opacity:.6}
+  html.kid-view-sprite [class*="sprite-selector-item_is-selected_"] [class*="_sprite-name_"]{
+    color:#4B33B8 !important}
+  /* 选中角色右上角那个小叉：位置摆正，别压住卡片 */
+  html.kid-view-sprite [class*="sprite-selector-item_delete-button_"]{
+    top:50% !important;right:10px !important;transform:translateY(-50%) !important}
+  /* 底部「背景」横条：点一下就去改背景 */
+  html.kid-view-sprite [class*="target-pane_stage-selector-wrapper_"]{
+    flex:0 0 auto !important;width:100% !important;height:84px !important;
+    margin:0 !important;padding:8px 10px 10px !important}
+  html.kid-view-sprite [class*="stage-selector_stage-selector_"]{
+    flex-direction:row !important;align-items:center !important;
+    width:100% !important;height:100% !important;overflow:hidden !important;
+    background:#fff !important;border-radius:16px !important;
+    border:2px solid rgba(92,80,140,.12) !important;
+    box-shadow:0 2px 6px rgba(80,66,140,.07) !important}
+  html.kid-view-sprite [class*="stage-selector_header_"]{
+    flex:0 0 72px !important;width:72px !important;height:100% !important;
+    border:0 !important;border-radius:0 !important;background:transparent !important}
+  html.kid-view-sprite [class*="stage-selector_header-title_"]{
+    font-size:14px !important;font-weight:700 !important}
+  html.kid-view-sprite [class*="stage-selector_costume-canvas_"]{
+    flex:0 0 auto !important;max-width:92px !important;max-height:62px !important;
+    margin:0 10px !important}
+  html.kid-view-sprite [class*="stage-selector_label_"]{
+    margin:0 !important;font-size:13px !important;font-weight:700 !important;color:#3C3A52 !important}
+  html.kid-view-sprite [class*="stage-selector_count_"]{
+    padding:2px 8px !important;font-size:11px !important;color:#7A7396 !important}
+  /* 右侧小箭头：告诉孩子这一条是可以点的 */
+  html.kid-view-sprite [class*="stage-selector_stage-selector_"]::after{
+    content:"›";margin-left:auto;padding-right:14px;font-size:22px;line-height:1;
+    color:#B9B2D0;font-weight:400}
+  html.kid-view-sprite [class*="stage-selector_add-button_"]{display:none !important}
+  /* 「添加角色」做成右下角的大圆按钮，小孩一眼看到 */
+  html.kid-view-sprite [class*="sprite-selector_add-button_"]{
+    position:fixed !important;right:14px !important;bottom:96px !important;
+    left:auto !important;top:auto !important;
+    width:60px !important;height:60px !important;z-index:9100 !important}
+  html.kid-view-sprite [class*="sprite-selector_add-button_"] button[class*="action-menu_main-button_"]{
+    width:60px !important;height:60px !important;border-radius:50% !important;
+    background:#6E56CF !important;box-shadow:0 6px 18px rgba(70,52,150,.35) !important}
+  html.kid-view-sprite [class*="sprite-selector_add-button_"] img{
+    width:30px !important;height:30px !important;margin:0 auto !important}
+
+  /* ═══ 视图三：舞台（全屏铺开）══════════════════════════ */
   html.kid-view-stage [class*="stage-and-target-wrapper_"]{
     position:fixed !important;inset:0 !important;width:100vw !important;height:100vh !important;
     z-index:9000 !important;margin:0 !important;padding:0 !important;
@@ -75,7 +154,7 @@
   html.kid-view-stage [class*="stage_stage-wrapper_"]{
     width:100% !important;height:100% !important;padding:0 !important;
     display:flex !important;align-items:center !important;justify-content:center !important}
-  /* 舞台本身是固定 480×360（或窄屏 408×306）的位图，这里整体等比缩放铺进屏幕，
+  /* 舞台本身是固定 480×360（或 408×306）的位图，这里整体等比缩放铺进屏幕，
      保证四个角都在屏幕里，不会再有「最右边差一截」。 */
   html.kid-view-stage [class^="stage_stage_"]{
     flex:0 0 auto !important;margin:0 !important;
@@ -83,18 +162,40 @@
   html.kid-view-stage [class*="gui_target-wrapper_"]{display:none !important}
 
   /* 竖屏时积木栏会吃掉一大半宽度，提示孩子把手机横过来 */
-  #kidRotate{position:fixed;left:50%;bottom:104px;transform:translateX(-50%);
+  #kidRotate{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);
     display:none;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;
     background:rgba(52,47,75,.88);color:#fff;z-index:60;pointer-events:none;
     font:12px/1 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;white-space:nowrap}
   @media (orientation:portrait){
-    html.kid-view-edit #kidRotate{display:flex}
+    html.kid-view-code #kidRotate{display:flex}
   }
+
+  /* 删角色前的确认：小孩误点一下就把角色弄丢，太心疼了 */
+  #kidConfirm{position:fixed;inset:0;z-index:99999;display:none;
+    align-items:center;justify-content:center;background:rgba(28,24,48,.5);
+    font:14px/1.5 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif}
+  #kidConfirm .box{width:268px;padding:20px 18px 14px;border-radius:18px;background:#fff;
+    box-shadow:0 18px 44px rgba(0,0,0,.28);text-align:center}
+  #kidConfirm .t{font-size:14px;line-height:1.6;color:#3C3A52;margin-bottom:6px}
+  #kidConfirm .row{display:flex;gap:10px;margin-top:14px}
+  #kidConfirm button{flex:1;height:42px;border-radius:12px;border:0;font-size:14px;
+    font-weight:700;font-family:inherit}
+  #kidConfirm #kidConfirmNo{background:#F2F0FA;color:#5C5580}
+  #kidConfirm #kidConfirmYes{background:#F0616B;color:#fff}
 </style>
 </head>
 <body>
 <div id="boot"><div class="sp"></div><div id="bootTxt">创作室正在准备…</div></div>
 <div id="kidRotate">↻ 把手机横过来，积木区会宽一倍</div>
+<div id="kidConfirm">
+  <div class="box">
+    <div class="t" id="kidConfirmTxt">要删掉这个角色吗？</div>
+    <div class="row">
+      <button id="kidConfirmNo">留着</button>
+      <button id="kidConfirmYes">删掉</button>
+    </div>
+  </div>
+</div>
 <div id="scratch"></div>
 
 <!-- 离线素材表：背景 / 角色 / 声音全部内置，官方 CDN 在国内连不上 -->
@@ -196,7 +297,8 @@
 <script>
 /* ── 2. 与 App 的桥 ───────────────────────────────────────
    消息类型：ready / vmReady / saveBegin / saveChunk / saveEnd /
-             saveResult / loadResult / runResult / viewChanged / error */
+             saveResult / loadResult / runResult / viewChanged /
+             targetChanged / error */
 (function () {
   var lesson = null;
   var cachedVm = null;
@@ -204,7 +306,8 @@
   var dirty = false;
   var autoTimer = null;
   var saveSeq = 0;
-  var view = 'edit';
+  var view = 'code';
+  var lastTargetKey = '';
 
   function post(o) {
     try {
@@ -218,6 +321,13 @@
   function hideBoot() {
     var el = document.getElementById('boot');
     if (el) el.style.display = 'none';
+  }
+  function closest(el, sel) {
+    while (el && el.nodeType === 1) {
+      try { if (el.matches(sel)) return el; } catch (e) {}
+      el = el.parentElement;
+    }
+    return null;
   }
   function getVm() {
     if (cachedVm) return cachedVm;
@@ -285,10 +395,12 @@
     return out;
   }
 
-  /* ── 视图切换：搭积木 / 看效果 ─────────────────────────────
-     手机上「积木区 + 舞台区」并排放不下（需要 1024px 宽），所以做成两个视图：
-       edit  —— 舞台收起，宽度全给积木，底部留角色条
-       stage —— 舞台单独铺满屏幕，等比缩放，四角都在屏幕内
+  /* ── 视图切换：积木 / 角色 / 舞台 ──────────────────────────
+     手机上「积木区 + 舞台区」并排放不下（需要 1024px 宽），屏幕只有 780，
+     所以一次只给一屏内容，用 App 顶栏的三个按钮切换：
+       code   —— 只有积木，宽度和高度全部给它
+       sprite —— 全屏角色列表，点一下角色就回去改它
+       stage  —— 舞台单独铺满屏幕，等比缩放，四角都在屏幕内
      切换后要主动触发一次 resize，Blockly 和舞台渲染器才会按新尺寸重排。 */
   function stageEl() {
     var list = document.querySelectorAll('[class^="stage_stage_"]');
@@ -297,7 +409,7 @@
     }
     return document.querySelector('canvas');
   }
-  /* 舞台被挪到屏幕外时（编辑视图），canvas 的绘制缓冲可能被算成 0×0，
+  /* 舞台被挪到屏幕外时（积木 / 角色视图），canvas 的绘制缓冲可能被算成 0×0，
      切回来看效果就是一片白。这里按舞台当前的内框尺寸重新分配缓冲并重画。 */
   function hardRefreshStage() {
     var v = getVm();
@@ -339,10 +451,11 @@
     }, 420);
   }
   function setView(next, silent) {
-    view = next === 'stage' ? 'stage' : 'edit';
+    view = (next === 'sprite' || next === 'stage') ? next : 'code';
     var root = document.documentElement;
+    root.classList.toggle('kid-view-code', view === 'code');
+    root.classList.toggle('kid-view-sprite', view === 'sprite');
     root.classList.toggle('kid-view-stage', view === 'stage');
-    root.classList.toggle('kid-view-edit', view === 'edit');
     setTimeout(relayout, 30);
     setTimeout(relayout, 320);
     if (!silent) post({type: 'viewChanged', view: view});
@@ -356,6 +469,113 @@
       fitStage();
     }, 600);
   });
+
+  /* ── 角色视图里的交互 ─────────────────────────────────────
+     1) 点某个角色 / 背景，就回到积木视图去改它（孩子少一步操作）
+     2) 点角色右上角的小叉，先问一句再删，避免误触丢角色 */
+  function targetOf(el) {
+    return closest(el, '[class*="sprite-selector_sprite-wrapper_"],' +
+                         '[class*="stage-selector_stage-selector_"]');
+  }
+  var pendingDel = null;
+  /* Scratch 自己的删除确认是个贴着角色卡片的小气泡，两个纯图标按钮（垃圾桶 / 撤销箭头），
+     手机上既难点又看不懂，而且它的 z-index 比角色层低，会被盖住。
+     做法：× 先照常点下去（让 Scratch 打开它的气泡），我们随即盖上自己这套大字确认框，
+     回答「留着 / 删掉」后再去点它那两个按钮，走它原本的删除流程。 */
+  function askDelete(btn) {
+    var card = closest(btn, '[class*="sprite-selector_sprite-wrapper_"]');
+    var nameEl = card && card.querySelector('[class*="_sprite-name_"]');
+    var name = nameEl ? String(nameEl.textContent || '').trim() : '';
+    var txt = document.getElementById('kidConfirmTxt');
+    if (txt) {
+      txt.textContent = name
+        ? ('要删掉「' + name + '」吗？删掉就找不回来啦')
+        : '要删掉这个角色吗？删掉就找不回来啦';
+    }
+    pendingDel = btn;
+    var box = document.getElementById('kidConfirm');
+    if (box) box.style.display = 'flex';
+  }
+  function hideConfirm() {
+    var box = document.getElementById('kidConfirm');
+    if (box) box.style.display = 'none';
+    pendingDel = null;
+  }
+  function answerDelete(yes) {
+    var btn = scratchPromptBtn(yes ? 'confirm' : 'cancel');
+    hideConfirm();
+    if (btn) { try { btn.click(); } catch (e) {} }
+  }
+  function scratchPromptBtn(kind) {
+    return document.querySelector('[class*="confirmation-prompt_' + kind + '-button_"]');
+  }
+  (function bindConfirm() {
+    var box = document.getElementById('kidConfirm');
+    var no = document.getElementById('kidConfirmNo');
+    var yes = document.getElementById('kidConfirmYes');
+    if (no) no.addEventListener('click', function () { answerDelete(false); });
+    if (yes) yes.addEventListener('click', function () { answerDelete(true); });
+    // 点暗处 = 留着
+    if (box) box.addEventListener('click', function (e) {
+      if (e.target === box) answerDelete(false);
+    });
+  })();
+
+  document.addEventListener('click', function (e) {
+    if (view !== 'sprite') return;
+    var del = closest(e.target, '[class*="sprite-selector-item_delete-button_"]');
+    if (!del) return;
+    askDelete(del);
+  }, true);
+
+  // 「+」直接开素材库，不要先弹一排小图标：小孩看不懂也不想点两下
+  document.addEventListener('click', function (e) {
+    if (view !== 'sprite') return;
+    var main = closest(e.target,
+        '[class*="sprite-selector_add-button_"] [class*="action-menu_main-button_"]');
+    if (!main || main.__kidPass) return;
+    e.preventDefault();
+    e.stopPropagation();
+    var items = document.querySelectorAll(
+        '[class*="sprite-selector_add-button_"] [class*="action-menu_more-buttons_"] li button');
+    if (items.length) {
+      items[items.length - 1].click();   // 第 4 项 = 从素材库选择
+    } else {
+      main.__kidPass = true;
+      try { main.click(); } catch (err) {}
+      main.__kidPass = false;
+    }
+  }, true);
+
+  // 选中角色 / 背景后自动回到积木视图
+  document.addEventListener('click', function (e) {
+    if (view !== 'sprite') return;
+    if (closest(e.target, '[class*="action-menu"]')) return;
+    if (closest(e.target, '[class*="delete-button"]')) return;
+    var card = targetOf(e.target);
+    if (!card) return;
+    setTimeout(function () { setView('code'); }, 320);
+  });
+
+  /* 当前在改哪个角色：顶栏要显示，不然积木视图里看不出在给谁编程 */
+  function reportTarget() {
+    var v = getVm();
+    if (!v || !v.runtime) return;
+    var name = '', isStage = false, count = 0;
+    try {
+      var t = v.runtime.getEditingTarget ? v.runtime.getEditingTarget() : null;
+      if (t) {
+        name = t.getName ? t.getName() : (t.sprite && t.sprite.name) || '';
+        isStage = !!t.isStage;
+      }
+      var list = v.runtime.targets || [];
+      for (var i = 0; i < list.length; i++) if (!list[i].isStage) count++;
+    } catch (e) {}
+    var key = name + '|' + isStage + '|' + count;
+    if (key === lastTargetKey) return;
+    lastTargetKey = key;
+    post({type: 'targetChanged', name: name, isStage: isStage, count: count});
+  }
 
   /* ── 保存：作品可能有几 MB，切成小段回传，避免一次消息过大被丢掉 ── */
   var saving = false;
@@ -463,6 +683,12 @@
     try {
       v.on('PROJECT_CHANGED', markDirty);
     } catch (e) {}
+    try {
+      v.on('targetsUpdate', reportTarget);
+    } catch (e) {}
+    try {
+      v.on('PROJECT_RUN_STOP', reportTarget);
+    } catch (e) {}
     post({type: 'vmReady', engine: 'scratch3', ok: true});
     // 等一小会儿：如果 App 那边有存过的作品，让它先灌进来，别和起步作品打架
     setTimeout(function () {
@@ -471,6 +697,7 @@
       try { empty = !v.runtime.targets || v.runtime.targets.length === 0; } catch (e) {}
       if (empty) loadStarter(v);
       setTimeout(relayout, 600);
+      setTimeout(reportTarget, 900);
     }, 900);
   });
 
@@ -503,7 +730,7 @@
     view: function () { return view; },
     /* App 换了顶栏高度，WebView 视口跟着变，要重新贴合一次 */
     relayout: function () { relayout(); },
-    /* 开始：先切到「看效果」再跑，孩子一定看得到舞台 */
+    /* 开始：先切到「舞台」再跑，孩子一定看得到 */
     run: function () {
       var v = getVm();
       if (!v) { post({type: 'runResult', ok: false, message: '编辑器还没准备好'}); return; }
@@ -525,11 +752,18 @@
       if (v) v.stopAll();
       post({type: 'runResult', ok: true, stopped: true});
     },
+    /* 角色视图里点了「背景」：选中舞台，回积木视图改背景 */
+    editStage: function () {
+      var el = document.querySelector('[class*="stage-selector_stage-selector_"]');
+      if (el) el.click();
+      setView('code');
+    },
     stats: function () {
-      return JSON.stringify({hit: window.__kidAssetHit, vm: !!getVm(), view: view});
+      return JSON.stringify({hit: window.__kidAssetHit, vm: !!getVm(),
+                             view: view, target: lastTargetKey});
     }
   };
-  setView('edit', true);
+  setView('code', true);
 })();
 </script>
 </body>
