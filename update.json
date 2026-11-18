@@ -1,78 +1,76 @@
 {
   "schema": 1,
-  "versionName": "1.9.8",
-  "versionCode": 49,
-  "apkName": "kids_pet_learning_1.9.8_49.apk",
-  "size": 67019236,
-  "sha256": "8a753d23b8cc9935693ffc9ab15360a9b7b8ccc564a9821399c8313d43eaf091",
+  "versionName": "1.9.9",
+  "versionCode": 50,
+  "apkName": "kids_pet_learning_1.9.9_50.apk",
+  "size": 67258936,
+  "sha256": "f976bb02bc314fe8d9c214e5aa5e939be52f698275ecef6b3f39f3e4e53bb083",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.8_49/part_000.bin",
+      "path": "apk/v1.9.9_50/part_000.bin",
       "size": 6291456,
-      "sha256": "70b901b6de40e6e2801c1499e3466adbd18762b3fe7a994c6cb14bb037f1d642"
+      "sha256": "8ee660977c9b71b65b66f1ccf2761372d51c725cf29fdc5455e8285dfa814676"
     },
     {
-      "path": "apk/v1.9.8_49/part_001.bin",
+      "path": "apk/v1.9.9_50/part_001.bin",
       "size": 6291456,
-      "sha256": "2480a33cc5d1756e3e59d7bff10e7fe4e97ab6ac4015c9fa8e5d792dbe47c498"
+      "sha256": "fa7384d708fef3a7d113920ea85deeb90cd85cdd0271ab5a3fa924ef565c1402"
     },
     {
-      "path": "apk/v1.9.8_49/part_002.bin",
+      "path": "apk/v1.9.9_50/part_002.bin",
       "size": 6291456,
       "sha256": "ab17e3758cb0c096401555b1bb22d9b96a402d1c5d56476dc3f3fb0ff0c648f2"
     },
     {
-      "path": "apk/v1.9.8_49/part_003.bin",
+      "path": "apk/v1.9.9_50/part_003.bin",
       "size": 6291456,
-      "sha256": "b961502dccde93c5be514454dca35eb67f2769c844555f3f971ee272db1ef211"
+      "sha256": "9bb2c3b01d7beefbdcdf1245b60eb410a30f35639601bc6a8bf5938c7f533712"
     },
     {
-      "path": "apk/v1.9.8_49/part_004.bin",
+      "path": "apk/v1.9.9_50/part_004.bin",
       "size": 6291456,
-      "sha256": "c4a8338919685b2410fb392a266069df58a7c7daa03dbca2e34836ed6248ca95"
+      "sha256": "73d93992590dc884307c9aedef95022499d9ceb25b46e2ed63b2b7b76dcc3c31"
     },
     {
-      "path": "apk/v1.9.8_49/part_005.bin",
+      "path": "apk/v1.9.9_50/part_005.bin",
       "size": 6291456,
-      "sha256": "6c8539f1e5389e987d1b767795f1480fc1fb3b912be5016428631264f3342751"
+      "sha256": "192997e6186a719d7ddb30eb57e99afcec566aab9c85c5db10c01dbe4966ad4c"
     },
     {
-      "path": "apk/v1.9.8_49/part_006.bin",
+      "path": "apk/v1.9.9_50/part_006.bin",
       "size": 6291456,
-      "sha256": "92f829c16de1dea163c545cc7aa1bf1d6026ff6cef6541c9d6b7d8a64d501ffa"
+      "sha256": "9fab78514b8542edd0ad2b0bfa9977a5407465834f81b7bdec4d37dac5c91281"
     },
     {
-      "path": "apk/v1.9.8_49/part_007.bin",
+      "path": "apk/v1.9.9_50/part_007.bin",
       "size": 6291456,
-      "sha256": "f460696a1f8659bac4ad4477e637df568bee1277472fce673c3f7e1a2607ddd7"
+      "sha256": "190ae6181adaac23c27370d42819bdc409d1414b77404ea45e103709b8dae993"
     },
     {
-      "path": "apk/v1.9.8_49/part_008.bin",
+      "path": "apk/v1.9.9_50/part_008.bin",
       "size": 6291456,
-      "sha256": "86e54f7bc16c4c83c47691069bdd02709b97d634abe8082b7405c5bf3f96ee8f"
+      "sha256": "31bac4f9b307a4c039bec3b7f8f8847ea1b6628aa637f0469a8f91765dc74a80"
     },
     {
-      "path": "apk/v1.9.8_49/part_009.bin",
+      "path": "apk/v1.9.9_50/part_009.bin",
       "size": 6291456,
-      "sha256": "6d3495a095a39613a48135d54e7cbd6a34446a00077ffe754e1bfb9cbf6cc36d"
+      "sha256": "0d47ec4e94e14cc66583b47e73987239db0a5d2ad0c2fd75f50251d4b8c51468"
     },
     {
-      "path": "apk/v1.9.8_49/part_010.bin",
-      "size": 4104676,
-      "sha256": "7244d4a2b8cdbcf2cd07cad3bfbc30dd3ede631d7805fe877c221bb9d5debd9f"
+      "path": "apk/v1.9.9_50/part_010.bin",
+      "size": 4344376,
+      "sha256": "7e7ca36a984491d771be0aba04fef0c13975d216a2beafa9fe18f8a16804bfb8"
     }
   ],
-  "updatedAt": "2026-11-18T17:14:36+08:00",
+  "updatedAt": "2026-11-18T18:22:25+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "编程里的「说 你好」现在会真的念出来（自定义说的话也念，念完自动停）",
-    "声音编辑器不再被剪裁手柄撑满一屏：波形限高、整块能上下滑，右上角可以收起效果按钮",
-    "换装小屋：宠物固定在屏幕上方，边换边看，下面的衣服列表单独滚动",
-    "星星商城：商品卡片上下间距拉开，不再糊成一片",
-    "成长变难了：等级从 5 级扩到 10 级，每天喂食超过 3 次收益递减、第 8 次起只加心情；玩耍和刷题每天限量发豆",
-    "新增 6 件成长装备（学习帽/能量围巾/专注眼镜/星光披风/智慧小翅膀/学士冠），穿上后每次喂食额外加成长",
-    "老存档按旧等级保底，不会因为改了数值掉级"
+    "重新领养宠物从0级开始、装备清空，切回去各自等级和衣服还在",
+    "换了新的桌面图标：小狐狸看书，更好认",
+    "科学实验下载完退出再进，状态正确显示可玩",
+    "科学实验新增玩法/原理/动动脑/相关实验导读，还能点星星收藏快速打开",
+    "问一问可接入大模型：顶栏一键进设置，DeepSeek/通义/智谱/Kimi 一键配置（需家长自备密钥）"
   ]
 }
