@@ -1,75 +1,75 @@
 {
   "schema": 1,
-  "versionName": "1.9.2",
-  "versionCode": 43,
-  "apkName": "kids_pet_learning_1.9.2_43.apk",
-  "size": 67002324,
-  "sha256": "e72922631acb47ace0cf4a821afb06a5157c336955ae0e26f00bdde5ecbfaf16",
+  "versionName": "1.9.3",
+  "versionCode": 44,
+  "apkName": "kids_pet_learning_1.9.3_44.apk",
+  "size": 67002504,
+  "sha256": "ca2c4790041517d3f0aa7cee5789b304de88c7d8fa9b47ba4459d2444e746809",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.2_43/part_000.bin",
+      "path": "apk/v1.9.3_44/part_000.bin",
       "size": 6291456,
-      "sha256": "5b3b10076fd0b20b187bbf23dccf1411dec7e160ec5c8aa0bd3aa2d79812263b"
+      "sha256": "9d167d5d356fec9a3652b4a5bc7040820361a1cf1cbedab844b1020d8d905945"
     },
     {
-      "path": "apk/v1.9.2_43/part_001.bin",
+      "path": "apk/v1.9.3_44/part_001.bin",
       "size": 6291456,
-      "sha256": "1e593d7494866560fa67203082e5dd512bb91b37f6209300e647f95a19ef8b16"
+      "sha256": "b051d5157eaf425fd5792efcbe446f4105053cea386fe7e3c966e3387e51ab51"
     },
     {
-      "path": "apk/v1.9.2_43/part_002.bin",
+      "path": "apk/v1.9.3_44/part_002.bin",
       "size": 6291456,
       "sha256": "ab17e3758cb0c096401555b1bb22d9b96a402d1c5d56476dc3f3fb0ff0c648f2"
     },
     {
-      "path": "apk/v1.9.2_43/part_003.bin",
+      "path": "apk/v1.9.3_44/part_003.bin",
       "size": 6291456,
-      "sha256": "5146355e9569b5bbb616ae419da910b31fd9b6c98a00815cd47db1a276fa56ad"
+      "sha256": "550d457c81a23312c60cc8277d4b6f44abcb1b3db1d5ae9b232d7b15afd6ea99"
     },
     {
-      "path": "apk/v1.9.2_43/part_004.bin",
+      "path": "apk/v1.9.3_44/part_004.bin",
       "size": 6291456,
-      "sha256": "48e33110bb046a168325a95349a805cc9e006bd46aca920da86c3ff80125b474"
+      "sha256": "a8f181c19d00e59cdbb0fb48b5181575c805af597a9aec12652f45c1026761b6"
     },
     {
-      "path": "apk/v1.9.2_43/part_005.bin",
+      "path": "apk/v1.9.3_44/part_005.bin",
       "size": 6291456,
-      "sha256": "3469d7f4ee5e522ed449ea46cc2e02b232345c2f68d4584580332ac05c198f91"
+      "sha256": "371683d856e2cdfb8f31bd4911e53e7cb63386c07b6965a3ccbf9ca6d2113fd6"
     },
     {
-      "path": "apk/v1.9.2_43/part_006.bin",
+      "path": "apk/v1.9.3_44/part_006.bin",
       "size": 6291456,
-      "sha256": "748df74bd53c0a228b1da6cf4b057f0c9a6b9ba32cb306d1b59f26c615fbf4a9"
+      "sha256": "5b2db65e15ee2b621e321ab37a93de6c8f425b2689c477a95016101cfc18ac91"
     },
     {
-      "path": "apk/v1.9.2_43/part_007.bin",
+      "path": "apk/v1.9.3_44/part_007.bin",
       "size": 6291456,
-      "sha256": "6e14ca7c5067b686f132d7023181ae2dc366167a8a08019c54f035ea17109a9f"
+      "sha256": "0d747919a492a45716d740b1206bc1d5b13c141be68120f2dd34ca64ec8b8012"
     },
     {
-      "path": "apk/v1.9.2_43/part_008.bin",
+      "path": "apk/v1.9.3_44/part_008.bin",
       "size": 6291456,
-      "sha256": "3227c6f1517f37ed6e2e1c19374cb5a9fc22fde0e05082ac4a6c6911ee37e191"
+      "sha256": "b6df59c4e3c7a312b99372ad4339425fd6566cb55fa40704961e2a38384890ad"
     },
     {
-      "path": "apk/v1.9.2_43/part_009.bin",
+      "path": "apk/v1.9.3_44/part_009.bin",
       "size": 6291456,
       "sha256": "f52a08bfef2e80b73b6c875fb02005cb07eeda988434bcacf9b872b6a88e0732"
     },
     {
-      "path": "apk/v1.9.2_43/part_010.bin",
-      "size": 4087764,
-      "sha256": "5bac350819b2a941c0388ea89b7948c902ea01148c2374057bb06d53a53d22cb"
+      "path": "apk/v1.9.3_44/part_010.bin",
+      "size": 4087944,
+      "sha256": "f23cf35168a97553c123753c522526aaf3301056dcbebe089811dfe1524ec001"
     }
   ],
-  "updatedAt": "2026-11-18T09:23:59+08:00",
+  "updatedAt": "2026-11-18T10:24:33+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "困难关：搭积木和看效果分成两个视图，舞台不再被挤出屏幕",
-    "点开始自动铺满屏幕演出，随时点「✏️ 搭积木」回去改",
-    "积木区拿回全部宽度，底部角色条可以换角色",
-    "还修了播放时舞台一片空白的问题"
+    "高级编程页重新排版：编辑时只留积木，角色和舞台收进顶部三个按钮",
+    "角色改成大卡片列表，点谁就改谁，右下角一键加角色",
+    "删角色前会问一句「要删掉吗」",
+    "换背景点底部「舞台」那一条"
   ]
 }
