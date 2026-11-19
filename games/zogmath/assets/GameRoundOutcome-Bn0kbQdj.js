@@ -1,0 +1,1 @@
+import{a as i,r as m}from"./index-ChydO43D.js";function a({finished:s,score:n=0,total:e,solved:o=!0}){const r=i();return m.useEffect(()=>{const u=Number.isFinite(e)&&e>0&&n<=e?e:void 0;s&&r.complete({score:n,total:u,solved:o})},[r,s,n,e,o]),null}export{a as G};

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" fill="none">
+<defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#4c1d95" flood-opacity=".085"/></filter><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1l5 3-5 3" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g stroke-linecap="round" stroke-linejoin="round" font-family="Trebuchet MS, Verdana, sans-serif">
+<ellipse cx="301" cy="327" rx="252" ry="14" fill="#e8e0f5" opacity=".8"/>
+<rect x="151" y="30" width="390" height="182" rx="12" fill="#daceed"/>
+<rect x="151" y="25" width="390" height="181" rx="12" fill="#fffdfb" stroke="#cabce4" stroke-width="3" filter="url(#shadow)"/>
+<path d="M158 194h376" stroke="#e4dded" stroke-width="12"/><path d="M451 191h33" stroke="#7c3aed" stroke-width="5"/><path d="M490 191h15" stroke="#5aa99b" stroke-width="5"/>
+<circle cx="218" cy="103" r="38" fill="#ede9fe"/><path d="M218 65a38 38 0 0 0 0 76Z" fill="#9f7aea"/><path d="M218 65v76" stroke="#fffdfb" stroke-width="3"/>
+<path d="m428 65 40 23-40 24-40-24Z" fill="#ddd0fa"/><path d="m388 88 40 24v46l-40-23Z" fill="#ad8fe4"/><path d="m428 112 40-24v47l-40 23Z" fill="#7c3aed"/><path d="m428 65 40 23v47l-40 23-40-23V88l40-23Zm-40 23 40 24 40-24m-40 24v46" stroke="#7c3aed" stroke-opacity=".25" stroke-width="2"/>
+<path d="M268 103h25m-25 9h25" stroke="#baa7d9" stroke-width="3"/>
+<rect x="311" y="77" width="47" height="53" rx="5" fill="#ede9fe"/><path d="M316 77h18v53h-18a5 5 0 0 1-5-5V82a5 5 0 0 1 5-5Z" fill="#9f7aea"/><path d="M323 77v53m12-53v53m12-53v53" stroke="#fffdfb" stroke-width="2"/>
+<!-- Teacher, with a raised arm directed to the fraction model. -->
+<path d="m77 219-4 91h18l15-83m0 0 10 83h18l-4-91Z" fill="#55456f"/><path d="M72 310h19v11H65q-3-8 7-11Zm44 0h18l7 11h-25Z" fill="#31294a"/>
+<path d="M74 138q29-13 53 4l8 89H68Z" fill="#8f65cc"/>
+<path d="m121 155 25 20 19-37" stroke="#8f65cc" stroke-width="20"/><path d="m165 140 10-19" stroke="#e8aa82" stroke-width="11"/><path d="m71 156-10 41 16 35" stroke="#8f65cc" stroke-width="18"/><path d="m77 231 3 10" stroke="#e8aa82" stroke-width="10"/>
+<path d="M92 122v20q9 9 19 0v-22" fill="#dc9c77"/>
+<path d="M73 100q-5-35 28-34 32-2 32 31l-3 22H74Z" fill="#342940"/><ellipse cx="102" cy="104" rx="23" ry="29" fill="#edb58f"/><path d="M79 101q4-18 14-19 11 14 33 12l-4-15-21-7-18 11Z" fill="#342940"/><circle cx="109" cy="103" r="2" fill="#3e2d3b"/><path d="m117 105 3 8-5 1m-12 10q6 4 10-1" stroke="#ad6f57" stroke-width="2"/><circle cx="80" cy="108" r="5" fill="#edb58f"/>
+<!-- Students sit behind a shared desk, each with a distinct tablet. -->
+<path d="M212 247q27-15 55 0l9 53h-74Z" fill="#5aa99b"/><path d="M228 229v18q10 8 18 0v-18" fill="#c48767"/><ellipse cx="238" cy="218" rx="22" ry="27" fill="#dba080"/><path d="M216 214q-7-30 17-31 30-5 30 27l-8 1q-6-16-10-15-7 11-29 10Z" fill="#3b2b3f"/><circle cx="232" cy="218" r="2" fill="#3b2b3f"/><circle cx="248" cy="218" r="2" fill="#3b2b3f"/><path d="M235 229q5 4 9-1" stroke="#a26250" stroke-width="2"/>
+<path d="M401 247q27-15 55 0l9 53h-74Z" fill="#f0bc61"/><path d="M418 230v17q9 8 18 0v-18" fill="#e6ac85"/><ellipse cx="427" cy="218" rx="23" ry="28" fill="#f0bf98"/><path d="M403 218q-6-35 19-36 29-8 33 27l-6 15-5-22q-12 2-22-9-2 10-19 16Z" fill="#91633f"/><circle cx="419" cy="218" r="2" fill="#553c32"/><circle cx="435" cy="218" r="2" fill="#553c32"/><path d="M422 231q5 3 9-1" stroke="#b67b5d" stroke-width="2"/>
+<path d="M205 260l-13 23 17 11m63-34 13 23-15 11" stroke="#5aa99b" stroke-width="13"/><path d="M398 262l-11 22 15 9m58-31 12 22-15 9" stroke="#f0bc61" stroke-width="13"/>
+<rect x="202" y="255" width="82" height="57" rx="8" fill="#65517f"/><rect x="208" y="261" width="70" height="43" rx="3" fill="#f7f3fc"/>
+<rect x="393" y="255" width="82" height="57" rx="8" fill="#65517f"/><rect x="399" y="261" width="70" height="43" rx="3" fill="#f7f3fc"/>
+<circle cx="420" cy="282" r="13" fill="#ede9fe"/><path d="M420 269a13 13 0 0 0 0 26Z" fill="#9f7aea"/><path d="M440 276h18m-18 8h18" stroke="#c5b0e0" stroke-width="3"/>
+<rect x="173" y="304" width="333" height="11" rx="4" fill="#c3aedf"/><path d="M191 315v15m297-15v15" stroke="#9e88bf" stroke-width="10"/>
+<text x="218" y="174" text-anchor="middle" font-size="23" font-weight="700" fill="#7c3aed" >½</text><text x="335" y="174" text-anchor="middle" font-size="22" font-weight="700" fill="#7c3aed" >²⁄₄</text><text x="243" y="289" text-anchor="middle" font-size="17" font-weight="700" fill="#1e1b4b" >2 + 3</text>
+</g></svg>

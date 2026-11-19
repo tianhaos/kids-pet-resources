@@ -1,0 +1,1 @@
+import{j as t}from"./index-ChydO43D.js";import{F as r}from"./FractionStepSolver-D3qe7oBx.js";import"./GameResultModal-BLzduS6t.js";import"./gameUI-lKI6tOtk.js";function s(){return t.jsx(r,{op:"subtract"})}export{s as default};
