@@ -1,90 +1,89 @@
 {
   "schema": 1,
-  "versionName": "1.9.15",
-  "versionCode": 56,
-  "apkName": "kids_pet_learning_1.9.15_56.apk",
-  "size": 81794279,
-  "sha256": "86b39d96189c9867f0dba40f1099b964f1b963ee900036f0a2036e619814c612",
+  "versionName": "1.9.16",
+  "versionCode": 57,
+  "apkName": "kids_pet_learning_1.9.16_57.apk",
+  "size": 81883365,
+  "sha256": "be28480b11f6da128221b679d290d006157521ce92255976f9c25af54efede07",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.15_56/part_000.bin",
+      "path": "apk/v1.9.16_57/part_000.bin",
       "size": 6291456,
-      "sha256": "dda0e21d239a9c07a57de187f2252762553d783ad843d63a2a451b1e4265fe55"
+      "sha256": "6be73a0727ba68a50c23076971d135634e3427e9b69dc9bd863342c7bba3f122"
     },
     {
-      "path": "apk/v1.9.15_56/part_001.bin",
+      "path": "apk/v1.9.16_57/part_001.bin",
       "size": 6291456,
-      "sha256": "7ccf8d8be76083a74fd3ce49f1b8819a4ad0b2883e879901b29c4ba7dbc4cd31"
+      "sha256": "0dab3aaaea078443f40f016e2e6d037b905924789acb182aee5bbf0e56bd7f33"
     },
     {
-      "path": "apk/v1.9.15_56/part_002.bin",
+      "path": "apk/v1.9.16_57/part_002.bin",
       "size": 6291456,
-      "sha256": "e9bf1001aae67b588fd615353f5793237e09d6520085a3ccd8b5c5cfa68cf402"
+      "sha256": "ec2781ca5aa62025fd8169736bf1e12b8c42f2ab33db271a247736c8ccc9f893"
     },
     {
-      "path": "apk/v1.9.15_56/part_003.bin",
+      "path": "apk/v1.9.16_57/part_003.bin",
       "size": 6291456,
-      "sha256": "5dbbfa349a6a0c5ad04cef9092a27f05c93bacc9e3aecdd01541b38f74c5ca90"
+      "sha256": "586e2451325ef667d69e9c6a3a2d414fae98c664c198ea139ca29b37752683b4"
     },
     {
-      "path": "apk/v1.9.15_56/part_004.bin",
+      "path": "apk/v1.9.16_57/part_004.bin",
       "size": 6291456,
-      "sha256": "af0459641c596ffd5400101a35de02654f43ccf2648be6046efc0167ade7ea61"
+      "sha256": "a78cf824dfb636c94d501eef4ac5160f51f17ca0349cfe8715b3e82276298d2a"
     },
     {
-      "path": "apk/v1.9.15_56/part_005.bin",
+      "path": "apk/v1.9.16_57/part_005.bin",
       "size": 6291456,
-      "sha256": "2b576a7c87aa5df6a779014370fa0213b6915133df5e16002fbdf4299319b302"
+      "sha256": "e530bf951944c4bde23d6541ad28a3b18b0989e2825e36f772157d1012d98f6e"
     },
     {
-      "path": "apk/v1.9.15_56/part_006.bin",
+      "path": "apk/v1.9.16_57/part_006.bin",
       "size": 6291456,
-      "sha256": "fea4f473570381e69ee8abcf4e637d4a58f90eaa74118eaed69b0c7a449fc89d"
+      "sha256": "c08d6f8ee5536bc54d719684e3887ebc0e730028adeb80efca2a43b279384956"
     },
     {
-      "path": "apk/v1.9.15_56/part_007.bin",
+      "path": "apk/v1.9.16_57/part_007.bin",
       "size": 6291456,
-      "sha256": "13599f40f3cb2ad4fa22eff81623b375f3cb6e8d6b3ff250044840d28c3cfd44"
+      "sha256": "2322436928a483948b0a46d0d3e7066bfd8347a96f4548f9ff4ddd29506046b0"
     },
     {
-      "path": "apk/v1.9.15_56/part_008.bin",
+      "path": "apk/v1.9.16_57/part_008.bin",
       "size": 6291456,
-      "sha256": "f8ed142242739fe7392c861bc45aab50772852018f2a30575299b56653ba9f37"
+      "sha256": "801baf693381f90df90e5034ec156674f14d192002db144565b330fad94de41c"
     },
     {
-      "path": "apk/v1.9.15_56/part_009.bin",
+      "path": "apk/v1.9.16_57/part_009.bin",
       "size": 6291456,
-      "sha256": "4ec1eccd7ecbebe64df214dcd30ff6d56813e6a3b227d2cc7ce9e3fbc09a5b62"
+      "sha256": "d1d416e917fe6248ce732965bba6e691e337d938ae96acf75d9a48db35ad3eb0"
     },
     {
-      "path": "apk/v1.9.15_56/part_010.bin",
+      "path": "apk/v1.9.16_57/part_010.bin",
       "size": 6291456,
-      "sha256": "e564dcc31b8a666efe98d28666fb30d5d4c3a70eaa62936e8e963f363410f17f"
+      "sha256": "972512e244d367e7b5f7a2c7016623e258a6fba24f54b8376de9c882839e6285"
     },
     {
-      "path": "apk/v1.9.15_56/part_011.bin",
+      "path": "apk/v1.9.16_57/part_011.bin",
       "size": 6291456,
-      "sha256": "3e123f34b58824cf607674105ca54f1274d8213547288afb574fb297f7b97651"
+      "sha256": "4514425de02f0dfc077f834b4c598e8b46e59ac8f82f11f63526a660bf4b90b1"
     },
     {
-      "path": "apk/v1.9.15_56/part_012.bin",
+      "path": "apk/v1.9.16_57/part_012.bin",
       "size": 6291456,
-      "sha256": "105be19ca7eeae1722b85225383718e061f5b7863d6985fd0297b16d33a9d183"
+      "sha256": "84eb6ea288e8b52f9a010d9f742c61d7bda9722af6a4d34fbf0ca4cc288ca4b5"
     },
     {
-      "path": "apk/v1.9.15_56/part_013.bin",
-      "size": 5351,
-      "sha256": "0daa27823fc64a6346305dd1cd854b990253690b19d6521c753b706e2a0f0dc8"
+      "path": "apk/v1.9.16_57/part_013.bin",
+      "size": 94437,
+      "sha256": "3238906e57a776a5bacb429f1a047b0a02f910bf2d5aa3da2ccc720e3eef7f11"
     }
   ],
-  "updatedAt": "2026-11-19T10:08:34+08:00",
+  "updatedAt": "2026-11-19T12:10:21+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "部落识字：ziling 卡册 24 部落全部引入，部落地图→选字→学字三层页",
-    "每个字带笔顺书写动画（开放授权笔画数据）+ 对应古诗 + 绘本原图，118 张绘本图内置离线可看",
-    "资源已托管 GitHub：96 部落图+177 笔画+299 绘本页走热更新，后续加字不用重装",
-    "笔顺动画自绘逐笔描红，适配手机竖屏"
+    "部落识字修复：笔顺书写动画现在能真正逐笔看见（之前只显示静态字）",
+    "绘本里的字可以点开看整本了：87本绘本逐页翻看+原站真人配音朗读，还能自动讲故事",
+    "页图与配音已托管GitHub走热更新，首装内置113张关键页离线可看"
   ]
 }
