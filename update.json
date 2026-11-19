@@ -1,79 +1,90 @@
 {
   "schema": 1,
-  "versionName": "1.9.14",
-  "versionCode": 55,
-  "apkName": "kids_pet_learning_1.9.14_55.apk",
-  "size": 74342409,
-  "sha256": "91843ccaaba9c5b406f8ac2d00c6e0323dedb0044bda1df48ca116bd117cb51e",
+  "versionName": "1.9.15",
+  "versionCode": 56,
+  "apkName": "kids_pet_learning_1.9.15_56.apk",
+  "size": 81794279,
+  "sha256": "86b39d96189c9867f0dba40f1099b964f1b963ee900036f0a2036e619814c612",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.14_55/part_000.bin",
+      "path": "apk/v1.9.15_56/part_000.bin",
       "size": 6291456,
-      "sha256": "2d92057d4f2e1ece1f65379f46ff20dce455614c086ab44f6ea947688ae060dd"
+      "sha256": "dda0e21d239a9c07a57de187f2252762553d783ad843d63a2a451b1e4265fe55"
     },
     {
-      "path": "apk/v1.9.14_55/part_001.bin",
+      "path": "apk/v1.9.15_56/part_001.bin",
       "size": 6291456,
-      "sha256": "5976fd1e31b538ee0e3da3451ddc5dbd4301e10d6db752c12f33c22efef9e8aa"
+      "sha256": "7ccf8d8be76083a74fd3ce49f1b8819a4ad0b2883e879901b29c4ba7dbc4cd31"
     },
     {
-      "path": "apk/v1.9.14_55/part_002.bin",
+      "path": "apk/v1.9.15_56/part_002.bin",
       "size": 6291456,
-      "sha256": "c12c10761fcfd937d8486f3f842d9a6cba7e74b762920cb8d9a4e4709fdc0e19"
+      "sha256": "e9bf1001aae67b588fd615353f5793237e09d6520085a3ccd8b5c5cfa68cf402"
     },
     {
-      "path": "apk/v1.9.14_55/part_003.bin",
+      "path": "apk/v1.9.15_56/part_003.bin",
       "size": 6291456,
-      "sha256": "98bf9e7d78cdada6a2794f1ec6238a363e23afc3dea65193150b664cb7f835f4"
+      "sha256": "5dbbfa349a6a0c5ad04cef9092a27f05c93bacc9e3aecdd01541b38f74c5ca90"
     },
     {
-      "path": "apk/v1.9.14_55/part_004.bin",
+      "path": "apk/v1.9.15_56/part_004.bin",
       "size": 6291456,
-      "sha256": "1f9a5ad8f4fca5e6d9819015d9ed46afca6bcd2e67d4cf4996a2d4083fecc790"
+      "sha256": "af0459641c596ffd5400101a35de02654f43ccf2648be6046efc0167ade7ea61"
     },
     {
-      "path": "apk/v1.9.14_55/part_005.bin",
+      "path": "apk/v1.9.15_56/part_005.bin",
       "size": 6291456,
-      "sha256": "3097582fd26c220771a7fe726dc83977540e57a287464469be7e975017ee1949"
+      "sha256": "2b576a7c87aa5df6a779014370fa0213b6915133df5e16002fbdf4299319b302"
     },
     {
-      "path": "apk/v1.9.14_55/part_006.bin",
+      "path": "apk/v1.9.15_56/part_006.bin",
       "size": 6291456,
-      "sha256": "d1ee3db6bd58b5c1f860ec264e395fc6ad9038ace2629435d511d122a27a9ed8"
+      "sha256": "fea4f473570381e69ee8abcf4e637d4a58f90eaa74118eaed69b0c7a449fc89d"
     },
     {
-      "path": "apk/v1.9.14_55/part_007.bin",
+      "path": "apk/v1.9.15_56/part_007.bin",
       "size": 6291456,
-      "sha256": "42c23a1a0f230885062215fef83d1710ad67698c1f1e019f4348972457a1279b"
+      "sha256": "13599f40f3cb2ad4fa22eff81623b375f3cb6e8d6b3ff250044840d28c3cfd44"
     },
     {
-      "path": "apk/v1.9.14_55/part_008.bin",
+      "path": "apk/v1.9.15_56/part_008.bin",
       "size": 6291456,
-      "sha256": "2640bd435808e767d0d5bda772f5b827a78afbfd0de97076bafaee242e67e94a"
+      "sha256": "f8ed142242739fe7392c861bc45aab50772852018f2a30575299b56653ba9f37"
     },
     {
-      "path": "apk/v1.9.14_55/part_009.bin",
+      "path": "apk/v1.9.15_56/part_009.bin",
       "size": 6291456,
-      "sha256": "834db3b37ba1fa7a27f39516de521ffc901c91feaee925cd4480b20678097e01"
+      "sha256": "4ec1eccd7ecbebe64df214dcd30ff6d56813e6a3b227d2cc7ce9e3fbc09a5b62"
     },
     {
-      "path": "apk/v1.9.14_55/part_010.bin",
+      "path": "apk/v1.9.15_56/part_010.bin",
       "size": 6291456,
-      "sha256": "b3e511e9d013bd2c482680672884759419dd90441dcd9b35bfc48a677ee1a7f2"
+      "sha256": "e564dcc31b8a666efe98d28666fb30d5d4c3a70eaa62936e8e963f363410f17f"
     },
     {
-      "path": "apk/v1.9.14_55/part_011.bin",
-      "size": 5136393,
-      "sha256": "cfa46c0cc965d5af30667b5ca1a858f5e2e7bca8fbd6bf9a9dcf535fdd4b0acf"
+      "path": "apk/v1.9.15_56/part_011.bin",
+      "size": 6291456,
+      "sha256": "3e123f34b58824cf607674105ca54f1274d8213547288afb574fb297f7b97651"
+    },
+    {
+      "path": "apk/v1.9.15_56/part_012.bin",
+      "size": 6291456,
+      "sha256": "105be19ca7eeae1722b85225383718e061f5b7863d6985fd0297b16d33a9d183"
+    },
+    {
+      "path": "apk/v1.9.15_56/part_013.bin",
+      "size": 5351,
+      "sha256": "0daa27823fc64a6346305dd1cd854b990253690b19d6521c753b706e2a0f0dc8"
     }
   ],
-  "updatedAt": "2026-11-19T08:52:46+08:00",
+  "updatedAt": "2026-11-19T10:08:34+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "学拼音新增笔顺动画：25个原创拼音视频（四线三格写字+四声小火车），点字卡即可看，离线也能播",
-    "覆盖声母韵母整体认读四声，视频已托管GitHub可热更新",
-    "资源从ziling和hanyupinyin网站调研后改为原创制作，版权干净"
+    "部落识字：ziling 卡册 24 部落全部引入，部落地图→选字→学字三层页",
+    "每个字带笔顺书写动画（开放授权笔画数据）+ 对应古诗 + 绘本原图，118 张绘本图内置离线可看",
+    "资源已托管 GitHub：96 部落图+177 笔画+299 绘本页走热更新，后续加字不用重装",
+    "笔顺动画自绘逐笔描红，适配手机竖屏"
   ]
 }
