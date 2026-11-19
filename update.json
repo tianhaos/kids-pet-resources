@@ -1,89 +1,88 @@
 {
   "schema": 1,
-  "versionName": "1.9.19",
-  "versionCode": 60,
-  "apkName": "kids_pet_learning_1.9.19_60.apk",
+  "versionName": "1.9.20",
+  "versionCode": 61,
+  "apkName": "kids_pet_learning_1.9.20_61.apk",
   "size": 82194993,
-  "sha256": "fea77c1fe290d12097cd37d24edab3bb9922f5aa03de956ba9544424ab6a330e",
+  "sha256": "a86c9a05c7df96edc50c2a9dc7ef8b96a57ba92c943c21423b8758013b0c0da5",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.19_60/part_000.bin",
+      "path": "apk/v1.9.20_61/part_000.bin",
       "size": 6291456,
-      "sha256": "d64d39d6611fec8fd34fc61a3bba1b0b1bca1a54a7604043facc6f9752ccdd9f"
+      "sha256": "5556a6e238c7d203fd6f85950389d4b88a887770f2872abf2ecd2a07541f318b"
     },
     {
-      "path": "apk/v1.9.19_60/part_001.bin",
+      "path": "apk/v1.9.20_61/part_001.bin",
       "size": 6291456,
-      "sha256": "804484e1b17cca9ae093db039c14d8996ad519768404e056299d87a80c849284"
+      "sha256": "718056e78c0c34bff5cb9d0c6ee3b2dc3a04aae1e03923e97417035841b751da"
     },
     {
-      "path": "apk/v1.9.19_60/part_002.bin",
+      "path": "apk/v1.9.20_61/part_002.bin",
       "size": 6291456,
       "sha256": "8511d478e8ac34a2ccfcef67a904a242640ee393941e252a00c5085d0492a60e"
     },
     {
-      "path": "apk/v1.9.19_60/part_003.bin",
+      "path": "apk/v1.9.20_61/part_003.bin",
       "size": 6291456,
-      "sha256": "687359a3b50bc45e5f2eb12e5c13af6dbf3c4d7bef4665fb53f0818e5d24009d"
+      "sha256": "ac673081aa10c5ec424a59543d1a166db7e0f086fea4f2885fb00250299040fa"
     },
     {
-      "path": "apk/v1.9.19_60/part_004.bin",
+      "path": "apk/v1.9.20_61/part_004.bin",
       "size": 6291456,
-      "sha256": "9272af566326e4a7067ed149c5387ec14194029a1c079443b050d5e80c6e1e9b"
+      "sha256": "e1d6bfa8962b3876acbc69d947d439c9ce20f8780d3d3d547dae14c1592b97a6"
     },
     {
-      "path": "apk/v1.9.19_60/part_005.bin",
+      "path": "apk/v1.9.20_61/part_005.bin",
       "size": 6291456,
-      "sha256": "66cd5f7194281001c9643c07f9ad40652831fb227cd5adccb10cdbe7998179e1"
+      "sha256": "6194a185842b6592bfb5dd69aef279dc9dd952c0d2acd2408300c75a065d3aef"
     },
     {
-      "path": "apk/v1.9.19_60/part_006.bin",
+      "path": "apk/v1.9.20_61/part_006.bin",
       "size": 6291456,
-      "sha256": "eba384007ba7db6a07c319718aa4b27210697f67d961071a4effda3caad573b2"
+      "sha256": "64ba171472da20c1bf47988fe1f19ec47cba49d0285b73b06a3e50989cf93d48"
     },
     {
-      "path": "apk/v1.9.19_60/part_007.bin",
+      "path": "apk/v1.9.20_61/part_007.bin",
       "size": 6291456,
-      "sha256": "84cb9a70f06cd8c7fa1d9dc1427252fcb463f5c69b02ccfb9461a7f93b0c268b"
+      "sha256": "919a4d771a1899809a714300f584d9e096c9330f14b1b3f84561bcda961f38e5"
     },
     {
-      "path": "apk/v1.9.19_60/part_008.bin",
+      "path": "apk/v1.9.20_61/part_008.bin",
       "size": 6291456,
-      "sha256": "5a38f46720bcbbabd276c9755479bc1a74a191fc5cd3452fa5400fafe9439dd6"
+      "sha256": "f87407f197d1984eb5065d8706e5e2e0b1766e6479d8265c765cc56e0d9c25e6"
     },
     {
-      "path": "apk/v1.9.19_60/part_009.bin",
+      "path": "apk/v1.9.20_61/part_009.bin",
       "size": 6291456,
       "sha256": "274138fe19e09d35e06476d0e1bf787998ed3c90f54df9d5d325a52f50d2bec3"
     },
     {
-      "path": "apk/v1.9.19_60/part_010.bin",
+      "path": "apk/v1.9.20_61/part_010.bin",
       "size": 6291456,
       "sha256": "0c676de4a1e66eaebab3b2cdaf268a845c04950ee623a366c9d42b125b2a350d"
     },
     {
-      "path": "apk/v1.9.19_60/part_011.bin",
+      "path": "apk/v1.9.20_61/part_011.bin",
       "size": 6291456,
       "sha256": "a2f73310775c0ee891a07adbb479f0dbf2b6b7c034e6415937fda3fedd74609a"
     },
     {
-      "path": "apk/v1.9.19_60/part_012.bin",
+      "path": "apk/v1.9.20_61/part_012.bin",
       "size": 6291456,
-      "sha256": "ca1b31419451dad23f3027de339f817639dc0948c4695ecb572715f30caf814d"
+      "sha256": "f5a67d55f264177c9139cf57a0fb3bec3696d0c96d26715b48c047f09c7a39a6"
     },
     {
-      "path": "apk/v1.9.19_60/part_013.bin",
+      "path": "apk/v1.9.20_61/part_013.bin",
       "size": 406065,
-      "sha256": "b0db618925ef15d7acc63fa55a42b3fad2f0f5c3fe5488cd2e818043a5a64e99"
+      "sha256": "3de2436022b89bc00228b60b1ca46cf22e702ed551c652a1872c7218b041f158"
     }
   ],
-  "updatedAt": "2026-11-19T18:25:52+08:00",
+  "updatedAt": "2026-11-19T19:58:35+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "新增：ZogMath数学游戏乐园（139款全年龄段游戏）",
-    "学前至八年级，离线可玩",
-    "按年级/主题分类+搜索"
+    "优化：数字游戏页面去掉原站多余导航/页脚/长文，只保留纯净游戏",
+    "修复：深色背景闪屏、下载体积提示不准"
   ]
 }
