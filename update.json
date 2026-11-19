@@ -1,75 +1,79 @@
 {
   "schema": 1,
-  "versionName": "1.9.13",
-  "versionCode": 54,
-  "apkName": "kids_pet_learning_1.9.13_54.apk",
-  "size": 68494198,
-  "sha256": "ebf6860cc95a9371297769b75320361c9fde24e42e19122d402db73284d40309",
+  "versionName": "1.9.14",
+  "versionCode": 55,
+  "apkName": "kids_pet_learning_1.9.14_55.apk",
+  "size": 74342409,
+  "sha256": "91843ccaaba9c5b406f8ac2d00c6e0323dedb0044bda1df48ca116bd117cb51e",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.13_54/part_000.bin",
+      "path": "apk/v1.9.14_55/part_000.bin",
       "size": 6291456,
-      "sha256": "cedf3f0ac17e1fbb22583bb358f663044a550a2ef6abf9413443829779a68f41"
+      "sha256": "2d92057d4f2e1ece1f65379f46ff20dce455614c086ab44f6ea947688ae060dd"
     },
     {
-      "path": "apk/v1.9.13_54/part_001.bin",
+      "path": "apk/v1.9.14_55/part_001.bin",
       "size": 6291456,
-      "sha256": "2f066b0d3cdb46048899d89ce3ce45ff24a9d91421c6e7dd7848437a9166a7b2"
+      "sha256": "5976fd1e31b538ee0e3da3451ddc5dbd4301e10d6db752c12f33c22efef9e8aa"
     },
     {
-      "path": "apk/v1.9.13_54/part_002.bin",
+      "path": "apk/v1.9.14_55/part_002.bin",
       "size": 6291456,
       "sha256": "c12c10761fcfd937d8486f3f842d9a6cba7e74b762920cb8d9a4e4709fdc0e19"
     },
     {
-      "path": "apk/v1.9.13_54/part_003.bin",
+      "path": "apk/v1.9.14_55/part_003.bin",
       "size": 6291456,
-      "sha256": "080693595fffcf4d2529eb25e87c61111afd61983b8024bfec00b63091e018ea"
+      "sha256": "98bf9e7d78cdada6a2794f1ec6238a363e23afc3dea65193150b664cb7f835f4"
     },
     {
-      "path": "apk/v1.9.13_54/part_004.bin",
+      "path": "apk/v1.9.14_55/part_004.bin",
       "size": 6291456,
-      "sha256": "8cd5101405eed20f7d9d887da40c9292bfa58bcca35421325761fd15543966c0"
+      "sha256": "1f9a5ad8f4fca5e6d9819015d9ed46afca6bcd2e67d4cf4996a2d4083fecc790"
     },
     {
-      "path": "apk/v1.9.13_54/part_005.bin",
+      "path": "apk/v1.9.14_55/part_005.bin",
       "size": 6291456,
-      "sha256": "176f6814be540636748daa15deddda63ecef65a2c8dba3e674c78f53d6cc051b"
+      "sha256": "3097582fd26c220771a7fe726dc83977540e57a287464469be7e975017ee1949"
     },
     {
-      "path": "apk/v1.9.13_54/part_006.bin",
+      "path": "apk/v1.9.14_55/part_006.bin",
       "size": 6291456,
-      "sha256": "1a31436e059dc842014a388f3b243d7048575fb18ef48c420f80612f8abf24bf"
+      "sha256": "d1ee3db6bd58b5c1f860ec264e395fc6ad9038ace2629435d511d122a27a9ed8"
     },
     {
-      "path": "apk/v1.9.13_54/part_007.bin",
+      "path": "apk/v1.9.14_55/part_007.bin",
       "size": 6291456,
-      "sha256": "ede9c9a261b9c373feea12d583eb67a1691fff86df3e2f49d7e73b075d30a284"
+      "sha256": "42c23a1a0f230885062215fef83d1710ad67698c1f1e019f4348972457a1279b"
     },
     {
-      "path": "apk/v1.9.13_54/part_008.bin",
+      "path": "apk/v1.9.14_55/part_008.bin",
       "size": 6291456,
-      "sha256": "ea19363cec0da01443eece11b15c89d18331427c2cb7b8cf9e019f178e2cc19b"
+      "sha256": "2640bd435808e767d0d5bda772f5b827a78afbfd0de97076bafaee242e67e94a"
     },
     {
-      "path": "apk/v1.9.13_54/part_009.bin",
+      "path": "apk/v1.9.14_55/part_009.bin",
       "size": 6291456,
       "sha256": "834db3b37ba1fa7a27f39516de521ffc901c91feaee925cd4480b20678097e01"
     },
     {
-      "path": "apk/v1.9.13_54/part_010.bin",
-      "size": 5579638,
-      "sha256": "8c1a2d7e33048cb64d556fe898a2a0f5274d01ccdb1a893aa8c747a30cf5fd57"
+      "path": "apk/v1.9.14_55/part_010.bin",
+      "size": 6291456,
+      "sha256": "b3e511e9d013bd2c482680672884759419dd90441dcd9b35bfc48a677ee1a7f2"
+    },
+    {
+      "path": "apk/v1.9.14_55/part_011.bin",
+      "size": 5136393,
+      "sha256": "cfa46c0cc965d5af30667b5ca1a858f5e2e7bca8fbd6bf9a9dcf535fdd4b0acf"
     }
   ],
-  "updatedAt": "2026-11-19T01:54:49+08:00",
+  "updatedAt": "2026-11-19T08:52:46+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "英语分级绘本20本：L1启蒙/L2起步/L3进阶，点句听英文、点词看意思、跟读打分、读后理解题",
-    "AI小参谋：按孩子近期正确率推荐轻松/刚好/挑战难度，开了AI还能给个性化建议",
-    "我的学习报告：近7天答题趋势、各科掌握度、薄弱点和勋章",
-    "学科页和首页都能看到难度建议，一键接着学"
+    "学拼音新增笔顺动画：25个原创拼音视频（四线三格写字+四声小火车），点字卡即可看，离线也能播",
+    "覆盖声母韵母整体认读四声，视频已托管GitHub可热更新",
+    "资源从ziling和hanyupinyin网站调研后改为原创制作，版权干净"
   ]
 }
