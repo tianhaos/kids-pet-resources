@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "id": "p_a_intro",
+      "glyph": "a",
+      "example": "啊",
+      "rhyme": "拼音是汉字的小声音",
+      "file": "pinyin/p_a_intro.mp4",
+      "size": 200662
+    },
+    {
+      "id": "p_a1",
+      "glyph": "ā",
+      "example": "妈",
+      "rhyme": "一声平又平",
+      "file": "pinyin/p_a1.mp4",
+      "size": 310399
+    },
+    {
+      "id": "p_a2",
+      "glyph": "á",
+      "example": "麻",
+      "rhyme": "二声往上扬",
+      "file": "pinyin/p_a2.mp4",
+      "size": 315244
+    },
+    {
+      "id": "p_a3",
+      "glyph": "ǎ",
+      "example": "马",
+      "rhyme": "三声拐个弯",
+      "file": "pinyin/p_a3.mp4",
+      "size": 314912
+    },
+    {
+      "id": "p_a4",
+      "glyph": "à",
+      "example": "骂",
+      "rhyme": "四声往下降",
+      "file": "pinyin/p_a4.mp4",
+      "size": 303936
+    },
+    {
+      "id": "p_a",
+      "glyph": "a",
+      "example": "啊",
+      "rhyme": "张大嘴巴 a a a",
+      "file": "pinyin/p_a.mp4",
+      "size": 301289
+    },
+    {
+      "id": "p_o",
+      "glyph": "o",
+      "example": "喔",
+      "rhyme": "圆圆嘴巴 o o o",
+      "file": "pinyin/p_o.mp4",
+      "size": 294925
+    },
+    {
+      "id": "p_e",
+      "glyph": "e",
+      "example": "鹅",
+      "rhyme": "扁扁嘴巴 e e e",
+      "file": "pinyin/p_e.mp4",
+      "size": 297878
+    },
+    {
+      "id": "p_i",
+      "glyph": "i",
+      "example": "衣",
+      "rhyme": "牙齿对齐 i i i",
+      "file": "pinyin/p_i.mp4",
+      "size": 231780
+    },
+    {
+      "id": "p_u",
+      "glyph": "u",
+      "example": "乌",
+      "rhyme": "嘴巴突出 u u u",
+      "file": "pinyin/p_u.mp4",
+      "size": 267871
+    },
+    {
+      "id": "p_v",
+      "glyph": "ü",
+      "example": "鱼",
+      "rhyme": "小鱼吐泡 ü ü ü",
+      "file": "pinyin/p_v.mp4",
+      "size": 292601
+    },
+    {
+      "id": "p_b",
+      "glyph": "b",
+      "example": "爸",
+      "rhyme": "右下半圆 b b b",
+      "file": "pinyin/p_b.mp4",
+      "size": 187472
+    },
+    {
+      "id": "p_p",
+      "glyph": "p",
+      "example": "婆",
+      "rhyme": "右上半圆 p p p",
+      "file": "pinyin/p_p.mp4",
+      "size": 191681
+    },
+    {
+      "id": "p_m",
+      "glyph": "m",
+      "example": "妈",
+      "rhyme": "两个门洞 m m m",
+      "file": "pinyin/p_m.mp4",
+      "size": 187619
+    },
+    {
+      "id": "p_f",
+      "glyph": "f",
+      "example": "佛",
+      "rhyme": "一根拐杖 f f f",
+      "file": "pinyin/p_f.mp4",
+      "size": 168250
+    },
+    {
+      "id": "p_d",
+      "glyph": "d",
+      "example": "大",
+      "rhyme": "左下半圆 d d d",
+      "file": "pinyin/p_d.mp4",
+      "size": 184296
+    },
+    {
+      "id": "p_t",
+      "glyph": "t",
+      "example": "兔",
+      "rhyme": "伞柄朝下 t t t",
+      "file": "pinyin/p_t.mp4",
+      "size": 165940
+    },
+    {
+      "id": "p_n",
+      "glyph": "n",
+      "example": "牛",
+      "rhyme": "一个门洞 n n n",
+      "file": "pinyin/p_n.mp4",
+      "size": 158930
+    },
+    {
+      "id": "p_l",
+      "glyph": "l",
+      "example": "梨",
+      "rhyme": "一根小棍 l l l",
+      "file": "pinyin/p_l.mp4",
+      "size": 146679
+    },
+    {
+      "id": "p_zhi",
+      "glyph": "zhi",
+      "example": "知",
+      "rhyme": "整体认读不用拼",
+      "file": "pinyin/p_zhi.mp4",
+      "size": 219130
+    },
+    {
+      "id": "p_chi",
+      "glyph": "chi",
+      "example": "吃",
+      "rhyme": "整体认读不用拼",
+      "file": "pinyin/p_chi.mp4",
+      "size": 236918
+    },
+    {
+      "id": "p_shi",
+      "glyph": "shi",
+      "example": "狮",
+      "rhyme": "整体认读不用拼",
+      "file": "pinyin/p_shi.mp4",
+      "size": 241343
+    },
+    {
+      "id": "p_yi",
+      "glyph": "yi",
+      "example": "一",
+      "rhyme": "整体认读不用拼",
+      "file": "pinyin/p_yi.mp4",
+      "size": 173861
+    },
+    {
+      "id": "p_wu",
+      "glyph": "wu",
+      "example": "五",
+      "rhyme": "整体认读不用拼",
+      "file": "pinyin/p_wu.mp4",
+      "size": 234444
+    },
+    {
+      "id": "p_yu",
+      "glyph": "yu",
+      "example": "鱼",
+      "rhyme": "ü 遇 y 摘两点",
+      "file": "pinyin/p_yu.mp4",
+      "size": 214474
+    }
+  ]
+}
