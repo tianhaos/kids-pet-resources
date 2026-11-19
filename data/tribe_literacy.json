@@ -1,0 +1,5599 @@
+{
+ "version": 1,
+ "source": "ziling.danpicbook.com (non-commercial)",
+ "tribes": [
+  {
+   "id": "sun",
+   "type": "sky",
+   "typeName": "天空",
+   "name": "日月族",
+   "creature": "晶晶",
+   "emoji": "🌞",
+   "eggImage": "egg_sun.webp",
+   "images": [
+    "tribe_sun_1.webp",
+    "tribe_sun_2.webp",
+    "tribe_sun_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "日",
+     "pinyin": "rì",
+     "meaning": "sol",
+     "type": "古诗",
+     "snippet": "白日依山尽，黄河入海流。",
+     "source": "王之涣《登鹳雀楼》",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "日.json",
+     "bookPages": [
+      {
+       "file": "悯农_6.webp",
+       "title": "悯农",
+       "page": 6,
+       "text": "「锄禾」就是用锄头给禾苗除草、松土。「日当午」就是太阳正在头顶。"
+      },
+      {
+       "file": "早发白帝城_6.webp",
+       "title": "早发白帝城",
+       "page": 6,
+       "text": "「朝」就是早晨。「还」是回来。「千里江陵一日还」：千里远的江陵，一天就回去了！"
+      },
+      {
+       "file": "晓出净慈寺送林子方_9.webp",
+       "title": "晓出净慈寺送林子方",
+       "page": 9,
+       "text": "「接天」就是连着天边。「映日」就是被太阳照着。「别样红」就是红得特别，和平常不一样。"
+      }
+     ]
+    },
+    {
+     "char": "月",
+     "pinyin": "yuè",
+     "meaning": "måne",
+     "type": "古诗",
+     "snippet": "床前明月光，疑是地上霜。",
+     "source": "李白《静夜思》",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "月.json",
+     "bookPages": [
+      {
+       "file": "咏柳_9.webp",
+       "title": "咏柳",
+       "page": 9,
+       "text": "「裁」就是用剪刀剪。「似」就是像。原来，二月的春风就像一把剪刀！"
+      },
+      {
+       "file": "风_6.webp",
+       "title": "风",
+       "page": 6,
+       "text": "「解」在这里是能够、会的意思。「三秋」就是秋天，「二月」就是春天。"
+      },
+      {
+       "file": "舟夜书所见_6.webp",
+       "title": "舟夜书所见",
+       "page": 6,
+       "text": "「月黑」就是没有月亮，天很黑。「孤光」就是孤零零的一点光。「萤」就是萤火虫。"
+      }
+     ]
+    },
+    {
+     "char": "明",
+     "pinyin": "míng",
+     "meaning": "lys",
+     "type": "儿歌",
+     "snippet": "日和月在一起，就是明亮的明。",
+     "source": "",
+     "strokes": 8,
+     "level": 1,
+     "strokeData": "明.json",
+     "bookPages": [
+      {
+       "file": "芙蓉楼送辛渐_9.webp",
+       "title": "芙蓉楼送辛渐",
+       "page": 9,
+       "text": "「冰心」就是像冰一样透明、干净的心。「玉壶」就是用白玉做的壶，又白又亮，没有一点儿脏。"
+      },
+      {
+       "file": "元日_9.webp",
+       "title": "元日",
+       "page": 9,
+       "text": "「曈曈」就是太阳刚出来、明亮温暖的样子。「桃符」是挂在门上的桃木板，古人相信它能保平安。后来，桃符慢慢变成了今天的春联。"
+      },
+      {
+       "file": "塞下曲_8.webp",
+       "title": "塞下曲",
+       "page": 8,
+       "text": "平明寻白羽，没在石棱中。"
+      }
+     ]
+    },
+    {
+     "char": "光",
+     "pinyin": "guāng",
+     "meaning": "lys",
+     "type": "成语",
+     "snippet": "光明正大",
+     "source": "",
+     "strokes": 6,
+     "level": 1,
+     "strokeData": "光.json",
+     "bookPages": [
+      {
+       "file": "舟夜书所见_6.webp",
+       "title": "舟夜书所见",
+       "page": 6,
+       "text": "「月黑」就是没有月亮，天很黑。「孤光」就是孤零零的一点光。「萤」就是萤火虫。"
+      },
+      {
+       "file": "饮湖上初晴后雨_6.webp",
+       "title": "饮湖上初晴后雨",
+       "page": 6,
+       "text": "「潋滟」就是水波闪闪发光的样子。「空蒙」就是雾蒙蒙、看不清。「亦奇」就是也很奇妙。"
+      },
+      {
+       "file": "望洞庭_6.webp",
+       "title": "望洞庭",
+       "page": 6,
+       "text": "「两相和」就是湖光和月光融在一起。「潭面」就是湖面。「镜未磨」就是还没有磨过的铜镜。"
+      }
+     ]
+    },
+    {
+     "char": "星",
+     "pinyin": "xīng",
+     "meaning": "stjerne",
+     "type": "成语",
+     "snippet": "满天星斗",
+     "source": "",
+     "strokes": 9,
+     "level": 2,
+     "strokeData": "星.json",
+     "bookPages": [
+      {
+       "file": "夜宿山寺_6.webp",
+       "title": "夜宿山寺",
+       "page": 6,
+       "text": "「危楼」就是非常高的楼，不是危险的楼哦！「星辰」就是星星。"
+      },
+      {
+       "file": "望庐山瀑布_9.webp",
+       "title": "望庐山瀑布",
+       "page": 9,
+       "text": "「疑是」就是好像是。「银河」就是夜空里那条亮亮的星河。「九天」就是最高最高的天上。"
+      },
+      {
+       "file": "舟夜书所见_9.webp",
+       "title": "舟夜书所见",
+       "page": 9,
+       "text": "「簇浪」就是风把水推起一层层小波浪。「散作」就是散开，变成。「满河星」就是满河的星星。"
+      }
+     ]
+    },
+    {
+     "char": "早",
+     "pinyin": "zǎo",
+     "meaning": "tidlig",
+     "type": "古诗",
+     "snippet": "儿童散学归来早，忙趁东风放纸鸢。",
+     "source": "高鼎《村居》",
+     "strokes": 6,
+     "level": 2,
+     "strokeData": "早.json",
+     "bookPages": [
+      {
+       "file": "早发白帝城_6.webp",
+       "title": "早发白帝城",
+       "page": 6,
+       "text": "「朝」就是早晨。「还」是回来。「千里江陵一日还」：千里远的江陵，一天就回去了！"
+      },
+      {
+       "file": "长歌行_6.webp",
+       "title": "长歌行",
+       "page": 6,
+       "text": "「朝露」就是早上的露水。「晞」就是晒干。「德泽」就是恩惠，春天的阳光像礼物一样，送给了万物。"
+      },
+      {
+       "file": "出塞_6.webp",
+       "title": "出塞",
+       "page": 6,
+       "text": "「关」就是边塞上的关口，像一道大门。秦朝、汉朝，比唐朝还要早好几百年。月亮还是那个月亮，关口还是那个关口。"
+      }
+     ]
+    },
+    {
+     "char": "春",
+     "pinyin": "chūn",
+     "meaning": "forår",
+     "type": "古诗",
+     "snippet": "春眠不觉晓，处处闻啼鸟。",
+     "source": "孟浩然《春晓》",
+     "strokes": 9,
+     "level": 3,
+     "strokeData": "春.json",
+     "bookPages": [
+      {
+       "file": "咏柳_9.webp",
+       "title": "咏柳",
+       "page": 9,
+       "text": "「裁」就是用剪刀剪。「似」就是像。原来，二月的春风就像一把剪刀！"
+      },
+      {
+       "file": "风_6.webp",
+       "title": "风",
+       "page": 6,
+       "text": "「解」在这里是能够、会的意思。「三秋」就是秋天，「二月」就是春天。"
+      },
+      {
+       "file": "村居_6.webp",
+       "title": "村居",
+       "page": 6,
+       "text": "「醉」本来是喝酒喝多了，摇摇晃晃。诗人说，杨柳被春天迷住了，像喝醉了一样。"
+      }
+     ]
+    },
+    {
+     "char": "白",
+     "pinyin": "bái",
+     "meaning": "hvid",
+     "type": "古诗",
+     "snippet": "小时不识月，呼作白玉盘。",
+     "source": "李白《古朗月行》",
+     "strokes": 5,
+     "level": 1,
+     "strokeData": "白.json",
+     "bookPages": [
+      {
+       "file": "咏鹅_诗词版_7.webp",
+       "title": "咏鹅_诗词版",
+       "page": 7,
+       "text": "「曲项」就是弯弯的脖子。白鹅弯着脖子向着天，像在唱歌。"
+      },
+      {
+       "file": "静夜思_7.webp",
+       "title": "静夜思",
+       "page": 7,
+       "text": "「疑」就是「好像、以为」。李白看花了眼，以为地上结了一层霜。"
+      },
+      {
+       "file": "雪梅_9.webp",
+       "title": "雪梅",
+       "page": 9,
+       "text": "「逊」就是比不上。梅花没有雪那么白；可是雪呢，没有梅花那么香。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wind",
+   "type": "sky",
+   "typeName": "天空",
+   "name": "风雨族",
+   "creature": "飘飘",
+   "emoji": "🌧️",
+   "eggImage": "egg_wind.webp",
+   "images": [
+    "tribe_wind_1.webp",
+    "tribe_wind_2.webp",
+    "tribe_wind_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "风",
+     "pinyin": "fēng",
+     "meaning": "vind",
+     "type": "成语",
+     "snippet": "风和日丽",
+     "source": "",
+     "strokes": 4,
+     "level": 2,
+     "strokeData": "风.json",
+     "bookPages": [
+      {
+       "file": "村居_9.webp",
+       "title": "村居",
+       "page": 9,
+       "text": "「纸鸢」就是风筝。「散学」就是放学。"
+      },
+      {
+       "file": "狐假虎威_6.webp",
+       "title": "狐假虎威",
+       "page": 6,
+       "text": "「假」在这里是借。「狐假虎威」，就是狐狸借老虎的威风。"
+      },
+      {
+       "file": "梅花_6.webp",
+       "title": "梅花",
+       "page": 6,
+       "text": "「凌寒」就是不怕寒冷，顶着冷风。「独自」就是只有它自己。"
+      }
+     ]
+    },
+    {
+     "char": "雨",
+     "pinyin": "yǔ",
+     "meaning": "regn",
+     "type": "成语",
+     "snippet": "风调雨顺",
+     "source": "",
+     "strokes": 8,
+     "level": 3,
+     "strokeData": "雨.json",
+     "bookPages": [
+      {
+       "file": "江雪_9.webp",
+       "title": "江雪",
+       "page": 9,
+       "text": "「蓑」是草编的雨衣，「笠」是竹子编的大帽子。「翁」就是老爷爷。"
+      },
+      {
+       "file": "赠刘景文_6.webp",
+       "title": "赠刘景文",
+       "page": 6,
+       "text": "「擎」就是高高举着。荷叶像一把绿伞，高高举着替人挡雨，所以叫「擎雨盖」。"
+      },
+      {
+       "file": "春夜喜雨_9.webp",
+       "title": "春夜喜雨",
+       "page": 9,
+       "text": "「晓」就是天刚亮。「重」就是沉沉的：花朵喝饱了雨水，变得沉沉的。锦官城，就是成都。"
+      }
+     ]
+    },
+    {
+     "char": "云",
+     "pinyin": "yún",
+     "meaning": "sky",
+     "type": "儿歌",
+     "snippet": "白云白云像棉花。",
+     "source": "",
+     "strokes": 4,
+     "level": 2,
+     "strokeData": "云.json",
+     "bookPages": [
+      {
+       "file": "寻隐者不遇_9.webp",
+       "title": "寻隐者不遇",
+       "page": 9,
+       "text": "「此」就是这。「云深」就是云雾很浓很厚。「不知处」就是不知道在哪个地方。"
+      },
+      {
+       "file": "别董大_6.webp",
+       "title": "别董大",
+       "page": 6,
+       "text": "「曛」就是太阳被云遮住，昏昏暗暗的样子。「千里黄云」，就是天上到处都是黄黄的云。"
+      },
+      {
+       "file": "山行_6.webp",
+       "title": "山行",
+       "page": 6,
+       "text": "「石径」就是石头铺的小路。「斜」就是弯弯斜斜。「白云生处」就是白云飘出来的地方。"
+      }
+     ]
+    },
+    {
+     "char": "雪",
+     "pinyin": "xuě",
+     "meaning": "sne",
+     "type": "古诗",
+     "snippet": "独钓寒江雪",
+     "source": "柳宗元《江雪》",
+     "strokes": 11,
+     "level": 3,
+     "strokeData": "雪.json",
+     "bookPages": [
+      {
+       "file": "雪梅_9.webp",
+       "title": "雪梅",
+       "page": 9,
+       "text": "「逊」就是比不上。梅花没有雪那么白；可是雪呢，没有梅花那么香。"
+      },
+      {
+       "file": "绝句_9.webp",
+       "title": "绝句",
+       "page": 9,
+       "text": "「含」就是窗户好像把雪山含在里面，像一幅画。「泊」就是停船。「东吴」是很远很远的地方。"
+      },
+      {
+       "file": "梅花_8.webp",
+       "title": "梅花",
+       "page": 8,
+       "text": "遥知不是雪，为有暗香来。"
+      }
+     ]
+    },
+    {
+     "char": "气",
+     "pinyin": "qì",
+     "meaning": "luft",
+     "type": "词语",
+     "snippet": "天气",
+     "source": "",
+     "strokes": 4,
+     "level": 1,
+     "strokeData": "气.json",
+     "bookPages": [
+      {
+       "file": "墨梅_9.webp",
+       "title": "墨梅",
+       "page": 9,
+       "text": "「好颜色」就是漂亮的颜色。「清气」是清清的香气。「乾坤」就是天和地。"
+      },
+      {
+       "file": "赠刘景文_9.webp",
+       "title": "赠刘景文",
+       "page": 9,
+       "text": "「君」就是你，是对朋友客气的叫法。「须」就是一定要。「君须记」就是：你一定要记住呀！"
+      },
+      {
+       "file": "惠崇春江晚景_9.webp",
+       "title": "惠崇春江晚景",
+       "page": 9,
+       "text": "「河豚」是一种鱼，生气的时候会把肚子鼓成一个圆圆的球。每到春天，它们就从大海游进江里来。「欲上」就是快要游上来了。"
+      }
+     ]
+    },
+    {
+     "char": "水",
+     "pinyin": "shuǐ",
+     "meaning": "vand",
+     "type": "古诗",
+     "snippet": "白毛浮绿水，红掌拨清波。",
+     "source": "骆宾王《咏鹅》",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "水.json",
+     "bookPages": [
+      {
+       "file": "池上_6.webp",
+       "title": "池上",
+       "page": 6,
+       "text": "「撑」就是用长长的竹竿抵着水底，把船推着走。「艇」就是小船。"
+      },
+      {
+       "file": "小池_6.webp",
+       "title": "小池",
+       "page": 6,
+       "text": "「惜」就是舍不得。泉眼舍不得让水流走，所以只流出细细的一点点。"
+      },
+      {
+       "file": "赠汪伦_9.webp",
+       "title": "赠汪伦",
+       "page": 9,
+       "text": "「不及」就是比不上。潭水有千尺深，可是还比不上汪伦送我的情谊深。"
+      }
+     ]
+    },
+    {
+     "char": "天",
+     "pinyin": "tiān",
+     "meaning": "himmel",
+     "type": "儿歌",
+     "snippet": "抬头看看蓝蓝的天。",
+     "source": "",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "天.json",
+     "bookPages": [
+      {
+       "file": "坐井观天_6.webp",
+       "title": "坐井观天",
+       "page": 6,
+       "text": "「观」就是看。「观天」，就是看天。"
+      },
+      {
+       "file": "春晓_6.webp",
+       "title": "春晓",
+       "page": 6,
+       "text": "「晓」就是天刚亮的时候。「啼」就是鸟儿叫。"
+      },
+      {
+       "file": "咏鹅_诗词版_7.webp",
+       "title": "咏鹅_诗词版",
+       "page": 7,
+       "text": "「曲项」就是弯弯的脖子。白鹅弯着脖子向着天，像在唱歌。"
+      }
+     ]
+    },
+    {
+     "char": "飞",
+     "pinyin": "fēi",
+     "meaning": "flyve",
+     "type": "成语",
+     "snippet": "龙飞凤舞",
+     "source": "",
+     "strokes": 3,
+     "level": 2,
+     "strokeData": "飞.json",
+     "bookPages": [
+      {
+       "file": "小池_9.webp",
+       "title": "小池",
+       "page": 9,
+       "text": "「露」就是露出来。小荷叶才露出一点点，蜻蜓就飞来站在上面了！"
+      },
+      {
+       "file": "画_9.webp",
+       "title": "画",
+       "page": 9,
+       "text": "「惊」就是吓一跳。真的小鸟，看到人会吓得飞走；画里的小鸟，一动也不动。"
+      },
+      {
+       "file": "独坐敬亭山_6.webp",
+       "title": "独坐敬亭山",
+       "page": 6,
+       "text": "「尽」就是没有了，鸟全都飞光了。「闲」就是悠闲，慢悠悠的。鸟走了，云也走了，只剩下李白一个人。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bird",
+   "type": "sky",
+   "typeName": "天空",
+   "name": "鸟羽族",
+   "creature": "啾啾",
+   "emoji": "🐦",
+   "eggImage": "egg_bird.webp",
+   "images": [
+    "tribe_bird_1.webp",
+    "tribe_bird_2.webp",
+    "tribe_bird_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "鸟",
+     "pinyin": "niǎo",
+     "meaning": "fugl",
+     "type": "成语",
+     "snippet": "鸟语花香",
+     "source": "",
+     "strokes": 5,
+     "level": 0,
+     "strokeData": "鸟.json",
+     "bookPages": [
+      {
+       "file": "春晓_6.webp",
+       "title": "春晓",
+       "page": 6,
+       "text": "「晓」就是天刚亮的时候。「啼」就是鸟儿叫。"
+      },
+      {
+       "file": "画_9.webp",
+       "title": "画",
+       "page": 9,
+       "text": "「惊」就是吓一跳。真的小鸟，看到人会吓得飞走；画里的小鸟，一动也不动。"
+      },
+      {
+       "file": "绝句_6.webp",
+       "title": "绝句",
+       "page": 6,
+       "text": "「一行」就是一排。「鸣」就是鸟儿叫。四种颜色：黄、绿、白、蓝，真好看！"
+      }
+     ]
+    },
+    {
+     "char": "羽",
+     "pinyin": "yǔ",
+     "meaning": "fjer",
+     "type": "词语",
+     "snippet": "羽毛",
+     "source": "",
+     "strokes": 6,
+     "level": 5,
+     "strokeData": "羽.json",
+     "bookPages": [
+      {
+       "file": "塞下曲_9.webp",
+       "title": "塞下曲",
+       "page": 9,
+       "text": "「白羽」就是箭尾上的白羽毛，这里指那支箭。「没」在这里不是没有，是深深地钻进去。「石棱」就是石头的边角。"
+      },
+      {
+       "file": "塞下曲_8.webp",
+       "title": "塞下曲",
+       "page": 8,
+       "text": "平明寻白羽，没在石棱中。"
+      },
+      {
+       "file": "塞下曲_12.webp",
+       "title": "塞下曲",
+       "page": 12,
+       "text": "林暗草惊风，将军夜引弓。平明寻白羽，没在石棱中。"
+      }
+     ]
+    },
+    {
+     "char": "飞",
+     "pinyin": "fēi",
+     "meaning": "flyve",
+     "type": "成语",
+     "snippet": "龙飞凤舞",
+     "source": "",
+     "strokes": 3,
+     "level": 2,
+     "strokeData": "飞.json",
+     "bookPages": [
+      {
+       "file": "小池_9.webp",
+       "title": "小池",
+       "page": 9,
+       "text": "「露」就是露出来。小荷叶才露出一点点，蜻蜓就飞来站在上面了！"
+      },
+      {
+       "file": "画_9.webp",
+       "title": "画",
+       "page": 9,
+       "text": "「惊」就是吓一跳。真的小鸟，看到人会吓得飞走；画里的小鸟，一动也不动。"
+      },
+      {
+       "file": "独坐敬亭山_6.webp",
+       "title": "独坐敬亭山",
+       "page": 6,
+       "text": "「尽」就是没有了，鸟全都飞光了。「闲」就是悠闲，慢悠悠的。鸟走了，云也走了，只剩下李白一个人。"
+      }
+     ]
+    },
+    {
+     "char": "雀",
+     "pinyin": "què",
+     "meaning": "spurv",
+     "type": "成语",
+     "snippet": "鸦雀无声",
+     "source": "",
+     "strokes": 11,
+     "level": 6,
+     "strokeData": "雀.json",
+     "bookPages": [
+      {
+       "file": "登鹳雀楼_2.webp",
+       "title": "登鹳雀楼",
+       "page": 2,
+       "text": "很久以前，诗人王之涣来到黄河边，看见一座高高的楼，叫鹳雀楼。"
+      }
+     ]
+    },
+    {
+     "char": "鸣",
+     "pinyin": "míng",
+     "meaning": "lyde",
+     "type": "古诗",
+     "snippet": "两个黄鹂鸣翠柳",
+     "source": "杜甫《绝句》",
+     "strokes": 8,
+     "level": 5,
+     "strokeData": "鸣.json",
+     "bookPages": [
+      {
+       "file": "绝句_6.webp",
+       "title": "绝句",
+       "page": 6,
+       "text": "「一行」就是一排。「鸣」就是鸟儿叫。四种颜色：黄、绿、白、蓝，真好看！"
+      },
+      {
+       "file": "所见_8.webp",
+       "title": "所见",
+       "page": 8,
+       "text": "意欲捕鸣蝉，忽然闭口立。"
+      },
+      {
+       "file": "滁州西涧_5.webp",
+       "title": "滁州西涧",
+       "page": 5,
+       "text": "独怜幽草涧边生，上有黄鹂深树鸣。"
+      }
+     ]
+    },
+    {
+     "char": "鸡",
+     "pinyin": "jī",
+     "meaning": "høne",
+     "type": "词语",
+     "snippet": "公鸡",
+     "source": "",
+     "strokes": 7,
+     "level": 4,
+     "strokeData": "鸡.json",
+     "bookPages": [
+      {
+       "file": "我爱吃_9.webp",
+       "title": "我爱吃",
+       "page": 9,
+       "text": "这是鸡蛋。"
+      },
+      {
+       "file": "我爱吃_10.webp",
+       "title": "我爱吃",
+       "page": 10,
+       "text": "鸡蛋是圆的。"
+      },
+      {
+       "file": "十二生肖_22.webp",
+       "title": "十二生肖",
+       "page": 22,
+       "text": "第十名是公鸡。"
+      }
+     ]
+    },
+    {
+     "char": "鹅",
+     "pinyin": "é",
+     "meaning": "gås",
+     "type": "古诗",
+     "snippet": "鹅，鹅，鹅，曲项向天歌。",
+     "source": "骆宾王《咏鹅》",
+     "strokes": 12,
+     "level": 6,
+     "strokeData": "鹅.json",
+     "bookPages": [
+      {
+       "file": "咏鹅_诗词版_7.webp",
+       "title": "咏鹅_诗词版",
+       "page": 7,
+       "text": "「曲项」就是弯弯的脖子。白鹅弯着脖子向着天，像在唱歌。"
+      },
+      {
+       "file": "咏鹅_诗词版_9.webp",
+       "title": "咏鹅_诗词版",
+       "page": 9,
+       "text": "「拨」就是用脚掌划水。白鹅的红脚掌在水下一划一划，荡起清清的波浪。"
+      },
+      {
+       "file": "咏鹅_13.webp",
+       "title": "咏鹅",
+       "page": 13,
+       "text": "丹麦也有很多鹅。"
+      }
+     ]
+    },
+    {
+     "char": "鹤",
+     "pinyin": "hè",
+     "meaning": "trane",
+     "type": "古诗",
+     "snippet": "晴空一鹤排云上，便引诗情到碧霄",
+     "source": "刘禹锡《秋词》",
+     "strokes": 15,
+     "level": 7,
+     "strokeData": "鹤.json",
+     "bookPages": [
+      {
+       "file": "黄鹤楼送孟浩然之广陵_5.webp",
+       "title": "黄鹤楼送孟浩然之广陵",
+       "page": 5,
+       "text": "故人西辞黄鹤楼，烟花三月下扬州。"
+      },
+      {
+       "file": "黄鹤楼送孟浩然之广陵_12.webp",
+       "title": "黄鹤楼送孟浩然之广陵",
+       "page": 12,
+       "text": "故人西辞黄鹤楼，烟花三月下扬州。孤帆远影碧空尽，唯见长江天际流。"
+      },
+      {
+       "file": "黄鹤楼送孟浩然之广陵_3.webp",
+       "title": "黄鹤楼送孟浩然之广陵",
+       "page": 3,
+       "text": "春天三月，孟浩然要坐船去扬州。李白在黄鹤楼送他。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fire",
+   "type": "fire",
+   "typeName": "火",
+   "name": "火光族",
+   "creature": "烘烘",
+   "emoji": "🔥",
+   "eggImage": "egg_fire.webp",
+   "images": [
+    "tribe_fire_1.webp",
+    "tribe_fire_2.webp",
+    "tribe_fire_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "火",
+     "pinyin": "huǒ",
+     "meaning": "ild",
+     "type": "古诗",
+     "snippet": "野火烧不尽，春风吹又生。",
+     "source": "白居易《赋得古原草送别》",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "火.json",
+     "bookPages": [
+      {
+       "file": "舟夜书所见_6.webp",
+       "title": "舟夜书所见",
+       "page": 6,
+       "text": "「月黑」就是没有月亮，天很黑。「孤光」就是孤零零的一点光。「萤」就是萤火虫。"
+      },
+      {
+       "file": "枫桥夜泊_5.webp",
+       "title": "枫桥夜泊",
+       "page": 5,
+       "text": "月落乌啼霜满天，江枫渔火对愁眠。"
+      },
+      {
+       "file": "石灰吟_5.webp",
+       "title": "石灰吟",
+       "page": 5,
+       "text": "千锤万凿出深山，烈火焚烧若等闲。"
+      }
+     ]
+    },
+    {
+     "char": "光",
+     "pinyin": "guāng",
+     "meaning": "lys",
+     "type": "成语",
+     "snippet": "光明正大",
+     "source": "",
+     "strokes": 6,
+     "level": 1,
+     "strokeData": "光.json",
+     "bookPages": [
+      {
+       "file": "舟夜书所见_6.webp",
+       "title": "舟夜书所见",
+       "page": 6,
+       "text": "「月黑」就是没有月亮，天很黑。「孤光」就是孤零零的一点光。「萤」就是萤火虫。"
+      },
+      {
+       "file": "饮湖上初晴后雨_6.webp",
+       "title": "饮湖上初晴后雨",
+       "page": 6,
+       "text": "「潋滟」就是水波闪闪发光的样子。「空蒙」就是雾蒙蒙、看不清。「亦奇」就是也很奇妙。"
+      },
+      {
+       "file": "望洞庭_6.webp",
+       "title": "望洞庭",
+       "page": 6,
+       "text": "「两相和」就是湖光和月光融在一起。「潭面」就是湖面。「镜未磨」就是还没有磨过的铜镜。"
+      }
+     ]
+    },
+    {
+     "char": "炎",
+     "pinyin": "yán",
+     "meaning": "betændelse",
+     "type": "词语",
+     "snippet": "炎热",
+     "source": "",
+     "strokes": 8,
+     "level": 4,
+     "strokeData": "炎.json",
+     "bookPages": []
+    },
+    {
+     "char": "灯",
+     "pinyin": "dēng",
+     "meaning": "lampe",
+     "type": "词语",
+     "snippet": "灯光",
+     "source": "",
+     "strokes": 6,
+     "level": 3,
+     "strokeData": "灯.json",
+     "bookPages": [
+      {
+       "file": "枫桥夜泊_6.webp",
+       "title": "枫桥夜泊",
+       "page": 6,
+       "text": "「渔火」就是渔船上的灯火。「对愁眠」就是带着心事，对着它们，睡也睡不着。"
+      },
+      {
+       "file": "舟夜书所见_5.webp",
+       "title": "舟夜书所见",
+       "page": 5,
+       "text": "月黑见渔灯，孤光一点萤。"
+      },
+      {
+       "file": "夜书所见_8.webp",
+       "title": "夜书所见",
+       "page": 8,
+       "text": "知有儿童挑促织，夜深篱落一灯明。"
+      }
+     ]
+    },
+    {
+     "char": "烧",
+     "pinyin": "shāo",
+     "meaning": "brænde",
+     "type": "古诗",
+     "snippet": "野火烧不尽",
+     "source": "白居易《赋得古原草送别》",
+     "strokes": 10,
+     "level": 4,
+     "strokeData": "烧.json",
+     "bookPages": [
+      {
+       "file": "石灰吟_5.webp",
+       "title": "石灰吟",
+       "page": 5,
+       "text": "千锤万凿出深山，烈火焚烧若等闲。"
+      },
+      {
+       "file": "石灰吟_12.webp",
+       "title": "石灰吟",
+       "page": 12,
+       "text": "千锤万凿出深山，烈火焚烧若等闲。粉骨碎身浑不怕，要留清白在人间。"
+      },
+      {
+       "file": "日月山水_14.webp",
+       "title": "日月山水",
+       "page": 14,
+       "text": "「火」就像燃烧的火苗。"
+      }
+     ]
+    },
+    {
+     "char": "烟",
+     "pinyin": "yān",
+     "meaning": "røg",
+     "type": "古诗",
+     "snippet": "日照香炉生紫烟",
+     "source": "李白《望庐山瀑布》",
+     "strokes": 10,
+     "level": 3,
+     "strokeData": "烟.json",
+     "bookPages": [
+      {
+       "file": "早春呈水部张十八员外_9.webp",
+       "title": "早春呈水部张十八员外",
+       "page": 9,
+       "text": "「绝胜」就是远远胜过，好得多。「烟柳」就是远看像绿烟一样的柳树。「皇都」就是京城长安。"
+      },
+      {
+       "file": "宿建德江_6.webp",
+       "title": "宿建德江",
+       "page": 6,
+       "text": "「泊」就是把船停下来。「烟渚」就是雾蒙蒙的江心小沙洲。「客」就是离家在外的人，说的就是诗人自己。"
+      },
+      {
+       "file": "一去二三里_5.webp",
+       "title": "一去二三里",
+       "page": 5,
+       "text": "一去二三里，烟村四五家。"
+      }
+     ]
+    },
+    {
+     "char": "红",
+     "pinyin": "hóng",
+     "meaning": "rød",
+     "type": "古诗",
+     "snippet": "千里莺啼绿映红。",
+     "source": "杜牧《江南春》",
+     "strokes": 6,
+     "level": 2,
+     "strokeData": "红.json",
+     "bookPages": [
+      {
+       "file": "咏鹅_诗词版_9.webp",
+       "title": "咏鹅_诗词版",
+       "page": 9,
+       "text": "「拨」就是用脚掌划水。白鹅的红脚掌在水下一划一划，荡起清清的波浪。"
+      },
+      {
+       "file": "晓出净慈寺送林子方_9.webp",
+       "title": "晓出净慈寺送林子方",
+       "page": 9,
+       "text": "「接天」就是连着天边。「映日」就是被太阳照着。「别样红」就是红得特别，和平常不一样。"
+      },
+      {
+       "file": "山行_9.webp",
+       "title": "山行",
+       "page": 9,
+       "text": "「坐」在这里是因为。「霜叶」就是秋天经过霜打的枫叶。「红于二月花」就是比春天的花还要红。"
+      }
+     ]
+    },
+    {
+     "char": "热",
+     "pinyin": "rè",
+     "meaning": "varm",
+     "type": "词语",
+     "snippet": "热闹",
+     "source": "",
+     "strokes": 10,
+     "level": 2,
+     "strokeData": "热.json",
+     "bookPages": [
+      {
+       "file": "我爱吃_18.webp",
+       "title": "我爱吃",
+       "page": 18,
+       "text": "米饭很热。"
+      },
+      {
+       "file": "春夏秋冬_13.webp",
+       "title": "春夏秋冬",
+       "page": 13,
+       "text": "冬天，我们喝热可可。"
+      },
+      {
+       "file": "谁在叫_24.webp",
+       "title": "谁在叫",
+       "page": 24,
+       "text": "大家一起叫，好热闹！"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metal",
+   "type": "fire",
+   "typeName": "火",
+   "name": "金铁族",
+   "creature": "叮当",
+   "emoji": "🔔",
+   "eggImage": "egg_metal.webp",
+   "images": [
+    "tribe_metal_1.webp",
+    "tribe_metal_2.webp",
+    "tribe_metal_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "金",
+     "pinyin": "jīn",
+     "meaning": "guld",
+     "type": "古诗",
+     "snippet": "家书抵万金",
+     "source": "杜甫《春望》",
+     "strokes": 8,
+     "level": 1,
+     "strokeData": "金.json",
+     "bookPages": [
+      {
+       "file": "马诗_9.webp",
+       "title": "马诗",
+       "page": 9,
+       "text": "「何当」就是什么时候。「金络脑」就是用金子装饰的马笼头。「快走」就是快快地跑。"
+      },
+      {
+       "file": "马诗_8.webp",
+       "title": "马诗",
+       "page": 8,
+       "text": "何当金络脑，快走踏清秋。"
+      },
+      {
+       "file": "马诗_12.webp",
+       "title": "马诗",
+       "page": 12,
+       "text": "大漠沙如雪，燕山月似钩。何当金络脑，快走踏清秋。"
+      }
+     ]
+    },
+    {
+     "char": "铁",
+     "pinyin": "tiě",
+     "meaning": "jern",
+     "type": "词语",
+     "snippet": "铁路",
+     "source": "",
+     "strokes": 10,
+     "level": 3,
+     "strokeData": "铁.json",
+     "bookPages": [
+      {
+       "file": "石灰吟_6.webp",
+       "title": "石灰吟",
+       "page": 6,
+       "text": "「凿」是一种尖尖的铁工具，用锤子敲着它，就能把石头凿开。「若等闲」就是好像很平常，一点儿也不害怕。"
+      }
+     ]
+    },
+    {
+     "char": "银",
+     "pinyin": "yín",
+     "meaning": "sølv",
+     "type": "词语",
+     "snippet": "银河",
+     "source": "",
+     "strokes": 11,
+     "level": 3,
+     "strokeData": "银.json",
+     "bookPages": [
+      {
+       "file": "望洞庭_9.webp",
+       "title": "望洞庭",
+       "page": 9,
+       "text": "「翠」就是青绿色。「白银盘」就是银子做的盘子。「青螺」就是青色的小螺蛳，壳是一圈一圈的。"
+      },
+      {
+       "file": "望庐山瀑布_8.webp",
+       "title": "望庐山瀑布",
+       "page": 8,
+       "text": "飞流直下三千尺，疑是银河落九天。"
+      },
+      {
+       "file": "望洞庭_8.webp",
+       "title": "望洞庭",
+       "page": 8,
+       "text": "遥望洞庭山水翠，白银盘里一青螺。"
+      }
+     ]
+    },
+    {
+     "char": "铜",
+     "pinyin": "tóng",
+     "meaning": "kobber",
+     "type": "词语",
+     "snippet": "青铜",
+     "source": "",
+     "strokes": 11,
+     "level": 5,
+     "strokeData": "铜.json",
+     "bookPages": [
+      {
+       "file": "望洞庭_6.webp",
+       "title": "望洞庭",
+       "page": 6,
+       "text": "「两相和」就是湖光和月光融在一起。「潭面」就是湖面。「镜未磨」就是还没有磨过的铜镜。"
+      },
+      {
+       "file": "望洞庭_4.webp",
+       "title": "望洞庭",
+       "page": 4,
+       "text": "一点儿风也没有，湖面平平的，像一面古代的铜镜。它还没有磨过，亮亮的，又有点儿朦胧。"
+      }
+     ]
+    },
+    {
+     "char": "钟",
+     "pinyin": "zhōng",
+     "meaning": "ur",
+     "type": "古诗",
+     "snippet": "夜半钟声到客船",
+     "source": "张继《枫桥夜泊》",
+     "strokes": 9,
+     "level": 3,
+     "strokeData": "钟.json",
+     "bookPages": [
+      {
+       "file": "枫桥夜泊_8.webp",
+       "title": "枫桥夜泊",
+       "page": 8,
+       "text": "姑苏城外寒山寺，夜半钟声到客船。"
+      },
+      {
+       "file": "泊船瓜洲_5.webp",
+       "title": "泊船瓜洲",
+       "page": 5,
+       "text": "京口瓜洲一水间，钟山只隔数重山。"
+      },
+      {
+       "file": "枫桥夜泊_12.webp",
+       "title": "枫桥夜泊",
+       "page": 12,
+       "text": "月落乌啼霜满天，江枫渔火对愁眠。姑苏城外寒山寺，夜半钟声到客船。"
+      }
+     ]
+    },
+    {
+     "char": "钱",
+     "pinyin": "qián",
+     "meaning": "penge",
+     "type": "词语",
+     "snippet": "零钱",
+     "source": "",
+     "strokes": 10,
+     "level": 2,
+     "strokeData": "钱.json",
+     "bookPages": []
+    },
+    {
+     "char": "刀",
+     "pinyin": "dāo",
+     "meaning": "kniv",
+     "type": "词语",
+     "snippet": "小刀",
+     "source": "",
+     "strokes": 2,
+     "level": 3,
+     "strokeData": "刀.json",
+     "bookPages": [
+      {
+       "file": "咏柳_9.webp",
+       "title": "咏柳",
+       "page": 9,
+       "text": "「裁」就是用剪刀剪。「似」就是像。原来，二月的春风就像一把剪刀！"
+      },
+      {
+       "file": "咏柳_8.webp",
+       "title": "咏柳",
+       "page": 8,
+       "text": "不知细叶谁裁出，二月春风似剪刀。"
+      },
+      {
+       "file": "咏柳_12.webp",
+       "title": "咏柳",
+       "page": 12,
+       "text": "碧玉妆成一树高，万条垂下绿丝绦。不知细叶谁裁出，二月春风似剪刀。"
+      }
+     ]
+    },
+    {
+     "char": "针",
+     "pinyin": "zhēn",
+     "meaning": "nål",
+     "type": "词语",
+     "snippet": "针线",
+     "source": "",
+     "strokes": 7,
+     "level": 3,
+     "strokeData": "针.json",
+     "bookPages": [
+      {
+       "file": "乞巧_9.webp",
+       "title": "乞巧",
+       "page": 9,
+       "text": "「乞」就是请求。「巧」就是灵巧、手巧。「乞巧」就是请织女送一双巧手。谁穿针穿得又快又好，谁就得到了「巧」。"
+      },
+      {
+       "file": "游子吟_3.webp",
+       "title": "游子吟",
+       "page": 3,
+       "text": "出发前的晚上，妈妈坐在油灯下，一针一线地给他缝衣服。"
+      },
+      {
+       "file": "游子吟_7.webp",
+       "title": "游子吟",
+       "page": 7,
+       "text": "妈妈把针脚缝得又小又密。她心里担心：孩子会不会很久很久才回来？"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blade",
+   "type": "fire",
+   "typeName": "火",
+   "name": "刀戈族",
+   "creature": "锋锋",
+   "emoji": "⚔️",
+   "eggImage": "egg_blade.webp",
+   "images": [
+    "tribe_blade_1.webp",
+    "tribe_blade_2.webp",
+    "tribe_blade_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "刀",
+     "pinyin": "dāo",
+     "meaning": "kniv",
+     "type": "词语",
+     "snippet": "小刀",
+     "source": "",
+     "strokes": 2,
+     "level": 3,
+     "strokeData": "刀.json",
+     "bookPages": [
+      {
+       "file": "咏柳_9.webp",
+       "title": "咏柳",
+       "page": 9,
+       "text": "「裁」就是用剪刀剪。「似」就是像。原来，二月的春风就像一把剪刀！"
+      },
+      {
+       "file": "咏柳_8.webp",
+       "title": "咏柳",
+       "page": 8,
+       "text": "不知细叶谁裁出，二月春风似剪刀。"
+      },
+      {
+       "file": "咏柳_12.webp",
+       "title": "咏柳",
+       "page": 12,
+       "text": "碧玉妆成一树高，万条垂下绿丝绦。不知细叶谁裁出，二月春风似剪刀。"
+      }
+     ]
+    },
+    {
+     "char": "戈",
+     "pinyin": "gē",
+     "meaning": "spyd",
+     "type": "词语",
+     "snippet": "戈壁",
+     "source": "",
+     "strokes": 4,
+     "level": 5,
+     "strokeData": "戈.json",
+     "bookPages": []
+    },
+    {
+     "char": "剑",
+     "pinyin": "jiàn",
+     "meaning": "sværd",
+     "type": "词语",
+     "snippet": "宝剑",
+     "source": "",
+     "strokes": 9,
+     "level": 3,
+     "strokeData": "剑.json",
+     "bookPages": []
+    },
+    {
+     "char": "分",
+     "pinyin": "fēn",
+     "meaning": "dele",
+     "type": "古诗",
+     "snippet": "梅须逊雪三分白",
+     "source": "卢梅坡《雪梅》",
+     "strokes": 4,
+     "level": 1,
+     "strokeData": "分.json",
+     "bookPages": [
+      {
+       "file": "雪梅_8.webp",
+       "title": "雪梅",
+       "page": 8,
+       "text": "梅须逊雪三分白，雪却输梅一段香。"
+      },
+      {
+       "file": "雪梅_12.webp",
+       "title": "雪梅",
+       "page": 12,
+       "text": "梅雪争春未肯降，骚人阁笔费评章。梅须逊雪三分白，雪却输梅一段香。"
+      },
+      {
+       "file": "从头动到脚_3.webp",
+       "title": "从头动到脚",
+       "page": 3,
+       "text": "第一部分 · 从头到脚"
+      }
+     ]
+    },
+    {
+     "char": "切",
+     "pinyin": "qiē",
+     "meaning": "skære",
+     "type": "词语",
+     "snippet": "一切",
+     "source": "",
+     "strokes": 4,
+     "level": 2,
+     "strokeData": "切.json",
+     "bookPages": [
+      {
+       "file": "月亮的节日_8.webp",
+       "title": "月亮的节日",
+       "page": 8,
+       "text": "切开月饼分给你，\n甜甜蜜蜜在一起。"
+      },
+      {
+       "file": "好吃的中国饭_15.webp",
+       "title": "好吃的中国饭",
+       "page": 15,
+       "text": "刀叉会切，筷子会夹，\n两样都会顶呱呱！"
+      },
+      {
+       "file": "拼音_复韵母_11.webp",
+       "title": "拼音_复韵母",
+       "page": 11,
+       "text": "o 拉 u 手 ou ou ou，\n莲藕切开露小口。"
+      }
+     ]
+    },
+    {
+     "char": "力",
+     "pinyin": "lì",
+     "meaning": "kraft",
+     "type": "词语",
+     "snippet": "力量",
+     "source": "",
+     "strokes": 2,
+     "level": 1,
+     "strokeData": "力.json",
+     "bookPages": [
+      {
+       "file": "竹石_9.webp",
+       "title": "竹石",
+       "page": 9,
+       "text": "「千磨万击」就是经过很多很多次的磨难和敲打。「坚劲」就是坚强有力。「任尔」就是随便你。"
+      },
+      {
+       "file": "长歌行_12.webp",
+       "title": "长歌行",
+       "page": 12,
+       "text": "青青园中葵，朝露待日晞。阳春布德泽，万物生光辉。常恐秋节至，焜黄华叶衰。百川东到海，何时复西归？少壮不努力，老大徒伤悲。"
+      },
+      {
+       "file": "汉字变魔法_10.webp",
+       "title": "汉字变魔法",
+       "page": 10,
+       "text": "人多力量大，\n大家一起顶呱呱。"
+      }
+     ]
+    },
+    {
+     "char": "兵",
+     "pinyin": "bīng",
+     "meaning": "soldat",
+     "type": "词语",
+     "snippet": "士兵",
+     "source": "",
+     "strokes": 7,
+     "level": 2,
+     "strokeData": "兵.json",
+     "bookPages": [
+      {
+       "file": "塞下曲_7.webp",
+       "title": "塞下曲",
+       "page": 7,
+       "text": "第二天天一亮，士兵们去找那支箭。走近一看，哪里有老虎？原来是一块大石头！"
+      },
+      {
+       "file": "塞下曲_3.webp",
+       "title": "塞下曲",
+       "page": 3,
+       "text": "一天夜里，李广带着士兵在边塞巡逻。树林黑黑的，一阵大风吹来，草丛沙沙作响。"
+      },
+      {
+       "file": "出塞_3.webp",
+       "title": "出塞",
+       "page": 3,
+       "text": "年轻的士兵们离开家，来到这里守着长城。他们守在这里，是为了保护家里的爸爸妈妈和孩子。"
+      }
+     ]
+    },
+    {
+     "char": "武",
+     "pinyin": "wǔ",
+     "meaning": "kamp",
+     "type": "词语",
+     "snippet": "武术",
+     "source": "",
+     "strokes": 8,
+     "level": 2,
+     "strokeData": "武.json",
+     "bookPages": []
+    }
+   ]
+  },
+  {
+   "id": "plant",
+   "type": "wood",
+   "typeName": "草木",
+   "name": "草木族",
+   "creature": "芽芽",
+   "emoji": "🌱",
+   "eggImage": "egg_plant.webp",
+   "images": [
+    "tribe_plant_1.webp",
+    "tribe_plant_2.webp",
+    "tribe_plant_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "木",
+     "pinyin": "mù",
+     "meaning": "træ",
+     "type": "儿歌",
+     "snippet": "两个木字手拉手，变成一片小树林。",
+     "source": "",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "木.json",
+     "bookPages": [
+      {
+       "file": "元日_9.webp",
+       "title": "元日",
+       "page": 9,
+       "text": "「曈曈」就是太阳刚出来、明亮温暖的样子。「桃符」是挂在门上的桃木板，古人相信它能保平安。后来，桃符慢慢变成了今天的春联。"
+      },
+      {
+       "file": "日月山水_18.webp",
+       "title": "日月山水",
+       "page": 18,
+       "text": "「木」就像一棵树，有树枝和树根。"
+      },
+      {
+       "file": "笔画歌_2.webp",
+       "title": "笔画歌",
+       "page": 2,
+       "text": "汉字是搭出来的，\n笔画就是小积木。"
+      }
+     ]
+    },
+    {
+     "char": "树",
+     "pinyin": "shù",
+     "meaning": "træ",
+     "type": "古诗",
+     "snippet": "绿树村边合",
+     "source": "孟浩然《过故人庄》",
+     "strokes": 9,
+     "level": 2,
+     "strokeData": "树.json",
+     "bookPages": [
+      {
+       "file": "守株待兔_6.webp",
+       "title": "守株待兔",
+       "page": 6,
+       "text": "「株」就是树桩。「守株」，就是守着树桩。"
+      },
+      {
+       "file": "所见_6.webp",
+       "title": "所见",
+       "page": 6,
+       "text": "「振」就是震动。「林樾」就是树林。歌声大得好像把树林都震动了！"
+      },
+      {
+       "file": "咏柳_6.webp",
+       "title": "咏柳",
+       "page": 6,
+       "text": "「碧玉」是绿色的美玉。「妆成」就是打扮成。「丝绦」就是丝带。柳树打扮得真漂亮！"
+      }
+     ]
+    },
+    {
+     "char": "花",
+     "pinyin": "huā",
+     "meaning": "blomst",
+     "type": "古诗",
+     "snippet": "夜来风雨声，花落知多少。",
+     "source": "孟浩然《春晓》",
+     "strokes": 7,
+     "level": 2,
+     "strokeData": "花.json",
+     "bookPages": [
+      {
+       "file": "静夜思_7.webp",
+       "title": "静夜思",
+       "page": 7,
+       "text": "「疑」就是「好像、以为」。李白看花了眼，以为地上结了一层霜。"
+      },
+      {
+       "file": "雪梅_9.webp",
+       "title": "雪梅",
+       "page": 9,
+       "text": "「逊」就是比不上。梅花没有雪那么白；可是雪呢，没有梅花那么香。"
+      },
+      {
+       "file": "一去二三里_9.webp",
+       "title": "一去二三里",
+       "page": 9,
+       "text": "「亭」是路边给人歇脚的小房子，有顶没有墙。「枝」就是一枝一枝的花。"
+      }
+     ]
+    },
+    {
+     "char": "草",
+     "pinyin": "cǎo",
+     "meaning": "græs",
+     "type": "古诗",
+     "snippet": "离离原上草，一岁一枯荣。",
+     "source": "白居易《赋得古原草送别》",
+     "strokes": 9,
+     "level": 3,
+     "strokeData": "草.json",
+     "bookPages": [
+      {
+       "file": "江雪_9.webp",
+       "title": "江雪",
+       "page": 9,
+       "text": "「蓑」是草编的雨衣，「笠」是竹子编的大帽子。「翁」就是老爷爷。"
+      },
+      {
+       "file": "悯农_6.webp",
+       "title": "悯农",
+       "page": 6,
+       "text": "「锄禾」就是用锄头给禾苗除草、松土。「日当午」就是太阳正在头顶。"
+      },
+      {
+       "file": "塞下曲_6.webp",
+       "title": "塞下曲",
+       "page": 6,
+       "text": "「惊风」就是突然刮起的大风，把草吹得乱晃。「引弓」就是拉开弓，准备射箭。"
+      }
+     ]
+    },
+    {
+     "char": "叶",
+     "pinyin": "yè",
+     "meaning": "blad",
+     "type": "古诗",
+     "snippet": "不知细叶谁裁出",
+     "source": "贺知章《咏柳》",
+     "strokes": 5,
+     "level": 3,
+     "strokeData": "叶.json",
+     "bookPages": [
+      {
+       "file": "小池_9.webp",
+       "title": "小池",
+       "page": 9,
+       "text": "「露」就是露出来。小荷叶才露出一点点，蜻蜓就飞来站在上面了！"
+      },
+      {
+       "file": "赠刘景文_6.webp",
+       "title": "赠刘景文",
+       "page": 6,
+       "text": "「擎」就是高高举着。荷叶像一把绿伞，高高举着替人挡雨，所以叫「擎雨盖」。"
+      },
+      {
+       "file": "江南_6.webp",
+       "title": "江南",
+       "page": 6,
+       "text": "「田田」就是荷叶又多又圆，连成一大片的样子。「何田田」就是：荷叶多么多呀！"
+      }
+     ]
+    },
+    {
+     "char": "林",
+     "pinyin": "lín",
+     "meaning": "skov",
+     "type": "成语",
+     "snippet": "独木不成林",
+     "source": "",
+     "strokes": 8,
+     "level": 2,
+     "strokeData": "林.json",
+     "bookPages": [
+      {
+       "file": "所见_6.webp",
+       "title": "所见",
+       "page": 6,
+       "text": "「振」就是震动。「林樾」就是树林。歌声大得好像把树林都震动了！"
+      },
+      {
+       "file": "塞下曲_5.webp",
+       "title": "塞下曲",
+       "page": 5,
+       "text": "林暗草惊风，将军夜引弓。"
+      },
+      {
+       "file": "所见_5.webp",
+       "title": "所见",
+       "page": 5,
+       "text": "牧童骑黄牛，歌声振林樾。"
+      }
+     ]
+    },
+    {
+     "char": "森",
+     "pinyin": "sēn",
+     "meaning": "skov",
+     "type": "儿歌",
+     "snippet": "三个木字住一起，变成一片大森林。",
+     "source": "",
+     "strokes": 12,
+     "level": 3,
+     "strokeData": "森.json",
+     "bookPages": [
+      {
+       "file": "汉字变魔法_7.webp",
+       "title": "汉字变魔法",
+       "page": 7,
+       "text": "走进绿绿的大森林，\n小鸟唱歌真开心。"
+      },
+      {
+       "file": "狐假虎威_2.webp",
+       "title": "狐假虎威",
+       "page": 2,
+       "text": "森林里，一只老虎捉住了一只狐狸。老虎张开大嘴，要吃掉它。"
+      },
+      {
+       "file": "汉字变魔法_20.webp",
+       "title": "汉字变魔法",
+       "page": 20,
+       "text": "汉字魔法变变变，\n日月牵手亮闪闪，\n三树成森一大片，\n我是魔法小状元！"
+      }
+     ]
+    },
+    {
+     "char": "苗",
+     "pinyin": "miáo",
+     "meaning": "spire",
+     "type": "词语",
+     "snippet": "禾苗",
+     "source": "",
+     "strokes": 8,
+     "level": 5,
+     "strokeData": "苗.json",
+     "bookPages": [
+      {
+       "file": "揠苗助长_6.webp",
+       "title": "揠苗助长",
+       "page": 6,
+       "text": "「揠」就是拔。「揠苗」，就是把禾苗往上拔。"
+      },
+      {
+       "file": "悯农_6.webp",
+       "title": "悯农",
+       "page": 6,
+       "text": "「锄禾」就是用锄头给禾苗除草、松土。「日当午」就是太阳正在头顶。"
+      },
+      {
+       "file": "春夜喜雨_6.webp",
+       "title": "春夜喜雨",
+       "page": 6,
+       "text": "「发生」就是让小苗发芽、长大。「潜」就是悄悄地。好雨跟着风，悄悄地来，一点儿声音也没有。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grain",
+   "type": "wood",
+   "typeName": "草木",
+   "name": "五谷族",
+   "creature": "穗穗",
+   "emoji": "🌾",
+   "eggImage": "egg_grain.webp",
+   "images": [
+    "tribe_grain_1.webp",
+    "tribe_grain_2.webp",
+    "tribe_grain_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "禾",
+     "pinyin": "hé",
+     "meaning": "korn",
+     "type": "古诗",
+     "snippet": "锄禾日当午",
+     "source": "李绅《悯农》",
+     "strokes": 5,
+     "level": 9,
+     "strokeData": "禾.json",
+     "bookPages": [
+      {
+       "file": "揠苗助长_6.webp",
+       "title": "揠苗助长",
+       "page": 6,
+       "text": "「揠」就是拔。「揠苗」，就是把禾苗往上拔。"
+      },
+      {
+       "file": "悯农_5.webp",
+       "title": "悯农",
+       "page": 5,
+       "text": "锄禾日当午，汗滴禾下土。"
+      },
+      {
+       "file": "悯农_12.webp",
+       "title": "悯农",
+       "page": 12,
+       "text": "锄禾日当午，汗滴禾下土。谁知盘中餐，粒粒皆辛苦。"
+      }
+     ]
+    },
+    {
+     "char": "米",
+     "pinyin": "mǐ",
+     "meaning": "ris",
+     "type": "词语",
+     "snippet": "大米",
+     "source": "",
+     "strokes": 6,
+     "level": 2,
+     "strokeData": "米.json",
+     "bookPages": [
+      {
+       "file": "悯农_9.webp",
+       "title": "悯农",
+       "page": 9,
+       "text": "「皆」就是「都」。每一粒米，都是农民伯伯辛辛苦苦种出来的。"
+      },
+      {
+       "file": "我爱吃_17.webp",
+       "title": "我爱吃",
+       "page": 17,
+       "text": "这是米饭。"
+      },
+      {
+       "file": "我爱吃_18.webp",
+       "title": "我爱吃",
+       "page": 18,
+       "text": "米饭很热。"
+      }
+     ]
+    },
+    {
+     "char": "麦",
+     "pinyin": "mài",
+     "meaning": "hvede",
+     "type": "词语",
+     "snippet": "小麦",
+     "source": "",
+     "strokes": 7,
+     "level": 4,
+     "strokeData": "麦.json",
+     "bookPages": [
+      {
+       "file": "咏鹅_13.webp",
+       "title": "咏鹅",
+       "page": 13,
+       "text": "丹麦也有很多鹅。"
+      },
+      {
+       "file": "我要穿什么_25.webp",
+       "title": "我要穿什么",
+       "page": 25,
+       "text": "丹麦的天气，一天变好几次。"
+      },
+      {
+       "file": "月亮的节日_9.webp",
+       "title": "月亮的节日",
+       "page": 9,
+       "text": "丹麦的节日，也有圆圆甜甜的点心。"
+      }
+     ]
+    },
+    {
+     "char": "谷",
+     "pinyin": "gǔ",
+     "meaning": "dal",
+     "type": "词语",
+     "snippet": "山谷",
+     "source": "",
+     "strokes": 7,
+     "level": 3,
+     "strokeData": "谷.json",
+     "bookPages": []
+    },
+    {
+     "char": "田",
+     "pinyin": "tián",
+     "meaning": "mark",
+     "type": "古诗",
+     "snippet": "江南可采莲，莲叶何田田。",
+     "source": "汉乐府《江南》",
+     "strokes": 5,
+     "level": 0,
+     "strokeData": "田.json",
+     "bookPages": [
+      {
+       "file": "四时田园杂兴_6.webp",
+       "title": "四时田园杂兴",
+       "page": 6,
+       "text": "「耘田」就是在田里除草。「绩麻」就是把麻搓成线。「各当家」就是每个人都管着一份家里的活儿。"
+      },
+      {
+       "file": "四时田园杂兴_5.webp",
+       "title": "四时田园杂兴",
+       "page": 5,
+       "text": "昼出耘田夜绩麻，村庄儿女各当家。"
+      },
+      {
+       "file": "四时田园杂兴_12.webp",
+       "title": "四时田园杂兴",
+       "page": 12,
+       "text": "昼出耘田夜绩麻，村庄儿女各当家。童孙未解供耕织，也傍桑阴学种瓜。"
+      }
+     ]
+    },
+    {
+     "char": "种",
+     "pinyin": "zhǒng",
+     "meaning": "slags",
+     "type": "词语",
+     "snippet": "种子",
+     "source": "",
+     "strokes": 9,
+     "level": 1,
+     "strokeData": "种.json",
+     "bookPages": [
+      {
+       "file": "悯农_9.webp",
+       "title": "悯农",
+       "page": 9,
+       "text": "「皆」就是「都」。每一粒米，都是农民伯伯辛辛苦苦种出来的。"
+      },
+      {
+       "file": "绝句_6.webp",
+       "title": "绝句",
+       "page": 6,
+       "text": "「一行」就是一排。「鸣」就是鸟儿叫。四种颜色：黄、绿、白、蓝，真好看！"
+      },
+      {
+       "file": "早发白帝城_9.webp",
+       "title": "早发白帝城",
+       "page": 9,
+       "text": "「猿」是长臂猿，一种会大声叫的猴子。「万重山」就是一层又一层，好多好多的山。"
+      }
+     ]
+    },
+    {
+     "char": "秋",
+     "pinyin": "qiū",
+     "meaning": "efterår",
+     "type": "古诗",
+     "snippet": "自古逢秋悲寂寥",
+     "source": "刘禹锡《秋词》",
+     "strokes": 9,
+     "level": 4,
+     "strokeData": "秋.json",
+     "bookPages": [
+      {
+       "file": "风_6.webp",
+       "title": "风",
+       "page": 6,
+       "text": "「解」在这里是能够、会的意思。「三秋」就是秋天，「二月」就是春天。"
+      },
+      {
+       "file": "山行_9.webp",
+       "title": "山行",
+       "page": 9,
+       "text": "「坐」在这里是因为。「霜叶」就是秋天经过霜打的枫叶。「红于二月花」就是比春天的花还要红。"
+      },
+      {
+       "file": "晓出净慈寺送林子方_6.webp",
+       "title": "晓出净慈寺送林子方",
+       "page": 6,
+       "text": "「毕竟」就是到底、真的是。「四时」就是春夏秋冬四个季节。「不与四时同」就是和别的季节都不一样。"
+      }
+     ]
+    },
+    {
+     "char": "丰",
+     "pinyin": "fēng",
+     "meaning": "rigelig",
+     "type": "词语",
+     "snippet": "丰富",
+     "source": "",
+     "strokes": 4,
+     "level": 4,
+     "strokeData": "丰.json",
+     "bookPages": []
+    }
+   ]
+  },
+  {
+   "id": "beast",
+   "type": "wood",
+   "typeName": "草木",
+   "name": "虫兽族",
+   "creature": "毛毛",
+   "emoji": "🐛",
+   "eggImage": "egg_beast.webp",
+   "images": [
+    "tribe_beast_1.webp",
+    "tribe_beast_2.webp",
+    "tribe_beast_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "虫",
+     "pinyin": "chóng",
+     "meaning": "insekt",
+     "type": "词语",
+     "snippet": "昆虫",
+     "source": "",
+     "strokes": 6,
+     "level": 4,
+     "strokeData": "虫.json",
+     "bookPages": [
+      {
+       "file": "舟夜书所见_6.webp",
+       "title": "舟夜书所见",
+       "page": 6,
+       "text": "「月黑」就是没有月亮，天很黑。「孤光」就是孤零零的一点光。「萤」就是萤火虫。"
+      },
+      {
+       "file": "马牛羊_12.webp",
+       "title": "马牛羊",
+       "page": 12,
+       "text": "虫住在苹果里。"
+      },
+      {
+       "file": "马牛羊_11.webp",
+       "title": "马牛羊",
+       "page": 11,
+       "text": "这是虫。虫在叶子上爬。"
+      }
+     ]
+    },
+    {
+     "char": "兽",
+     "pinyin": "shòu",
+     "meaning": "vilddyr",
+     "type": "词语",
+     "snippet": "野兽",
+     "source": "",
+     "strokes": 11,
+     "level": 5,
+     "strokeData": "兽.json",
+     "bookPages": [
+      {
+       "file": "过年啦_5.webp",
+       "title": "过年啦",
+       "page": 5,
+       "text": "红衣灯笼咚咚响，\n年兽吓得跑光光！"
+      },
+      {
+       "file": "过年啦_3.webp",
+       "title": "过年啦",
+       "page": 3,
+       "text": "很久以前，有一只怪兽，\n它的名字叫「年」。"
+      },
+      {
+       "file": "狐假虎威_3.webp",
+       "title": "狐假虎威",
+       "page": 3,
+       "text": "狐狸眼珠子一转，大声说：「你敢吃我？老天爷派我来管百兽！」"
+      }
+     ]
+    },
+    {
+     "char": "马",
+     "pinyin": "mǎ",
+     "meaning": "hest",
+     "type": "成语",
+     "snippet": "马到成功",
+     "source": "",
+     "strokes": 3,
+     "level": 1,
+     "strokeData": "马.json",
+     "bookPages": [
+      {
+       "file": "马诗_9.webp",
+       "title": "马诗",
+       "page": 9,
+       "text": "「何当」就是什么时候。「金络脑」就是用金子装饰的马笼头。「快走」就是快快地跑。"
+      },
+      {
+       "file": "出塞_9.webp",
+       "title": "出塞",
+       "page": 9,
+       "text": "「但使」就是只要。「不教胡马度阴山」就是：不让敌人的马越过阴山，大家就能平平安安。"
+      },
+      {
+       "file": "出塞_8.webp",
+       "title": "出塞",
+       "page": 8,
+       "text": "但使龙城飞将在，不教胡马度阴山。"
+      }
+     ]
+    },
+    {
+     "char": "牛",
+     "pinyin": "niú",
+     "meaning": "ko",
+     "type": "古诗",
+     "snippet": "牧童骑黄牛，歌声振林樾。",
+     "source": "袁枚《所见》",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "牛.json",
+     "bookPages": [
+      {
+       "file": "乞巧_5.webp",
+       "title": "乞巧",
+       "page": 5,
+       "text": "七夕今宵看碧霄，牵牛织女渡河桥。"
+      },
+      {
+       "file": "敕勒歌_8.webp",
+       "title": "敕勒歌",
+       "page": 8,
+       "text": "天苍苍，野茫茫，风吹草低见牛羊。"
+      },
+      {
+       "file": "乞巧_12.webp",
+       "title": "乞巧",
+       "page": 12,
+       "text": "七夕今宵看碧霄，牵牛织女渡河桥。家家乞巧望秋月，穿尽红丝几万条。"
+      }
+     ]
+    },
+    {
+     "char": "羊",
+     "pinyin": "yáng",
+     "meaning": "får",
+     "type": "成语",
+     "snippet": "亡羊补牢",
+     "source": "",
+     "strokes": 6,
+     "level": 4,
+     "strokeData": "羊.json",
+     "bookPages": [
+      {
+       "file": "亡羊补牢_6.webp",
+       "title": "亡羊补牢",
+       "page": 6,
+       "text": "「亡」在这里是丢了。「亡羊」，就是丢了羊。"
+      },
+      {
+       "file": "敕勒歌_8.webp",
+       "title": "敕勒歌",
+       "page": 8,
+       "text": "天苍苍，野茫茫，风吹草低见牛羊。"
+      },
+      {
+       "file": "敕勒歌_12.webp",
+       "title": "敕勒歌",
+       "page": 12,
+       "text": "敕勒川，阴山下。天似穹庐，笼盖四野。天苍苍，野茫茫，风吹草低见牛羊。"
+      }
+     ]
+    },
+    {
+     "char": "狗",
+     "pinyin": "gǒu",
+     "meaning": "hund",
+     "type": "词语",
+     "snippet": "小狗",
+     "source": "",
+     "strokes": 8,
+     "level": 4,
+     "strokeData": "狗.json",
+     "bookPages": [
+      {
+       "file": "十二生肖_25.webp",
+       "title": "十二生肖",
+       "page": 25,
+       "text": "狗是好朋友。"
+      },
+      {
+       "file": "十二生肖_24.webp",
+       "title": "十二生肖",
+       "page": 24,
+       "text": "第十一名是狗。"
+      },
+      {
+       "file": "谁在叫_6.webp",
+       "title": "谁在叫",
+       "page": 6,
+       "text": "是小狗！小狗说汪汪。"
+      }
+     ]
+    },
+    {
+     "char": "兔",
+     "pinyin": "tù",
+     "meaning": "kanin",
+     "type": "成语",
+     "snippet": "守株待兔",
+     "source": "",
+     "strokes": 8,
+     "level": 7,
+     "strokeData": "兔.json",
+     "bookPages": [
+      {
+       "file": "十二生肖_10.webp",
+       "title": "十二生肖",
+       "page": 10,
+       "text": "第四名是兔子。"
+      },
+      {
+       "file": "十二生肖_11.webp",
+       "title": "十二生肖",
+       "page": 11,
+       "text": "兔子跳得很高。"
+      },
+      {
+       "file": "从头动到脚_31.webp",
+       "title": "从头动到脚",
+       "page": 31,
+       "text": "我是兔子，我会动耳朵。你会吗？"
+      }
+     ]
+    },
+    {
+     "char": "虎",
+     "pinyin": "hǔ",
+     "meaning": "tiger",
+     "type": "词语",
+     "snippet": "老虎",
+     "source": "",
+     "strokes": 8,
+     "level": 3,
+     "strokeData": "虎.json",
+     "bookPages": [
+      {
+       "file": "狐假虎威_6.webp",
+       "title": "狐假虎威",
+       "page": 6,
+       "text": "「假」在这里是借。「狐假虎威」，就是狐狸借老虎的威风。"
+      },
+      {
+       "file": "十二生肖_9.webp",
+       "title": "十二生肖",
+       "page": 9,
+       "text": "老虎很勇敢。"
+      },
+      {
+       "file": "十二生肖_8.webp",
+       "title": "十二生肖",
+       "page": 8,
+       "text": "第三名是老虎。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stone",
+   "type": "earth",
+   "typeName": "大地",
+   "name": "山石族",
+   "creature": "磊磊",
+   "emoji": "⛰️",
+   "eggImage": "egg_stone.webp",
+   "images": [
+    "tribe_stone_1.webp",
+    "tribe_stone_2.webp",
+    "tribe_stone_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "山",
+     "pinyin": "shān",
+     "meaning": "bjerg",
+     "type": "成语",
+     "snippet": "山清水秀",
+     "source": "",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "山.json",
+     "bookPages": [
+      {
+       "file": "登鹳雀楼_6.webp",
+       "title": "登鹳雀楼",
+       "page": 6,
+       "text": "「依」就是靠着。「尽」就是没有了。太阳靠着山，慢慢落下去，看不见了。"
+      },
+      {
+       "file": "题西林壁_9.webp",
+       "title": "题西林壁",
+       "page": 9,
+       "text": "「真面目」就是山真正的样子。「只缘」就是只因为。「此山」就是这座山。"
+      },
+      {
+       "file": "寻隐者不遇_6.webp",
+       "title": "寻隐者不遇",
+       "page": 6,
+       "text": "「童子」就是小孩子。「言」就是说。「采药」就是到山上去找草药，用来治病。"
+      }
+     ]
+    },
+    {
+     "char": "石",
+     "pinyin": "shí",
+     "meaning": "sten",
+     "type": "词语",
+     "snippet": "石头",
+     "source": "",
+     "strokes": 5,
+     "level": 2,
+     "strokeData": "石.json",
+     "bookPages": [
+      {
+       "file": "竹石_6.webp",
+       "title": "竹石",
+       "page": 6,
+       "text": "「咬定」就是紧紧咬住，不松口。「立根」就是扎下根。「破岩」就是裂开的石头。"
+      },
+      {
+       "file": "石灰吟_9.webp",
+       "title": "石灰吟",
+       "page": 9,
+       "text": "「粉骨碎身」，是说石头碎成了细细的粉。「浑不怕」就是一点儿也不怕。「清白」就是干干净净、白白的。"
+      },
+      {
+       "file": "石灰吟_6.webp",
+       "title": "石灰吟",
+       "page": 6,
+       "text": "「凿」是一种尖尖的铁工具，用锤子敲着它，就能把石头凿开。「若等闲」就是好像很平常，一点儿也不害怕。"
+      }
+     ]
+    },
+    {
+     "char": "土",
+     "pinyin": "tǔ",
+     "meaning": "jord",
+     "type": "古诗",
+     "snippet": "锄禾日当午，汗滴禾下土。",
+     "source": "李绅《悯农》",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "土.json",
+     "bookPages": [
+      {
+       "file": "悯农_6.webp",
+       "title": "悯农",
+       "page": 6,
+       "text": "「锄禾」就是用锄头给禾苗除草、松土。「日当午」就是太阳正在头顶。"
+      },
+      {
+       "file": "日月山水_15.webp",
+       "title": "日月山水",
+       "page": 15,
+       "text": "土软软的，可以种花。"
+      },
+      {
+       "file": "日月山水_16.webp",
+       "title": "日月山水",
+       "page": 16,
+       "text": "「土」就像土堆上长出的小苗。"
+      }
+     ]
+    },
+    {
+     "char": "地",
+     "pinyin": "dì",
+     "meaning": "jord",
+     "type": "词语",
+     "snippet": "土地",
+     "source": "",
+     "strokes": 6,
+     "level": 1,
+     "strokeData": "地.json",
+     "bookPages": [
+      {
+       "file": "静夜思_7.webp",
+       "title": "静夜思",
+       "page": 7,
+       "text": "「疑」就是「好像、以为」。李白看花了眼，以为地上结了一层霜。"
+      },
+      {
+       "file": "夜书所见_9.webp",
+       "title": "夜书所见",
+       "page": 9,
+       "text": "「挑」就是用小棍子轻轻地拨。「促织」就是蟋蟀。「篱落」就是篱笆。"
+      },
+      {
+       "file": "赠汪伦_6.webp",
+       "title": "赠汪伦",
+       "page": 6,
+       "text": "「踏歌」就是一边用脚踏着拍子，一边唱歌。原来，汪伦特地赶来送他了！"
+      }
+     ]
+    },
+    {
+     "char": "岩",
+     "pinyin": "yán",
+     "meaning": "klippe",
+     "type": "词语",
+     "snippet": "岩石",
+     "source": "",
+     "strokes": 8,
+     "level": 4,
+     "strokeData": "岩.json",
+     "bookPages": [
+      {
+       "file": "竹石_5.webp",
+       "title": "竹石",
+       "page": 5,
+       "text": "咬定青山不放松，立根原在破岩中。"
+      },
+      {
+       "file": "竹石_12.webp",
+       "title": "竹石",
+       "page": 12,
+       "text": "咬定青山不放松，立根原在破岩中。千磨万击还坚劲，任尔东西南北风。"
+      }
+     ]
+    },
+    {
+     "char": "峰",
+     "pinyin": "fēng",
+     "meaning": "tinde",
+     "type": "古诗",
+     "snippet": "横看成岭侧成峰",
+     "source": "苏轼《题西林壁》",
+     "strokes": 10,
+     "level": 4,
+     "strokeData": "峰.json",
+     "bookPages": [
+      {
+       "file": "题西林壁_6.webp",
+       "title": "题西林壁",
+       "page": 6,
+       "text": "「横看」就是从正面看，「侧」就是从旁边看。「岭」是连在一起的长长的山，「峰」是高高的、尖尖的山头。"
+      },
+      {
+       "file": "题西林壁_5.webp",
+       "title": "题西林壁",
+       "page": 5,
+       "text": "横看成岭侧成峰，远近高低各不同。"
+      },
+      {
+       "file": "题西林壁_12.webp",
+       "title": "题西林壁",
+       "page": 12,
+       "text": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。"
+      }
+     ]
+    },
+    {
+     "char": "沙",
+     "pinyin": "shā",
+     "meaning": "sand",
+     "type": "词语",
+     "snippet": "沙滩",
+     "source": "",
+     "strokes": 7,
+     "level": 3,
+     "strokeData": "沙.json",
+     "bookPages": [
+      {
+       "file": "马诗_6.webp",
+       "title": "马诗",
+       "page": 6,
+       "text": "「大漠」就是大沙漠。「燕山」是北方的一座大山。「似钩」就是像钩子一样弯弯的。"
+      },
+      {
+       "file": "夜书所见_6.webp",
+       "title": "夜书所见",
+       "page": 6,
+       "text": "「萧萧」就是风吹树叶的沙沙声。「客」就是离开家、住在外面的人。「客情」就是想家的心情。"
+      },
+      {
+       "file": "宿建德江_6.webp",
+       "title": "宿建德江",
+       "page": 6,
+       "text": "「泊」就是把船停下来。「烟渚」就是雾蒙蒙的江心小沙洲。「客」就是离家在外的人，说的就是诗人自己。"
+      }
+     ]
+    },
+    {
+     "char": "矿",
+     "pinyin": "kuàng",
+     "meaning": "mine",
+     "type": "词语",
+     "snippet": "矿石",
+     "source": "",
+     "strokes": 8,
+     "level": 4,
+     "strokeData": "矿.json",
+     "bookPages": []
+    }
+   ]
+  },
+  {
+   "id": "home",
+   "type": "earth",
+   "typeName": "大地",
+   "name": "房屋族",
+   "creature": "窝窝",
+   "emoji": "🏠",
+   "eggImage": "egg_home.webp",
+   "images": [
+    "tribe_home_1.webp",
+    "tribe_home_2.webp",
+    "tribe_home_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "家",
+     "pinyin": "jiā",
+     "meaning": "hjem",
+     "type": "儿歌",
+     "snippet": "我爱我的家。",
+     "source": "",
+     "strokes": 10,
+     "level": 1,
+     "strokeData": "家.json",
+     "bookPages": [
+      {
+       "file": "游子吟_6.webp",
+       "title": "游子吟",
+       "page": 6,
+       "text": "「慈母」就是慈爱的妈妈。「游子」就是离开家、在外面远行的孩子。"
+      },
+      {
+       "file": "秋思_6.webp",
+       "title": "秋思",
+       "page": 6,
+       "text": "「家书」就是寄给家里人的信。「意万重」就是想说的话一层又一层，多得数不清。"
+      },
+      {
+       "file": "游子吟_9.webp",
+       "title": "游子吟",
+       "page": 9,
+       "text": "「临行」就是快要出发的时候。「意恐」就是心里害怕。「迟迟归」就是很晚很晚才回家。"
+      }
+     ]
+    },
+    {
+     "char": "房",
+     "pinyin": "fáng",
+     "meaning": "hus",
+     "type": "词语",
+     "snippet": "房间",
+     "source": "",
+     "strokes": 8,
+     "level": 2,
+     "strokeData": "房.json",
+     "bookPages": [
+      {
+       "file": "一去二三里_9.webp",
+       "title": "一去二三里",
+       "page": 9,
+       "text": "「亭」是路边给人歇脚的小房子，有顶没有墙。「枝」就是一枝一枝的花。"
+      },
+      {
+       "file": "敕勒歌_6.webp",
+       "title": "敕勒歌",
+       "page": 6,
+       "text": "「川」就是平平的大草原。「穹庐」就是圆顶的毡房。「笼盖四野」就是把四面八方都盖住。"
+      },
+      {
+       "file": "大和小_5.webp",
+       "title": "大和小",
+       "page": 5,
+       "text": "房子很大。"
+      }
+     ]
+    },
+    {
+     "char": "门",
+     "pinyin": "mén",
+     "meaning": "dør",
+     "type": "古诗",
+     "snippet": "门泊东吴万里船",
+     "source": "杜甫《绝句》",
+     "strokes": 3,
+     "level": 1,
+     "strokeData": "门.json",
+     "bookPages": [
+      {
+       "file": "枫桥夜泊_9.webp",
+       "title": "枫桥夜泊",
+       "page": 9,
+       "text": "「姑苏」是苏州的老名字。「夜半」就是半夜。「客船」就是出远门的人坐的船。"
+      },
+      {
+       "file": "出塞_6.webp",
+       "title": "出塞",
+       "page": 6,
+       "text": "「关」就是边塞上的关口，像一道大门。秦朝、汉朝，比唐朝还要早好几百年。月亮还是那个月亮，关口还是那个关口。"
+      },
+      {
+       "file": "元日_9.webp",
+       "title": "元日",
+       "page": 9,
+       "text": "「曈曈」就是太阳刚出来、明亮温暖的样子。「桃符」是挂在门上的桃木板，古人相信它能保平安。后来，桃符慢慢变成了今天的春联。"
+      }
+     ]
+    },
+    {
+     "char": "窗",
+     "pinyin": "chuāng",
+     "meaning": "vindue",
+     "type": "古诗",
+     "snippet": "窗含西岭千秋雪",
+     "source": "杜甫《绝句》",
+     "strokes": 12,
+     "level": 3,
+     "strokeData": "窗.json",
+     "bookPages": [
+      {
+       "file": "绝句_9.webp",
+       "title": "绝句",
+       "page": 9,
+       "text": "「含」就是窗户好像把雪山含在里面，像一幅画。「泊」就是停船。「东吴」是很远很远的地方。"
+      },
+      {
+       "file": "绝句_8.webp",
+       "title": "绝句",
+       "page": 8,
+       "text": "窗含西岭千秋雪，门泊东吴万里船。"
+      },
+      {
+       "file": "绝句_12.webp",
+       "title": "绝句",
+       "page": 12,
+       "text": "两个黄鹂鸣翠柳，一行白鹭上青天。窗含西岭千秋雪，门泊东吴万里船。"
+      }
+     ]
+    },
+    {
+     "char": "屋",
+     "pinyin": "wū",
+     "meaning": "tag",
+     "type": "词语",
+     "snippet": "房屋",
+     "source": "",
+     "strokes": 9,
+     "level": 3,
+     "strokeData": "屋.json",
+     "bookPages": [
+      {
+       "file": "汉字变魔法_14.webp",
+       "title": "汉字变魔法",
+       "page": 14,
+       "text": "尖尖东西找一找，\n铅笔屋顶都找到。"
+      },
+      {
+       "file": "端午节的龙舟_2.webp",
+       "title": "端午节的龙舟",
+       "page": 2,
+       "text": "五月初五是端午，\n龙舟粽子香满屋。"
+      },
+      {
+       "file": "一只猫两条鱼_3.webp",
+       "title": "一只猫两条鱼",
+       "page": 3,
+       "text": "小猫小鸟用「只」数，\n一只两只住小屋。"
+      }
+     ]
+    },
+    {
+     "char": "院",
+     "pinyin": "yuàn",
+     "meaning": "gård",
+     "type": "词语",
+     "snippet": "医院",
+     "source": "",
+     "strokes": 9,
+     "level": 2,
+     "strokeData": "院.json",
+     "bookPages": [
+      {
+       "file": "古朗月行_2.webp",
+       "title": "古朗月行",
+       "page": 2,
+       "text": "李白小时候，晚上常常坐在院子里，抬头看月亮。"
+      },
+      {
+       "file": "雪梅_2.webp",
+       "title": "雪梅",
+       "page": 2,
+       "text": "冬天快过去了，下了一场大雪。院子里的梅花也开了。"
+      },
+      {
+       "file": "梅花_2.webp",
+       "title": "梅花",
+       "page": 2,
+       "text": "冬天到了，天寒地冻，花儿都不开了，院子里白茫茫一片。"
+      }
+     ]
+    },
+    {
+     "char": "室",
+     "pinyin": "shì",
+     "meaning": "værelse",
+     "type": "词语",
+     "snippet": "教室",
+     "source": "",
+     "strokes": 9,
+     "level": 2,
+     "strokeData": "室.json",
+     "bookPages": [
+      {
+       "file": "第一天上学_7.webp",
+       "title": "第一天上学",
+       "page": 7,
+       "text": "教室里，有很多小朋友。"
+      },
+      {
+       "file": "大和小_18.webp",
+       "title": "大和小",
+       "page": 18,
+       "text": "找一找：教室里什么最大？什么最小？"
+      },
+      {
+       "file": "拼音_鼻韵母_18.webp",
+       "title": "拼音_鼻韵母",
+       "page": 18,
+       "text": "教室里面找一找，\n鼻音朋友真不少。"
+      }
+     ]
+    },
+    {
+     "char": "户",
+     "pinyin": "hù",
+     "meaning": "husstand",
+     "type": "古诗",
+     "snippet": "千门万户曈曈日",
+     "source": "王安石《元日》",
+     "strokes": 4,
+     "level": 3,
+     "strokeData": "户.json",
+     "bookPages": [
+      {
+       "file": "绝句_9.webp",
+       "title": "绝句",
+       "page": 9,
+       "text": "「含」就是窗户好像把雪山含在里面，像一幅画。「泊」就是停船。「东吴」是很远很远的地方。"
+      },
+      {
+       "file": "元日_8.webp",
+       "title": "元日",
+       "page": 8,
+       "text": "千门万户曈曈日，总把新桃换旧符。"
+      },
+      {
+       "file": "元日_12.webp",
+       "title": "元日",
+       "page": 12,
+       "text": "爆竹声中一岁除，春风送暖入屠苏。千门万户曈曈日，总把新桃换旧符。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "type": "earth",
+   "typeName": "大地",
+   "name": "田车族",
+   "creature": "轱辘",
+   "emoji": "🚜",
+   "eggImage": "egg_field.webp",
+   "images": [
+    "tribe_field_1.webp",
+    "tribe_field_2.webp",
+    "tribe_field_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "田",
+     "pinyin": "tián",
+     "meaning": "mark",
+     "type": "古诗",
+     "snippet": "江南可采莲，莲叶何田田。",
+     "source": "汉乐府《江南》",
+     "strokes": 5,
+     "level": 0,
+     "strokeData": "田.json",
+     "bookPages": [
+      {
+       "file": "四时田园杂兴_6.webp",
+       "title": "四时田园杂兴",
+       "page": 6,
+       "text": "「耘田」就是在田里除草。「绩麻」就是把麻搓成线。「各当家」就是每个人都管着一份家里的活儿。"
+      },
+      {
+       "file": "四时田园杂兴_5.webp",
+       "title": "四时田园杂兴",
+       "page": 5,
+       "text": "昼出耘田夜绩麻，村庄儿女各当家。"
+      },
+      {
+       "file": "四时田园杂兴_12.webp",
+       "title": "四时田园杂兴",
+       "page": 12,
+       "text": "昼出耘田夜绩麻，村庄儿女各当家。童孙未解供耕织，也傍桑阴学种瓜。"
+      }
+     ]
+    },
+    {
+     "char": "车",
+     "pinyin": "chē",
+     "meaning": "bil",
+     "type": "古诗",
+     "snippet": "停车坐爱枫林晚",
+     "source": "杜牧《山行》",
+     "strokes": 4,
+     "level": 2,
+     "strokeData": "车.json",
+     "bookPages": [
+      {
+       "file": "山行_8.webp",
+       "title": "山行",
+       "page": 8,
+       "text": "停车坐爱枫林晚，霜叶红于二月花。"
+      },
+      {
+       "file": "山行_12.webp",
+       "title": "山行",
+       "page": 12,
+       "text": "远上寒山石径斜，白云生处有人家。停车坐爱枫林晚，霜叶红于二月花。"
+      },
+      {
+       "file": "大和小_11.webp",
+       "title": "大和小",
+       "page": 11,
+       "text": "火车很长。"
+      }
+     ]
+    },
+    {
+     "char": "路",
+     "pinyin": "lù",
+     "meaning": "vej",
+     "type": "古诗",
+     "snippet": "路上行人欲断魂",
+     "source": "杜牧《清明》",
+     "strokes": 13,
+     "level": 1,
+     "strokeData": "路.json",
+     "bookPages": [
+      {
+       "file": "一去二三里_9.webp",
+       "title": "一去二三里",
+       "page": 9,
+       "text": "「亭」是路边给人歇脚的小房子，有顶没有墙。「枝」就是一枝一枝的花。"
+      },
+      {
+       "file": "江雪_6.webp",
+       "title": "江雪",
+       "page": 6,
+       "text": "「绝」就是一只也没有了。「径」就是小路。「人踪灭」就是连一个脚印也看不见了。"
+      },
+      {
+       "file": "三衢道中_9.webp",
+       "title": "三衢道中",
+       "page": 9,
+       "text": "「不减」就是没有变少。「添得」就是多出来。回来的路上，多出来几声黄鹂鸟的歌声！"
+      }
+     ]
+    },
+    {
+     "char": "轮",
+     "pinyin": "lún",
+     "meaning": "hjul",
+     "type": "词语",
+     "snippet": "轮船",
+     "source": "",
+     "strokes": 8,
+     "level": 3,
+     "strokeData": "轮.json",
+     "bookPages": []
+    },
+    {
+     "char": "野",
+     "pinyin": "yě",
+     "meaning": "vild",
+     "type": "古诗",
+     "snippet": "野火烧不尽",
+     "source": "白居易《赋得古原草送别》",
+     "strokes": 11,
+     "level": 3,
+     "strokeData": "野.json",
+     "bookPages": [
+      {
+       "file": "敕勒歌_6.webp",
+       "title": "敕勒歌",
+       "page": 6,
+       "text": "「川」就是平平的大草原。「穹庐」就是圆顶的毡房。「笼盖四野」就是把四面八方都盖住。"
+      },
+      {
+       "file": "宿建德江_8.webp",
+       "title": "宿建德江",
+       "page": 8,
+       "text": "野旷天低树，江清月近人。"
+      },
+      {
+       "file": "敕勒歌_8.webp",
+       "title": "敕勒歌",
+       "page": 8,
+       "text": "天苍苍，野茫茫，风吹草低见牛羊。"
+      }
+     ]
+    },
+    {
+     "char": "界",
+     "pinyin": "jiè",
+     "meaning": "grænse",
+     "type": "词语",
+     "snippet": "边界",
+     "source": "",
+     "strokes": 9,
+     "level": 1,
+     "strokeData": "界.json",
+     "bookPages": [
+      {
+       "file": "你看见什么_2.webp",
+       "title": "你看见什么",
+       "page": 2,
+       "text": "世界上有好多好多颜色。"
+      },
+      {
+       "file": "大和小_2.webp",
+       "title": "大和小",
+       "page": 2,
+       "text": "世界上的东西，有大也有小。"
+      },
+      {
+       "file": "大和小_22.webp",
+       "title": "大和小",
+       "page": 22,
+       "text": "大大的世界，小小的我。晚安。"
+      }
+     ]
+    },
+    {
+     "char": "耕",
+     "pinyin": "gēng",
+     "meaning": "pløje",
+     "type": "词语",
+     "snippet": "耕地",
+     "source": "",
+     "strokes": 10,
+     "level": 5,
+     "strokeData": "耕.json",
+     "bookPages": [
+      {
+       "file": "四时田园杂兴_8.webp",
+       "title": "四时田园杂兴",
+       "page": 8,
+       "text": "童孙未解供耕织，也傍桑阴学种瓜。"
+      },
+      {
+       "file": "四时田园杂兴_12.webp",
+       "title": "四时田园杂兴",
+       "page": 12,
+       "text": "昼出耘田夜绩麻，村庄儿女各当家。童孙未解供耕织，也傍桑阴学种瓜。"
+      }
+     ]
+    },
+    {
+     "char": "亩",
+     "pinyin": "mǔ",
+     "meaning": "jordmål",
+     "type": "词语",
+     "snippet": "亩产",
+     "source": "",
+     "strokes": 7,
+     "level": 7,
+     "strokeData": "亩.json",
+     "bookPages": [
+      {
+       "file": "观书有感_5.webp",
+       "title": "观书有感",
+       "page": 5,
+       "text": "半亩方塘一鉴开，天光云影共徘徊。"
+      },
+      {
+       "file": "观书有感_12.webp",
+       "title": "观书有感",
+       "page": 12,
+       "text": "半亩方塘一鉴开，天光云影共徘徊。问渠那得清如许？为有源头活水来。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sea",
+   "type": "water",
+   "typeName": "水",
+   "name": "江海族",
+   "creature": "波波",
+   "emoji": "🌊",
+   "eggImage": "egg_sea.webp",
+   "images": [
+    "tribe_sea_1.webp",
+    "tribe_sea_2.webp",
+    "tribe_sea_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "江",
+     "pinyin": "jiāng",
+     "meaning": "stor flod",
+     "type": "古诗",
+     "snippet": "唯见长江天际流",
+     "source": "李白《黄鹤楼送孟浩然之广陵》",
+     "strokes": 6,
+     "level": 2,
+     "strokeData": "江.json",
+     "bookPages": [
+      {
+       "file": "早发白帝城_6.webp",
+       "title": "早发白帝城",
+       "page": 6,
+       "text": "「朝」就是早晨。「还」是回来。「千里江陵一日还」：千里远的江陵，一天就回去了！"
+      },
+      {
+       "file": "泊船瓜洲_6.webp",
+       "title": "泊船瓜洲",
+       "page": 6,
+       "text": "「一水间」就是中间只隔着一条江水，很近很近。「数重山」就是几层山。家，好像就在眼前。"
+      },
+      {
+       "file": "望天门山_6.webp",
+       "title": "望天门山",
+       "page": 6,
+       "text": "「中断」就是从中间断开。「楚江」就是这一段长江。「回」就是江水撞到山，打着旋涡转了弯。"
+      }
+     ]
+    },
+    {
+     "char": "海",
+     "pinyin": "hǎi",
+     "meaning": "hav",
+     "type": "古诗",
+     "snippet": "海上生明月",
+     "source": "张九龄《望月怀远》",
+     "strokes": 10,
+     "level": 1,
+     "strokeData": "海.json",
+     "bookPages": [
+      {
+       "file": "惠崇春江晚景_9.webp",
+       "title": "惠崇春江晚景",
+       "page": 9,
+       "text": "「河豚」是一种鱼，生气的时候会把肚子鼓成一个圆圆的球。每到春天，它们就从大海游进江里来。「欲上」就是快要游上来了。"
+      },
+      {
+       "file": "登鹳雀楼_5.webp",
+       "title": "登鹳雀楼",
+       "page": 5,
+       "text": "白日依山尽，黄河入海流。"
+      },
+      {
+       "file": "登鹳雀楼_12.webp",
+       "title": "登鹳雀楼",
+       "page": 12,
+       "text": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。"
+      }
+     ]
+    },
+    {
+     "char": "水",
+     "pinyin": "shuǐ",
+     "meaning": "vand",
+     "type": "古诗",
+     "snippet": "白毛浮绿水，红掌拨清波。",
+     "source": "骆宾王《咏鹅》",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "水.json",
+     "bookPages": [
+      {
+       "file": "池上_6.webp",
+       "title": "池上",
+       "page": 6,
+       "text": "「撑」就是用长长的竹竿抵着水底，把船推着走。「艇」就是小船。"
+      },
+      {
+       "file": "小池_6.webp",
+       "title": "小池",
+       "page": 6,
+       "text": "「惜」就是舍不得。泉眼舍不得让水流走，所以只流出细细的一点点。"
+      },
+      {
+       "file": "赠汪伦_9.webp",
+       "title": "赠汪伦",
+       "page": 9,
+       "text": "「不及」就是比不上。潭水有千尺深，可是还比不上汪伦送我的情谊深。"
+      }
+     ]
+    },
+    {
+     "char": "河",
+     "pinyin": "hé",
+     "meaning": "flod",
+     "type": "古诗",
+     "snippet": "黄河入海流",
+     "source": "王之涣《登鹳雀楼》",
+     "strokes": 8,
+     "level": 2,
+     "strokeData": "河.json",
+     "bookPages": [
+      {
+       "file": "乞巧_6.webp",
+       "title": "乞巧",
+       "page": 6,
+       "text": "「今宵」就是今天晚上。「碧霄」就是蓝蓝的天空。「渡」就是过河。"
+      },
+      {
+       "file": "舟夜书所见_9.webp",
+       "title": "舟夜书所见",
+       "page": 9,
+       "text": "「簇浪」就是风把水推起一层层小波浪。「散作」就是散开，变成。「满河星」就是满河的星星。"
+      },
+      {
+       "file": "望庐山瀑布_6.webp",
+       "title": "望庐山瀑布",
+       "page": 6,
+       "text": "「遥看」就是从很远的地方看。远远看去，瀑布好像不动，像挂在那里一样。「前川」就是山前面的河。"
+      }
+     ]
+    },
+    {
+     "char": "湖",
+     "pinyin": "hú",
+     "meaning": "sø",
+     "type": "词语",
+     "snippet": "西湖",
+     "source": "",
+     "strokes": 12,
+     "level": 3,
+     "strokeData": "湖.json",
+     "bookPages": [
+      {
+       "file": "望洞庭_6.webp",
+       "title": "望洞庭",
+       "page": 6,
+       "text": "「两相和」就是湖光和月光融在一起。「潭面」就是湖面。「镜未磨」就是还没有磨过的铜镜。"
+      },
+      {
+       "file": "晓出净慈寺送林子方_5.webp",
+       "title": "晓出净慈寺送林子方",
+       "page": 5,
+       "text": "毕竟西湖六月中，风光不与四时同。"
+      },
+      {
+       "file": "望洞庭_5.webp",
+       "title": "望洞庭",
+       "page": 5,
+       "text": "湖光秋月两相和，潭面无风镜未磨。"
+      }
+     ]
+    },
+    {
+     "char": "波",
+     "pinyin": "bō",
+     "meaning": "bølge",
+     "type": "词语",
+     "snippet": "水波",
+     "source": "",
+     "strokes": 8,
+     "level": 2,
+     "strokeData": "波.json",
+     "bookPages": [
+      {
+       "file": "咏鹅_诗词版_9.webp",
+       "title": "咏鹅_诗词版",
+       "page": 9,
+       "text": "「拨」就是用脚掌划水。白鹅的红脚掌在水下一划一划，荡起清清的波浪。"
+      },
+      {
+       "file": "饮湖上初晴后雨_6.webp",
+       "title": "饮湖上初晴后雨",
+       "page": 6,
+       "text": "「潋滟」就是水波闪闪发光的样子。「空蒙」就是雾蒙蒙、看不清。「亦奇」就是也很奇妙。"
+      },
+      {
+       "file": "舟夜书所见_9.webp",
+       "title": "舟夜书所见",
+       "page": 9,
+       "text": "「簇浪」就是风把水推起一层层小波浪。「散作」就是散开，变成。「满河星」就是满河的星星。"
+      }
+     ]
+    },
+    {
+     "char": "浪",
+     "pinyin": "làng",
+     "meaning": "bølge",
+     "type": "词语",
+     "snippet": "浪花",
+     "source": "",
+     "strokes": 10,
+     "level": 4,
+     "strokeData": "浪.json",
+     "bookPages": [
+      {
+       "file": "咏鹅_诗词版_9.webp",
+       "title": "咏鹅_诗词版",
+       "page": 9,
+       "text": "「拨」就是用脚掌划水。白鹅的红脚掌在水下一划一划，荡起清清的波浪。"
+      },
+      {
+       "file": "舟夜书所见_8.webp",
+       "title": "舟夜书所见",
+       "page": 8,
+       "text": "微微风簇浪，散作满河星。"
+      },
+      {
+       "file": "风_8.webp",
+       "title": "风",
+       "page": 8,
+       "text": "过江千尺浪，入竹万竿斜。"
+      }
+     ]
+    },
+    {
+     "char": "流",
+     "pinyin": "liú",
+     "meaning": "flyde",
+     "type": "古诗",
+     "snippet": "黄河入海流",
+     "source": "王之涣《登鹳雀楼》",
+     "strokes": 10,
+     "level": 2,
+     "strokeData": "流.json",
+     "bookPages": [
+      {
+       "file": "小池_6.webp",
+       "title": "小池",
+       "page": 6,
+       "text": "「惜」就是舍不得。泉眼舍不得让水流走，所以只流出细细的一点点。"
+      },
+      {
+       "file": "观书有感_9.webp",
+       "title": "观书有感",
+       "page": 9,
+       "text": "「渠」就是它，指这个池塘。「那得」就是怎么会。「为」就是因为。「活水」就是一直流动的水。"
+      },
+      {
+       "file": "登鹳雀楼_5.webp",
+       "title": "登鹳雀楼",
+       "page": 5,
+       "text": "白日依山尽，黄河入海流。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fish",
+   "type": "water",
+   "typeName": "水",
+   "name": "鱼贝族",
+   "creature": "泡泡",
+   "emoji": "🐟",
+   "eggImage": "egg_fish.webp",
+   "images": [
+    "tribe_fish_1.webp",
+    "tribe_fish_2.webp",
+    "tribe_fish_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "鱼",
+     "pinyin": "yú",
+     "meaning": "fisk",
+     "type": "古诗",
+     "snippet": "鱼戏莲叶间。",
+     "source": "汉乐府《江南》",
+     "strokes": 8,
+     "level": 3,
+     "strokeData": "鱼.json",
+     "bookPages": [
+      {
+       "file": "江南_9.webp",
+       "title": "江南",
+       "page": 9,
+       "text": "「戏」就是玩耍。小鱼一会儿游到东，一会儿游到西，玩得多开心！"
+      },
+      {
+       "file": "小儿垂钓_6.webp",
+       "title": "小儿垂钓",
+       "page": 6,
+       "text": "「蓬头」就是头发乱蓬蓬的。「稚子」就是小孩子。「垂纶」就是钓鱼，「纶」是钓鱼的线。「莓苔」就是青苔。"
+      },
+      {
+       "file": "惠崇春江晚景_9.webp",
+       "title": "惠崇春江晚景",
+       "page": 9,
+       "text": "「河豚」是一种鱼，生气的时候会把肚子鼓成一个圆圆的球。每到春天，它们就从大海游进江里来。「欲上」就是快要游上来了。"
+      }
+     ]
+    },
+    {
+     "char": "贝",
+     "pinyin": "bèi",
+     "meaning": "musling",
+     "type": "词语",
+     "snippet": "宝贝",
+     "source": "",
+     "strokes": 4,
+     "level": 4,
+     "strokeData": "贝.json",
+     "bookPages": [
+      {
+       "file": "在哪里_15.webp",
+       "title": "在哪里",
+       "page": 15,
+       "text": "藏好了！你能按方位找到宝贝吗？"
+      },
+      {
+       "file": "拼音_单韵母_23.webp",
+       "title": "拼音_单韵母",
+       "page": 23,
+       "text": "ɑ o e，i u ü，六个韵母全学会，\n我是拼音小宝贝！"
+      }
+     ]
+    },
+    {
+     "char": "虾",
+     "pinyin": "xiā",
+     "meaning": "reje",
+     "type": "词语",
+     "snippet": "小虾",
+     "source": "",
+     "strokes": 9,
+     "level": 8,
+     "strokeData": "虾.json",
+     "bookPages": []
+    },
+    {
+     "char": "蟹",
+     "pinyin": "xiè",
+     "meaning": "krabbe",
+     "type": "词语",
+     "snippet": "螃蟹",
+     "source": "",
+     "strokes": 19,
+     "level": 8,
+     "strokeData": "蟹.json",
+     "bookPages": [
+      {
+       "file": "小儿垂钓_11.webp",
+       "title": "小儿垂钓",
+       "page": 11,
+       "text": "在丹麦的湖边或者海边，你钓过鱼、捉过螃蟹吗？等待的时候，要像小男孩一样，安安静静的。"
+      }
+     ]
+    },
+    {
+     "char": "鳞",
+     "pinyin": "lín",
+     "meaning": "skæl",
+     "type": "词语",
+     "snippet": "鱼鳞",
+     "source": "",
+     "strokes": 20,
+     "level": 7,
+     "strokeData": "鳞.json",
+     "bookPages": []
+    },
+    {
+     "char": "鲜",
+     "pinyin": "xiān",
+     "meaning": "frisk",
+     "type": "词语",
+     "snippet": "新鲜",
+     "source": "",
+     "strokes": 14,
+     "level": 3,
+     "strokeData": "鲜.json",
+     "bookPages": [
+      {
+       "file": "我爱吃_12.webp",
+       "title": "我爱吃",
+       "page": 12,
+       "text": "鱼很新鲜。"
+      },
+      {
+       "file": "观书有感_11.webp",
+       "title": "观书有感",
+       "page": 11,
+       "text": "你最近读了什么好书？每天读一点儿，就像给心里的小池塘，加一点儿新鲜的活水。"
+      }
+     ]
+    },
+    {
+     "char": "渔",
+     "pinyin": "yú",
+     "meaning": "fiske",
+     "type": "词语",
+     "snippet": "渔夫",
+     "source": "",
+     "strokes": 11,
+     "level": 5,
+     "strokeData": "渔.json",
+     "bookPages": [
+      {
+       "file": "舟夜书所见_5.webp",
+       "title": "舟夜书所见",
+       "page": 5,
+       "text": "月黑见渔灯，孤光一点萤。"
+      },
+      {
+       "file": "枫桥夜泊_5.webp",
+       "title": "枫桥夜泊",
+       "page": 5,
+       "text": "月落乌啼霜满天，江枫渔火对愁眠。"
+      },
+      {
+       "file": "舟夜书所见_12.webp",
+       "title": "舟夜书所见",
+       "page": 12,
+       "text": "月黑见渔灯，孤光一点萤。微微风簇浪，散作满河星。"
+      }
+     ]
+    },
+    {
+     "char": "鲨",
+     "pinyin": "shā",
+     "meaning": "haj",
+     "type": "词语",
+     "snippet": "鲨鱼",
+     "source": "",
+     "strokes": 15,
+     "level": 9,
+     "strokeData": "鲨.json",
+     "bookPages": []
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "type": "water",
+   "typeName": "水",
+   "name": "酒食族",
+   "creature": "饱饱",
+   "emoji": "🥟",
+   "eggImage": "egg_food.webp",
+   "images": [
+    "tribe_food_1.webp",
+    "tribe_food_2.webp",
+    "tribe_food_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "食",
+     "pinyin": "shí",
+     "meaning": "spise",
+     "type": "词语",
+     "snippet": "食物",
+     "source": "",
+     "strokes": 9,
+     "level": 2,
+     "strokeData": "食.json",
+     "bookPages": []
+    },
+    {
+     "char": "饭",
+     "pinyin": "fàn",
+     "meaning": "mad",
+     "type": "词语",
+     "snippet": "吃饭",
+     "source": "",
+     "strokes": 7,
+     "level": 3,
+     "strokeData": "饭.json",
+     "bookPages": [
+      {
+       "file": "一去二三里_6.webp",
+       "title": "一去二三里",
+       "page": 6,
+       "text": "「烟村」就是飘着炊烟的村子。做饭的时候，烟从烟囱里飘出来。"
+      },
+      {
+       "file": "我爱吃_17.webp",
+       "title": "我爱吃",
+       "page": 17,
+       "text": "这是米饭。"
+      },
+      {
+       "file": "我爱吃_18.webp",
+       "title": "我爱吃",
+       "page": 18,
+       "text": "米饭很热。"
+      }
+     ]
+    },
+    {
+     "char": "酒",
+     "pinyin": "jiǔ",
+     "meaning": "alkohol",
+     "type": "古诗",
+     "snippet": "借问酒家何处有",
+     "source": "杜牧《清明》",
+     "strokes": 10,
+     "level": 3,
+     "strokeData": "酒.json",
+     "bookPages": [
+      {
+       "file": "村居_6.webp",
+       "title": "村居",
+       "page": 6,
+       "text": "「醉」本来是喝酒喝多了，摇摇晃晃。诗人说，杨柳被春天迷住了，像喝醉了一样。"
+      },
+      {
+       "file": "清明_8.webp",
+       "title": "清明",
+       "page": 8,
+       "text": "借问酒家何处有，牧童遥指杏花村。"
+      },
+      {
+       "file": "清明_12.webp",
+       "title": "清明",
+       "page": 12,
+       "text": "清明时节雨纷纷，路上行人欲断魂。借问酒家何处有，牧童遥指杏花村。"
+      }
+     ]
+    },
+    {
+     "char": "茶",
+     "pinyin": "chá",
+     "meaning": "te",
+     "type": "词语",
+     "snippet": "茶叶",
+     "source": "",
+     "strokes": 9,
+     "level": 4,
+     "strokeData": "茶.json",
+     "bookPages": []
+    },
+    {
+     "char": "果",
+     "pinyin": "guǒ",
+     "meaning": "frugt",
+     "type": "词语",
+     "snippet": "水果",
+     "source": "",
+     "strokes": 8,
+     "level": 1,
+     "strokeData": "果.json",
+     "bookPages": [
+      {
+       "file": "我爱吃_5.webp",
+       "title": "我爱吃",
+       "page": 5,
+       "text": "这是苹果。"
+      },
+      {
+       "file": "我爱吃_6.webp",
+       "title": "我爱吃",
+       "page": 6,
+       "text": "苹果很甜。"
+      },
+      {
+       "file": "马牛羊_12.webp",
+       "title": "马牛羊",
+       "page": 12,
+       "text": "虫住在苹果里。"
+      }
+     ]
+    },
+    {
+     "char": "甜",
+     "pinyin": "tián",
+     "meaning": "sød",
+     "type": "词语",
+     "snippet": "甜蜜",
+     "source": "",
+     "strokes": 11,
+     "level": 6,
+     "strokeData": "甜.json",
+     "bookPages": [
+      {
+       "file": "我爱吃_6.webp",
+       "title": "我爱吃",
+       "page": 6,
+       "text": "苹果很甜。"
+      },
+      {
+       "file": "这是我的家_14.webp",
+       "title": "这是我的家",
+       "page": 14,
+       "text": "妹妹笑得很甜。"
+      },
+      {
+       "file": "月亮的节日_7.webp",
+       "title": "月亮的节日",
+       "page": 7,
+       "text": "月饼里面，藏着甜甜的馅。"
+      }
+     ]
+    },
+    {
+     "char": "饱",
+     "pinyin": "bǎo",
+     "meaning": "mæt",
+     "type": "词语",
+     "snippet": "吃饱",
+     "source": "",
+     "strokes": 8,
+     "level": 6,
+     "strokeData": "饱.json",
+     "bookPages": [
+      {
+       "file": "春夜喜雨_9.webp",
+       "title": "春夜喜雨",
+       "page": 9,
+       "text": "「晓」就是天刚亮。「重」就是沉沉的：花朵喝饱了雨水，变得沉沉的。锦官城，就是成都。"
+      },
+      {
+       "file": "我爱吃_25.webp",
+       "title": "我爱吃",
+       "page": 25,
+       "text": "谢谢，我吃饱了。"
+      },
+      {
+       "file": "我爱吃_26.webp",
+       "title": "我爱吃",
+       "page": 26,
+       "text": "肚子饱饱，晚安。"
+      }
+     ]
+    },
+    {
+     "char": "饮",
+     "pinyin": "yǐn",
+     "meaning": "drikke",
+     "type": "词语",
+     "snippet": "饮料",
+     "source": "",
+     "strokes": 7,
+     "level": 5,
+     "strokeData": "饮.json",
+     "bookPages": [
+      {
+       "file": "元日_6.webp",
+       "title": "元日",
+       "page": 6,
+       "text": "「一岁除」就是旧的一年过去了。「屠苏」是一种用药草泡的饮料，古人过年喝它，盼望一年不生病。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heart",
+   "type": "heart",
+   "typeName": "心灵",
+   "name": "心情族",
+   "creature": "暖暖",
+   "emoji": "❤️",
+   "eggImage": "egg_heart.webp",
+   "images": [
+    "tribe_heart_1.webp",
+    "tribe_heart_2.webp",
+    "tribe_heart_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "心",
+     "pinyin": "xīn",
+     "meaning": "hjerte",
+     "type": "成语",
+     "snippet": "一心一意",
+     "source": "",
+     "strokes": 4,
+     "level": 1,
+     "strokeData": "心.json",
+     "bookPages": [
+      {
+       "file": "江南_9.webp",
+       "title": "江南",
+       "page": 9,
+       "text": "「戏」就是玩耍。小鱼一会儿游到东，一会儿游到西，玩得多开心！"
+      },
+      {
+       "file": "所见_9.webp",
+       "title": "所见",
+       "page": 9,
+       "text": "「意欲」就是心里想要。「捕」就是捉。「闭口立」就是闭上嘴巴，站着不动。"
+      },
+      {
+       "file": "枫桥夜泊_6.webp",
+       "title": "枫桥夜泊",
+       "page": 6,
+       "text": "「渔火」就是渔船上的灯火。「对愁眠」就是带着心事，对着它们，睡也睡不着。"
+      }
+     ]
+    },
+    {
+     "char": "爱",
+     "pinyin": "ài",
+     "meaning": "elske",
+     "type": "古诗",
+     "snippet": "停车坐爱枫林晚",
+     "source": "杜牧《山行》",
+     "strokes": 10,
+     "level": 2,
+     "strokeData": "爱.json",
+     "bookPages": [
+      {
+       "file": "游子吟_6.webp",
+       "title": "游子吟",
+       "page": 6,
+       "text": "「慈母」就是慈爱的妈妈。「游子」就是离开家、在外面远行的孩子。"
+      },
+      {
+       "file": "小池_5.webp",
+       "title": "小池",
+       "page": 5,
+       "text": "泉眼无声惜细流，树阴照水爱晴柔。"
+      },
+      {
+       "file": "山行_8.webp",
+       "title": "山行",
+       "page": 8,
+       "text": "停车坐爱枫林晚，霜叶红于二月花。"
+      }
+     ]
+    },
+    {
+     "char": "情",
+     "pinyin": "qíng",
+     "meaning": "følelse",
+     "type": "古诗",
+     "snippet": "不及汪伦送我情",
+     "source": "李白《赠汪伦》",
+     "strokes": 11,
+     "level": 1,
+     "strokeData": "情.json",
+     "bookPages": [
+      {
+       "file": "赠汪伦_9.webp",
+       "title": "赠汪伦",
+       "page": 9,
+       "text": "「不及」就是比不上。潭水有千尺深，可是还比不上汪伦送我的情谊深。"
+      },
+      {
+       "file": "夜书所见_5.webp",
+       "title": "夜书所见",
+       "page": 5,
+       "text": "萧萧梧叶送寒声，江上秋风动客情。"
+      },
+      {
+       "file": "赠汪伦_8.webp",
+       "title": "赠汪伦",
+       "page": 8,
+       "text": "桃花潭水深千尺，不及汪伦送我情。"
+      }
+     ]
+    },
+    {
+     "char": "想",
+     "pinyin": "xiǎng",
+     "meaning": "tænke",
+     "type": "古诗",
+     "snippet": "云想衣裳花想容",
+     "source": "李白《清平调》",
+     "strokes": 13,
+     "level": 1,
+     "strokeData": "想.json",
+     "bookPages": [
+      {
+       "file": "登鹳雀楼_9.webp",
+       "title": "登鹳雀楼",
+       "page": 9,
+       "text": "「欲」就是想要。「穷」在这里是看到尽头。「更」就是再。"
+      },
+      {
+       "file": "所见_9.webp",
+       "title": "所见",
+       "page": 9,
+       "text": "「意欲」就是心里想要。「捕」就是捉。「闭口立」就是闭上嘴巴，站着不动。"
+      },
+      {
+       "file": "秋思_6.webp",
+       "title": "秋思",
+       "page": 6,
+       "text": "「家书」就是寄给家里人的信。「意万重」就是想说的话一层又一层，多得数不清。"
+      }
+     ]
+    },
+    {
+     "char": "念",
+     "pinyin": "niàn",
+     "meaning": "tænke på",
+     "type": "词语",
+     "snippet": "想念",
+     "source": "",
+     "strokes": 8,
+     "level": 2,
+     "strokeData": "念.json",
+     "bookPages": [
+      {
+       "file": "九月九日忆山东兄弟_6.webp",
+       "title": "九月九日忆山东兄弟",
+       "page": 6,
+       "text": "「异乡」就是不是自己家乡的地方。「为异客」就是做一个外地来的客人。「倍思亲」就是加倍地想念亲人。"
+      },
+      {
+       "file": "咏鹅_15.webp",
+       "title": "咏鹅",
+       "page": 15,
+       "text": "回家念给爸爸妈妈听吧。"
+      },
+      {
+       "file": "咏鹅_17.webp",
+       "title": "咏鹅",
+       "page": 17,
+       "text": "下次见到大白鹅，\n记得念诗给它听。"
+      }
+     ]
+    },
+    {
+     "char": "喜",
+     "pinyin": "xǐ",
+     "meaning": "kunne lide",
+     "type": "词语",
+     "snippet": "喜欢",
+     "source": "",
+     "strokes": 12,
+     "level": 2,
+     "strokeData": "喜.json",
+     "bookPages": [
+      {
+       "file": "滁州西涧_6.webp",
+       "title": "滁州西涧",
+       "page": 6,
+       "text": "「涧」就是山里的小溪。「独怜」就是特别喜欢。「幽草」就是长在安静地方的小草。"
+      },
+      {
+       "file": "春夏秋冬_16.webp",
+       "title": "春夏秋冬",
+       "page": 16,
+       "text": "你最喜欢哪个季节？"
+      },
+      {
+       "file": "过年啦_7.webp",
+       "title": "过年啦",
+       "page": 7,
+       "text": "新年穿上新衣裳，\n红红火火喜洋洋！"
+      }
+     ]
+    },
+    {
+     "char": "怒",
+     "pinyin": "nù",
+     "meaning": "vrede",
+     "type": "词语",
+     "snippet": "发怒",
+     "source": "",
+     "strokes": 9,
+     "level": 4,
+     "strokeData": "怒.json",
+     "bookPages": []
+    },
+    {
+     "char": "乐",
+     "pinyin": "lè",
+     "meaning": "glad",
+     "type": "词语",
+     "snippet": "快乐",
+     "source": "",
+     "strokes": 5,
+     "level": 2,
+     "strokeData": "乐.json",
+     "bookPages": [
+      {
+       "file": "好吃的中国饭_6.webp",
+       "title": "好吃的中国饭",
+       "page": 6,
+       "text": "爸爸擀皮我来包，包进快乐真热闹。"
+      },
+      {
+       "file": "过年啦_19.webp",
+       "title": "过年啦",
+       "page": 19,
+       "text": "见人就说吉祥话，\n新年快乐顶呱呱！"
+      },
+      {
+       "file": "拼音_单韵母_7.webp",
+       "title": "拼音_单韵母",
+       "page": 7,
+       "text": "扁扁嘴巴 e e e，\n白鹅游水乐呵呵。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "type": "heart",
+   "typeName": "心灵",
+   "name": "小人族",
+   "creature": "丁丁",
+   "emoji": "🧒",
+   "eggImage": "egg_people.webp",
+   "images": [
+    "tribe_people_1.webp",
+    "tribe_people_2.webp",
+    "tribe_people_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "人",
+     "pinyin": "rén",
+     "meaning": "menneske",
+     "type": "古诗",
+     "snippet": "春去花还在，人来鸟不惊。",
+     "source": "《画》",
+     "strokes": 2,
+     "level": 0,
+     "strokeData": "人.json",
+     "bookPages": [
+      {
+       "file": "一去二三里_9.webp",
+       "title": "一去二三里",
+       "page": 9,
+       "text": "「亭」是路边给人歇脚的小房子，有顶没有墙。「枝」就是一枝一枝的花。"
+      },
+      {
+       "file": "画_9.webp",
+       "title": "画",
+       "page": 9,
+       "text": "「惊」就是吓一跳。真的小鸟，看到人会吓得飞走；画里的小鸟，一动也不动。"
+      },
+      {
+       "file": "枫桥夜泊_9.webp",
+       "title": "枫桥夜泊",
+       "page": 9,
+       "text": "「姑苏」是苏州的老名字。「夜半」就是半夜。「客船」就是出远门的人坐的船。"
+      }
+     ]
+    },
+    {
+     "char": "大",
+     "pinyin": "dà",
+     "meaning": "stor",
+     "type": "儿歌",
+     "snippet": "大象鼻子长又长。",
+     "source": "",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "大.json",
+     "bookPages": [
+      {
+       "file": "所见_6.webp",
+       "title": "所见",
+       "page": 6,
+       "text": "「振」就是震动。「林樾」就是树林。歌声大得好像把树林都震动了！"
+      },
+      {
+       "file": "江雪_9.webp",
+       "title": "江雪",
+       "page": 9,
+       "text": "「蓑」是草编的雨衣，「笠」是竹子编的大帽子。「翁」就是老爷爷。"
+      },
+      {
+       "file": "塞下曲_6.webp",
+       "title": "塞下曲",
+       "page": 6,
+       "text": "「惊风」就是突然刮起的大风，把草吹得乱晃。「引弓」就是拉开弓，准备射箭。"
+      }
+     ]
+    },
+    {
+     "char": "小",
+     "pinyin": "xiǎo",
+     "meaning": "lille",
+     "type": "古诗",
+     "snippet": "小荷才露尖尖角。",
+     "source": "杨万里《小池》",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "小.json",
+     "bookPages": [
+      {
+       "file": "小池_9.webp",
+       "title": "小池",
+       "page": 9,
+       "text": "「露」就是露出来。小荷叶才露出一点点，蜻蜓就飞来站在上面了！"
+      },
+      {
+       "file": "江南_9.webp",
+       "title": "江南",
+       "page": 9,
+       "text": "「戏」就是玩耍。小鱼一会儿游到东，一会儿游到西，玩得多开心！"
+      },
+      {
+       "file": "池上_6.webp",
+       "title": "池上",
+       "page": 6,
+       "text": "「撑」就是用长长的竹竿抵着水底，把船推着走。「艇」就是小船。"
+      }
+     ]
+    },
+    {
+     "char": "你",
+     "pinyin": "nǐ",
+     "meaning": "du",
+     "type": "儿歌",
+     "snippet": "你好你好，我们做朋友。",
+     "source": "",
+     "strokes": 7,
+     "level": 1,
+     "strokeData": "你.json",
+     "bookPages": [
+      {
+       "file": "别董大_9.webp",
+       "title": "别董大",
+       "page": 9,
+       "text": "「莫愁」就是不要发愁。「知己」就是最懂你的好朋友。「君」就是你。"
+      },
+      {
+       "file": "赠刘景文_9.webp",
+       "title": "赠刘景文",
+       "page": 9,
+       "text": "「君」就是你，是对朋友客气的叫法。「须」就是一定要。「君须记」就是：你一定要记住呀！"
+      },
+      {
+       "file": "竹石_9.webp",
+       "title": "竹石",
+       "page": 9,
+       "text": "「千磨万击」就是经过很多很多次的磨难和敲打。「坚劲」就是坚强有力。「任尔」就是随便你。"
+      }
+     ]
+    },
+    {
+     "char": "我",
+     "pinyin": "wǒ",
+     "meaning": "jeg",
+     "type": "儿歌",
+     "snippet": "我会写字我真棒。",
+     "source": "",
+     "strokes": 7,
+     "level": 1,
+     "strokeData": "我.json",
+     "bookPages": [
+      {
+       "file": "赠汪伦_9.webp",
+       "title": "赠汪伦",
+       "page": 9,
+       "text": "「不及」就是比不上。潭水有千尺深，可是还比不上汪伦送我的情谊深。"
+      },
+      {
+       "file": "宿新市徐公店_9.webp",
+       "title": "宿新市徐公店",
+       "page": 9,
+       "text": "「急走」就是快跑。古时候的「走」，就是我们说的「跑」。「无处寻」就是到处都找不到。"
+      },
+      {
+       "file": "独坐敬亭山_9.webp",
+       "title": "独坐敬亭山",
+       "page": 9,
+       "text": "「相看」就是你看我，我看你。「厌」就是满足；「不厌」就是看不够。李白和敬亭山，怎么看都看不够。"
+      }
+     ]
+    },
+    {
+     "char": "他",
+     "pinyin": "tā",
+     "meaning": "han",
+     "type": "词语",
+     "snippet": "他人",
+     "source": "",
+     "strokes": 5,
+     "level": 1,
+     "strokeData": "他.json",
+     "bookPages": [
+      {
+       "file": "夜宿山寺_9.webp",
+       "title": "夜宿山寺",
+       "page": 9,
+       "text": "「恐」就是害怕。「惊」就是吓到。他怕吵醒住在天上的神仙！"
+      },
+      {
+       "file": "赠汪伦_6.webp",
+       "title": "赠汪伦",
+       "page": 6,
+       "text": "「踏歌」就是一边用脚踏着拍子，一边唱歌。原来，汪伦特地赶来送他了！"
+      },
+      {
+       "file": "咏鹅_12.webp",
+       "title": "咏鹅",
+       "page": 12,
+       "text": "写这首诗的人叫骆宾王，\n那年他才七岁。"
+      }
+     ]
+    },
+    {
+     "char": "孩",
+     "pinyin": "hái",
+     "meaning": "barn",
+     "type": "词语",
+     "snippet": "孩子",
+     "source": "",
+     "strokes": 9,
+     "level": 2,
+     "strokeData": "孩.json",
+     "bookPages": [
+      {
+       "file": "游子吟_6.webp",
+       "title": "游子吟",
+       "page": 6,
+       "text": "「慈母」就是慈爱的妈妈。「游子」就是离开家、在外面远行的孩子。"
+      },
+      {
+       "file": "寻隐者不遇_6.webp",
+       "title": "寻隐者不遇",
+       "page": 6,
+       "text": "「童子」就是小孩子。「言」就是说。「采药」就是到山上去找草药，用来治病。"
+      },
+      {
+       "file": "回乡偶书_9.webp",
+       "title": "回乡偶书",
+       "page": 9,
+       "text": "「客」就是客人，从别的地方来的人。孩子们笑着问：「老爷爷，您是从哪里来的客人呀？」"
+      }
+     ]
+    },
+    {
+     "char": "友",
+     "pinyin": "yǒu",
+     "meaning": "ven",
+     "type": "成语",
+     "snippet": "良师益友",
+     "source": "",
+     "strokes": 4,
+     "level": 2,
+     "strokeData": "友.json",
+     "bookPages": [
+      {
+       "file": "别董大_9.webp",
+       "title": "别董大",
+       "page": 9,
+       "text": "「莫愁」就是不要发愁。「知己」就是最懂你的好朋友。「君」就是你。"
+      },
+      {
+       "file": "黄鹤楼送孟浩然之广陵_6.webp",
+       "title": "黄鹤楼送孟浩然之广陵",
+       "page": 6,
+       "text": "「故人」就是老朋友。「烟花」可不是放烟花哦！是春天的柳絮像烟一样飘，到处开满了花。"
+      },
+      {
+       "file": "赠刘景文_9.webp",
+       "title": "赠刘景文",
+       "page": 9,
+       "text": "「君」就是你，是对朋友客气的叫法。「须」就是一定要。「君须记」就是：你一定要记住呀！"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mouth",
+   "type": "heart",
+   "typeName": "心灵",
+   "name": "嘴巴族",
+   "creature": "哇哇",
+   "emoji": "👄",
+   "eggImage": "egg_mouth.webp",
+   "images": [
+    "tribe_mouth_1.webp",
+    "tribe_mouth_2.webp",
+    "tribe_mouth_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "口",
+     "pinyin": "kǒu",
+     "meaning": "mund",
+     "type": "儿歌",
+     "snippet": "张开小口说你好。",
+     "source": "",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "口.json",
+     "bookPages": [
+      {
+       "file": "所见_9.webp",
+       "title": "所见",
+       "page": 9,
+       "text": "「意欲」就是心里想要。「捕」就是捉。「闭口立」就是闭上嘴巴，站着不动。"
+      },
+      {
+       "file": "竹石_6.webp",
+       "title": "竹石",
+       "page": 6,
+       "text": "「咬定」就是紧紧咬住，不松口。「立根」就是扎下根。「破岩」就是裂开的石头。"
+      },
+      {
+       "file": "滁州西涧_9.webp",
+       "title": "滁州西涧",
+       "page": 9,
+       "text": "「野渡」就是郊外没人管的渡口。「横」就是横着。没有人撑船，小船就自己横在水面上，轻轻地漂。"
+      }
+     ]
+    },
+    {
+     "char": "嘴",
+     "pinyin": "zuǐ",
+     "meaning": "mund",
+     "type": "词语",
+     "snippet": "嘴巴",
+     "source": "",
+     "strokes": 16,
+     "level": 3,
+     "strokeData": "嘴.json",
+     "bookPages": [
+      {
+       "file": "所见_9.webp",
+       "title": "所见",
+       "page": 9,
+       "text": "「意欲」就是心里想要。「捕」就是捉。「闭口立」就是闭上嘴巴，站着不动。"
+      },
+      {
+       "file": "从头动到脚_36.webp",
+       "title": "从头动到脚",
+       "page": 36,
+       "text": "我会张大嘴巴！"
+      },
+      {
+       "file": "从头动到脚_35.webp",
+       "title": "从头动到脚",
+       "page": 35,
+       "text": "我是河马，我会张大嘴巴。你会吗？"
+      }
+     ]
+    },
+    {
+     "char": "舌",
+     "pinyin": "shé",
+     "meaning": "tunge",
+     "type": "词语",
+     "snippet": "舌头",
+     "source": "",
+     "strokes": 6,
+     "level": 6,
+     "strokeData": "舌.json",
+     "bookPages": [
+      {
+       "file": "从头动到脚_38.webp",
+       "title": "从头动到脚",
+       "page": 38,
+       "text": "我会伸舌头！"
+      },
+      {
+       "file": "从头动到脚_37.webp",
+       "title": "从头动到脚",
+       "page": 37,
+       "text": "我是变色龙，我会伸舌头。你会吗？"
+      },
+      {
+       "file": "拼音_声母三_16.webp",
+       "title": "拼音_声母三",
+       "page": 16,
+       "text": "翘舌举手向天空，\n平舌拍腿咚咚咚！"
+      }
+     ]
+    },
+    {
+     "char": "说",
+     "pinyin": "shuō",
+     "meaning": "sige",
+     "type": "古诗",
+     "snippet": "稻花香里说丰年",
+     "source": "辛弃疾《西江月·夜行黄沙道中》",
+     "strokes": 9,
+     "level": 1,
+     "strokeData": "说.json",
+     "bookPages": [
+      {
+       "file": "寻隐者不遇_6.webp",
+       "title": "寻隐者不遇",
+       "page": 6,
+       "text": "「童子」就是小孩子。「言」就是说。「采药」就是到山上去找草药，用来治病。"
+      },
+      {
+       "file": "古朗月行_9.webp",
+       "title": "古朗月行",
+       "page": 9,
+       "text": "「疑」就是怀疑，觉得好像是。「瑶台」是传说中神仙住的地方。「端」就是上面。"
+      },
+      {
+       "file": "村居_6.webp",
+       "title": "村居",
+       "page": 6,
+       "text": "「醉」本来是喝酒喝多了，摇摇晃晃。诗人说，杨柳被春天迷住了，像喝醉了一样。"
+      }
+     ]
+    },
+    {
+     "char": "唱",
+     "pinyin": "chàng",
+     "meaning": "synge",
+     "type": "词语",
+     "snippet": "唱歌",
+     "source": "",
+     "strokes": 11,
+     "level": 4,
+     "strokeData": "唱.json",
+     "bookPages": [
+      {
+       "file": "咏鹅_诗词版_7.webp",
+       "title": "咏鹅_诗词版",
+       "page": 7,
+       "text": "「曲项」就是弯弯的脖子。白鹅弯着脖子向着天，像在唱歌。"
+      },
+      {
+       "file": "赠汪伦_6.webp",
+       "title": "赠汪伦",
+       "page": 6,
+       "text": "「踏歌」就是一边用脚踏着拍子，一边唱歌。原来，汪伦特地赶来送他了！"
+      },
+      {
+       "file": "马牛羊_14.webp",
+       "title": "马牛羊",
+       "page": 14,
+       "text": "鸟会唱歌。"
+      }
+     ]
+    },
+    {
+     "char": "叫",
+     "pinyin": "jiào",
+     "meaning": "kalde",
+     "type": "词语",
+     "snippet": "呼叫",
+     "source": "",
+     "strokes": 5,
+     "level": 2,
+     "strokeData": "叫.json",
+     "bookPages": [
+      {
+       "file": "春晓_6.webp",
+       "title": "春晓",
+       "page": 6,
+       "text": "「晓」就是天刚亮的时候。「啼」就是鸟儿叫。"
+      },
+      {
+       "file": "古朗月行_6.webp",
+       "title": "古朗月行",
+       "page": 6,
+       "text": "「呼作」就是叫它做。「白玉盘」就是用白玉做的盘子，又白又圆又亮。"
+      },
+      {
+       "file": "绝句_6.webp",
+       "title": "绝句",
+       "page": 6,
+       "text": "「一行」就是一排。「鸣」就是鸟儿叫。四种颜色：黄、绿、白、蓝，真好看！"
+      }
+     ]
+    },
+    {
+     "char": "咬",
+     "pinyin": "yǎo",
+     "meaning": "bide",
+     "type": "成语",
+     "snippet": "咬牙切齿",
+     "source": "",
+     "strokes": 9,
+     "level": 5,
+     "strokeData": "咬.json",
+     "bookPages": [
+      {
+       "file": "竹石_6.webp",
+       "title": "竹石",
+       "page": 6,
+       "text": "「咬定」就是紧紧咬住，不松口。「立根」就是扎下根。「破岩」就是裂开的石头。"
+      },
+      {
+       "file": "竹石_5.webp",
+       "title": "竹石",
+       "page": 5,
+       "text": "咬定青山不放松，立根原在破岩中。"
+      },
+      {
+       "file": "竹石_12.webp",
+       "title": "竹石",
+       "page": 12,
+       "text": "咬定青山不放松，立根原在破岩中。千磨万击还坚劲，任尔东西南北风。"
+      }
+     ]
+    },
+    {
+     "char": "味",
+     "pinyin": "wèi",
+     "meaning": "smag",
+     "type": "词语",
+     "snippet": "味道",
+     "source": "",
+     "strokes": 8,
+     "level": 3,
+     "strokeData": "味.json",
+     "bookPages": [
+      {
+       "file": "梅花_9.webp",
+       "title": "梅花",
+       "page": 9,
+       "text": "「遥知」就是远远地就知道。「为」就是因为。「暗香」就是淡淡的、悄悄飘来的香味。"
+      },
+      {
+       "file": "好吃的中国饭_2.webp",
+       "title": "好吃的中国饭",
+       "page": 2,
+       "text": "厨房里飘来香味，今天吃什么呀？"
+      },
+      {
+       "file": "好吃的中国饭_5.webp",
+       "title": "好吃的中国饭",
+       "page": 5,
+       "text": "饺子饺子小元宝，里面藏着大味道。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hand",
+   "type": "heart",
+   "typeName": "心灵",
+   "name": "手足族",
+   "creature": "跳跳",
+   "emoji": "✋",
+   "eggImage": "egg_hand.webp",
+   "images": [
+    "tribe_hand_1.webp",
+    "tribe_hand_2.webp",
+    "tribe_hand_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "手",
+     "pinyin": "shǒu",
+     "meaning": "hånd",
+     "type": "古诗",
+     "snippet": "危楼高百尺，手可摘星辰。",
+     "source": "李白《夜宿山寺》",
+     "strokes": 4,
+     "level": 0,
+     "strokeData": "手.json",
+     "bookPages": [
+      {
+       "file": "小儿垂钓_9.webp",
+       "title": "小儿垂钓",
+       "page": 9,
+       "text": "「借问」就是向别人打听。「遥招手」就是远远地摆摆手。「不应人」就是不回答别人。这里的「应」，读第四声。"
+      },
+      {
+       "file": "乞巧_9.webp",
+       "title": "乞巧",
+       "page": 9,
+       "text": "「乞」就是请求。「巧」就是灵巧、手巧。「乞巧」就是请织女送一双巧手。谁穿针穿得又快又好，谁就得到了「巧」。"
+      },
+      {
+       "file": "游子吟_5.webp",
+       "title": "游子吟",
+       "page": 5,
+       "text": "慈母手中线，游子身上衣。"
+      }
+     ]
+    },
+    {
+     "char": "足",
+     "pinyin": "zú",
+     "meaning": "fod",
+     "type": "词语",
+     "snippet": "足球",
+     "source": "",
+     "strokes": 7,
+     "level": 2,
+     "strokeData": "足.json",
+     "bookPages": [
+      {
+       "file": "独坐敬亭山_9.webp",
+       "title": "独坐敬亭山",
+       "page": 9,
+       "text": "「相看」就是你看我，我看你。「厌」就是满足；「不厌」就是看不够。李白和敬亭山，怎么看都看不够。"
+      },
+      {
+       "file": "塞下曲_11.webp",
+       "title": "塞下曲",
+       "page": 11,
+       "text": "李广的本领，是天天练出来的。你在丹麦学游泳、踢足球，每天多练一点儿，也会越来越厉害！"
+      }
+     ]
+    },
+    {
+     "char": "脚",
+     "pinyin": "jiǎo",
+     "meaning": "fod",
+     "type": "词语",
+     "snippet": "脚步",
+     "source": "",
+     "strokes": 11,
+     "level": 3,
+     "strokeData": "脚.json",
+     "bookPages": [
+      {
+       "file": "一去二三里_9.webp",
+       "title": "一去二三里",
+       "page": 9,
+       "text": "「亭」是路边给人歇脚的小房子，有顶没有墙。「枝」就是一枝一枝的花。"
+      },
+      {
+       "file": "咏鹅_诗词版_9.webp",
+       "title": "咏鹅_诗词版",
+       "page": 9,
+       "text": "「拨」就是用脚掌划水。白鹅的红脚掌在水下一划一划，荡起清清的波浪。"
+      },
+      {
+       "file": "赠汪伦_6.webp",
+       "title": "赠汪伦",
+       "page": 6,
+       "text": "「踏歌」就是一边用脚踏着拍子，一边唱歌。原来，汪伦特地赶来送他了！"
+      }
+     ]
+    },
+    {
+     "char": "走",
+     "pinyin": "zǒu",
+     "meaning": "gå",
+     "type": "古诗",
+     "snippet": "儿童急走追黄蝶",
+     "source": "杨万里《宿新市徐公店》",
+     "strokes": 7,
+     "level": 1,
+     "strokeData": "走.json",
+     "bookPages": [
+      {
+       "file": "池上_6.webp",
+       "title": "池上",
+       "page": 6,
+       "text": "「撑」就是用长长的竹竿抵着水底，把船推着走。「艇」就是小船。"
+      },
+      {
+       "file": "小池_6.webp",
+       "title": "小池",
+       "page": 6,
+       "text": "「惜」就是舍不得。泉眼舍不得让水流走，所以只流出细细的一点点。"
+      },
+      {
+       "file": "池上_9.webp",
+       "title": "池上",
+       "page": 9,
+       "text": "「不解」就是不懂得。「踪迹」就是走过的痕迹。小娃不懂得藏起来呀！"
+      }
+     ]
+    },
+    {
+     "char": "跑",
+     "pinyin": "pǎo",
+     "meaning": "løbe",
+     "type": "词语",
+     "snippet": "跑步",
+     "source": "",
+     "strokes": 12,
+     "level": 3,
+     "strokeData": "跑.json",
+     "bookPages": [
+      {
+       "file": "马诗_9.webp",
+       "title": "马诗",
+       "page": 9,
+       "text": "「何当」就是什么时候。「金络脑」就是用金子装饰的马笼头。「快走」就是快快地跑。"
+      },
+      {
+       "file": "宿新市徐公店_9.webp",
+       "title": "宿新市徐公店",
+       "page": 9,
+       "text": "「急走」就是快跑。古时候的「走」，就是我们说的「跑」。「无处寻」就是到处都找不到。"
+      },
+      {
+       "file": "十二生肖_17.webp",
+       "title": "十二生肖",
+       "page": 17,
+       "text": "马跑得很快。"
+      }
+     ]
+    },
+    {
+     "char": "跳",
+     "pinyin": "tiào",
+     "meaning": "hoppe",
+     "type": "词语",
+     "snippet": "跳舞",
+     "source": "",
+     "strokes": 13,
+     "level": 3,
+     "strokeData": "跳.json",
+     "bookPages": [
+      {
+       "file": "画_9.webp",
+       "title": "画",
+       "page": 9,
+       "text": "「惊」就是吓一跳。真的小鸟，看到人会吓得飞走；画里的小鸟，一动也不动。"
+      },
+      {
+       "file": "十二生肖_11.webp",
+       "title": "十二生肖",
+       "page": 11,
+       "text": "兔子跳得很高。"
+      },
+      {
+       "file": "日月山水_13.webp",
+       "title": "日月山水",
+       "page": 13,
+       "text": "火苗跳来跳去。"
+      }
+     ]
+    },
+    {
+     "char": "拿",
+     "pinyin": "ná",
+     "meaning": "tage",
+     "type": "词语",
+     "snippet": "拿走",
+     "source": "",
+     "strokes": 10,
+     "level": 2,
+     "strokeData": "拿.json",
+     "bookPages": [
+      {
+       "file": "好吃的中国饭_11.webp",
+       "title": "好吃的中国饭",
+       "page": 11,
+       "text": "两根小棍手中拿，夹起饭菜本领大。"
+      },
+      {
+       "file": "一只猫两条鱼_11.webp",
+       "title": "一只猫两条鱼",
+       "page": 11,
+       "text": "一本书，手里拿，\n就是现在这本呀！"
+      },
+      {
+       "file": "拼音_单韵母_20.webp",
+       "title": "拼音_单韵母",
+       "page": 20,
+       "text": "拿起镜子照一照，\n六个口型做一套。"
+      }
+     ]
+    },
+    {
+     "char": "打",
+     "pinyin": "dǎ",
+     "meaning": "slå",
+     "type": "词语",
+     "snippet": "打开",
+     "source": "",
+     "strokes": 5,
+     "level": 1,
+     "strokeData": "打.json",
+     "bookPages": [
+      {
+       "file": "咏柳_6.webp",
+       "title": "咏柳",
+       "page": 6,
+       "text": "「碧玉」是绿色的美玉。「妆成」就是打扮成。「丝绦」就是丝带。柳树打扮得真漂亮！"
+      },
+      {
+       "file": "秋思_9.webp",
+       "title": "秋思",
+       "page": 9,
+       "text": "「复恐」就是又担心。「行人」在这里是帮忙捎信的人。「开封」就是把封好的信，再打开。"
+      },
+      {
+       "file": "望天门山_6.webp",
+       "title": "望天门山",
+       "page": 6,
+       "text": "「中断」就是从中间断开。「楚江」就是这一段长江。「回」就是江水撞到山，打着旋涡转了弯。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "body",
+   "type": "heart",
+   "typeName": "心灵",
+   "name": "身体族",
+   "creature": "眨眨",
+   "emoji": "👀",
+   "eggImage": "egg_body.webp",
+   "images": [
+    "tribe_body_1.webp",
+    "tribe_body_2.webp",
+    "tribe_body_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "身",
+     "pinyin": "shēn",
+     "meaning": "krop",
+     "type": "古诗",
+     "snippet": "粉骨碎身浑不怕",
+     "source": "于谦《石灰吟》",
+     "strokes": 7,
+     "level": 1,
+     "strokeData": "身.json",
+     "bookPages": [
+      {
+       "file": "风_9.webp",
+       "title": "风",
+       "page": 9,
+       "text": "「斜」就是歪歪的，不直。风一吹，竹子全都斜着身子。猜到了吗？它就是——风！"
+      },
+      {
+       "file": "石灰吟_9.webp",
+       "title": "石灰吟",
+       "page": 9,
+       "text": "「粉骨碎身」，是说石头碎成了细细的粉。「浑不怕」就是一点儿也不怕。「清白」就是干干净净、白白的。"
+      },
+      {
+       "file": "游子吟_5.webp",
+       "title": "游子吟",
+       "page": 5,
+       "text": "慈母手中线，游子身上衣。"
+      }
+     ]
+    },
+    {
+     "char": "头",
+     "pinyin": "tóu",
+     "meaning": "hoved",
+     "type": "古诗",
+     "snippet": "举头望明月，低头思故乡。",
+     "source": "李白《静夜思》",
+     "strokes": 5,
+     "level": 1,
+     "strokeData": "头.json",
+     "bookPages": [
+      {
+       "file": "登鹳雀楼_9.webp",
+       "title": "登鹳雀楼",
+       "page": 9,
+       "text": "「欲」就是想要。「穷」在这里是看到尽头。「更」就是再。"
+      },
+      {
+       "file": "悯农_6.webp",
+       "title": "悯农",
+       "page": 6,
+       "text": "「锄禾」就是用锄头给禾苗除草、松土。「日当午」就是太阳正在头顶。"
+      },
+      {
+       "file": "竹石_6.webp",
+       "title": "竹石",
+       "page": 6,
+       "text": "「咬定」就是紧紧咬住，不松口。「立根」就是扎下根。「破岩」就是裂开的石头。"
+      }
+     ]
+    },
+    {
+     "char": "眼",
+     "pinyin": "yǎn",
+     "meaning": "øje",
+     "type": "词语",
+     "snippet": "眼睛",
+     "source": "",
+     "strokes": 11,
+     "level": 1,
+     "strokeData": "眼.json",
+     "bookPages": [
+      {
+       "file": "静夜思_7.webp",
+       "title": "静夜思",
+       "page": 7,
+       "text": "「疑」就是「好像、以为」。李白看花了眼，以为地上结了一层霜。"
+      },
+      {
+       "file": "小池_6.webp",
+       "title": "小池",
+       "page": 6,
+       "text": "「惜」就是舍不得。泉眼舍不得让水流走，所以只流出细细的一点点。"
+      },
+      {
+       "file": "泊船瓜洲_6.webp",
+       "title": "泊船瓜洲",
+       "page": 6,
+       "text": "「一水间」就是中间只隔着一条江水，很近很近。「数重山」就是几层山。家，好像就在眼前。"
+      }
+     ]
+    },
+    {
+     "char": "耳",
+     "pinyin": "ěr",
+     "meaning": "øre",
+     "type": "儿歌",
+     "snippet": "竖起耳朵仔细听。",
+     "source": "",
+     "strokes": 6,
+     "level": 3,
+     "strokeData": "耳.json",
+     "bookPages": [
+      {
+       "file": "回乡偶书_6.webp",
+       "title": "回乡偶书",
+       "page": 6,
+       "text": "「乡音」就是家乡的口音。「鬓毛」是耳朵前面的头发。「衰」就是变少、变白了。贺知章的口音一点没变，可是人已经老了。"
+      },
+      {
+       "file": "从头动到脚_32.webp",
+       "title": "从头动到脚",
+       "page": 32,
+       "text": "我会动耳朵！"
+      },
+      {
+       "file": "谁在叫_2.webp",
+       "title": "谁在叫",
+       "page": 2,
+       "text": "闭上眼睛，用耳朵听一听。"
+      }
+     ]
+    },
+    {
+     "char": "鼻",
+     "pinyin": "bí",
+     "meaning": "næse",
+     "type": "词语",
+     "snippet": "鼻子",
+     "source": "",
+     "strokes": 14,
+     "level": 4,
+     "strokeData": "鼻.json",
+     "bookPages": [
+      {
+       "file": "从头动到脚_43.webp",
+       "title": "从头动到脚",
+       "page": 43,
+       "text": "老师说：摸鼻子！"
+      },
+      {
+       "file": "从头动到脚_34.webp",
+       "title": "从头动到脚",
+       "page": 34,
+       "text": "我会用鼻子闻一闻！"
+      },
+      {
+       "file": "拼音_鼻韵母_2.webp",
+       "title": "拼音_鼻韵母",
+       "page": 2,
+       "text": "闭上嘴巴哼一哼，\n鼻子唱歌嗡嗡嗡！"
+      }
+     ]
+    },
+    {
+     "char": "脸",
+     "pinyin": "liǎn",
+     "meaning": "ansigt",
+     "type": "词语",
+     "snippet": "笑脸",
+     "source": "",
+     "strokes": 11,
+     "level": 2,
+     "strokeData": "脸.json",
+     "bookPages": [
+      {
+       "file": "从头动到脚_28.webp",
+       "title": "从头动到脚",
+       "page": 28,
+       "text": "第二部分 · 脸上的五官"
+      },
+      {
+       "file": "悯农_4.webp",
+       "title": "悯农",
+       "page": 4,
+       "text": "一滴一滴的汗，从伯伯的脸上流下来，落进了禾苗下面的泥土里。"
+      }
+     ]
+    },
+    {
+     "char": "背",
+     "pinyin": "bèi",
+     "meaning": "ryg",
+     "type": "词语",
+     "snippet": "后背",
+     "source": "",
+     "strokes": 9,
+     "level": 3,
+     "strokeData": "背.json",
+     "bookPages": [
+      {
+       "file": "从头动到脚_17.webp",
+       "title": "从头动到脚",
+       "page": 17,
+       "text": "我会拱背！"
+      },
+      {
+       "file": "从头动到脚_16.webp",
+       "title": "从头动到脚",
+       "page": 16,
+       "text": "我是猫，我会拱背。你会吗？"
+      },
+      {
+       "file": "拼音_声母三_10.webp",
+       "title": "拼音_声母三",
+       "page": 10,
+       "text": "舌头平平 c c c，\n小小刺猬背果子。"
+      }
+     ]
+    },
+    {
+     "char": "牙",
+     "pinyin": "yá",
+     "meaning": "tand",
+     "type": "词语",
+     "snippet": "牙齿",
+     "source": "",
+     "strokes": 4,
+     "level": 3,
+     "strokeData": "牙.json",
+     "bookPages": [
+      {
+       "file": "我的一天_4.webp",
+       "title": "我的一天",
+       "page": 4,
+       "text": "然后，我刷牙。"
+      },
+      {
+       "file": "日月山水_6.webp",
+       "title": "日月山水",
+       "page": 6,
+       "text": "「月」就像弯弯的月牙。"
+      },
+      {
+       "file": "一只猫两条鱼_19.webp",
+       "title": "一只猫两条鱼",
+       "page": 19,
+       "text": "一朵鱼？一本花？\n越说越错笑掉牙！"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cloth",
+   "type": "heart",
+   "typeName": "心灵",
+   "name": "丝衣族",
+   "creature": "线线",
+   "emoji": "🧵",
+   "eggImage": "egg_cloth.webp",
+   "images": [
+    "tribe_cloth_1.webp",
+    "tribe_cloth_2.webp",
+    "tribe_cloth_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "衣",
+     "pinyin": "yī",
+     "meaning": "tøj",
+     "type": "古诗",
+     "snippet": "青箬笠,绿蓑衣",
+     "source": "张志和《渔歌子》",
+     "strokes": 6,
+     "level": 3,
+     "strokeData": "衣.json",
+     "bookPages": [
+      {
+       "file": "江雪_9.webp",
+       "title": "江雪",
+       "page": 9,
+       "text": "「蓑」是草编的雨衣，「笠」是竹子编的大帽子。「翁」就是老爷爷。"
+      },
+      {
+       "file": "游子吟_5.webp",
+       "title": "游子吟",
+       "page": 5,
+       "text": "慈母手中线，游子身上衣。"
+      },
+      {
+       "file": "游子吟_12.webp",
+       "title": "游子吟",
+       "page": 12,
+       "text": "慈母手中线，游子身上衣。临行密密缝，意恐迟迟归。谁言寸草心，报得三春晖。"
+      }
+     ]
+    },
+    {
+     "char": "布",
+     "pinyin": "bù",
+     "meaning": "stof",
+     "type": "词语",
+     "snippet": "棉布",
+     "source": "",
+     "strokes": 5,
+     "level": 2,
+     "strokeData": "布.json",
+     "bookPages": [
+      {
+       "file": "望庐山瀑布_6.webp",
+       "title": "望庐山瀑布",
+       "page": 6,
+       "text": "「遥看」就是从很远的地方看。远远看去，瀑布好像不动，像挂在那里一样。「前川」就是山前面的河。"
+      },
+      {
+       "file": "望庐山瀑布_5.webp",
+       "title": "望庐山瀑布",
+       "page": 5,
+       "text": "日照香炉生紫烟，遥看瀑布挂前川。"
+      },
+      {
+       "file": "长歌行_5.webp",
+       "title": "长歌行",
+       "page": 5,
+       "text": "青青园中葵，朝露待日晞。阳春布德泽，万物生光辉。"
+      }
+     ]
+    },
+    {
+     "char": "丝",
+     "pinyin": "sī",
+     "meaning": "silke",
+     "type": "古诗",
+     "snippet": "春蚕到死丝方尽",
+     "source": "李商隐《无题》",
+     "strokes": 5,
+     "level": 3,
+     "strokeData": "丝.json",
+     "bookPages": [
+      {
+       "file": "乞巧_8.webp",
+       "title": "乞巧",
+       "page": 8,
+       "text": "家家乞巧望秋月，穿尽红丝几万条。"
+      },
+      {
+       "file": "咏柳_5.webp",
+       "title": "咏柳",
+       "page": 5,
+       "text": "碧玉妆成一树高，万条垂下绿丝绦。"
+      },
+      {
+       "file": "乞巧_12.webp",
+       "title": "乞巧",
+       "page": 12,
+       "text": "七夕今宵看碧霄，牵牛织女渡河桥。家家乞巧望秋月，穿尽红丝几万条。"
+      }
+     ]
+    },
+    {
+     "char": "线",
+     "pinyin": "xiàn",
+     "meaning": "tråd",
+     "type": "古诗",
+     "snippet": "慈母手中线",
+     "source": "孟郊《游子吟》",
+     "strokes": 8,
+     "level": 2,
+     "strokeData": "线.json",
+     "bookPages": [
+      {
+       "file": "四时田园杂兴_6.webp",
+       "title": "四时田园杂兴",
+       "page": 6,
+       "text": "「耘田」就是在田里除草。「绩麻」就是把麻搓成线。「各当家」就是每个人都管着一份家里的活儿。"
+      },
+      {
+       "file": "小儿垂钓_6.webp",
+       "title": "小儿垂钓",
+       "page": 6,
+       "text": "「蓬头」就是头发乱蓬蓬的。「稚子」就是小孩子。「垂纶」就是钓鱼，「纶」是钓鱼的线。「莓苔」就是青苔。"
+      },
+      {
+       "file": "游子吟_5.webp",
+       "title": "游子吟",
+       "page": 5,
+       "text": "慈母手中线，游子身上衣。"
+      }
+     ]
+    },
+    {
+     "char": "巾",
+     "pinyin": "jīn",
+     "meaning": "tørklæde",
+     "type": "词语",
+     "snippet": "毛巾",
+     "source": "",
+     "strokes": 3,
+     "level": 6,
+     "strokeData": "巾.json",
+     "bookPages": [
+      {
+       "file": "我要穿什么_17.webp",
+       "title": "我要穿什么",
+       "page": 17,
+       "text": "这是围巾。"
+      },
+      {
+       "file": "我要穿什么_18.webp",
+       "title": "我要穿什么",
+       "page": 18,
+       "text": "我戴围巾。"
+      },
+      {
+       "file": "一只猫两条鱼_6.webp",
+       "title": "一只猫两条鱼",
+       "page": 6,
+       "text": "一条小路弯又长，\n一条围巾暖洋洋。"
+      }
+     ]
+    },
+    {
+     "char": "裙",
+     "pinyin": "qún",
+     "meaning": "nederdel",
+     "type": "词语",
+     "snippet": "裙子",
+     "source": "",
+     "strokes": 12,
+     "level": 7,
+     "strokeData": "裙.json",
+     "bookPages": []
+    },
+    {
+     "char": "裤",
+     "pinyin": "kù",
+     "meaning": "bukser",
+     "type": "词语",
+     "snippet": "裤子",
+     "source": "",
+     "strokes": 12,
+     "level": 6,
+     "strokeData": "裤.json",
+     "bookPages": [
+      {
+       "file": "我要穿什么_7.webp",
+       "title": "我要穿什么",
+       "page": 7,
+       "text": "这是裤子。"
+      },
+      {
+       "file": "我要穿什么_8.webp",
+       "title": "我要穿什么",
+       "page": 8,
+       "text": "我穿裤子。"
+      }
+     ]
+    },
+    {
+     "char": "帽",
+     "pinyin": "mào",
+     "meaning": "hat",
+     "type": "词语",
+     "snippet": "帽子",
+     "source": "",
+     "strokes": 12,
+     "level": 5,
+     "strokeData": "帽.json",
+     "bookPages": [
+      {
+       "file": "江雪_9.webp",
+       "title": "江雪",
+       "page": 9,
+       "text": "「蓑」是草编的雨衣，「笠」是竹子编的大帽子。「翁」就是老爷爷。"
+      },
+      {
+       "file": "我要穿什么_13.webp",
+       "title": "我要穿什么",
+       "page": 13,
+       "text": "这是帽子。"
+      },
+      {
+       "file": "我要穿什么_14.webp",
+       "title": "我要穿什么",
+       "page": 14,
+       "text": "我戴帽子。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jade",
+   "type": "heart",
+   "typeName": "心灵",
+   "name": "玉宝族",
+   "creature": "琳琅",
+   "emoji": "💎",
+   "eggImage": "egg_jade.webp",
+   "images": [
+    "tribe_jade_1.webp",
+    "tribe_jade_2.webp",
+    "tribe_jade_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "玉",
+     "pinyin": "yù",
+     "meaning": "jade",
+     "type": "儿歌",
+     "snippet": "王字加一点，变成美玉的玉。",
+     "source": "",
+     "strokes": 5,
+     "level": 3,
+     "strokeData": "玉.json",
+     "bookPages": [
+      {
+       "file": "咏柳_6.webp",
+       "title": "咏柳",
+       "page": 6,
+       "text": "「碧玉」是绿色的美玉。「妆成」就是打扮成。「丝绦」就是丝带。柳树打扮得真漂亮！"
+      },
+      {
+       "file": "芙蓉楼送辛渐_9.webp",
+       "title": "芙蓉楼送辛渐",
+       "page": 9,
+       "text": "「冰心」就是像冰一样透明、干净的心。「玉壶」就是用白玉做的壶，又白又亮，没有一点儿脏。"
+      },
+      {
+       "file": "古朗月行_5.webp",
+       "title": "古朗月行",
+       "page": 5,
+       "text": "小时不识月，呼作白玉盘。"
+      }
+     ]
+    },
+    {
+     "char": "宝",
+     "pinyin": "bǎo",
+     "meaning": "skat",
+     "type": "词语",
+     "snippet": "宝贝",
+     "source": "",
+     "strokes": 8,
+     "level": 3,
+     "strokeData": "宝.json",
+     "bookPages": [
+      {
+       "file": "在哪里_15.webp",
+       "title": "在哪里",
+       "page": 15,
+       "text": "藏好了！你能按方位找到宝贝吗？"
+      },
+      {
+       "file": "好吃的中国饭_5.webp",
+       "title": "好吃的中国饭",
+       "page": 5,
+       "text": "饺子饺子小元宝，里面藏着大味道。"
+      },
+      {
+       "file": "好吃的中国饭_13.webp",
+       "title": "好吃的中国饭",
+       "page": 13,
+       "text": "筷子宝宝有礼貌，好好吃饭不打闹。"
+      }
+     ]
+    },
+    {
+     "char": "珠",
+     "pinyin": "zhū",
+     "meaning": "perle",
+     "type": "词语",
+     "snippet": "珍珠",
+     "source": "",
+     "strokes": 10,
+     "level": 4,
+     "strokeData": "珠.json",
+     "bookPages": [
+      {
+       "file": "狐假虎威_3.webp",
+       "title": "狐假虎威",
+       "page": 3,
+       "text": "狐狸眼珠子一转，大声说：「你敢吃我？老天爷派我来管百兽！」"
+      },
+      {
+       "file": "长歌行_3.webp",
+       "title": "长歌行",
+       "page": 3,
+       "text": "清早，园子里的葵菜叶子上，挂满了亮晶晶的露珠，它们在等太阳出来。"
+      },
+      {
+       "file": "长歌行_4.webp",
+       "title": "长歌行",
+       "page": 4,
+       "text": "太阳出来了，露珠慢慢不见了。春天的阳光照着大地，花呀草呀，都闪着光。"
+      }
+     ]
+    },
+    {
+     "char": "珍",
+     "pinyin": "zhēn",
+     "meaning": "kostbar",
+     "type": "词语",
+     "snippet": "珍惜",
+     "source": "",
+     "strokes": 9,
+     "level": 4,
+     "strokeData": "珍.json",
+     "bookPages": []
+    },
+    {
+     "char": "环",
+     "pinyin": "huán",
+     "meaning": "ring",
+     "type": "词语",
+     "snippet": "环保",
+     "source": "",
+     "strokes": 8,
+     "level": 2,
+     "strokeData": "环.json",
+     "bookPages": [
+      {
+       "file": "拼音_声母二_3.webp",
+       "title": "拼音_声母二",
+       "page": 3,
+       "text": "像个 9 字 g g g，\n鸽子衔环轻轻落。"
+      }
+     ]
+    },
+    {
+     "char": "璃",
+     "pinyin": "lí",
+     "meaning": "glas",
+     "type": "词语",
+     "snippet": "琉璃",
+     "source": "",
+     "strokes": 14,
+     "level": 5,
+     "strokeData": "璃.json",
+     "bookPages": []
+    },
+    {
+     "char": "珊",
+     "pinyin": "shān",
+     "meaning": "koral",
+     "type": "词语",
+     "snippet": "珊瑚",
+     "source": "",
+     "strokes": 9,
+     "level": 7,
+     "strokeData": "珊.json",
+     "bookPages": []
+    },
+    {
+     "char": "瑚",
+     "pinyin": "hú",
+     "meaning": "koral",
+     "type": "词语",
+     "snippet": "珊瑚",
+     "source": "",
+     "strokes": 13,
+     "level": 10,
+     "strokeData": "瑚.json",
+     "bookPages": []
+    }
+   ]
+  },
+  {
+   "id": "stroke",
+   "type": "sky",
+   "typeName": "天空",
+   "name": "笔画族",
+   "creature": "一一",
+   "emoji": "✏️",
+   "eggImage": "egg_stroke.webp",
+   "images": [
+    "tribe_stroke_1.webp",
+    "tribe_stroke_2.webp",
+    "tribe_stroke_3.webp"
+   ],
+   "chars": [
+    {
+     "char": "一",
+     "pinyin": "yī",
+     "meaning": "en",
+     "type": "古诗",
+     "snippet": "一去二三里，烟村四五家。",
+     "source": "邵雍《山村咏怀》",
+     "strokes": 1,
+     "level": 0,
+     "strokeData": "一.json",
+     "bookPages": [
+      {
+       "file": "画_6.webp",
+       "title": "画",
+       "page": 6,
+       "text": "「远」和「近」，「有」和「无」，都是一对一对的反义词。"
+      },
+      {
+       "file": "悯农_9.webp",
+       "title": "悯农",
+       "page": 9,
+       "text": "「皆」就是「都」。每一粒米，都是农民伯伯辛辛苦苦种出来的。"
+      },
+      {
+       "file": "清明_6.webp",
+       "title": "清明",
+       "page": 6,
+       "text": "「纷纷」就是又多又密。「欲断魂」就是难过得好像丢了魂一样。"
+      }
+     ]
+    },
+    {
+     "char": "二",
+     "pinyin": "èr",
+     "meaning": "to",
+     "type": "儿歌",
+     "snippet": "一二三，爬上山。",
+     "source": "",
+     "strokes": 2,
+     "level": 0,
+     "strokeData": "二.json",
+     "bookPages": [
+      {
+       "file": "咏柳_9.webp",
+       "title": "咏柳",
+       "page": 9,
+       "text": "「裁」就是用剪刀剪。「似」就是像。原来，二月的春风就像一把剪刀！"
+      },
+      {
+       "file": "风_6.webp",
+       "title": "风",
+       "page": 6,
+       "text": "「解」在这里是能够、会的意思。「三秋」就是秋天，「二月」就是春天。"
+      },
+      {
+       "file": "山行_9.webp",
+       "title": "山行",
+       "page": 9,
+       "text": "「坐」在这里是因为。「霜叶」就是秋天经过霜打的枫叶。「红于二月花」就是比春天的花还要红。"
+      }
+     ]
+    },
+    {
+     "char": "三",
+     "pinyin": "sān",
+     "meaning": "tre",
+     "type": "儿歌",
+     "snippet": "三只小鸭嘎嘎嘎。",
+     "source": "",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "三.json",
+     "bookPages": [
+      {
+       "file": "风_6.webp",
+       "title": "风",
+       "page": 6,
+       "text": "「解」在这里是能够、会的意思。「三秋」就是秋天，「二月」就是春天。"
+      },
+      {
+       "file": "一去二三里_5.webp",
+       "title": "一去二三里",
+       "page": 5,
+       "text": "一去二三里，烟村四五家。"
+      },
+      {
+       "file": "风_5.webp",
+       "title": "风",
+       "page": 5,
+       "text": "解落三秋叶，能开二月花。"
+      }
+     ]
+    },
+    {
+     "char": "十",
+     "pinyin": "shí",
+     "meaning": "ti",
+     "type": "古诗",
+     "snippet": "亭台六七座，八九十枝花。",
+     "source": "邵雍《山村咏怀》",
+     "strokes": 2,
+     "level": 0,
+     "strokeData": "十.json",
+     "bookPages": [
+      {
+       "file": "泊船瓜洲_9.webp",
+       "title": "泊船瓜洲",
+       "page": 9,
+       "text": "王安石写这一句时，先写「春风又到江南岸」，觉得不好；改成「过」，又改成「入」，又改成「满」，改了十几次，最后选中了「绿」字。"
+      },
+      {
+       "file": "十二生肖_22.webp",
+       "title": "十二生肖",
+       "page": 22,
+       "text": "第十名是公鸡。"
+      },
+      {
+       "file": "十二生肖_24.webp",
+       "title": "十二生肖",
+       "page": 24,
+       "text": "第十一名是狗。"
+      }
+     ]
+    },
+    {
+     "char": "上",
+     "pinyin": "shàng",
+     "meaning": "op",
+     "type": "儿歌",
+     "snippet": "小猴爬上大树顶。",
+     "source": "",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "上.json",
+     "bookPages": [
+      {
+       "file": "揠苗助长_6.webp",
+       "title": "揠苗助长",
+       "page": 6,
+       "text": "「揠」就是拔。「揠苗」，就是把禾苗往上拔。"
+      },
+      {
+       "file": "夜宿山寺_9.webp",
+       "title": "夜宿山寺",
+       "page": 9,
+       "text": "「恐」就是害怕。「惊」就是吓到。他怕吵醒住在天上的神仙！"
+      },
+      {
+       "file": "小池_9.webp",
+       "title": "小池",
+       "page": 9,
+       "text": "「露」就是露出来。小荷叶才露出一点点，蜻蜓就飞来站在上面了！"
+      }
+     ]
+    },
+    {
+     "char": "下",
+     "pinyin": "xià",
+     "meaning": "ned",
+     "type": "古诗",
+     "snippet": "飞流直下三千尺。",
+     "source": "李白《望庐山瀑布》",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "下.json",
+     "bookPages": [
+      {
+       "file": "咏鹅_诗词版_9.webp",
+       "title": "咏鹅_诗词版",
+       "page": 9,
+       "text": "「拨」就是用脚掌划水。白鹅的红脚掌在水下一划一划，荡起清清的波浪。"
+      },
+      {
+       "file": "登鹳雀楼_6.webp",
+       "title": "登鹳雀楼",
+       "page": 6,
+       "text": "「依」就是靠着。「尽」就是没有了。太阳靠着山，慢慢落下去，看不见了。"
+      },
+      {
+       "file": "竹石_6.webp",
+       "title": "竹石",
+       "page": 6,
+       "text": "「咬定」就是紧紧咬住，不松口。「立根」就是扎下根。「破岩」就是裂开的石头。"
+      }
+     ]
+    },
+    {
+     "char": "大",
+     "pinyin": "dà",
+     "meaning": "stor",
+     "type": "儿歌",
+     "snippet": "大象鼻子长又长。",
+     "source": "",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "大.json",
+     "bookPages": [
+      {
+       "file": "所见_6.webp",
+       "title": "所见",
+       "page": 6,
+       "text": "「振」就是震动。「林樾」就是树林。歌声大得好像把树林都震动了！"
+      },
+      {
+       "file": "江雪_9.webp",
+       "title": "江雪",
+       "page": 9,
+       "text": "「蓑」是草编的雨衣，「笠」是竹子编的大帽子。「翁」就是老爷爷。"
+      },
+      {
+       "file": "塞下曲_6.webp",
+       "title": "塞下曲",
+       "page": 6,
+       "text": "「惊风」就是突然刮起的大风，把草吹得乱晃。「引弓」就是拉开弓，准备射箭。"
+      }
+     ]
+    },
+    {
+     "char": "小",
+     "pinyin": "xiǎo",
+     "meaning": "lille",
+     "type": "古诗",
+     "snippet": "小荷才露尖尖角。",
+     "source": "杨万里《小池》",
+     "strokes": 3,
+     "level": 0,
+     "strokeData": "小.json",
+     "bookPages": [
+      {
+       "file": "小池_9.webp",
+       "title": "小池",
+       "page": 9,
+       "text": "「露」就是露出来。小荷叶才露出一点点，蜻蜓就飞来站在上面了！"
+      },
+      {
+       "file": "江南_9.webp",
+       "title": "江南",
+       "page": 9,
+       "text": "「戏」就是玩耍。小鱼一会儿游到东，一会儿游到西，玩得多开心！"
+      },
+      {
+       "file": "池上_6.webp",
+       "title": "池上",
+       "page": 6,
+       "text": "「撑」就是用长长的竹竿抵着水底，把船推着走。「艇」就是小船。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pinyin",
+   "type": "letter",
+   "typeName": "拼音",
+   "name": "拼音族",
+   "creature": "啵啵",
+   "emoji": "🔤",
+   "eggImage": "egg_pinyin.webp",
+   "images": [
+    "tribe_pinyin_1.webp",
+    "tribe_pinyin_2.webp",
+    "tribe_pinyin_3.webp"
+   ],
+   "chars": []
+  }
+ ]
+}
