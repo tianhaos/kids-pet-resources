@@ -1,89 +1,89 @@
 {
   "schema": 1,
-  "versionName": "1.9.23",
-  "versionCode": 64,
-  "apkName": "kids_pet_learning_1.9.23_64.apk",
-  "size": 82212825,
-  "sha256": "1b6e0cf16bdfbfd749e4a1b07b35d2b20a77f2fe2e2b60cbecec3246037c0e4c",
+  "versionName": "1.9.24",
+  "versionCode": 65,
+  "apkName": "kids_pet_learning_1.9.24_65.apk",
+  "size": 82185201,
+  "sha256": "86c455a78674eab9bcab32df82d76be2d581b42aa48abfc88e2ea8af4111ad43",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.23_64/part_000.bin",
+      "path": "apk/v1.9.24_65/part_000.bin",
       "size": 6291456,
-      "sha256": "a95ba2958273b51f8d49eecdac496ecfaad642fc3034adc1a0ef90ee3eeae2a8"
+      "sha256": "6022081e26bb5a1ebd0f3e3fc5078921b90158ed4cf8f6770ce052e90f18d65a"
     },
     {
-      "path": "apk/v1.9.23_64/part_001.bin",
+      "path": "apk/v1.9.24_65/part_001.bin",
       "size": 6291456,
-      "sha256": "9d422f376c413d66a80960dd9d16ef0445630a5bb043f779fcdc61705dcfacb4"
+      "sha256": "7d059dfd21506b393c6ff2753093ada8521ff190c4f494653f60fb1fc6bb4e65"
     },
     {
-      "path": "apk/v1.9.23_64/part_002.bin",
+      "path": "apk/v1.9.24_65/part_002.bin",
       "size": 6291456,
       "sha256": "8511d478e8ac34a2ccfcef67a904a242640ee393941e252a00c5085d0492a60e"
     },
     {
-      "path": "apk/v1.9.23_64/part_003.bin",
+      "path": "apk/v1.9.24_65/part_003.bin",
       "size": 6291456,
-      "sha256": "cbcea4255e16036e1ae897aefb33d63bb7324894991c3229f9f9863cc0bfc512"
+      "sha256": "985f278bf2e5259ed2e94a27be7cc57f4fef4127e36bd0073e4dd998b9e4ec07"
     },
     {
-      "path": "apk/v1.9.23_64/part_004.bin",
+      "path": "apk/v1.9.24_65/part_004.bin",
       "size": 6291456,
-      "sha256": "754cf9baa8649dac3318f9ebd34d1248b5c135dfae3bc51723f697d0563db973"
+      "sha256": "54015e6ddb6bd590ce007a584ae1fa0d0cf56fb905112588af73eb08c6dbc318"
     },
     {
-      "path": "apk/v1.9.23_64/part_005.bin",
+      "path": "apk/v1.9.24_65/part_005.bin",
       "size": 6291456,
-      "sha256": "75918b5765623596edf2df877fac20744ee047ce82bae5365d1bae84762b9da0"
+      "sha256": "7bae43f6a3d61595822c7567258ac52f6dee905620a81b0c60699da09afb0d4b"
     },
     {
-      "path": "apk/v1.9.23_64/part_006.bin",
+      "path": "apk/v1.9.24_65/part_006.bin",
       "size": 6291456,
-      "sha256": "d3f9fdb4257bf4d5bf69251e9a089faa1261331d811fc9f7e2f5e0f2f80205ef"
+      "sha256": "620256aa95bd392f3375af9e62eaa9f634a6ab0d585587a699ce61cc491345d4"
     },
     {
-      "path": "apk/v1.9.23_64/part_007.bin",
+      "path": "apk/v1.9.24_65/part_007.bin",
       "size": 6291456,
-      "sha256": "1c505463310ca70821580f1e6ee9ef27073942b74e46c66dddf640786269ad64"
+      "sha256": "65e21d637077f8dd62d660fcb0a612fd4f3fc00731a5f649735e009f6e1ff095"
     },
     {
-      "path": "apk/v1.9.23_64/part_008.bin",
+      "path": "apk/v1.9.24_65/part_008.bin",
       "size": 6291456,
-      "sha256": "b4516c58bb20e0309e2d900b3b801fb5ab20845df7691a3ec8036fa2082cc7b1"
+      "sha256": "32747902d4aa60ef5a821a79d08f391eb400930c6d3a63a4dddca1b461c26b04"
     },
     {
-      "path": "apk/v1.9.23_64/part_009.bin",
+      "path": "apk/v1.9.24_65/part_009.bin",
       "size": 6291456,
-      "sha256": "1d1c747c884e6b32562f750f638f1af58dc581441c3e35380047283379f210f5"
+      "sha256": "57518df2062ae0c6339afdaededdbaecdb4d4101fb4f3aa79574207d0da8a658"
     },
     {
-      "path": "apk/v1.9.23_64/part_010.bin",
+      "path": "apk/v1.9.24_65/part_010.bin",
       "size": 6291456,
-      "sha256": "44f924d76a6e4b1c15751069505d66b1abc52104e3037f306a7f3864d079b616"
+      "sha256": "e2bcd884b8dbc2ae67223e4590048e03037dab529229a48823558de615374e1d"
     },
     {
-      "path": "apk/v1.9.23_64/part_011.bin",
+      "path": "apk/v1.9.24_65/part_011.bin",
       "size": 6291456,
-      "sha256": "b74aefa96869d07277b2336b71ed1c06b9dda4e3787b5ea7f7169d025d10cdf1"
+      "sha256": "5e73f231d97c8d4704e8163d86ae34ba5e1b569bbcd31e2c121d0026d2379504"
     },
     {
-      "path": "apk/v1.9.23_64/part_012.bin",
+      "path": "apk/v1.9.24_65/part_012.bin",
       "size": 6291456,
-      "sha256": "4bf89c4b371a9daa097f3c061771635e554dafd322d578b3b4e10a762256de1a"
+      "sha256": "46c1fe742f17aea0319e74bd46af5ef66e99ca6c0f1650c7ad037e42bdc5958c"
     },
     {
-      "path": "apk/v1.9.23_64/part_013.bin",
-      "size": 423897,
-      "sha256": "36439191936c57ce2d8c3b6e2e652c1fc89147ae2a04a2cd29a186ee868af4de"
+      "path": "apk/v1.9.24_65/part_013.bin",
+      "size": 396273,
+      "sha256": "d3b90b05daff02d19202f8fe43ecd65dd2c2c1783a99b4ced8f9ad4b06071aa6"
     }
   ],
-  "updatedAt": "2026-11-20T19:47:15+08:00",
+  "updatedAt": "2026-11-20T21:53:36+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "恢复部落识字原界面(古诗+绘本点开看整本)",
-    "四步完成可直接点下一步不用退出",
-    "157字恢复绘本177字恢复古诗"
+    "识字统计卡移到开始页并美化",
+    "数学升级一数一路线1-100",
+    "四步连续下一步与数感徽章"
   ]
 }
