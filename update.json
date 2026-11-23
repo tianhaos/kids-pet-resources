@@ -1,90 +1,94 @@
 {
   "schema": 1,
-  "versionName": "1.9.28",
-  "versionCode": 69,
-  "apkName": "kids_pet_learning_1.9.28_69.apk",
-  "size": 83431569,
-  "sha256": "01ba8f4b52a78195fafe8d396cd571a1a641dc0b430df0955d8a1d8be4cb95ae",
+  "versionName": "1.9.29",
+  "versionCode": 70,
+  "apkName": "kids_pet_learning_1.9.29_70.apk",
+  "size": 88362449,
+  "sha256": "5d233709372792ee9af1ecf90ad957e78baf40bede0ff819eb5dd9c7abbdfd05",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.28_69/part_000.bin",
+      "path": "apk/v1.9.29_70/part_000.bin",
       "size": 6291456,
-      "sha256": "97e36740991831195834cb4cd98dc2978da16ea94f7af39c7096db1305f9795f"
+      "sha256": "2cf719f734ed6ef1b017e3b2b5e12918ba3c9dc675c556a43d6976131c638a9d"
     },
     {
-      "path": "apk/v1.9.28_69/part_001.bin",
+      "path": "apk/v1.9.29_70/part_001.bin",
       "size": 6291456,
-      "sha256": "354c67cd5cef418a8c47127125aef6fef2e6da38ebd54be1d2238cda0ac00a04"
+      "sha256": "decee73e849cbea02a92fff1a9c6968999417ec9c7686d45220fa98703355410"
     },
     {
-      "path": "apk/v1.9.28_69/part_002.bin",
+      "path": "apk/v1.9.29_70/part_002.bin",
       "size": 6291456,
-      "sha256": "69c4d83a432b825b52b454928335048d1f8158927ca27477059d5a930f00cb3a"
+      "sha256": "321277aee8ad933f080c50cdb08656d884115a48da1d9e11345dbfd8482c22da"
     },
     {
-      "path": "apk/v1.9.28_69/part_003.bin",
+      "path": "apk/v1.9.29_70/part_003.bin",
       "size": 6291456,
-      "sha256": "8f975c3da900f52463de5adb04012397a7725d9dce3c0a477799384ddfe14bd1"
+      "sha256": "f8c80a0a1572e0e50bbb4d91488a488ba246f88dd2597c929b23ce76b72d8b88"
     },
     {
-      "path": "apk/v1.9.28_69/part_004.bin",
+      "path": "apk/v1.9.29_70/part_004.bin",
       "size": 6291456,
-      "sha256": "04b35e4b6762ab9eb0072333b4cd9b2671649a7e17b2f8b38e4828e7fd355684"
+      "sha256": "0c2458a32c0e34eaf6ef8857f970147610b009a7fc38aa200186083eae10a8b4"
     },
     {
-      "path": "apk/v1.9.28_69/part_005.bin",
+      "path": "apk/v1.9.29_70/part_005.bin",
       "size": 6291456,
-      "sha256": "1824136d341e024f261c54bb95116e2a68d122b1037555391525524771b8a4ac"
+      "sha256": "4728df4363dbb66979b18ba4e368b62886447846c29c660bab43ab5b7702b773"
     },
     {
-      "path": "apk/v1.9.28_69/part_006.bin",
+      "path": "apk/v1.9.29_70/part_006.bin",
       "size": 6291456,
-      "sha256": "3e3e3a84c9643719184d6081875cade7ef73038f22cda1a7d0c70fec5278582b"
+      "sha256": "57df0f93a50489e6bc86196c44e91d7fa3278c4d50223b38d3782dc019d9b6a2"
     },
     {
-      "path": "apk/v1.9.28_69/part_007.bin",
+      "path": "apk/v1.9.29_70/part_007.bin",
       "size": 6291456,
-      "sha256": "aa271b6ef4856026be1446077ee17398475bbe4c9a849cda829930bd7f57b6a1"
+      "sha256": "ab92be9f5de7742e2f3718c1be1e1cb4e5886191121412eda93658cb2a9f2a2f"
     },
     {
-      "path": "apk/v1.9.28_69/part_008.bin",
+      "path": "apk/v1.9.29_70/part_008.bin",
       "size": 6291456,
-      "sha256": "9127e2f348830914331cfcb0d0ad39f55e8f13c876f5e3b29fbbf13320263587"
+      "sha256": "8f9bf2a82ed2cd0edacea8708abb2724902cc28971cb93501dec394e30bd4cef"
     },
     {
-      "path": "apk/v1.9.28_69/part_009.bin",
+      "path": "apk/v1.9.29_70/part_009.bin",
       "size": 6291456,
-      "sha256": "1ba6a08d38ea3e5b521e6fd86b3f8926e9725a6ec108062592e8777c5ec0beb1"
+      "sha256": "2e2b4221310ad9140c0c1f3619d26af8abebfa25f022a909805bba663e612186"
     },
     {
-      "path": "apk/v1.9.28_69/part_010.bin",
+      "path": "apk/v1.9.29_70/part_010.bin",
       "size": 6291456,
-      "sha256": "4e5211293a04ef75d4e912bcb5b9f3a086546f2ef9404d2b2e3c58091a39babf"
+      "sha256": "448c91107fe85cfe18426f1737cb583e3367c2411abd6a060b8393d84588841b"
     },
     {
-      "path": "apk/v1.9.28_69/part_011.bin",
+      "path": "apk/v1.9.29_70/part_011.bin",
       "size": 6291456,
-      "sha256": "f1571b79b02dae65f11346a85bdab07f57c37df69c2af319f3dd26cde3682bb4"
+      "sha256": "8038dced9f4af9f61d92a4445b80ef39b1ca3a1b907bd77d4111ebf511e3b8dd"
     },
     {
-      "path": "apk/v1.9.28_69/part_012.bin",
+      "path": "apk/v1.9.29_70/part_012.bin",
       "size": 6291456,
-      "sha256": "1e19f2035874ad3a41cdd4cd5873ce5968b1c5b2013f85d1f347585d5c6b0a7e"
+      "sha256": "5e1cdb5cc7f1ce06a3c991af792ae30c571404ac805061f05b0eaf5c94d8b38f"
     },
     {
-      "path": "apk/v1.9.28_69/part_013.bin",
-      "size": 1642641,
-      "sha256": "8d135eb6b129bd3d1b9e4d5dfe8c768339a026a9998446071dee02b817c74958"
+      "path": "apk/v1.9.29_70/part_013.bin",
+      "size": 6291456,
+      "sha256": "2571114644e1f705073198220f43fd8cab77a6ad35806be4dcf24f3eeb48fda8"
+    },
+    {
+      "path": "apk/v1.9.29_70/part_014.bin",
+      "size": 282065,
+      "sha256": "d133bacb447ffd8617d111f68b7dabe87a2f41093d60c594f5ab56572eacc863"
     }
   ],
-  "updatedAt": "2026-11-21T10:49:23+08:00",
+  "updatedAt": "2026-11-23T10:35:28+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "英语升级一词一路线四步",
-    "新增英语徽章墙6枚",
-    "新增分级绘本主线L1-L3",
-    "独立进度与从头开始只清英语"
+    "新增：识字/拼音/数字/古诗/英语字帖打印，本地楷体与四线三格描红",
+    "新增：A4 预览、PDF/图片导出与系统打印",
+    "新增：家长中心字帖打印汇总入口"
   ]
 }
