@@ -1,0 +1,409 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,43216,e=>{"use strict";let t,i;var r=e.i(31067),n=e.i(71645),s=e.i(90072),a=e.i(48546),o=s,l=s;let d=new l.Box3,c=new l.Vector3;class u extends l.InstancedBufferGeometry{constructor(){super(),this.isLineSegmentsGeometry=!0,this.type="LineSegmentsGeometry",this.setIndex([0,2,1,2,3,1,2,4,3,4,5,3,4,6,5,6,7,5]),this.setAttribute("position",new l.Float32BufferAttribute([-1,2,0,1,2,0,-1,1,0,1,1,0,-1,0,0,1,0,0,-1,-1,0,1,-1,0],3)),this.setAttribute("uv",new l.Float32BufferAttribute([-1,2,1,2,-1,1,1,1,-1,-1,1,-1,-1,-2,1,-2],2))}applyMatrix4(e){let t=this.attributes.instanceStart,i=this.attributes.instanceEnd;return void 0!==t&&(t.applyMatrix4(e),i.applyMatrix4(e),t.needsUpdate=!0),null!==this.boundingBox&&this.computeBoundingBox(),null!==this.boundingSphere&&this.computeBoundingSphere(),this}setPositions(e){let t;e instanceof Float32Array?t=e:Array.isArray(e)&&(t=new Float32Array(e));let i=new l.InstancedInterleavedBuffer(t,6,1);return this.setAttribute("instanceStart",new l.InterleavedBufferAttribute(i,3,0)),this.setAttribute("instanceEnd",new l.InterleavedBufferAttribute(i,3,3)),this.computeBoundingBox(),this.computeBoundingSphere(),this}setColors(e,t=3){let i;e instanceof Float32Array?i=e:Array.isArray(e)&&(i=new Float32Array(e));let r=new l.InstancedInterleavedBuffer(i,2*t,1);return this.setAttribute("instanceColorStart",new l.InterleavedBufferAttribute(r,t,0)),this.setAttribute("instanceColorEnd",new l.InterleavedBufferAttribute(r,t,t)),this}fromWireframeGeometry(e){return this.setPositions(e.attributes.position.array),this}fromEdgesGeometry(e){return this.setPositions(e.attributes.position.array),this}fromMesh(e){return this.fromWireframeGeometry(new l.WireframeGeometry(e.geometry)),this}fromLineSegments(e){let t=e.geometry;return this.setPositions(t.attributes.position.array),this}computeBoundingBox(){null===this.boundingBox&&(this.boundingBox=new l.Box3);let e=this.attributes.instanceStart,t=this.attributes.instanceEnd;void 0!==e&&void 0!==t&&(this.boundingBox.setFromBufferAttribute(e),d.setFromBufferAttribute(t),this.boundingBox.union(d))}computeBoundingSphere(){null===this.boundingSphere&&(this.boundingSphere=new l.Sphere),null===this.boundingBox&&this.computeBoundingBox();let e=this.attributes.instanceStart,t=this.attributes.instanceEnd;if(void 0!==e&&void 0!==t){let i=this.boundingSphere.center;this.boundingBox.getCenter(i);let r=0;for(let n=0,s=e.count;n<s;n++)c.fromBufferAttribute(e,n),r=Math.max(r,i.distanceToSquared(c)),c.fromBufferAttribute(t,n),r=Math.max(r,i.distanceToSquared(c));this.boundingSphere.radius=Math.sqrt(r),isNaN(this.boundingSphere.radius)&&console.error("THREE.LineSegmentsGeometry.computeBoundingSphere(): Computed radius is NaN. The instanced position data is likely to have NaN values.",this)}}toJSON(){}applyMatrix(e){return console.warn("THREE.LineSegmentsGeometry: applyMatrix() has been renamed to applyMatrix4()."),this.applyMatrix4(e)}}var f=s,p=e.i(8560),h=e.i(31497);class m extends f.ShaderMaterial{constructor(e){super({type:"LineMaterial",uniforms:f.UniformsUtils.clone(f.UniformsUtils.merge([p.UniformsLib.common,p.UniformsLib.fog,{worldUnits:{value:1},linewidth:{value:1},resolution:{value:new f.Vector2(1,1)},dashOffset:{value:0},dashScale:{value:1},dashSize:{value:1},gapSize:{value:1}}])),vertexShader:`
+				#include <common>
+				#include <fog_pars_vertex>
+				#include <logdepthbuf_pars_vertex>
+				#include <clipping_planes_pars_vertex>
+
+				uniform float linewidth;
+				uniform vec2 resolution;
+
+				attribute vec3 instanceStart;
+				attribute vec3 instanceEnd;
+
+				#ifdef USE_COLOR
+					#ifdef USE_LINE_COLOR_ALPHA
+						varying vec4 vLineColor;
+						attribute vec4 instanceColorStart;
+						attribute vec4 instanceColorEnd;
+					#else
+						varying vec3 vLineColor;
+						attribute vec3 instanceColorStart;
+						attribute vec3 instanceColorEnd;
+					#endif
+				#endif
+
+				#ifdef WORLD_UNITS
+
+					varying vec4 worldPos;
+					varying vec3 worldStart;
+					varying vec3 worldEnd;
+
+					#ifdef USE_DASH
+
+						varying vec2 vUv;
+
+					#endif
+
+				#else
+
+					varying vec2 vUv;
+
+				#endif
+
+				#ifdef USE_DASH
+
+					uniform float dashScale;
+					attribute float instanceDistanceStart;
+					attribute float instanceDistanceEnd;
+					varying float vLineDistance;
+
+				#endif
+
+				void trimSegment( const in vec4 start, inout vec4 end ) {
+
+					// trim end segment so it terminates between the camera plane and the near plane
+
+					// conservative estimate of the near plane
+					float a = projectionMatrix[ 2 ][ 2 ]; // 3nd entry in 3th column
+					float b = projectionMatrix[ 3 ][ 2 ]; // 3nd entry in 4th column
+					float nearEstimate = - 0.5 * b / a;
+
+					float alpha = ( nearEstimate - start.z ) / ( end.z - start.z );
+
+					end.xyz = mix( start.xyz, end.xyz, alpha );
+
+				}
+
+				void main() {
+
+					#ifdef USE_COLOR
+
+						vLineColor = ( position.y < 0.5 ) ? instanceColorStart : instanceColorEnd;
+
+					#endif
+
+					#ifdef USE_DASH
+
+						vLineDistance = ( position.y < 0.5 ) ? dashScale * instanceDistanceStart : dashScale * instanceDistanceEnd;
+						vUv = uv;
+
+					#endif
+
+					float aspect = resolution.x / resolution.y;
+
+					// camera space
+					vec4 start = modelViewMatrix * vec4( instanceStart, 1.0 );
+					vec4 end = modelViewMatrix * vec4( instanceEnd, 1.0 );
+
+					#ifdef WORLD_UNITS
+
+						worldStart = start.xyz;
+						worldEnd = end.xyz;
+
+					#else
+
+						vUv = uv;
+
+					#endif
+
+					// special case for perspective projection, and segments that terminate either in, or behind, the camera plane
+					// clearly the gpu firmware has a way of addressing this issue when projecting into ndc space
+					// but we need to perform ndc-space calculations in the shader, so we must address this issue directly
+					// perhaps there is a more elegant solution -- WestLangley
+
+					bool perspective = ( projectionMatrix[ 2 ][ 3 ] == - 1.0 ); // 4th entry in the 3rd column
+
+					if ( perspective ) {
+
+						if ( start.z < 0.0 && end.z >= 0.0 ) {
+
+							trimSegment( start, end );
+
+						} else if ( end.z < 0.0 && start.z >= 0.0 ) {
+
+							trimSegment( end, start );
+
+						}
+
+					}
+
+					// clip space
+					vec4 clipStart = projectionMatrix * start;
+					vec4 clipEnd = projectionMatrix * end;
+
+					// ndc space
+					vec3 ndcStart = clipStart.xyz / clipStart.w;
+					vec3 ndcEnd = clipEnd.xyz / clipEnd.w;
+
+					// direction
+					vec2 dir = ndcEnd.xy - ndcStart.xy;
+
+					// account for clip-space aspect ratio
+					dir.x *= aspect;
+					dir = normalize( dir );
+
+					#ifdef WORLD_UNITS
+
+						// get the offset direction as perpendicular to the view vector
+						vec3 worldDir = normalize( end.xyz - start.xyz );
+						vec3 offset;
+						if ( position.y < 0.5 ) {
+
+							offset = normalize( cross( start.xyz, worldDir ) );
+
+						} else {
+
+							offset = normalize( cross( end.xyz, worldDir ) );
+
+						}
+
+						// sign flip
+						if ( position.x < 0.0 ) offset *= - 1.0;
+
+						float forwardOffset = dot( worldDir, vec3( 0.0, 0.0, 1.0 ) );
+
+						// don't extend the line if we're rendering dashes because we
+						// won't be rendering the endcaps
+						#ifndef USE_DASH
+
+							// extend the line bounds to encompass  endcaps
+							start.xyz += - worldDir * linewidth * 0.5;
+							end.xyz += worldDir * linewidth * 0.5;
+
+							// shift the position of the quad so it hugs the forward edge of the line
+							offset.xy -= dir * forwardOffset;
+							offset.z += 0.5;
+
+						#endif
+
+						// endcaps
+						if ( position.y > 1.0 || position.y < 0.0 ) {
+
+							offset.xy += dir * 2.0 * forwardOffset;
+
+						}
+
+						// adjust for linewidth
+						offset *= linewidth * 0.5;
+
+						// set the world position
+						worldPos = ( position.y < 0.5 ) ? start : end;
+						worldPos.xyz += offset;
+
+						// project the worldpos
+						vec4 clip = projectionMatrix * worldPos;
+
+						// shift the depth of the projected points so the line
+						// segments overlap neatly
+						vec3 clipPose = ( position.y < 0.5 ) ? ndcStart : ndcEnd;
+						clip.z = clipPose.z * clip.w;
+
+					#else
+
+						vec2 offset = vec2( dir.y, - dir.x );
+						// undo aspect ratio adjustment
+						dir.x /= aspect;
+						offset.x /= aspect;
+
+						// sign flip
+						if ( position.x < 0.0 ) offset *= - 1.0;
+
+						// endcaps
+						if ( position.y < 0.0 ) {
+
+							offset += - dir;
+
+						} else if ( position.y > 1.0 ) {
+
+							offset += dir;
+
+						}
+
+						// adjust for linewidth
+						offset *= linewidth;
+
+						// adjust for clip-space to screen-space conversion // maybe resolution should be based on viewport ...
+						offset /= resolution.y;
+
+						// select end
+						vec4 clip = ( position.y < 0.5 ) ? clipStart : clipEnd;
+
+						// back to clip space
+						offset *= clip.w;
+
+						clip.xy += offset;
+
+					#endif
+
+					gl_Position = clip;
+
+					vec4 mvPosition = ( position.y < 0.5 ) ? start : end; // this is an approximation
+
+					#include <logdepthbuf_vertex>
+					#include <clipping_planes_vertex>
+					#include <fog_vertex>
+
+				}
+			`,fragmentShader:`
+				uniform vec3 diffuse;
+				uniform float opacity;
+				uniform float linewidth;
+
+				#ifdef USE_DASH
+
+					uniform float dashOffset;
+					uniform float dashSize;
+					uniform float gapSize;
+
+				#endif
+
+				varying float vLineDistance;
+
+				#ifdef WORLD_UNITS
+
+					varying vec4 worldPos;
+					varying vec3 worldStart;
+					varying vec3 worldEnd;
+
+					#ifdef USE_DASH
+
+						varying vec2 vUv;
+
+					#endif
+
+				#else
+
+					varying vec2 vUv;
+
+				#endif
+
+				#include <common>
+				#include <fog_pars_fragment>
+				#include <logdepthbuf_pars_fragment>
+				#include <clipping_planes_pars_fragment>
+
+				#ifdef USE_COLOR
+					#ifdef USE_LINE_COLOR_ALPHA
+						varying vec4 vLineColor;
+					#else
+						varying vec3 vLineColor;
+					#endif
+				#endif
+
+				vec2 closestLineToLine(vec3 p1, vec3 p2, vec3 p3, vec3 p4) {
+
+					float mua;
+					float mub;
+
+					vec3 p13 = p1 - p3;
+					vec3 p43 = p4 - p3;
+
+					vec3 p21 = p2 - p1;
+
+					float d1343 = dot( p13, p43 );
+					float d4321 = dot( p43, p21 );
+					float d1321 = dot( p13, p21 );
+					float d4343 = dot( p43, p43 );
+					float d2121 = dot( p21, p21 );
+
+					float denom = d2121 * d4343 - d4321 * d4321;
+
+					float numer = d1343 * d4321 - d1321 * d4343;
+
+					mua = numer / denom;
+					mua = clamp( mua, 0.0, 1.0 );
+					mub = ( d1343 + d4321 * ( mua ) ) / d4343;
+					mub = clamp( mub, 0.0, 1.0 );
+
+					return vec2( mua, mub );
+
+				}
+
+				void main() {
+
+					#include <clipping_planes_fragment>
+
+					#ifdef USE_DASH
+
+						if ( vUv.y < - 1.0 || vUv.y > 1.0 ) discard; // discard endcaps
+
+						if ( mod( vLineDistance + dashOffset, dashSize + gapSize ) > dashSize ) discard; // todo - FIX
+
+					#endif
+
+					float alpha = opacity;
+
+					#ifdef WORLD_UNITS
+
+						// Find the closest points on the view ray and the line segment
+						vec3 rayEnd = normalize( worldPos.xyz ) * 1e5;
+						vec3 lineDir = worldEnd - worldStart;
+						vec2 params = closestLineToLine( worldStart, worldEnd, vec3( 0.0, 0.0, 0.0 ), rayEnd );
+
+						vec3 p1 = worldStart + lineDir * params.x;
+						vec3 p2 = rayEnd * params.y;
+						vec3 delta = p1 - p2;
+						float len = length( delta );
+						float norm = len / linewidth;
+
+						#ifndef USE_DASH
+
+							#ifdef USE_ALPHA_TO_COVERAGE
+
+								float dnorm = fwidth( norm );
+								alpha = 1.0 - smoothstep( 0.5 - dnorm, 0.5 + dnorm, norm );
+
+							#else
+
+								if ( norm > 0.5 ) {
+
+									discard;
+
+								}
+
+							#endif
+
+						#endif
+
+					#else
+
+						#ifdef USE_ALPHA_TO_COVERAGE
+
+							// artifacts appear on some hardware if a derivative is taken within a conditional
+							float a = vUv.x;
+							float b = ( vUv.y > 0.0 ) ? vUv.y - 1.0 : vUv.y + 1.0;
+							float len2 = a * a + b * b;
+							float dlen = fwidth( len2 );
+
+							if ( abs( vUv.y ) > 1.0 ) {
+
+								alpha = 1.0 - smoothstep( 1.0 - dlen, 1.0 + dlen, len2 );
+
+							}
+
+						#else
+
+							if ( abs( vUv.y ) > 1.0 ) {
+
+								float a = vUv.x;
+								float b = ( vUv.y > 0.0 ) ? vUv.y - 1.0 : vUv.y + 1.0;
+								float len2 = a * a + b * b;
+
+								if ( len2 > 1.0 ) discard;
+
+							}
+
+						#endif
+
+					#endif
+
+					vec4 diffuseColor = vec4( diffuse, alpha );
+					#ifdef USE_COLOR
+						#ifdef USE_LINE_COLOR_ALPHA
+							diffuseColor *= vLineColor;
+						#else
+							diffuseColor.rgb *= vLineColor;
+						#endif
+					#endif
+
+					#include <logdepthbuf_fragment>
+
+					gl_FragColor = diffuseColor;
+
+					#include <tonemapping_fragment>
+					#include <${h.version>=154?"colorspace_fragment":"encodings_fragment"}>
+					#include <fog_fragment>
+					#include <premultiplied_alpha_fragment>
+
+				}
+			`,clipping:!0}),this.isLineMaterial=!0,this.onBeforeCompile=function(){this.transparent?this.defines.USE_LINE_COLOR_ALPHA="1":delete this.defines.USE_LINE_COLOR_ALPHA},Object.defineProperties(this,{color:{enumerable:!0,get:function(){return this.uniforms.diffuse.value},set:function(e){this.uniforms.diffuse.value=e}},worldUnits:{enumerable:!0,get:function(){return"WORLD_UNITS"in this.defines},set:function(e){!0===e?this.defines.WORLD_UNITS="":delete this.defines.WORLD_UNITS}},linewidth:{enumerable:!0,get:function(){return this.uniforms.linewidth.value},set:function(e){this.uniforms.linewidth.value=e}},dashed:{enumerable:!0,get:function(){return"USE_DASH"in this.defines},set(e){!!e!="USE_DASH"in this.defines&&(this.needsUpdate=!0),!0===e?this.defines.USE_DASH="":delete this.defines.USE_DASH}},dashScale:{enumerable:!0,get:function(){return this.uniforms.dashScale.value},set:function(e){this.uniforms.dashScale.value=e}},dashSize:{enumerable:!0,get:function(){return this.uniforms.dashSize.value},set:function(e){this.uniforms.dashSize.value=e}},dashOffset:{enumerable:!0,get:function(){return this.uniforms.dashOffset.value},set:function(e){this.uniforms.dashOffset.value=e}},gapSize:{enumerable:!0,get:function(){return this.uniforms.gapSize.value},set:function(e){this.uniforms.gapSize.value=e}},opacity:{enumerable:!0,get:function(){return this.uniforms.opacity.value},set:function(e){this.uniforms.opacity.value=e}},resolution:{enumerable:!0,get:function(){return this.uniforms.resolution.value},set:function(e){this.uniforms.resolution.value.copy(e)}},alphaToCoverage:{enumerable:!0,get:function(){return"USE_ALPHA_TO_COVERAGE"in this.defines},set:function(e){!!e!="USE_ALPHA_TO_COVERAGE"in this.defines&&(this.needsUpdate=!0),!0===e?(this.defines.USE_ALPHA_TO_COVERAGE="",this.extensions.derivatives=!0):(delete this.defines.USE_ALPHA_TO_COVERAGE,this.extensions.derivatives=!1)}}}),this.setValues(e)}}let g=h.version>=125?"uv1":"uv2",v=new o.Vector4,x=new o.Vector3,y=new o.Vector3,b=new o.Vector4,S=new o.Vector4,w=new o.Vector4,E=new o.Vector3,A=new o.Matrix4,j=new o.Line3,_=new o.Vector3,L=new o.Box3,C=new o.Sphere,U=new o.Vector4;function z(e,t,r){return U.set(0,0,-t,1).applyMatrix4(e.projectionMatrix),U.multiplyScalar(1/U.w),U.x=i/r.width,U.y=i/r.height,U.applyMatrix4(e.projectionMatrixInverse),U.multiplyScalar(1/U.w),Math.abs(Math.max(U.x,U.y))}class M extends o.Mesh{constructor(e=new u,t=new m({color:0xffffff*Math.random()})){super(e,t),this.isLineSegments2=!0,this.type="LineSegments2"}computeLineDistances(){let e=this.geometry,t=e.attributes.instanceStart,i=e.attributes.instanceEnd,r=new Float32Array(2*t.count);for(let e=0,n=0,s=t.count;e<s;e++,n+=2)x.fromBufferAttribute(t,e),y.fromBufferAttribute(i,e),r[n]=0===n?0:r[n-1],r[n+1]=r[n]+x.distanceTo(y);let n=new o.InstancedInterleavedBuffer(r,2,1);return e.setAttribute("instanceDistanceStart",new o.InterleavedBufferAttribute(n,1,0)),e.setAttribute("instanceDistanceEnd",new o.InterleavedBufferAttribute(n,1,1)),this}raycast(e,r){let n,s,a=this.material.worldUnits,l=e.camera;null!==l||a||console.error('LineSegments2: "Raycaster.camera" needs to be set in order to raycast against LineSegments2 while worldUnits is set to false.');let d=void 0!==e.params.Line2&&e.params.Line2.threshold||0;t=e.ray;let c=this.matrixWorld,u=this.geometry,f=this.material;if(i=f.linewidth+d,null===u.boundingSphere&&u.computeBoundingSphere(),C.copy(u.boundingSphere).applyMatrix4(c),a)n=.5*i;else{let e=Math.max(l.near,C.distanceToPoint(t.origin));n=z(l,e,f.resolution)}if(C.radius+=n,!1!==t.intersectsSphere(C)){if(null===u.boundingBox&&u.computeBoundingBox(),L.copy(u.boundingBox).applyMatrix4(c),a)s=.5*i;else{let e=Math.max(l.near,L.distanceToPoint(t.origin));s=z(l,e,f.resolution)}L.expandByScalar(s),!1!==t.intersectsBox(L)&&(a?function(e,r){let n=e.matrixWorld,s=e.geometry,a=s.attributes.instanceStart,l=s.attributes.instanceEnd,d=Math.min(s.instanceCount,a.count);for(let s=0;s<d;s++){j.start.fromBufferAttribute(a,s),j.end.fromBufferAttribute(l,s),j.applyMatrix4(n);let d=new o.Vector3,c=new o.Vector3;t.distanceSqToSegment(j.start,j.end,c,d),c.distanceTo(d)<.5*i&&r.push({point:c,pointOnLine:d,distance:t.origin.distanceTo(c),object:e,face:null,faceIndex:s,uv:null,[g]:null})}}(this,r):function(e,r,n){let s=r.projectionMatrix,a=e.material.resolution,l=e.matrixWorld,d=e.geometry,c=d.attributes.instanceStart,u=d.attributes.instanceEnd,f=Math.min(d.instanceCount,c.count),p=-r.near;t.at(1,w),w.w=1,w.applyMatrix4(r.matrixWorldInverse),w.applyMatrix4(s),w.multiplyScalar(1/w.w),w.x*=a.x/2,w.y*=a.y/2,w.z=0,E.copy(w),A.multiplyMatrices(r.matrixWorldInverse,l);for(let r=0;r<f;r++){if(b.fromBufferAttribute(c,r),S.fromBufferAttribute(u,r),b.w=1,S.w=1,b.applyMatrix4(A),S.applyMatrix4(A),b.z>p&&S.z>p)continue;if(b.z>p){let e=b.z-S.z,t=(b.z-p)/e;b.lerp(S,t)}else if(S.z>p){let e=S.z-b.z,t=(S.z-p)/e;S.lerp(b,t)}b.applyMatrix4(s),S.applyMatrix4(s),b.multiplyScalar(1/b.w),S.multiplyScalar(1/S.w),b.x*=a.x/2,b.y*=a.y/2,S.x*=a.x/2,S.y*=a.y/2,j.start.copy(b),j.start.z=0,j.end.copy(S),j.end.z=0;let d=j.closestPointToPointParameter(E,!0);j.at(d,_);let f=o.MathUtils.lerp(b.z,S.z,d),h=f>=-1&&f<=1,m=E.distanceTo(_)<.5*i;if(h&&m){j.start.fromBufferAttribute(c,r),j.end.fromBufferAttribute(u,r),j.start.applyMatrix4(l),j.end.applyMatrix4(l);let i=new o.Vector3,s=new o.Vector3;t.distanceSqToSegment(j.start,j.end,s,i),n.push({point:s,pointOnLine:i,distance:t.origin.distanceTo(s),object:e,face:null,faceIndex:r,uv:null,[g]:null})}}}(this,l,r))}}onBeforeRender(e){let t=this.material.uniforms;t&&t.resolution&&(e.getViewport(v),this.material.uniforms.resolution.value.set(v.z,v.w))}}class B extends u{constructor(){super(),this.isLineGeometry=!0,this.type="LineGeometry"}setPositions(e){let t=e.length-3,i=new Float32Array(2*t);for(let r=0;r<t;r+=3)i[2*r]=e[r],i[2*r+1]=e[r+1],i[2*r+2]=e[r+2],i[2*r+3]=e[r+3],i[2*r+4]=e[r+4],i[2*r+5]=e[r+5];return super.setPositions(i),this}setColors(e,t=3){let i=e.length-t,r=new Float32Array(2*i);if(3===t)for(let n=0;n<i;n+=t)r[2*n]=e[n],r[2*n+1]=e[n+1],r[2*n+2]=e[n+2],r[2*n+3]=e[n+3],r[2*n+4]=e[n+4],r[2*n+5]=e[n+5];else for(let n=0;n<i;n+=t)r[2*n]=e[n],r[2*n+1]=e[n+1],r[2*n+2]=e[n+2],r[2*n+3]=e[n+3],r[2*n+4]=e[n+4],r[2*n+5]=e[n+5],r[2*n+6]=e[n+6],r[2*n+7]=e[n+7];return super.setColors(r,t),this}fromLine(e){let t=e.geometry;return this.setPositions(t.attributes.position.array),this}}class O extends M{constructor(e=new B,t=new m({color:0xffffff*Math.random()})){super(e,t),this.isLine2=!0,this.type="Line2"}}let D=n.forwardRef(function({points:e,color:t=0xffffff,vertexColors:i,linewidth:o,lineWidth:l,segments:d,dashed:c,...f},p){var h,g;let v=(0,a.useThree)(e=>e.size),x=n.useMemo(()=>d?new M:new O,[d]),[y]=n.useState(()=>new m),b=(null==i||null==(h=i[0])?void 0:h.length)===4?4:3,S=n.useMemo(()=>{let r=d?new u:new B,n=e.map(e=>{let t=Array.isArray(e);return e instanceof s.Vector3||e instanceof s.Vector4?[e.x,e.y,e.z]:e instanceof s.Vector2?[e.x,e.y,0]:t&&3===e.length?[e[0],e[1],e[2]]:t&&2===e.length?[e[0],e[1],0]:e});if(r.setPositions(n.flat()),i){t=0xffffff;let e=i.map(e=>e instanceof s.Color?e.toArray():e);r.setColors(e.flat(),b)}return r},[e,d,i,b]);return n.useLayoutEffect(()=>{x.computeLineDistances()},[e,x]),n.useLayoutEffect(()=>{c?y.defines.USE_DASH="":delete y.defines.USE_DASH,y.needsUpdate=!0},[c,y]),n.useEffect(()=>()=>{S.dispose(),y.dispose()},[S]),n.createElement("primitive",(0,r.default)({object:x,ref:p},f),n.createElement("primitive",{object:S,attach:"geometry"}),n.createElement("primitive",(0,r.default)({object:y,attach:"material",color:t,vertexColors:!!i,resolution:[v.width,v.height],linewidth:null!=(g=null!=o?o:l)?g:1,dashed:c,transparent:4===b},f)))});e.s(["Line",0,D],43216)},56420,e=>{"use strict";var t=e.i(71645);let i=(...e)=>e.filter((e,t,i)=>!!e&&""!==e.trim()&&i.indexOf(e)===t).join(" ").trim(),r=e=>{let t=e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,i)=>i?i.toUpperCase():t.toLowerCase());return t.charAt(0).toUpperCase()+t.slice(1)};var n={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};let s=(0,t.createContext)({}),a=(0,t.forwardRef)(({color:e,size:r,strokeWidth:a,absoluteStrokeWidth:o,className:l="",children:d,iconNode:c,...u},f)=>{let{size:p=24,strokeWidth:h=2,absoluteStrokeWidth:m=!1,color:g="currentColor",className:v=""}=(0,t.useContext)(s)??{},x=o??m?24*Number(a??h)/Number(r??p):a??h;return(0,t.createElement)("svg",{ref:f,...n,width:r??p??n.width,height:r??p??n.height,stroke:e??g,strokeWidth:x,className:i("lucide",v,l),...!d&&!(e=>{for(let t in e)if(t.startsWith("aria-")||"role"===t||"title"===t)return!0;return!1})(u)&&{"aria-hidden":"true"},...u},[...c.map(([e,i])=>(0,t.createElement)(e,i)),...Array.isArray(d)?d:[d]])});e.s(["default",0,(e,n)=>{let s=(0,t.forwardRef)(({className:s,...o},l)=>(0,t.createElement)(a,{ref:l,iconNode:n,className:i(`lucide-${r(e).replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase()}`,`lucide-${e}`,s),...o}));return s.displayName=r(e),s}],56420)},11241,e=>{"use strict";let t=(0,e.i(56420).default)("arrow-left",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]);e.s(["ArrowLeft",0,t],11241)},92989,(e,t,i)=>{t.exports=e.r(76562)},48486,e=>{"use strict";var t=e.i(43476),i=e.i(71645),r=e.i(92989),n=e.i(94800),s=e.i(43216),a=e.i(90072);function o({shapeType:e,rotationSpeed:r,wireframe:l,showVertices:d,showEdges:c,isPlaying:u,onDataChange:f}){let p=(0,i.useRef)(null),h=(0,i.useRef)(0),m=(0,i.useRef)({x:0,y:0}),[g,v]=(0,i.useState)(0),x=(0,i.useMemo)(()=>({tetrahedron:{vertices:4,edges:6,faces:4,name:"Tetrahedron"},cube:{vertices:8,edges:12,faces:6,name:"Cube (Hexahedron)"},octahedron:{vertices:6,edges:12,faces:8,name:"Octahedron"},dodecahedron:{vertices:20,edges:30,faces:12,name:"Dodecahedron"},icosahedron:{vertices:12,edges:30,faces:20,name:"Icosahedron"}})[e],[e]),y=(0,i.useMemo)(()=>{switch(e){case"tetrahedron":return new a.TetrahedronGeometry(2);case"cube":return new a.BoxGeometry(2.5,2.5,2.5);case"octahedron":return new a.OctahedronGeometry(2);case"dodecahedron":return new a.DodecahedronGeometry(2);case"icosahedron":return new a.IcosahedronGeometry(2);default:return new a.BoxGeometry(2,2,2)}},[e]),b=(0,i.useMemo)(()=>{let e=[],t=y.getAttribute("position"),i=new Set;for(let r=0;r<t.count;r++){let n=t.getX(r),s=t.getY(r),o=t.getZ(r),l=`${n.toFixed(2)},${s.toFixed(2)},${o.toFixed(2)}`;i.has(l)||(i.add(l),e.push(new a.Vector3(n,s,o)))}return e},[y]),S=(0,i.useMemo)(()=>{if(!c)return[];let e=[],t=y.getAttribute("position"),i=y.getIndex();if(i)for(let r=0;r<i.count;r+=3)for(let n=0;n<3;n++){let s=i.getX(r+n),a=i.getX(r+(n+1)%3),o=t.getX(s),l=t.getY(s),d=t.getZ(s),c=t.getX(a),u=t.getY(a),f=t.getZ(a);e.push([o,l,d]),e.push([c,u,f])}return e},[y,c]);return(0,i.useEffect)(()=>{v(m.current.y),f?.({...x,eulerCharacteristic:x.vertices-x.edges+x.faces,currentRotation:m.current.y})},[x,f]),(0,n.useFrame)((e,t)=>{u&&(h.current++,p.current&&(m.current.x+=t*r*.5,m.current.y+=t*r*.3,p.current.rotation.x=m.current.x,p.current.rotation.y=m.current.y),h.current%8==0&&(v(m.current.y),f?.({...x,eulerCharacteristic:x.vertices-x.edges+x.faces,currentRotation:m.current.y})))}),(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)("ambientLight",{intensity:.5}),(0,t.jsx)("pointLight",{position:[10,10,10],intensity:1.2}),(0,t.jsx)("pointLight",{position:[-10,-10,-10],intensity:.5,color:"#3b82f6"}),(0,t.jsx)("pointLight",{position:[0,-5,5],intensity:.3,color:"#22c55e"}),c&&S.length>0&&(0,t.jsx)(s.Line,{points:S,color:"#3b82f6",lineWidth:2,opacity:.8}),(0,t.jsx)("mesh",{ref:p,geometry:y,children:(0,t.jsx)("meshStandardMaterial",{color:l?"#1e3a5f":"#3b82f6",wireframe:l,metalness:.5,roughness:.2,emissive:l?"#3b82f6":"#000",emissiveIntensity:.3*!!l,transparent:!0,opacity:l?.8:.9})}),d&&!l&&b.map((e,i)=>(0,t.jsxs)("group",{children:[(0,t.jsxs)("mesh",{position:e,children:[(0,t.jsx)("sphereGeometry",{args:[.12,12,12]}),(0,t.jsx)("meshStandardMaterial",{color:"#ef4444",emissive:"#ef4444",emissiveIntensity:.6,metalness:.7,roughness:.2})]}),(0,t.jsxs)("mesh",{position:e,children:[(0,t.jsx)("sphereGeometry",{args:[.2,8,8]}),(0,t.jsx)("meshStandardMaterial",{color:"#ef4444",transparent:!0,opacity:.2})]})]},i)),(0,t.jsxs)("mesh",{position:[0,3.5,0],children:[(0,t.jsx)("planeGeometry",{args:[6,.5]}),(0,t.jsx)("meshBasicMaterial",{color:"#3b82f6",transparent:!0,opacity:.8})]}),(0,t.jsx)("gridHelper",{args:[20,20,"#1a1a3e","#1a1a3e"],position:[0,-3,0]}),(0,t.jsx)("group",{position:[-5,0,0],children:(0,t.jsxs)("mesh",{position:[0,2,0],children:[(0,t.jsx)("planeGeometry",{args:[3,1.2]}),(0,t.jsx)("meshBasicMaterial",{color:"#1a1a3e",transparent:!0,opacity:.9})]})}),(0,t.jsx)("group",{position:[5,0,0],children:(0,t.jsxs)("mesh",{children:["cube"===e&&(0,t.jsx)("octahedronGeometry",{args:[.8]}),"octahedron"===e&&(0,t.jsx)("boxGeometry",{args:[1,1,1]}),"dodecahedron"===e&&(0,t.jsx)("icosahedronGeometry",{args:[.8]}),"icosahedron"===e&&(0,t.jsx)("dodecahedronGeometry",{args:[.8]}),(0,t.jsx)("meshStandardMaterial",{color:"#22c55e",wireframe:!0,transparent:!0,opacity:.5})]})})]})}e.i(81413);var l=e.i(48205),d=e.i(82192),c=e.i(68647),u=e.i(14228),f=e.i(4685);let p=["tetrahedron","cube","octahedron","dodecahedron","icosahedron"];e.s(["default",0,function(){let e=(0,r.useRouter)(),[n,s]=(0,i.useState)(null),[a,h]=(0,i.useState)(!0),[m,g]=(0,i.useState)(!0),[v,x]=(0,i.useState)(1),[y,b]=(0,i.useState)(0),[S,w]=(0,i.useState)("cube"),[E,A]=(0,i.useState)(.5),[j,_]=(0,i.useState)(!1),[L,C]=(0,i.useState)(!0),[U,z]=(0,i.useState)(!0),M=(0,t.jsxs)("div",{className:"space-y-4",children:[(0,t.jsx)(c.ControlGroup,{title:"Shape Selection",children:(0,t.jsx)("div",{className:"grid grid-cols-2 gap-2",children:p.map(e=>(0,t.jsx)("button",{onClick:()=>w(e),className:`py-2 px-3 text-sm rounded-lg transition-all capitalize ${S===e?"bg-blue-600 text-white":"bg-gray-200 text-gray-700 hover:bg-gray-300"}`,children:e},e))})}),(0,t.jsxs)(c.ControlGroup,{title:"Display Settings",children:[(0,t.jsx)(c.ControlSlider,{label:"Rotation Speed",value:E,unit:"",min:0,max:2,step:.1,color:"#3b82f6",onChange:A,decimals:1}),(0,t.jsxs)("label",{className:"flex items-center justify-between text-sm text-gray-700 cursor-pointer py-2 px-3 bg-gray-100/50 rounded-lg border border-gray-300/50",children:[(0,t.jsx)("span",{children:"Wireframe"}),(0,t.jsx)("input",{type:"checkbox",checked:j,onChange:e=>_(e.target.checked),className:"w-4 h-4 rounded accent-blue-500"})]}),(0,t.jsxs)("label",{className:"flex items-center justify-between text-sm text-gray-700 cursor-pointer py-2 px-3 bg-gray-100/50 rounded-lg border border-gray-300/50",children:[(0,t.jsx)("span",{children:"Show Vertices"}),(0,t.jsx)("input",{type:"checkbox",checked:L,onChange:e=>C(e.target.checked),className:"w-4 h-4 rounded accent-blue-500"})]}),(0,t.jsxs)("label",{className:"flex items-center justify-between text-sm text-gray-700 cursor-pointer py-2 px-3 bg-gray-100/50 rounded-lg border border-gray-300/50",children:[(0,t.jsx)("span",{children:"Show Edges"}),(0,t.jsx)("input",{type:"checkbox",checked:U,onChange:e=>z(e.target.checked),className:"w-4 h-4 rounded accent-blue-500"})]})]}),(0,t.jsxs)("div",{className:"bg-blue-50/50 rounded-lg p-3 border border-blue-200/50",children:[(0,t.jsx)("div",{className:"text-xs text-gray-600 mb-2 font-medium",children:"Euler's Formula"}),(0,t.jsx)("div",{className:"text-xs text-gray-500 font-mono",children:"V - E + F = 2"}),(0,t.jsx)("div",{className:"text-xs text-gray-500 mt-1",children:"Vertices - Edges + Faces = χ"})]}),(0,t.jsx)("button",{onClick:()=>e.push("/experiments/3d-geometry/details"),className:"w-full py-2.5 bg-gradient-to-r from-blue-100 to-blue-200 hover:from-blue-200 hover:to-blue-300 text-blue-700 font-medium text-sm rounded-lg transition-all border border-blue-300/50 flex items-center justify-center gap-2",children:"📖 View Experiment Details"})]}),B=n?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(c.DataGrid,{data:{vertices:{value:n.vertices,unit:"V",color:"#ef4444",decimals:0},edges:{value:n.edges,unit:"E",color:"#22c55e",decimals:0},faces:{value:n.faces,unit:"F",color:"#3b82f6",decimals:0},euler:{value:n.eulerCharacteristic,unit:"χ",color:"#f59e0b",decimals:0}},columns:2}),(0,t.jsx)("div",{className:"mt-3 p-3 bg-gray-800/50 rounded-lg",children:(0,t.jsxs)("div",{className:"text-center font-mono text-blue-400 text-sm",children:[n.vertices," - ",n.edges," + ",n.faces," = ",n.eulerCharacteristic]})})]}):(0,t.jsx)("div",{className:"text-center text-gray-500 text-sm py-8",children:"Waiting for simulation data..."});return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(l.ExperimentContainer,{title:"3D Geometry",description:"Explore Platonic solids and Euler's formula",cameraPosition:[8,6,8],backgroundColor:"#050510",controls:null,dataPanel:null,children:(0,t.jsx)(o,{onDataChange:s,shapeType:S,rotationSpeed:E,wireframe:j,showVertices:L,showEdges:U,isPlaying:m})}),(0,t.jsx)(u.SimulationController,{isPlaying:m,onPlayPause:()=>g(e=>!e),onReset:()=>{b(e=>e+1),g(!0),x(1),A(.5),w("cube")},speed:v,onSpeedChange:x}),(0,t.jsx)(d.FloatingControlPanel,{title:"⚙️ Shape Settings",initialPosition:{x:20,y:80},children:M}),(0,t.jsx)(f.DataPanel,{isVisible:a,onToggle:()=>h(!a),children:B})]})}],48486)}]);
