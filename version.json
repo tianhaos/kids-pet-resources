@@ -1,0 +1,1 @@
+{"version":"2026.11.24.03","manifestSha256":"e5f13f6c3dd4cee2329a80dbba7a30ce413ae7cc9f0210c12befdb8d85e9a7b0","updatedAt":"2026-11-24T17:50:37","note":"轻量探测：App 先拉本文件比版本，只有版本变了才拉 1.18MB 的 manifest"}
