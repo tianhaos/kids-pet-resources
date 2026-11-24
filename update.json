@@ -1,94 +1,92 @@
 {
   "schema": 1,
-  "versionName": "1.9.31",
-  "versionCode": 72,
-  "apkName": "kids_pet_learning_1.9.31_72.apk",
-  "size": 88384789,
-  "sha256": "544f6ffee959e0343f69d782ee6749ae6886f8164df86a8084edfca33bfcae93",
+  "versionName": "1.9.32",
+  "versionCode": 73,
+  "apkName": "kids_pet_learning_1.9.32_73.apk",
+  "size": 88386597,
+  "sha256": "bd4ae6ddc38b4966aef7d615d41205c42222dd9aeedcba3703c91135dbdf1eea",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.31_72/part_000.bin",
+      "path": "apk/v1.9.32_73/part_000.bin",
       "size": 6291456,
-      "sha256": "0e66721b500b01edc7971da0938f44201f4015effeb8ee1ccf0aefd5ced2c429"
+      "sha256": "fb901bc738cfb94587086807f743e5557465e3432431c046147f3d4aedb02823"
     },
     {
-      "path": "apk/v1.9.31_72/part_001.bin",
+      "path": "apk/v1.9.32_73/part_001.bin",
       "size": 6291456,
-      "sha256": "cc2271a4764b1ede4538602e376d2de2ff58301d155aba41b38a0f165c360c68"
+      "sha256": "0a5fad86c7feeae0c98476826568dd202f554b9bff3e7d95cf26a8cbac963504"
     },
     {
-      "path": "apk/v1.9.31_72/part_002.bin",
+      "path": "apk/v1.9.32_73/part_002.bin",
       "size": 6291456,
       "sha256": "321277aee8ad933f080c50cdb08656d884115a48da1d9e11345dbfd8482c22da"
     },
     {
-      "path": "apk/v1.9.31_72/part_003.bin",
+      "path": "apk/v1.9.32_73/part_003.bin",
       "size": 6291456,
-      "sha256": "515911e1a1098ace776716fe429fc585a9f80f29041f753262817558ed0d4cf2"
+      "sha256": "8f17c0640fe1a3276039c29c999ff59e593ae21cb98a48e0cb1f8a6b7170a29a"
     },
     {
-      "path": "apk/v1.9.31_72/part_004.bin",
+      "path": "apk/v1.9.32_73/part_004.bin",
       "size": 6291456,
-      "sha256": "f65c30ce09f5977c4892fdb15d2dfe08ed8183e55b2b3594bfddfce4f3715680"
+      "sha256": "890506522ec8dd88609bb9efe379ae3f504cc30a34d13c210ce83c7d479a2b95"
     },
     {
-      "path": "apk/v1.9.31_72/part_005.bin",
+      "path": "apk/v1.9.32_73/part_005.bin",
       "size": 6291456,
-      "sha256": "579451feba688a43e2869ee3432c40d08499ffe53c5e97fd2694d5ea0b15498b"
+      "sha256": "269dca6e7c8a693b920cbbb9f351735a7197141041a0c47d1d787eb22adae88f"
     },
     {
-      "path": "apk/v1.9.31_72/part_006.bin",
+      "path": "apk/v1.9.32_73/part_006.bin",
       "size": 6291456,
       "sha256": "f3b74440cd0ad650d74fc2c1b12c6367716cb671742a96e6c18dca7e0624fb84"
     },
     {
-      "path": "apk/v1.9.31_72/part_007.bin",
+      "path": "apk/v1.9.32_73/part_007.bin",
       "size": 6291456,
-      "sha256": "2055903c2170afa7330a6c7d2ed9a04f81f8683dc6fe09e1a2abe33b4047d236"
+      "sha256": "a16ca8b02b49f6187ab8a961733b2fe284d27ed3e0acef691c32e31ebaf42bba"
     },
     {
-      "path": "apk/v1.9.31_72/part_008.bin",
+      "path": "apk/v1.9.32_73/part_008.bin",
       "size": 6291456,
-      "sha256": "46030f7b851ee27f3a4e0a063cf597b3d12d87d5bfdece818df6d6ab9897fb43"
+      "sha256": "564a661a33813aa7bfc0a46f90f393b2d81c5d560273b35b5b5bd9bb0aad6a12"
     },
     {
-      "path": "apk/v1.9.31_72/part_009.bin",
+      "path": "apk/v1.9.32_73/part_009.bin",
       "size": 6291456,
-      "sha256": "996ac13763d18347e64bf003b1d4e8717ee810fc2849fe4b15e824a0d3349fad"
+      "sha256": "8379059cf8efc8e90d488ddec4215890e2c5156d9c5e7ada01bad41da0c9d0fe"
     },
     {
-      "path": "apk/v1.9.31_72/part_010.bin",
+      "path": "apk/v1.9.32_73/part_010.bin",
       "size": 6291456,
       "sha256": "d0335a9efd31f51c7736fe74236e2e95017249013a8ce0a82501610569c34c99"
     },
     {
-      "path": "apk/v1.9.31_72/part_011.bin",
+      "path": "apk/v1.9.32_73/part_011.bin",
       "size": 6291456,
       "sha256": "47f4ea301e2cfafb12fb5f5b738fe6e2236aa67c1c431118e0c91b374de96223"
     },
     {
-      "path": "apk/v1.9.31_72/part_012.bin",
+      "path": "apk/v1.9.32_73/part_012.bin",
       "size": 6291456,
-      "sha256": "52d662ef78d11897b115684a33bf379354ddb3a352516dfcb066b490b6283736"
+      "sha256": "be44423a2dd12627b173b8df8f3e77bc2cc1f5e402de1d8f61ce72e3c4176b82"
     },
     {
-      "path": "apk/v1.9.31_72/part_013.bin",
+      "path": "apk/v1.9.32_73/part_013.bin",
       "size": 6291456,
-      "sha256": "58560c7155e2f84d8be0654b1137a441b04886e0b112739405513d682e04c7a6"
+      "sha256": "bb772dfb070d9ed916d7ebdd49459089935d5a08a0f66c48761bffca3f654e07"
     },
     {
-      "path": "apk/v1.9.31_72/part_014.bin",
-      "size": 304405,
-      "sha256": "ef228554b2462ade96a03ef63cc5adaf51fd8951e5acc78aafe5ee3bb5ca4db1"
+      "path": "apk/v1.9.32_73/part_014.bin",
+      "size": 306213,
+      "sha256": "2ad0e570e56aa8cc812e6ab041288a54d9953bff5960fdc63711579e3973b979"
     }
   ],
-  "updatedAt": "2026-11-24T09:55:40+08:00",
+  "updatedAt": "2026-11-24T11:30:20+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "新增：科学实验名称搜索（中文+英文，与筛选叠加）",
-    "新增：补齐51个实验至170个（11个HTML5离线+40个在线实验）",
-    "新增：新增实验中文教学引导与翻译"
+    "新增：5 个 ScienceLab 3D 立体实验（太阳系/元素/DNA/细胞/机器人），按学科分类混入实验列表，卡片带 3D 角标"
   ]
 }
