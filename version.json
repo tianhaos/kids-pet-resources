@@ -1,1 +1,1 @@
-{"version":"2026.11.24.05","manifestSha256":"5ab2cb80f155c95475a9d9c40cbaf65008cbf802335cd631389fd0948e44ccba","updatedAt":"2026-11-24T21:49:38","note":"轻量探测：App 先拉本文件比版本，只有版本变了才拉完整 manifest"}
+{"version":"2026.11.24.06","manifestSha256":"9c435ddf0d6af23bcbec7b623277cafb77c8d7a438031fa3dbfd09b6a9fbf216","updatedAt":"2026-11-25T09:31:07","note":"轻量探测：App 先拉本文件比版本，只有版本变了才拉完整 manifest"}
