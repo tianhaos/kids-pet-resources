@@ -1,95 +1,95 @@
 {
   "schema": 1,
-  "versionName": "1.9.36",
-  "versionCode": 77,
-  "apkName": "kids_pet_learning_1.9.36_77.apk",
+  "versionName": "1.9.37",
+  "versionCode": 78,
+  "apkName": "kids_pet_learning_1.9.37_78.apk",
   "size": 89373113,
-  "sha256": "0821518e22885f9ed89846e224af5a4cef2d507c8228d674c58e140e79d13f9a",
+  "sha256": "d8c7ecc9daaf11d4eb60f0a91b4a917c21b5e1aaeac26b426e073e29102471ca",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.36_77/part_000.bin",
+      "path": "apk/v1.9.37_78/part_000.bin",
       "size": 6291456,
-      "sha256": "3ca5664c9e1cf2cd4a132f2f4ddce4e31ebc4a20c68a4273b4fb7b14355638ae"
+      "sha256": "5ca38553a0be71c66d1f3b48bc904037de934a49e1d1a5355f5b3fd6b7c7537a"
     },
     {
-      "path": "apk/v1.9.36_77/part_001.bin",
+      "path": "apk/v1.9.37_78/part_001.bin",
       "size": 6291456,
-      "sha256": "a1a0dc166245966331f0b78c8a6e403a071f76fc1341a321e892627254860064"
+      "sha256": "f3337a3df1f6162ed33daa390fb156c2e8bb03be53e685d784fd27d8f0ee301c"
     },
     {
-      "path": "apk/v1.9.36_77/part_002.bin",
+      "path": "apk/v1.9.37_78/part_002.bin",
       "size": 6291456,
-      "sha256": "c2170be86c88198b2ab839e4174fca90bdac520e41fd8e456835e8538cf6382f"
+      "sha256": "7eef3a1761de9e878cf1f35163ae49dd2f222a6a775a23c14c402fc139b9d2fd"
     },
     {
-      "path": "apk/v1.9.36_77/part_003.bin",
+      "path": "apk/v1.9.37_78/part_003.bin",
       "size": 6291456,
-      "sha256": "e91b0b664d9e90f8605477aa8e16722f5daa8ba96449819fe08a0ee127530d99"
+      "sha256": "8bba4a742e3632bf3e496c85456c4f49fa8ddced0fb2b81d64007b35bdbea3c4"
     },
     {
-      "path": "apk/v1.9.36_77/part_004.bin",
+      "path": "apk/v1.9.37_78/part_004.bin",
       "size": 6291456,
-      "sha256": "259b4dee69f380a1e7e0c944170bd21c022559d9dc04e6805e3ef381bb437c28"
+      "sha256": "1b1c3184d4e4c495f5b9de5616517a09fa001ea93d8e41b492e4df0e02477f7d"
     },
     {
-      "path": "apk/v1.9.36_77/part_005.bin",
+      "path": "apk/v1.9.37_78/part_005.bin",
       "size": 6291456,
-      "sha256": "d82c0f0138612bf0c6ac7582591caa4836d702e337ff4f96e53494391c943b4b"
+      "sha256": "bf48e4272f971510a7b1d058ebec319db8e4221b0c0c8fa535c9b359479c813e"
     },
     {
-      "path": "apk/v1.9.36_77/part_006.bin",
+      "path": "apk/v1.9.37_78/part_006.bin",
       "size": 6291456,
-      "sha256": "b8ba82603b8f31c98f92bd49d1eb3a53d63d556232494f81767a6730d53736f2"
+      "sha256": "ef2c7d79210852bb2207b7fa0f2d77c3aa22e131c5212341b2525e8f351f88cb"
     },
     {
-      "path": "apk/v1.9.36_77/part_007.bin",
+      "path": "apk/v1.9.37_78/part_007.bin",
       "size": 6291456,
-      "sha256": "a2680152a93b876e924ccbcf2df5aca6117669e5e6ba96342a43893000040b51"
+      "sha256": "b5cf6996e5e42c98ebbab34c846bf100ae80fa700b85b158c75c9314150cf4c2"
     },
     {
-      "path": "apk/v1.9.36_77/part_008.bin",
+      "path": "apk/v1.9.37_78/part_008.bin",
       "size": 6291456,
-      "sha256": "145aad92753fcfc8a933f033c8c5b78ff9088143dc62a784992082326d2e1c28"
+      "sha256": "19fd80adf9c8fa9d2e977f0480101fa7792d2ee3b64db13e02841c9bc195aa07"
     },
     {
-      "path": "apk/v1.9.36_77/part_009.bin",
+      "path": "apk/v1.9.37_78/part_009.bin",
       "size": 6291456,
-      "sha256": "9c2a6ef982d3b090c77c5281fe9b1944ca81cbb9b037dcbf4ad4f76de87b190d"
+      "sha256": "8ba86e535ace60664f473f8ebce265ba0fa726ed2f99014aa1cb923be115b18f"
     },
     {
-      "path": "apk/v1.9.36_77/part_010.bin",
+      "path": "apk/v1.9.37_78/part_010.bin",
       "size": 6291456,
       "sha256": "5184913ac764d128ca3bf8a21f09d6bb311a29e459f573c58f1562eb477f5322"
     },
     {
-      "path": "apk/v1.9.36_77/part_011.bin",
+      "path": "apk/v1.9.37_78/part_011.bin",
       "size": 6291456,
       "sha256": "56d46afb8c7bd97689f906abfb2d5b0dc199208a0174de09acbc7bc593004062"
     },
     {
-      "path": "apk/v1.9.36_77/part_012.bin",
+      "path": "apk/v1.9.37_78/part_012.bin",
       "size": 6291456,
       "sha256": "6f06618ccf7b6f2799901be23f0295749f410d697d4aec02c1a9cfe840aa8858"
     },
     {
-      "path": "apk/v1.9.36_77/part_013.bin",
+      "path": "apk/v1.9.37_78/part_013.bin",
       "size": 6291456,
       "sha256": "d2b6ca170d90f2d5f8dd629a39dd422a3c7638591b32b50b8a1382cc69277190"
     },
     {
-      "path": "apk/v1.9.36_77/part_014.bin",
+      "path": "apk/v1.9.37_78/part_014.bin",
       "size": 1292729,
-      "sha256": "7fc1d60493d7188a196c2574641f6c0782574ccb1e8e6976f0c3d4b857943723"
+      "sha256": "fa14d2ea230f72a63e27ad8bfdf4243016ee2e0550cc10edd1728a612e5ddf75"
     }
   ],
-  "updatedAt": "2026-11-24T22:01:22+08:00",
+  "updatedAt": "2026-11-25T09:01:00+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "语音包拆6个小包适配jsDelivr 20MB限制",
-    "16路Range并发下载实测1180KB/s",
-    "国内CDN优先+SHA不符自动回退",
-    "按温柔/活泼配音分别同步"
+    "修复3D实验只有英文界面没有画面",
+    "切换Hybrid Composition让WebGL拿到GPU",
+    "新增WebGL不可用提示",
+    "界面文字暂为英文(开源项目原样)"
   ]
 }
