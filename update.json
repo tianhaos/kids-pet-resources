@@ -1,96 +1,97 @@
 {
   "schema": 1,
-  "versionName": "1.9.39",
-  "versionCode": 80,
-  "apkName": "kids_pet_learning_1.9.39_80.apk",
-  "size": 89664585,
-  "sha256": "2c46f7b537725a8a916ee22147381148cd29408981ce0ff7db1e84791a212f6d",
+  "versionName": "1.9.40",
+  "versionCode": 81,
+  "apkName": "kids_pet_learning_1.9.40_81.apk",
+  "size": 89860545,
+  "sha256": "ac2be9ad33f098a360049c228a1571658423216694e1485d0422dbb54c63dee8",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.39_80/part_000.bin",
+      "path": "apk/v1.9.40_81/part_000.bin",
       "size": 6291456,
-      "sha256": "be12975179ebeaace8c0bc40bbe45c5bfc1d433332620e151e47dbd707e0e593"
+      "sha256": "5e8e2a2e65860b112fad251953b670c8c7841e1b403c1c97eaf60218732fb5c8"
     },
     {
-      "path": "apk/v1.9.39_80/part_001.bin",
+      "path": "apk/v1.9.40_81/part_001.bin",
       "size": 6291456,
-      "sha256": "95786dcde9252e401751d8646808f6a3979df603b14081f4cfd1f83654eae7fe"
+      "sha256": "9402fbe891edb91ab9f541f0b5cc01e406dda5cfbc9650ae01fe8d48a06ad116"
     },
     {
-      "path": "apk/v1.9.39_80/part_002.bin",
+      "path": "apk/v1.9.40_81/part_002.bin",
       "size": 6291456,
-      "sha256": "6c4e2ce13b3fc2c4a546f6af596cd09e65ac465e18a8440aa02c09935fe9e299"
+      "sha256": "3ea5e93a60078fbc70661124c2d00b3295d3669546a54dc71653966c2746f68b"
     },
     {
-      "path": "apk/v1.9.39_80/part_003.bin",
+      "path": "apk/v1.9.40_81/part_003.bin",
       "size": 6291456,
-      "sha256": "3030bc0603689df7d5395ca34886a732cd203770dbecc7497a323d59c2162720"
+      "sha256": "1eadf3b5f3b2656fcd4dd35fbbf4f6fd88c86cea1c48a6764dd2bd25e5859428"
     },
     {
-      "path": "apk/v1.9.39_80/part_004.bin",
+      "path": "apk/v1.9.40_81/part_004.bin",
       "size": 6291456,
-      "sha256": "b4438f214db68a82114436ac82eeaaa441621de74823e50ae8f39a81768bb8f7"
+      "sha256": "3384e4195d6a7f1bbef2aba880541185391ff5d056bbbf011478b392f597d643"
     },
     {
-      "path": "apk/v1.9.39_80/part_005.bin",
+      "path": "apk/v1.9.40_81/part_005.bin",
       "size": 6291456,
-      "sha256": "be76e7da6a588bdb185741b1a9ff0f637f0b91fd59aaef91a6f91d75c4eace9a"
+      "sha256": "5c3f6169ddb88189253e77b7c406c17991ba9231747ec7ba195d461b6b5012a6"
     },
     {
-      "path": "apk/v1.9.39_80/part_006.bin",
+      "path": "apk/v1.9.40_81/part_006.bin",
       "size": 6291456,
-      "sha256": "f301dc6ffdca50d41896f51a2c081a7575b7606e9a580c5790e1c607e754f606"
+      "sha256": "a3254b68c3c6a08dbc32e62828eaf2b70418df109e21a9c0d21e388b4cf18ef9"
     },
     {
-      "path": "apk/v1.9.39_80/part_007.bin",
+      "path": "apk/v1.9.40_81/part_007.bin",
       "size": 6291456,
-      "sha256": "ae2ccb374bc4fc93d70cb894d549134e875cfceebd90719c77181290f77d7f95"
+      "sha256": "8d48fecda15ac0384ba4d363c5b6d8c1718845ade141c72fc36f75a776c4d1b4"
     },
     {
-      "path": "apk/v1.9.39_80/part_008.bin",
+      "path": "apk/v1.9.40_81/part_008.bin",
       "size": 6291456,
-      "sha256": "5236cf96d7d333ac80db0bfbecb340426e2a901e2fee1b594fa50c7c23b04f0b"
+      "sha256": "031f2ba267c85347c0b013d9acd5fb1d2f3c1923100e454fa4bbe95a6081ff17"
     },
     {
-      "path": "apk/v1.9.39_80/part_009.bin",
+      "path": "apk/v1.9.40_81/part_009.bin",
       "size": 6291456,
-      "sha256": "ed9dc785198b7f8a68e0efa194ad404652bd1e83b0029358e9320e2d3c1e40f6"
+      "sha256": "5d6c45fa002d2c48ff6bac5f809c9a808e6e7d653f68fb0c9c1e743b7a1a2e6b"
     },
     {
-      "path": "apk/v1.9.39_80/part_010.bin",
+      "path": "apk/v1.9.40_81/part_010.bin",
       "size": 6291456,
-      "sha256": "3a656782f1def19d6f06efaf1decce5edeef2a502a005d1e1eb4549db027d0b8"
+      "sha256": "6cb920523e520c002694892f624d4695f435aef0f6f8efe124d8db94a3077bb1"
     },
     {
-      "path": "apk/v1.9.39_80/part_011.bin",
+      "path": "apk/v1.9.40_81/part_011.bin",
       "size": 6291456,
-      "sha256": "ec8e369d6035ffaf51b3be16cae89681aec52e3aecd9314408d5e2ca492fc027"
+      "sha256": "66f1165cb4ef71680367c19238bc9c48a3a9e20b346f2cf79683c9161d748800"
     },
     {
-      "path": "apk/v1.9.39_80/part_012.bin",
+      "path": "apk/v1.9.40_81/part_012.bin",
       "size": 6291456,
-      "sha256": "5faedbbddcc222a0a5c45f4d7aa84e8dd12a6a573e7012cc94a67666e51853d5"
+      "sha256": "68c85663daa65b3b485bc4d1cd00c8371c9e7f938d98bfa823ac3894b8241137"
     },
     {
-      "path": "apk/v1.9.39_80/part_013.bin",
+      "path": "apk/v1.9.40_81/part_013.bin",
       "size": 6291456,
-      "sha256": "6a1da725cb07600553dabcf7b0c9ab13e51246dd8c24cb1d6d56ddae5f5ecd33"
+      "sha256": "dafaf1471aef42fd33a1b612c3e16da25f84196c21e061f219cfb05825e67875"
     },
     {
-      "path": "apk/v1.9.39_80/part_014.bin",
-      "size": 1584201,
-      "sha256": "a05ba9f17a6d923b5faafa0045181b4f24e1b30e707994a6c538009e923ab8ca"
+      "path": "apk/v1.9.40_81/part_014.bin",
+      "size": 1780161,
+      "sha256": "0a3f2bfbd0fa7b9414f553a484cff22a01d257fabd40fa8529516ef73b481dc8"
     }
   ],
-  "updatedAt": "2026-11-25T10:56:11+08:00",
+  "updatedAt": "2026-11-25T11:49:11+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "新增：控笔打印独立模块，6 种运笔图案可预览、存 PDF、打印",
-    "新增：益智游戏——数独（4 档难度，4/6/9 宫格）",
-    "新增：益智游戏——迷宫（3 档尺寸，手指滑动与方向键）",
-    "新增：游戏乐园内新增「益智游戏」入口，过关发放能量豆",
-    "优化：理见原理实验页去掉站点页头、下一个实验与页尾信息"
+    "新增：打印中心（家长中心内），字帖/控笔/数独/迷宫统一入口",
+    "新增：控笔打印复刻 Z2H 30 种运笔轨迹，可调描红数量/方格大小/空行/粗细",
+    "新增：数独打印（4 宫到 9 宫，多档难度，批量出题）",
+    "新增：迷宫打印（3 档难度，批量出题）",
+    "调整：益智游戏入口移到首页探索区，一眼可见",
+    "调整：学科页打印卡片收拢进打印中心，界面更清爽"
   ]
 }
