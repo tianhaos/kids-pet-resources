@@ -1,95 +1,94 @@
 {
   "schema": 1,
-  "versionName": "1.9.50",
-  "versionCode": 91,
-  "apkName": "kids_pet_learning_1.9.50_91.apk",
+  "versionName": "1.9.51",
+  "versionCode": 92,
+  "apkName": "kids_pet_learning_1.9.51_92.apk",
   "size": 92619207,
-  "sha256": "de417aedfdb33cbc830564051572fa17b0b4670ff28801fc8e71a8a0e8b01b96",
+  "sha256": "d87bf587add0a98be379b2511bf3a12d800f5f5ec684aa0b2068db6e1326701f",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.50_91/part_000.bin",
+      "path": "apk/v1.9.51_92/part_000.bin",
       "size": 6291456,
-      "sha256": "23ab4fa6dc1533d4cb1946cf7ba7f41cbedb21a71089c3954638116616c87a41"
+      "sha256": "1da5345b8a62097b6ebc6018019d5076cdb2229939dc1a90c3f79c33bb446380"
     },
     {
-      "path": "apk/v1.9.50_91/part_001.bin",
+      "path": "apk/v1.9.51_92/part_001.bin",
       "size": 6291456,
-      "sha256": "956f7727e1751a00f0d8e7024f3d9292fb7eff30649507fb2d8f46fce596b9d6"
+      "sha256": "23a693fb01925de380cef52b9d0414b529563020481a56eeba336e1f43bac4d3"
     },
     {
-      "path": "apk/v1.9.50_91/part_002.bin",
+      "path": "apk/v1.9.51_92/part_002.bin",
       "size": 6291456,
-      "sha256": "d4701601c0bf0b55214f867074ecb3cdade494d8a3fb362ef3f8a6ce3f26bc52"
+      "sha256": "3017aa13cbc0aaee2da7a9930f044ad1d488bfd4a38d0b8922b595789d30efe2"
     },
     {
-      "path": "apk/v1.9.50_91/part_003.bin",
+      "path": "apk/v1.9.51_92/part_003.bin",
       "size": 6291456,
       "sha256": "084de2dde23b031f23a1e6bb2a6bdceac81a5c759eb63f2f5e389ada5bb9ba52"
     },
     {
-      "path": "apk/v1.9.50_91/part_004.bin",
+      "path": "apk/v1.9.51_92/part_004.bin",
       "size": 6291456,
-      "sha256": "e49df220bc0ded4bd37843be69687ba494e004f5d5bc81df4e1bdac55ead2f34"
+      "sha256": "711aaf2a802a2a95a690ec6439c0242357e7b6e6ba1b28af20df517a56f2fb7a"
     },
     {
-      "path": "apk/v1.9.50_91/part_005.bin",
+      "path": "apk/v1.9.51_92/part_005.bin",
       "size": 6291456,
-      "sha256": "cd4883bdefac036744dbd1185576ac9f88c4850f030fade28679f2c9ac957524"
+      "sha256": "faba5bce0e7528826b095124ca02eeaa649df982ba637cd40c852d77e7502d1e"
     },
     {
-      "path": "apk/v1.9.50_91/part_006.bin",
+      "path": "apk/v1.9.51_92/part_006.bin",
       "size": 6291456,
-      "sha256": "2bbe9cd0420b8a436df97422bec94b24c405991da33f2b01b63595ea58e4e2ff"
+      "sha256": "8cb76f52903f7f7021493ac955193d68247f96885576bda732cc9f9e7b01a8ae"
     },
     {
-      "path": "apk/v1.9.50_91/part_007.bin",
+      "path": "apk/v1.9.51_92/part_007.bin",
       "size": 6291456,
-      "sha256": "a44279e1aaf37e13011d788664a531981ec3d3527b8e3cf316081c5762657023"
+      "sha256": "3d5e992dc99b3e272dbe006fd1dc6decfd140fdd60ac0e48387507dc98f47603"
     },
     {
-      "path": "apk/v1.9.50_91/part_008.bin",
+      "path": "apk/v1.9.51_92/part_008.bin",
       "size": 6291456,
-      "sha256": "5e3290527e5f4f5b8ef5330ad87bbd023c229f3586b30b24735c345c37497052"
+      "sha256": "759f17c29e0543390d8575208c0d4e6c992810adde1d2d8416e2b4117e4bac88"
     },
     {
-      "path": "apk/v1.9.50_91/part_009.bin",
+      "path": "apk/v1.9.51_92/part_009.bin",
       "size": 6291456,
-      "sha256": "8944771b6e6476b187622479bed6f72d43f6c9888c9b60a165cf9c5fd8747935"
+      "sha256": "0c9cff6149f183827175c3a697b9151401b22b60222ec328056620e77eabb466"
     },
     {
-      "path": "apk/v1.9.50_91/part_010.bin",
+      "path": "apk/v1.9.51_92/part_010.bin",
       "size": 6291456,
       "sha256": "ac9cfa941670db5d11ab00d2d95314c57ebde6c3182f2339a09cc5f73b36506d"
     },
     {
-      "path": "apk/v1.9.50_91/part_011.bin",
+      "path": "apk/v1.9.51_92/part_011.bin",
       "size": 6291456,
       "sha256": "a33ff395cce20a659940b13db882de783496556f680938d56c65e98ebe383126"
     },
     {
-      "path": "apk/v1.9.50_91/part_012.bin",
+      "path": "apk/v1.9.51_92/part_012.bin",
       "size": 6291456,
       "sha256": "84d8c88b7e4229583f3bd5a30698c85add3397f2183f4e0d1b222d31f64693d2"
     },
     {
-      "path": "apk/v1.9.50_91/part_013.bin",
+      "path": "apk/v1.9.51_92/part_013.bin",
       "size": 6291456,
       "sha256": "01021513415403fd3dfff14b930bf239ea38121885e6cffa135f342e3df75a92"
     },
     {
-      "path": "apk/v1.9.50_91/part_014.bin",
+      "path": "apk/v1.9.51_92/part_014.bin",
       "size": 4538823,
-      "sha256": "ba05ac4acb2089aab2809ef910b67da9e5544a86d5083ff6abb8033dd4b38900"
+      "sha256": "4a3d5648e642da849a09ff67d858ac647123b7dbf838944b72218373b818e1eb"
     }
   ],
-  "updatedAt": "2026-11-26T18:39:50+08:00",
+  "updatedAt": "2026-11-26T19:42:55+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "阅读学科重构：绘本/期刊/听故事分类",
-    "新增61read绘本540本+期刊377期，在线看官方阅读器",
-    "期刊横屏阅读，看完有花语鼓励",
-    "封面走资源包下载，APK瘦身至88MB"
+    "绘本和期刊阅读改为横屏全屏铺满",
+    "修复阅读太小、字体看不清",
+    "放开双击双指放大，退出自动恢复竖屏"
   ]
 }
