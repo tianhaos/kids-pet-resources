@@ -1,94 +1,96 @@
 {
   "schema": 1,
-  "versionName": "1.9.56",
-  "versionCode": 97,
-  "apkName": "kids_pet_learning_1.9.56_97.apk",
-  "size": 93488376,
-  "sha256": "e5256429178c7e1eaf87f31d761b4a0fb15ceeaa15513d9b3c611fc8afbfdc2e",
+  "versionName": "1.9.57",
+  "versionCode": 98,
+  "apkName": "kids_pet_learning_1.9.57_98.apk",
+  "size": 93631780,
+  "sha256": "5aae2fc18737403a45b88334779ecdd15dd8bd61c132bd965dd12ca44685903d",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.56_97/part_000.bin",
+      "path": "apk/v1.9.57_98/part_000.bin",
       "size": 6291456,
-      "sha256": "c74344d83eedd2256e517d9926e2141794f497be414f25748cd717d214a7517b"
+      "sha256": "e5523889e00feb805c742ed6a23dfbdab2759a7b84e853a8de8c3eb43c618e6e"
     },
     {
-      "path": "apk/v1.9.56_97/part_001.bin",
+      "path": "apk/v1.9.57_98/part_001.bin",
       "size": 6291456,
-      "sha256": "2132dcce9ad5cb45cebf4660c8650e1d1871a9f2698726d2f271809fd56db7f5"
+      "sha256": "502ea5cf20ea6040832b5ddce8a939f24eb2a71d2ad557ba13bc09b24b984ff7"
     },
     {
-      "path": "apk/v1.9.56_97/part_002.bin",
+      "path": "apk/v1.9.57_98/part_002.bin",
       "size": 6291456,
-      "sha256": "0ab98af9b7e299176786def2bcc5b18e0978423b8026204a46e2822c3eb91cbb"
+      "sha256": "49a4d199da1c2f9f9121c3fe874aa298e2bbb2df707ccb26fd20b815759c10ff"
     },
     {
-      "path": "apk/v1.9.56_97/part_003.bin",
+      "path": "apk/v1.9.57_98/part_003.bin",
       "size": 6291456,
       "sha256": "5fc92e054a437775becfd5bcca8c21cb56856acdc6f3787dbc206065bacba022"
     },
     {
-      "path": "apk/v1.9.56_97/part_004.bin",
+      "path": "apk/v1.9.57_98/part_004.bin",
       "size": 6291456,
-      "sha256": "6061028ee93af3d4cd6300c2732203e23b26176c3a1e7233491b8e6f00cdb4b7"
+      "sha256": "a682f82985484984fa0927c7538d0d3e7ab5f629a112d7a6c3db23987a4b3df2"
     },
     {
-      "path": "apk/v1.9.56_97/part_005.bin",
+      "path": "apk/v1.9.57_98/part_005.bin",
       "size": 6291456,
-      "sha256": "e856a98321ef6911c4ee6ff9c11218d27acd187214999b8fc644b18b7d230523"
+      "sha256": "b466cc767a412b2a55a4ce5e20562d388fe35a16adce7bc62f6f472357350231"
     },
     {
-      "path": "apk/v1.9.56_97/part_006.bin",
+      "path": "apk/v1.9.57_98/part_006.bin",
       "size": 6291456,
-      "sha256": "ab1db80b14bdcc8c71c5ff2e0c6f8a46eb2907a36d7d01729fa47464abcdde48"
+      "sha256": "537f38976390cfb1793d5d6854ce0c3d042957d7313e6785c6f376c50bd7c958"
     },
     {
-      "path": "apk/v1.9.56_97/part_007.bin",
+      "path": "apk/v1.9.57_98/part_007.bin",
       "size": 6291456,
-      "sha256": "3f0c2d0afbb5351773bd078a9f65fc4497208b1dfd4c556d7c5e0638ea7ee987"
+      "sha256": "9fdd07fb40334d6a2e5de132d5165f40f8acf89554cf5bc022e7bb630f78eb50"
     },
     {
-      "path": "apk/v1.9.56_97/part_008.bin",
+      "path": "apk/v1.9.57_98/part_008.bin",
       "size": 6291456,
-      "sha256": "0f149b4c08bb883cb20c33d02bb8df0bb759a88916da5f741ad12af980964c0b"
+      "sha256": "8dc2999cf1db16853272e04d3cd7d0ec40907a88f0cad4dd0aacdb195d0f848d"
     },
     {
-      "path": "apk/v1.9.56_97/part_009.bin",
+      "path": "apk/v1.9.57_98/part_009.bin",
       "size": 6291456,
-      "sha256": "e86f4a3218d37856cb67acbfa912bc5018c16d5d0a70422956f2ef06a31c8523"
+      "sha256": "e369c2dd9e0d9377e6421ead7c66db42a1e5f0eeb783d3ee918ca6a2dcf44ece"
     },
     {
-      "path": "apk/v1.9.56_97/part_010.bin",
+      "path": "apk/v1.9.57_98/part_010.bin",
       "size": 6291456,
-      "sha256": "281ac4c614a7e30db50df0caca5889b7152e8e938090ecc4bdd39bc973c012c5"
+      "sha256": "369cf67f5ea8cf3ab233423ab140ba15089f5df3d2b922bf2da0b8c47fd2a002"
     },
     {
-      "path": "apk/v1.9.56_97/part_011.bin",
+      "path": "apk/v1.9.57_98/part_011.bin",
       "size": 6291456,
-      "sha256": "fbb606fadd71868a99c07a1a8f537ce942a2c5f316ad06a9fac310fb71f73c09"
+      "sha256": "bbe74f31b25137cc7d5161ca53035bd4face7a9ac8f42515008455c5fce36fda"
     },
     {
-      "path": "apk/v1.9.56_97/part_012.bin",
+      "path": "apk/v1.9.57_98/part_012.bin",
       "size": 6291456,
-      "sha256": "470db747822e56c6b1054bf22aa089361d4b51b465c97a0f9254b7de6b98ccf5"
+      "sha256": "e688bf9ac24d62833971f472e9848c9fcdc3187e3cc61fe7780a1b005e8ec2f9"
     },
     {
-      "path": "apk/v1.9.56_97/part_013.bin",
+      "path": "apk/v1.9.57_98/part_013.bin",
       "size": 6291456,
-      "sha256": "0e64e93553d635d03c92fea2727c35e774423a4b0a11e8fa6107effa0af99d29"
+      "sha256": "b5044f37045624112b39de1cea814b84e1a9d536bb5ee33e07d7cd1cece82317"
     },
     {
-      "path": "apk/v1.9.56_97/part_014.bin",
-      "size": 5407992,
-      "sha256": "d0f15e317fc872a3f14fb1b8514ac1ae216b4d40eac5505730a445fdd9b039af"
+      "path": "apk/v1.9.57_98/part_014.bin",
+      "size": 5551396,
+      "sha256": "78d7996fc0e9c5bab1f633b1b6781322acee71afd543306dbf921010fb30317c"
     }
   ],
-  "updatedAt": "2026-11-27T14:25:02+08:00",
+  "updatedAt": "2026-11-27T16:24:26+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "引入的网页禁止点击跳转，防止孩子误点跳到别的页面",
-    "图片馆剔除成人健康、职场、时政等不适合儿童的内容",
-    "图片馆长图支持上下滑动查看完整内容"
+    "修复：听一听播放按钮无反应",
+    "优化：听一听读一读去掉网页导航/悬浮头/分享/相关音频",
+    "优化：读一读语速严格按家长设置",
+    "优化：图片馆恢复科学密探、补图片介绍、相册式看图",
+    "新增：阅读馆知识绘本50本"
   ]
 }
