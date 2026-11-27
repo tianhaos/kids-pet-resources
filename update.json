@@ -1,93 +1,95 @@
 {
   "schema": 1,
-  "versionName": "1.9.52",
-  "versionCode": 93,
-  "apkName": "kids_pet_learning_1.9.52_93.apk",
-  "size": 92615107,
-  "sha256": "dcdf412ebd2ff20c8aed4dd1c7e9aec217f8afc21e70779f6c412a05b6a7bdd3",
+  "versionName": "1.9.54",
+  "versionCode": 95,
+  "apkName": "kids_pet_learning_1.9.54_95.apk",
+  "size": 93418956,
+  "sha256": "4f3d20ca114f80eb3c085d5c617694e1b2265532e5ffd1c690a73e14641f671a",
   "partSize": 6291456,
   "parts": [
     {
-      "path": "apk/v1.9.52_93/part_000.bin",
+      "path": "apk/v1.9.54_95/part_000.bin",
       "size": 6291456,
-      "sha256": "6eb8c8d8a82b2549a5f6100b76e326065548cb886ccad2cfd8110acb11949ad7"
+      "sha256": "89ac3c86a41bc998246a7830a8758b9e0bdb07590564b77d174813a4cfcb93a3"
     },
     {
-      "path": "apk/v1.9.52_93/part_001.bin",
+      "path": "apk/v1.9.54_95/part_001.bin",
       "size": 6291456,
-      "sha256": "eccca6d628d35c68bc59146ddcdf211da46cd097aec8f8aba11239ef1910d4dd"
+      "sha256": "af52d6abb0663ff508e69cfc5be146c9e9f60507ed116ad3e1c6cb2a4f7832d8"
     },
     {
-      "path": "apk/v1.9.52_93/part_002.bin",
+      "path": "apk/v1.9.54_95/part_002.bin",
       "size": 6291456,
-      "sha256": "564acf76abdff9ec38538c7708a9798abc7105a025e5aea013a6932e47006de4"
+      "sha256": "6849a09299548dace1d7a525404ab34483ca041d9bce8eb7df140dd5b75eb701"
     },
     {
-      "path": "apk/v1.9.52_93/part_003.bin",
+      "path": "apk/v1.9.54_95/part_003.bin",
       "size": 6291456,
-      "sha256": "084de2dde23b031f23a1e6bb2a6bdceac81a5c759eb63f2f5e389ada5bb9ba52"
+      "sha256": "5fc92e054a437775becfd5bcca8c21cb56856acdc6f3787dbc206065bacba022"
     },
     {
-      "path": "apk/v1.9.52_93/part_004.bin",
+      "path": "apk/v1.9.54_95/part_004.bin",
       "size": 6291456,
-      "sha256": "7cb41c2a6298fc97303b8753868062e7649892cefd7d9907f4e7ba644b2f7115"
+      "sha256": "5d774426264fce246725f53b9b7f481518b73af802515ef986a0cfde72745608"
     },
     {
-      "path": "apk/v1.9.52_93/part_005.bin",
+      "path": "apk/v1.9.54_95/part_005.bin",
       "size": 6291456,
-      "sha256": "5a98d799792f052bbf45e3f4280efd63720bec84dd95267fdbd45667ac1a7b3c"
+      "sha256": "c9f10fd40581b55259dd7f89b0637c8a99729fc6a48677d27813f45bfac17c21"
     },
     {
-      "path": "apk/v1.9.52_93/part_006.bin",
+      "path": "apk/v1.9.54_95/part_006.bin",
       "size": 6291456,
-      "sha256": "eb47e156fe9b312055ef5bc02342dd29fd8757732ef75fdd55b5396a44e540e3"
+      "sha256": "ebcdce234acfb132a0879dd1b14ad5e27aef0278267a20b69e461b788a236559"
     },
     {
-      "path": "apk/v1.9.52_93/part_007.bin",
+      "path": "apk/v1.9.54_95/part_007.bin",
       "size": 6291456,
-      "sha256": "237d0f2b1f61e66790f5068809285ace001ffa74f0159e2746d1c457a450e647"
+      "sha256": "8ce0b95276cf059ff501a31e46501bb24114d8c55b115e05bf1ae82f084dcbfe"
     },
     {
-      "path": "apk/v1.9.52_93/part_008.bin",
+      "path": "apk/v1.9.54_95/part_008.bin",
       "size": 6291456,
-      "sha256": "681ff00b55e0d58c74dc38f573ef049ed89b9e7b26c9b0217e49aff8387b7d10"
+      "sha256": "7ceb4b258a8664334bd98d0b7d96453f527da6914f6aebfef4c2b0bd6d0a4fcb"
     },
     {
-      "path": "apk/v1.9.52_93/part_009.bin",
+      "path": "apk/v1.9.54_95/part_009.bin",
       "size": 6291456,
-      "sha256": "ffd2a1dd180f1a2d9b08dd4516368b20bd8538bee641e574610753696541f4c2"
+      "sha256": "238717849f742d6a22a1350c2f22e1d6237392f0860b88d949a13e905d1a9c2e"
     },
     {
-      "path": "apk/v1.9.52_93/part_010.bin",
+      "path": "apk/v1.9.54_95/part_010.bin",
       "size": 6291456,
-      "sha256": "ac9cfa941670db5d11ab00d2d95314c57ebde6c3182f2339a09cc5f73b36506d"
+      "sha256": "1baf3e8bdbb5ba1b87c020cfa0fe90c044c130840515c13e188cc4ed976d3111"
     },
     {
-      "path": "apk/v1.9.52_93/part_011.bin",
+      "path": "apk/v1.9.54_95/part_011.bin",
       "size": 6291456,
-      "sha256": "a33ff395cce20a659940b13db882de783496556f680938d56c65e98ebe383126"
+      "sha256": "c7c5ee1d2430a2d03d744dd1422c85a0808e7d553c2442bf3f8e5c6c8aec19fa"
     },
     {
-      "path": "apk/v1.9.52_93/part_012.bin",
+      "path": "apk/v1.9.54_95/part_012.bin",
       "size": 6291456,
-      "sha256": "84d8c88b7e4229583f3bd5a30698c85add3397f2183f4e0d1b222d31f64693d2"
+      "sha256": "68d69aa0aa54987f281fe0ea60fd5b1eb51fdd967b4f52c71cf29d56108a73f1"
     },
     {
-      "path": "apk/v1.9.52_93/part_013.bin",
+      "path": "apk/v1.9.54_95/part_013.bin",
       "size": 6291456,
-      "sha256": "d3c2d36edc62e7c40420c3b381cf421e30ae841ec5152dad21bcaee855ea9ca6"
+      "sha256": "ee3621aa25c327178ff483cf2f0fb3b209f06b64d41308277ac66af4fe8514dc"
     },
     {
-      "path": "apk/v1.9.52_93/part_014.bin",
-      "size": 4534723,
-      "sha256": "22841231f61f6d8ebbee4d789ae36985d26738a92a7fbe7bf18ee9df40ff9991"
+      "path": "apk/v1.9.54_95/part_014.bin",
+      "size": 5338572,
+      "sha256": "a541604420ee8e8d78d81eb75193065f9b3967ffa2a74bfee04fa9359050eacf"
     }
   ],
-  "updatedAt": "2026-11-26T20:37:59+08:00",
+  "updatedAt": "2026-11-27T10:04:58+08:00",
   "minVersionCode": 0,
   "force": false,
   "changelog": [
-    "5款科普游戏改为中国数字科技馆官网原版在线游戏",
-    "VR漫游改纯净全屏，去掉顶部工具栏和看完按钮"
+    "新增统一科学馆：图片馆2202张+声音馆693集+视频馆2870个",
+    "科普内容可热更新，不发版即可更新",
+    "益智游戏去掉动手实验Tab",
+    "修复绘本/期刊分类灰屏"
   ]
 }
